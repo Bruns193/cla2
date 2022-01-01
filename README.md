@@ -5,42 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港A, server: 117.28.243.220, port: 8254, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: Jsnzkpg天下第一, server: 183.232.56.110, port: 1501, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "白嫖 | 日本 #2", server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp11.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: Jsnzkpg天下第一 2, server: 183.232.56.182, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 3, server: 183.232.56.182, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 4, server: 183.232.56.110, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 5, server: 183.232.56.110, port: 1253, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 6, server: 183.232.56.110, port: 1203, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 7, server: 183.232.56.182, port: 1252, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一, server: 183.232.56.182, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 香港|BGP中转|Netflix|1.2x, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 5044521d-6d6a-4273-9aa3-d489686f241c, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Jsnzkpg天下第一 2, server: 183.232.56.110, port: 1253, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 3, server: 183.232.56.110, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 4, server: 183.232.56.110, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 5, server: 183.232.56.182, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 6, server: 183.232.56.110, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 7, server: 183.232.56.110, port: 1251, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: Jsnzkpg天下第一 8, server: 183.232.56.110, port: 1503, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 广州移动-Okazaki-NTT, server: 183.232.56.182, port: 1254, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 9, server: 183.232.56.110, port: 1251, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: _HK_香港, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Jsnzkpg天下第一 9, server: 183.232.56.110, port: 1501, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 粉色新加坡 Very Pink Singapore 02, server: sg2.verypinknipple.xyz, port: 80, type: vmess, uuid: 14183762-5839-35d4-b9ac-be5f708f1888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.microsoft.com}, udp: true}
   - {name: Jsnzkpg天下第一 10, server: 183.232.56.110, port: 1201, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: "[12.26] TG频道@Jsnzk", server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 新加坡3, server: sg-am11.eqnode.net, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
-  - {name: _HK_香港 5, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Jsnzkpg天下第一 11, server: 52.77.239.192, port: 8181, type: ssr, cipher: aes-256-cfb, password: q4UW0QdUl, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: t.me/vpnhat, obfs-param: t.me/vpnhat, udp: true}
-  - {name: HK05, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: f11ea2cc-0131-43fe-8f7b-7a2d552c8762, udp: true}
-  - {name: CYL-科技（祝大家圣诞快乐） 305, server: sg-am15.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: q4UW0QdUl, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: HK05 2, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 42ce061a-197e-4a1a-99f1-3b0abf55c049, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Jsnzkpg天下第一 11, server: 183.232.56.182, port: 1252, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: Jsnzkpg天下第一 12, server: 183.232.56.182, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: HK09, server: hz.marslink.icu, port: 41103, type: ss, cipher: chacha20-ietf-poly1305, password: 4e06bb48-9854-406b-ad0d-66952abf3015, udp: true}
-  - {name: 付费更快更稳 -08, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 38.143.66.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Jsnzkpg天下第一 13, server: 183.232.56.110, port: 1203, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 欧洲, server: ct.cnhost.top, port: 16634, type: vmess, uuid: 84345c01-ba40-4d55-9109-e3a18253e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mjp, ws-headers: {Host: ct.cnhost.top}, udp: true}
+  - {name: "白嫖 | 日本 #2", server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp11.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 426专属订阅, server: gz1.52168.xyz, port: 1105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 31028:PGgTsb, obfs-param: 87a8531028.baidu.com, udp: true}
+  - {name: 美国 2, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国 3, server: 173.82.192.61, port: 443, type: trojan, password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG, skip-cert-verify: true, udp: true}
+  - {name: 美国 4, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国_233, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
+  - {name: 欧洲 2, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "[12.26] TG频道@Jsnzk", server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -48,31 +46,30 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -80,32 +77,31 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -113,23 +109,23 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,9 +144,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -158,39 +153,36 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港A
-      - _HK_香港
-      - _HK_香港 5
+      - 香港|BGP中转|Netflix|1.2x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -198,31 +190,30 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -230,32 +221,31 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -263,23 +253,23 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -295,9 +285,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港A
       - Jsnzkpg天下第一
-      - "白嫖 | 日本 #2"
+      - 香港|BGP中转|Netflix|1.2x
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
       - Jsnzkpg天下第一 4
@@ -305,23 +294,23 @@ proxy-groups:
       - Jsnzkpg天下第一 6
       - Jsnzkpg天下第一 7
       - Jsnzkpg天下第一 8
-      - 广州移动-Okazaki-NTT
       - Jsnzkpg天下第一 9
-      - _HK_香港
+      - 粉色新加坡 Very Pink Singapore 02
       - Jsnzkpg天下第一 10
-      - "[12.26] TG频道@Jsnzk"
-      - 新加坡3
-      - _HK_香港 5
+      - 美国
       - Jsnzkpg天下第一 11
-      - HK05
-      - CYL-科技（祝大家圣诞快乐） 305
-      - HK05 2
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - Jsnzkpg天下第一 12
-      - HK09
-      - 付费更快更稳 -08
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Jsnzkpg天下第一 13
+      - 欧洲
+      - "白嫖 | 日本 #2"
+      - 426专属订阅
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 英国_233
+      - 欧洲 2
+      - "[12.26] TG频道@Jsnzk"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
