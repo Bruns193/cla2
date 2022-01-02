@@ -5,143 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 托克劳群岛IPLC专线, server: v36.88host.buzz, port: 18078, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 委内瑞拉IPLC专线, server: v32.88host.buzz, port: 18083, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 也门IPLC专线, server: v31.88host.buzz, port: 18064, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 赞比亚IPLC专线, server: v32.88host.buzz, port: 18065, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 哈萨克斯坦IPLC专线, server: v35.88host.buzz, port: 18068, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 塞拉利昂IPLC专线, server: v35.88host.buzz, port: 18079, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Jsnzkpg天下第一, server: 183.232.56.110, port: 1251, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 2, server: 183.232.56.182, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 3, server: 183.232.56.110, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 百慕大群岛IPLC专线, server: 183.232.13.114, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一, server: 183.232.56.182, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 2, server: 183.232.56.182, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 3, server: 183.232.56.110, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 4, server: 183.232.56.110, port: 1503, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: 朝鲜IPLC专线, server: 183.232.56.110, port: 1203, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 5, server: 183.232.56.110, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: 蒙古国IPLC专线, server: 183.232.56.182, port: 1254, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 新西兰IPLC专线, server: iepl.elaina.link, port: 50010, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
-  - {name: Jsnzkpg天下第一 4, server: 183.232.56.110, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 5, server: 183.232.56.182, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 6, server: 183.232.56.110, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 尼日利亚IPLC专线, server: iepl.elaina.link, port: 50009, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
-  - {name: 文莱IPLC专线, server: v13.88host.buzz, port: 18119, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 迪拜IPLC专线, server: v12.88host.buzz, port: 18118, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 巴基斯坦IPLC专线, server: iepl.elaina.link, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
-  - {name: 科索沃IPLC专线, server: v12.88host.buzz, port: 18117, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 乌拉圭IPLC专线, server: v36.88host.buzz, port: 18069, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Jsnzkpg天下第一 7, server: 183.232.56.182, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: 美国, server: 173.82.192.61, port: 443, type: trojan, password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG, skip-cert-verify: true, udp: true}
-  - {name: Jsnzkpg天下第一 8, server: 183.232.56.110, port: 1503, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 突尼斯IPLC专线, server: v33.88host.buzz, port: 18066, type: vmess, uuid: 924017d1-3724-3fd8-be78-7ef6120cb653, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国 2, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 巴基斯坦IPLC专线, server: iepl.elaina.link, port: 50006, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
+  - {name: Jsnzkpg天下第一 6, server: 183.232.56.110, port: 1251, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 新西兰IPLC专线, server: iepl.elaina.link, port: 50010, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
+  - {name: 美国 3, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 柬埔寨诈骗专线, server: bb.shangou.tk, port: 12222, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Jsnzkpg天下第一 7, server: 183.232.56.182, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 百慕大群岛IPLC专线, server: 183.232.13.114, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 4679:af9l9x30bzq, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Jsnzkpg天下第一 8, server: 183.232.56.110, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: Jsnzkpg天下第一 9, server: 183.232.56.110, port: 1253, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: 梵蒂冈IPLC专线, server: 84.17.37.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: tjwRqQvteAjt3xFmbZTA, udp: true}
-  - {name: 美国 3, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 托克劳群岛IPLC专线
-      - 委内瑞拉IPLC专线
-      - 也门IPLC专线
-      - 赞比亚IPLC专线
-      - 哈萨克斯坦IPLC专线
-      - 塞拉利昂IPLC专线
       - Jsnzkpg天下第一
       - Jsnzkpg天下第一 2
       - Jsnzkpg天下第一 3
-      - 百慕大群岛IPLC专线
-      - 朝鲜IPLC专线
-      - 蒙古国IPLC专线
-      - 新西兰IPLC专线
       - Jsnzkpg天下第一 4
+      - 朝鲜IPLC专线
       - Jsnzkpg天下第一 5
-      - Jsnzkpg天下第一 6
-      - 尼日利亚IPLC专线
-      - 文莱IPLC专线
-      - 迪拜IPLC专线
-      - 巴基斯坦IPLC专线
-      - 科索沃IPLC专线
-      - 乌拉圭IPLC专线
-      - Jsnzkpg天下第一 7
+      - 蒙古国IPLC专线
       - 美国
-      - Jsnzkpg天下第一 8
-      - 突尼斯IPLC专线
       - 美国 2
+      - 巴基斯坦IPLC专线
+      - Jsnzkpg天下第一 6
+      - 新西兰IPLC专线
+      - 美国 3
+      - 柬埔寨诈骗专线
+      - Jsnzkpg天下第一 7
+      - 百慕大群岛IPLC专线
+      - Jsnzkpg天下第一 8
       - Jsnzkpg天下第一 9
       - 梵蒂冈IPLC专线
-      - 美国 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
