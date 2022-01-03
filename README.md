@@ -5,155 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 蒙古国IPLC专线, server: 183.232.56.182, port: 1254, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 奥兰群岛IPLC专线, server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: A1-四川停机 | 80 | WS | ②, server: azhk-2.sb76.online, port: 80, type: vmess, uuid: 6d1a6a70-0f68-3dee-acbb-e9cd6e6b8a19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22wap.sc.189.cn%22%7D"}, udp: true}
+  - {name: 哥斯达黎加IPLC专线, server: x.gotout.work, port: 30011, type: ss, cipher: aes-256-gcm, password: 7o8j8vi14nv, udp: true}
+  - {name: A1-腾讯王卡 | 80 | WS | ①, server: azhk-1.sb76.online, port: 80, type: vmess, uuid: 6d1a6a70-0f68-3dee-acbb-e9cd6e6b8a19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22puui.qpic.cn%22%7D"}, udp: true}
+  - {name: 卢森堡IPLC专线, server: 183.232.56.182, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 文莱IPLC专线, server: bb.shangou.tk, port: 34545, type: vmess, uuid: b1727430-b786-45ab-9eb6-331bac81588f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/twnlvws?ed=2048", ws-headers: {Host: floral-cell-7b1d.xcxcadc.workers.dev}, udp: true}
+  - {name: 欧洲, server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Jsnzkpg天下第一, server: 183.232.56.110, port: 1251, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 2, server: 183.232.56.110, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 3, server: 183.232.56.110, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 朝鲜IPLC专线, server: 183.232.56.110, port: 1203, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 4, server: 183.232.56.110, port: 1503, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Jsnzkpg天下第一 5, server: 183.232.56.110, port: 1253, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 柬埔寨诈骗专线, server: bb.shangou.tk, port: 12222, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 新西兰IPLC专线, server: iepl.elaina.link, port: 50010, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
-  - {name: +|22.46Mb, server: 38.91.102.96, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国, server: 173.82.192.61, port: 443, type: trojan, password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG, skip-cert-verify: true, udp: true}
-  - {name: TG+YouTube:8度科技_印度, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国, server: 38.91.102.96, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Jsnzkpg天下第一 6, server: 183.232.56.110, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
-  - {name: _US_美国 2, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 3, server: 38.91.102.86, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 4, server: 38.91.102.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 5, server: 38.143.66.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 6, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 7, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +|22.08Mb, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 8, server: 38.143.66.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: +|22.10Mb, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲 2, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
+  - {name: 粉色新加坡 Very Pink Singapore 02, server: sg2.verypinknipple.xyz, port: 80, type: vmess, uuid: 14183762-5839-35d4-b9ac-be5f708f1888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.microsoft.com}, udp: true}
+  - {name: 欧洲 3, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: +|27.07Mb, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 4, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 5, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲 6, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: +|26.35Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: +|20.56Mb, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 2, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 9, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: TG+YouTube:8度科技_法国, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 10, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: +|14.45Mb, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +|14.54Mb, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 11, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲 7, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,39 +108,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -215,116 +135,68 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,39 +212,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 蒙古国IPLC专线
+      - 奥兰群岛IPLC专线
+      - A1-四川停机 | 80 | WS | ②
+      - 哥斯达黎加IPLC专线
+      - A1-腾讯王卡 | 80 | WS | ①
+      - 卢森堡IPLC专线
+      - 文莱IPLC专线
+      - 欧洲
       - Jsnzkpg天下第一
-      - Jsnzkpg天下第一 2
-      - Jsnzkpg天下第一 3
-      - 朝鲜IPLC专线
-      - Jsnzkpg天下第一 4
-      - Jsnzkpg天下第一 5
-      - 柬埔寨诈骗专线
-      - 新西兰IPLC专线
-      - +|22.46Mb
-      - 美国
-      - TG+YouTube:8度科技_印度
-      - _US_美国
-      - Jsnzkpg天下第一 6
-      - _US_美国 2
-      - _US_美国 3
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - +|22.08Mb
-      - _US_美国 8
-      - +|22.10Mb
+      - 欧洲 2
+      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲 3
       - +|27.07Mb
+      - 欧洲 4
+      - 欧洲 5
+      - 欧洲 6
       - +|26.35Mb
-      - +|20.56Mb
-      - 美国 2
-      - _US_美国 9
-      - TG+YouTube:8度科技_法国
-      - _US_美国 10
-      - +|14.45Mb
-      - +|14.54Mb
-      - _US_美国 11
+      - 欧洲 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
