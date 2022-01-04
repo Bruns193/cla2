@@ -5,95 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国, server: 158.247.208.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 安哥拉IPLC专线, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 欧洲, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲 2, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲 3, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲 4, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 亚美尼亚IPLC专线, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 2, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲 5, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国, server: 158.247.208.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲 2, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 3, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲 4, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: TG+YouTube:8度科技_法国+2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: +|31.37Mb, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲 5, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲 6, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: +|27.07Mb, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲 6, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: +|26.35Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲 7, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 3, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国 4, server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 欧洲 7, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.101, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 欧洲 8, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲 9, server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,100 +104,92 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -221,24 +205,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国
-      - 安哥拉IPLC专线
       - 欧洲
+      - 美国
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - 亚美尼亚IPLC专线
-      - 美国 2
+      - TG+YouTube:8度科技_法国+2
+      - +|31.37Mb
       - 欧洲 5
-      - +|27.07Mb
       - 欧洲 6
+      - +|27.07Mb
+      - _FR_法国
       - +|26.35Mb
       - 欧洲 7
-      - 美国 3
-      - 美国 4
+      - _CA_加拿大
       - 欧洲 8
-      - 欧洲 9
-      - 香港
+      - _CN_中国->🇹🇼_TW_台湾
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
