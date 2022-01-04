@@ -5,99 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 阿塞拜疆IPLC专线, server: shcu01a.iplc188.com, port: 10001, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 奥兰群岛IPLC专线, server: shcn2-01.iplc188.com, port: 10011, type: vmess, uuid: 897a19f0-8df1-4ba1-a4a8-05331a82c2ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: A1-四川停机 | 80 | WS | ②, server: azhk-2.sb76.online, port: 80, type: vmess, uuid: 6d1a6a70-0f68-3dee-acbb-e9cd6e6b8a19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22wap.sc.189.cn%22%7D"}, udp: true}
-  - {name: A1-腾讯王卡 | 80 | WS | ①, server: azhk-1.sb76.online, port: 80, type: vmess, uuid: 6d1a6a70-0f68-3dee-acbb-e9cd6e6b8a19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22puui.qpic.cn%22%7D"}, udp: true}
-  - {name: 哥斯达黎加IPLC专线, server: x.gotout.work, port: 30011, type: ss, cipher: aes-256-gcm, password: 7o8j8vi14nv, udp: true}
-  - {name: 波斯尼亚IPLC专线, server: kr-am6.eqnode.net, port: 443, type: ssr, cipher: aes-256-cfb, password: abHpSuLdQ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 欧洲, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
-  - {name: 亚美尼亚IPLC专线, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国, server: 158.247.208.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 安哥拉IPLC专线, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 奥地利IPLC专线, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 阿鲁巴IPLC专线, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 粉色新加坡 Very Pink Singapore 02, server: sg2.verypinknipple.xyz, port: 80, type: vmess, uuid: 14183762-5839-35d4-b9ac-be5f708f1888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.microsoft.com}, udp: true}
-  - {name: 欧洲 2, server: 38.91.102.96, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 欧洲 3, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲 4, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +|26.35Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲 5, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲 6, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲 2, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 3, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 4, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 亚美尼亚IPLC专线, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 2, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲 5, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: +|27.07Mb, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 6, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: +|26.35Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲 7, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国 3, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国 4, server: tw-tpe-hq-v2.node.inforun.work, port: 888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 欧洲 8, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲 9, server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港, server: hk-hkg-it2-svm-v2.node.inforun.work, port: 13888, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,103 +112,100 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -228,25 +221,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 阿塞拜疆IPLC专线
-      - 奥兰群岛IPLC专线
-      - A1-四川停机 | 80 | WS | ②
-      - A1-腾讯王卡 | 80 | WS | ①
-      - 哥斯达黎加IPLC专线
-      - 波斯尼亚IPLC专线
-      - 欧洲
-      - 亚美尼亚IPLC专线
+      - 美国
       - 安哥拉IPLC专线
-      - 奥地利IPLC专线
-      - 阿鲁巴IPLC专线
-      - 粉色新加坡 Very Pink Singapore 02
+      - 欧洲
       - 欧洲 2
       - 欧洲 3
       - 欧洲 4
-      - +|26.35Mb
+      - 亚美尼亚IPLC专线
+      - 美国 2
       - 欧洲 5
-      - 欧洲 6
       - +|27.07Mb
+      - 欧洲 6
+      - +|26.35Mb
+      - 欧洲 7
+      - 美国 3
+      - 美国 4
+      - 欧洲 8
+      - 欧洲 9
+      - 香港
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
