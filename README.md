@@ -5,87 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲, server: 141.164.35.41, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国, server: 158.247.208.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲 2, server: 141.164.53.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲 3, server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲 4, server: 141.164.53.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: TG+YouTube:8度科技_法国+2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: +|31.37Mb, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲 5, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲 6, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-香港, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 专线|香港01|原生HGCBBS, server: v31.88host.buzz, port: 18064, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-香港 2, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 专线|香港08|原生HKBN, server: v32.88host.buzz, port: 18083, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-香港 3, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: vpnpool-香港 4, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: vpnpool-香港 5, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: vpnpool-香港 6, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: HK HKG SH.HK 001 TR(trojan), server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-香港 7, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 广州丨狮城04丨2x, server: iepl.naigai1.club, port: 45267, type: vmess, uuid: f3e8c622-fec8-492c-a111-5a221659eb24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IEPL丨狮城02丨3x, server: iepl.naigai1.club, port: 10085, type: vmess, uuid: f3e8c622-fec8-492c-a111-5a221659eb24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IEPL丨香港03丨3x, server: iepl.naigai1.club, port: 10003, type: vmess, uuid: f3e8c622-fec8-492c-a111-5a221659eb24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Japan-JP6-Rate:1.0, server: jp6.chuqianglai.com, port: 443, type: trojan, password: MdgQdGKztQR36kpba4, sni: jp6.chuqianglai.com, skip-cert-verify: true, udp: true}
+  - {name: 基础|台湾01|视频主力, server: v12.88host.buzz, port: 18117, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK HKG GZ.HK HKT TR B(trojan), server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 60189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-gz-hk-hkt-tr-b.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 更多地区高速节点购买↓, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国_FMYC-2022.01.01_91, server: iepl.elaina.link, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
+  - {name: "网址: upyun.online/reg", server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 25, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 粉色新加坡 Very Pink Singapore 02, server: sg2.verypinknipple.xyz, port: 80, type: vmess, uuid: 14183762-5839-35d4-b9ac-be5f708f1888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.microsoft.com}, udp: true}
+  - {name: _CN_中国_FMYC-2022.01.01_26, server: iepl.elaina.link, port: 50009, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
   - {name: +|27.07Mb, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _FR_法国, server: 62.210.209.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲 2, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲 3, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 【VIP1】香港HK 01, server: niaocloud-gy.niaoyun.online, port: 4001, type: vmess, uuid: 9b2816e0-7305-3906-813f-8b621f8da2af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: +|31.37Mb, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: +|26.35Mb, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲 7, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.101, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲 8, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CN_中国->🇹🇼_TW_台湾, server: tw-tpe-h-v2.cdn.savoy.click, port: 988, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 欧洲 4, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,92 +168,168 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _CN_中国->🇹🇼_TW_台湾
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - vpnpool-香港 7
+      - IEPL丨香港03丨3x
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 【VIP1】香港HK 01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,22 +345,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HK HKG SH-HK 02 TR(trojan)
+      - vpnpool-香港
+      - 专线|香港01|原生HGCBBS
+      - vpnpool-香港 2
+      - 专线|香港08|原生HKBN
+      - vpnpool-香港 3
+      - vpnpool-香港 4
+      - vpnpool-香港 5
+      - vpnpool-香港 6
+      - HK HKG SH.HK 001 TR(trojan)
+      - vpnpool-香港 7
+      - 广州丨狮城04丨2x
+      - IEPL丨狮城02丨3x
+      - IEPL丨香港03丨3x
+      - Japan-JP6-Rate:1.0
+      - 基础|台湾01|视频主力
+      - HK HKG GZ.HK HKT TR B(trojan)
+      - 更多地区高速节点购买↓
+      - _CN_中国_FMYC-2022.01.01_91
+      - "网址: upyun.online/reg"
+      - _US_美国 25
+      - 法国
+      - 粉色新加坡 Very Pink Singapore 02
+      - _CN_中国_FMYC-2022.01.01_26
+      - +|27.07Mb
       - 欧洲
-      - 美国
       - 欧洲 2
       - 欧洲 3
-      - 欧洲 4
-      - TG+YouTube:8度科技_法国+2
+      - 【VIP1】香港HK 01
       - +|31.37Mb
-      - 欧洲 5
-      - 欧洲 6
-      - +|27.07Mb
-      - _FR_法国
       - +|26.35Mb
-      - 欧洲 7
-      - _CA_加拿大
-      - 欧洲 8
-      - _CN_中国->🇹🇼_TW_台湾
+      - 欧洲 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
