@@ -5,115 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: moon365.net🇭🇰HK 344 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
   - {name: vpnpool-香港, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港 2, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港 3, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港 4, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港 5, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港 6, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港 7, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _AU_澳大利亚 2, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _AU_澳大利亚 3, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _AU_澳大利亚 4, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _AU_澳大利亚 5, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _AU_澳大利亚 6, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _AU_澳大利亚 7, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _AU_澳大利亚 8, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: default_name, server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: 2022-world-1.a-yu.xyz}, udp: true}
-  - {name: 【VIP1】香港HK 01, server: niaocloud-gy.niaoyun.online, port: 4001, type: vmess, uuid: 9b2816e0-7305-3906-813f-8b621f8da2af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: _AU_澳大利亚 9, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 专线|香港01|原生HGCBBS, server: v31.88host.buzz, port: 18064, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚 10, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 专线|香港08|原生HKBN, server: v32.88host.buzz, port: 18083, type: vmess, uuid: f51c5c84-684c-3979-8827-218464c5e8cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 353 free, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: vpnpool-香港 2, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 老公我的骚逼好痒啊, server: 211.99.96.9, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 老公我的骚逼好痒啊 2, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 朝鲜IPLC专线, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 老公我的骚逼好痒啊 3, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 老公我的骚逼好痒啊 4, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 老公我的骚逼好痒啊 5, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-香港 3, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
   - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _AU_澳大利亚 11, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: moon365.net🇭🇰HK 348 free, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _AU_澳大利亚 2, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: vpnpool-香港 4, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,29 +108,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -163,98 +133,74 @@ proxy-groups:
       - vpnpool-香港 2
       - vpnpool-香港 3
       - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
-      - 【VIP1】香港HK 01
-      - 专线|香港01|原生HGCBBS
-      - 专线|香港08|原生HKBN
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,29 +216,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - moon365.net🇭🇰HK 344 free
       - vpnpool-香港
+      - moon365.net🇭🇰HK 353 free
       - vpnpool-香港 2
+      - 老公我的骚逼好痒啊
+      - 老公我的骚逼好痒啊 2
+      - 朝鲜IPLC专线
+      - 老公我的骚逼好痒啊 3
+      - 老公我的骚逼好痒啊 4
+      - 老公我的骚逼好痒啊 5
+      - HK HKG SH-HK 02 TR(trojan)
       - vpnpool-香港 3
-      - vpnpool-香港 4
-      - vpnpool-香港 5
-      - vpnpool-香港 6
-      - vpnpool-香港 7
+      - 法国
+      - moon365.net🇭🇰HK 348 free
       - _AU_澳大利亚
       - _AU_澳大利亚 2
-      - _AU_澳大利亚 3
-      - _AU_澳大利亚 4
-      - _AU_澳大利亚 5
-      - _AU_澳大利亚 6
-      - _AU_澳大利亚 7
-      - _AU_澳大利亚 8
-      - default_name
-      - 【VIP1】香港HK 01
-      - _AU_澳大利亚 9
-      - 专线|香港01|原生HGCBBS
-      - _AU_澳大利亚 10
-      - 专线|香港08|原生HKBN
-      - 法国
-      - _AU_澳大利亚 11
+      - vpnpool-香港 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
