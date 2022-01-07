@@ -5,91 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: moon365.net🇭🇰HK 344 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: vpnpool-香港, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk, server: 211.99.96.17, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
   - {name: moon365.net🇭🇰HK 353 free, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: vpnpool-香港 2, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 老公我的骚逼好痒啊, server: 211.99.96.9, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 老公我的骚逼好痒啊 2, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 朝鲜IPLC专线, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 老公我的骚逼好痒啊 3, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 老公我的骚逼好痒啊 4, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 老公我的骚逼好痒啊 5, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-香港 3, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: （1.7）TG@Jsnzk 2, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 344 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: moon365.net🇭🇰HK 355 free, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: moon365.net🇭🇰HK 363 free, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: HK HKG SH.HK HGC 100M TR(trojan), server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: sh-hk-hgc-100m-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 359 free, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
   - {name: moon365.net🇭🇰HK 348 free, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: _AU_澳大利亚, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _AU_澳大利亚 2, server: 172.105.180.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: vpnpool-香港 4, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 全球直连②-TikTok, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 朝鲜IPLC专线, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: vpnpool-香港, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: HK HKG SH.HK 001 V2(vmess), server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: 1dacf10f-d3a2-4fbf-ac80-f8174fd8667f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: TW TPE H TR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 989, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: tw-tpe-h-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _US_美国 38, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -108,99 +104,93 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - HK HKG SH.HK HGC 100M TR(trojan)
       - vpnpool-香港
-      - vpnpool-香港 2
-      - vpnpool-香港 3
-      - vpnpool-香港 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -216,23 +206,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - moon365.net🇭🇰HK 344 free
-      - vpnpool-香港
+      - （1.7）TG@Jsnzk
       - moon365.net🇭🇰HK 353 free
-      - vpnpool-香港 2
-      - 老公我的骚逼好痒啊
-      - 老公我的骚逼好痒啊 2
-      - 朝鲜IPLC专线
-      - 老公我的骚逼好痒啊 3
-      - 老公我的骚逼好痒啊 4
-      - 老公我的骚逼好痒啊 5
-      - HK HKG SH-HK 02 TR(trojan)
-      - vpnpool-香港 3
-      - 法国
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 344 free
+      - moon365.net🇭🇰HK 355 free
+      - moon365.net🇭🇰HK 363 free
+      - HK HKG SH.HK HGC 100M TR(trojan)
+      - moon365.net🇭🇰HK 359 free
       - moon365.net🇭🇰HK 348 free
-      - _AU_澳大利亚
-      - _AU_澳大利亚 2
-      - vpnpool-香港 4
+      - 全球直连②-TikTok
+      - 朝鲜IPLC专线
+      - vpnpool-香港
+      - HK HKG SH.HK 001 V2(vmess)
+      - TW TPE H TR(trojan)
+      - 法国
+      - _US_美国 38
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
