@@ -5,87 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: （1.7）TG@Jsnzk, server: 211.99.96.17, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: moon365.net🇭🇰HK 353 free, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: （1.7）TG@Jsnzk 2, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: moon365.net🇭🇰HK 344 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: moon365.net🇭🇰HK 355 free, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: moon365.net🇭🇰HK 363 free, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: HK HKG SH.HK HGC 100M TR(trojan), server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: sh-hk-hgc-100m-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: moon365.net🇭🇰HK 359 free, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: moon365.net🇭🇰HK 348 free, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: 全球直连②-TikTok, server: s2.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 朝鲜IPLC专线, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: vpnpool-香港, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
-  - {name: HK HKG SH.HK 001 V2(vmess), server: hk-hkg-shhk-001-v2.cdn.savoy.click, port: 20088, type: vmess, uuid: 1dacf10f-d3a2-4fbf-ac80-f8174fd8667f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: TW TPE H TR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 989, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: tw-tpe-h-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: _US_美国 38, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: moon365.net🇨🇳TW 397 free, server: 120.241.73.84, port: 39044, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 402 free, server: 120.241.73.84, port: 39074, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 462 free, server: 120.241.73.84, port: 39073, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇨🇳TW 403 free, server: 120.241.73.84, port: 39064, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇨🇳TW 401 free, server: 120.241.73.84, port: 39063, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,93 +76,63 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - vpnpool-香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -206,22 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - （1.7）TG@Jsnzk
-      - moon365.net🇭🇰HK 353 free
-      - （1.7）TG@Jsnzk 2
-      - moon365.net🇭🇰HK 344 free
-      - moon365.net🇭🇰HK 355 free
-      - moon365.net🇭🇰HK 363 free
-      - HK HKG SH.HK HGC 100M TR(trojan)
-      - moon365.net🇭🇰HK 359 free
-      - moon365.net🇭🇰HK 348 free
-      - 全球直连②-TikTok
-      - 朝鲜IPLC专线
-      - vpnpool-香港
-      - HK HKG SH.HK 001 V2(vmess)
-      - TW TPE H TR(trojan)
-      - 法国
-      - _US_美国 38
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇭🇰HK 402 free
+      - moon365.net🇭🇰HK 462 free
+      - moon365.net🇨🇳TW 403 free
+      - moon365.net🇨🇳TW 401 free
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
