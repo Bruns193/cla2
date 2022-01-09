@@ -5,59 +5,199 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: moon365.net🇨🇳TW 397 free, server: 120.241.73.84, port: 39044, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: moon365.net🇭🇰HK 402 free, server: 120.241.73.84, port: 39074, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: moon365.net🇭🇰HK 462 free, server: 120.241.73.84, port: 39073, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 353 free, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: moon365.net🇭🇰HK 356 free, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: （1.7）TG@Jsnzk, server: 211.99.96.9, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 344 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: （1.7）TG@Jsnzk 2, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 朝鲜IPLC专线, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 3, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 347 free, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: （1.7）TG@Jsnzk 4, server: 211.99.96.4, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 5, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 6, server: 211.99.96.11, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 460 free, server: 120.197.130.73, port: 39074, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 466 free, server: 120.197.130.73, port: 39075, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 朝鲜IPLC专线 2, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇨🇳TW 477 free, server: 120.197.130.73, port: 39044, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 351 free, server: 211.99.96.7, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: （1.7）TG@Jsnzk 7, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 465 free, server: 120.241.73.84, port: 39075, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 352 free, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: moon365.net🇨🇳TW 397 free, server: 120.241.73.84, port: 39044, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇯🇵JP 415 free, server: 120.197.130.73, port: 39034, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇨🇳TW 422 free, server: 120.197.130.73, port: 39052, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇨🇳TW 420 free, server: 120.197.130.73, port: 39050, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇨🇳TW 423 free, server: 120.197.130.73, port: 39053, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: moon365.net🇭🇰HK 343 free, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
   - {name: moon365.net🇨🇳TW 403 free, server: 120.241.73.84, port: 39064, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-台湾05 中继E 2x, server: in05.2333dns.com, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: 广州-日本 DMIT丨全解锁丨A3_1, server: gzydddns.xyz, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 1:8GmpAV, obfs-param: 385231065.microsoft.com, udp: true}
+  - {name: moon365.net🇨🇳TW 417 free, server: 120.241.73.84, port: 39065, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-日本12直连 速度随缘 1x, server: jp12-direct.myn0des.com, port: 8443, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
+  - {name: moon365.net🇨🇳TW 478 free, server: 120.197.130.73, port: 39063, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: moon365.net🇨🇳TW 401 free, server: 120.241.73.84, port: 39063, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[直连/CN2 GIA] 香港10 阿里云 HK", server: 47.243.67.117, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 47.243.67.117}, udp: true}
+  - {name: moon365.net🇨🇳TW 425 free, server: 120.197.130.73, port: 39065, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-台湾05 中继B 2x, server: in02.2333dns.com, port: 64068, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 高速节点 suo.yt/gvip（复制到浏览器打开） 58, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Ytb:鹏哥分享_US_美国_72, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 38, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,63 +216,206 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - V1-台湾05 中继E 2x
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - V1-台湾05 中继B 2x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +431,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - moon365.net🇨🇳TW 397 free
-      - moon365.net🇭🇰HK 402 free
       - moon365.net🇭🇰HK 462 free
+      - moon365.net🇭🇰HK 353 free
+      - moon365.net🇭🇰HK 356 free
+      - （1.7）TG@Jsnzk
+      - moon365.net🇭🇰HK 344 free
+      - （1.7）TG@Jsnzk 2
+      - 朝鲜IPLC专线
+      - （1.7）TG@Jsnzk 3
+      - moon365.net🇭🇰HK 347 free
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - （1.7）TG@Jsnzk 6
+      - moon365.net🇭🇰HK 460 free
+      - moon365.net🇭🇰HK 466 free
+      - 朝鲜IPLC专线 2
+      - moon365.net🇨🇳TW 477 free
+      - moon365.net🇭🇰HK 351 free
+      - （1.7）TG@Jsnzk 7
+      - moon365.net🇭🇰HK 465 free
+      - moon365.net🇭🇰HK 352 free
+      - moon365.net🇨🇳TW 397 free
+      - moon365.net🇯🇵JP 415 free
+      - moon365.net🇨🇳TW 422 free
+      - moon365.net🇨🇳TW 420 free
+      - moon365.net🇨🇳TW 423 free
+      - moon365.net🇭🇰HK 343 free
       - moon365.net🇨🇳TW 403 free
+      - V1-台湾05 中继E 2x
+      - 广州-日本 DMIT丨全解锁丨A3_1
+      - moon365.net🇨🇳TW 417 free
+      - V1-日本12直连 速度随缘 1x
+      - moon365.net🇨🇳TW 478 free
       - moon365.net🇨🇳TW 401 free
+      - "[直连/CN2 GIA] 香港10 阿里云 HK"
+      - moon365.net🇨🇳TW 425 free
+      - V1-台湾05 中继B 2x
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 法国
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 高速节点 suo.yt/gvip（复制到浏览器打开） 58
+      - Ytb:鹏哥分享_US_美国_72
+      - _US_美国 38
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
