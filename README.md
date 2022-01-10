@@ -5,43 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: moon365.net🇭🇰HK 421 free, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: Jsnzkpg, server: 211.99.96.8, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 2, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 418 free, server: 211.99.96.9, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: Jsnzkpg 2, server: 211.99.96.5, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 3, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 4, server: 211.99.96.9, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 5, server: 211.99.96.14, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 420 free, server: 211.99.96.10, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: moon365.net🇭🇰HK 404 free, server: 211.99.96.19, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: （1.7）TG@Jsnzk 6, server: 211.99.96.18, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: Jsnzkpg 3, server: 211.99.96.6, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: Jsnzkpg 4, server: 211.99.96.35, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: moon365.net🇭🇰HK 419 free, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
+  - {name: 香港 HK 04, server: 01-hgvhjh.globalrelay.link, port: 15004, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:ZEshHw, obfs-param: b3d756622.microsoft.com, udp: true}
+  - {name: （1.7）TG@Jsnzk 7, server: 211.99.96.4, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: 新加坡 SG 08, server: 01-hgvhjh.globalrelay.link, port: 15408, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:ZEshHw, obfs-param: b3d756622.microsoft.com, udp: true}
+  - {name: 新加坡 SG 05, server: 01-hgvhjh.globalrelay.link, port: 15405, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:ZEshHw, obfs-param: b3d756622.microsoft.com, udp: true}
+  - {name: Jsnzkpg 5, server: 211.99.96.33, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: （1.7）TG@Jsnzk 8, server: 211.99.96.12, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: Jsnzkpg 6, server: 211.99.96.32, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, plugin: obfs, plugin-opts: {mode: http, host: ds.download.windowsupdate.com}, udp: true}
+  - {name: _HK_香港, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _HK_香港 2, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 新加坡 SG 02, server: 01-hgvhjh.globalrelay.link, port: 15402, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:ZEshHw, obfs-param: b3d756622.microsoft.com, udp: true}
+  - {name: 台湾 TW 07, server: 01-hgvhjh.globalrelay.link, port: 15507, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:ZEshHw, obfs-param: b3d756622.microsoft.com, udp: true}
+  - {name: "Telegram频道:@cookpd\nhttps://t.me/cookpd", server: 01-hgvhjh.globalrelay.link, port: 15505, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:ZEshHw, obfs-param: b3d756622.microsoft.com, udp: true}
+  - {name: _HK_香港 3, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _HK_香港 5, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,47 +168,161 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 HK 04
+      - _HK_香港
+      - _HK_香港 2
+      - 台湾 TW 07
+      - _HK_香港 3
+      - _HK_香港 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +338,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - moon365.net🇭🇰HK 421 free
+      - Jsnzkpg
+      - （1.7）TG@Jsnzk
+      - （1.7）TG@Jsnzk 2
+      - moon365.net🇭🇰HK 418 free
+      - Jsnzkpg 2
+      - （1.7）TG@Jsnzk 3
+      - （1.7）TG@Jsnzk 4
+      - （1.7）TG@Jsnzk 5
+      - moon365.net🇭🇰HK 420 free
+      - moon365.net🇭🇰HK 404 free
+      - （1.7）TG@Jsnzk 6
+      - Jsnzkpg 3
+      - Jsnzkpg 4
+      - moon365.net🇭🇰HK 419 free
+      - 香港 HK 04
+      - （1.7）TG@Jsnzk 7
+      - 新加坡 SG 08
+      - 新加坡 SG 05
+      - Jsnzkpg 5
+      - （1.7）TG@Jsnzk 8
+      - Jsnzkpg 6
+      - _HK_香港
+      - _HK_香港 2
+      - 新加坡 SG 02
+      - 台湾 TW 07
+      - "Telegram频道:@cookpd\nhttps://t.me/cookpd"
+      - _HK_香港 3
       - 法国
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _HK_香港 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
