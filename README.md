@@ -5,43 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Moon365.net🇭🇰HK 210 free, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: ba137f1d-027b-4a70-af41-24d123f8ca9f, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
   - {name: HK|苏醒云|购买支持发展, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: 09f043d3-159f-4064-81fe-f4ac329afbdc, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
-  - {name: 華人社區_經紀人CC🌸🌸_26, server: 118.193.179.2, port: 36923, type: ss, cipher: chacha20-ietf-poly1305, password: koko666, udp: true}
+  - {name: Moon365.net🇭🇰HK 210 free, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: ba137f1d-027b-4a70-af41-24d123f8ca9f, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[韩国 01] 直连｜Aws", server: 3.34.134.181, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[台湾 01] 广东｜HiNet", server: 101.67.8.158, port: 34024, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
   - {name: V1-日本B组 直连 速度随缘 1x, server: jp-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67", server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港 01] 直连｜HGC", server: 218.190.226.15, port: 10186, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[台湾 01] 直连｜HiNet", server: 61.224.66.9, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[新加坡 01] 直连｜Linode", server: 172.105.112.254, port: 10115, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[香港 01] 香港｜HGC", server: azure.transfer.foom.cc, port: 48762, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +76,67 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[台湾 01] 广东｜HiNet"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[香港 01] 香港｜HGC"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +152,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Moon365.net🇭🇰HK 210 free
       - HK|苏醒云|购买支持发展
-      - 華人社區_經紀人CC🌸🌸_26
+      - Moon365.net🇭🇰HK 210 free
+      - "[韩国 01] 直连｜Aws"
+      - "[台湾 01] 广东｜HiNet"
       - V1-日本B组 直连 速度随缘 1x
-      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
+      - "[香港 01] 直连｜HGC"
+      - "[台湾 01] 直连｜HiNet"
+      - "[新加坡 01] 直连｜Linode"
+      - "[香港 01] 香港｜HGC"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
