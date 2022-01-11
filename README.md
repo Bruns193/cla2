@@ -5,47 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【VIP1】香港HK 03, server: niaocloud-gy.niaoyun.online, port: 4003, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: "%7B%22Host%22:%22www.msn.cn%22%7D"}, udp: true}
-  - {name: 【VIP1】香港HK 02, server: niaocloud-gy.niaoyun.online, port: 4002, type: vmess, uuid: 19435e23-43c3-3ede-9bbb-c1ab747fc8be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: "%7B%22Host%22:%22www.msn.cn%22%7D"}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 70.39.71.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV, udp: true}
-  - {name: 法国, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: 韩国B, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: Moon365.net🇭🇰HK 210 free, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: ba137f1d-027b-4a70-af41-24d123f8ca9f, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK|苏醒云|购买支持发展, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: 09f043d3-159f-4064-81fe-f4ac329afbdc, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
+  - {name: 華人社區_經紀人CC🌸🌸_26, server: 118.193.179.2, port: 36923, type: ss, cipher: chacha20-ietf-poly1305, password: koko666, udp: true}
+  - {name: V1-日本B组 直连 速度随缘 1x, server: jp-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
+  - {name: "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67", server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,53 +60,48 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +117,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【VIP1】香港HK 03
-      - 【VIP1】香港HK 02
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 法国
-      - 韩国B
+      - Moon365.net🇭🇰HK 210 free
+      - HK|苏醒云|购买支持发展
+      - 華人社區_經紀人CC🌸🌸_26
+      - V1-日本B组 直连 速度随缘 1x
+      - "[01-11]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_67"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
