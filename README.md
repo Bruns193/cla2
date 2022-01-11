@@ -5,59 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK|苏醒云|购买支持发展, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: 09f043d3-159f-4064-81fe-f4ac329afbdc, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
-  - {name: Moon365.net🇭🇰HK 210 free, server: tras.hk01.qiguangyicai.xyz, port: 4443, type: trojan, password: ba137f1d-027b-4a70-af41-24d123f8ca9f, sni: tras.hk01.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[韩国 01] 直连｜Aws", server: 3.34.134.181, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "[台湾 01] 广东｜HiNet", server: 101.67.8.158, port: 34024, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[日本 01] 直连｜Aws", server: 13.115.119.175, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[香港 02] 香港｜Azure", server: azure-f4s.transfer.foom.cc, port: 35481, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
   - {name: V1-日本B组 直连 速度随缘 1x, server: jp-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: "[香港 01] 直连｜HGC", server: 218.190.226.15, port: 10186, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "[台湾 01] 直连｜HiNet", server: 61.224.66.9, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "[新加坡 01] 直连｜Linode", server: 172.105.112.254, port: 10115, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "[香港 01] 香港｜HGC", server: azure.transfer.foom.cc, port: 48762, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[韩国 01] 直连｜Aws", server: 3.34.134.181, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,67 +80,68 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[台湾 01] 广东｜HiNet"
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[香港 01] 香港｜HGC"
+      - "[香港 02] 香港｜Azure"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -152,15 +157,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK|苏醒云|购买支持发展
-      - Moon365.net🇭🇰HK 210 free
-      - "[韩国 01] 直连｜Aws"
-      - "[台湾 01] 广东｜HiNet"
+      - "[日本 01] 直连｜Aws"
+      - "[香港 02] 香港｜Azure"
       - V1-日本B组 直连 速度随缘 1x
-      - "[香港 01] 直连｜HGC"
-      - "[台湾 01] 直连｜HiNet"
-      - "[新加坡 01] 直连｜Linode"
-      - "[香港 01] 香港｜HGC"
+      - "[韩国 01] 直连｜Aws"
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
