@@ -5,10 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国 KR 07, server: 01-hgvhjh.globalrelay.link, port: 15307, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
-  - {name: 韩国 KR 02, server: 01-hgvhjh.globalrelay.link, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 158.247.197.36, port: 7244, type: vmess, uuid: f2ec65ae-733c-11ec-a0b8-560003ca3919, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b7GIli9S/, ws-headers: {Host: 158.247.197.36}, udp: true}
-  - {name: FR_490, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 158.247.197.36, port: 7244, type: vmess, uuid: f2ec65ae-733c-11ec-a0b8-560003ca3919, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b7GIli9S/, ws-headers: {Host: 158.247.197.36}, udp: true}
   - {name: 韩国 KR 02, server: 01-hgvhjh.globalrelay.link, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
   - {name: _FR_法国, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
@@ -20,29 +16,32 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -61,10 +60,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,29 +75,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -113,10 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国 KR 07
-      - 韩国 KR 02
       - 美国(欢迎订阅Youtube破解资源君)
-      - FR_490
+      - 韩国 KR 02
+      - _FR_法国
+      - _FR_法国 2
+      - _FR_法国 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
