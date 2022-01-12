@@ -5,63 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 香港免流节点6号|10Gps, server: 40.83.112.18, port: 80, type: vmess, uuid: a942fcbd-99b1-33a2-a0f3-fe65911181d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
   - {name: "[日本 01] 直连｜Aws", server: 13.115.119.175, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "[香港 02] 香港｜Azure", server: azure-f4s.transfer.foom.cc, port: 35481, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: V1-日本B组 直连 速度随缘 1x, server: jp-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 19380563-e9f4-367a-b58f-43def434398e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: "[韩国 01] 直连｜Aws", server: 3.34.134.181, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本 | 东京 -4, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 SG 07, server: 01-hgvhjh.globalrelay.link, port: 15407, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 香港免流节点2号|10Gps, server: 20.205.56.212, port: 443, type: vmess, uuid: a942fcbd-99b1-33a2-a0f3-fe65911181d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 新加坡 SG 02, server: 01-hgvhjh.globalrelay.link, port: 15402, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 新加坡 SG 03, server: 01-hgvhjh.globalrelay.link, port: 15403, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: "[日本 01] 直连｜Aws 2", server: gy-jp-01.node.net.dacy.cc, port: 25565, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[韩国 01] 直连｜Aws", server: fq-kr-01.node.net.dacy.cc, port: 25565, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[韩国 01] 直连｜Aws 2", server: 3.34.134.181, port: 25565, type: vmess, uuid: 93669c97-61e5-4827-90a3-1b4cdf24ab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: 116香港∞直连, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_4, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 台湾 TW 05, server: 01-hgvhjh.globalrelay.link, port: 15505, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 新加坡 | 新加坡, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国 KR 02, server: 01-hgvhjh.globalrelay.link, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 台湾 TW 01, server: 01-hgvhjh.globalrelay.link, port: 15501, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 新加坡 SG 05, server: 01-hgvhjh.globalrelay.link, port: 15405, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 新加坡 SG 04, server: 01-hgvhjh.globalrelay.link, port: 15404, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 韩国 KR 07, server: 01-hgvhjh.globalrelay.link, port: 15307, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 台湾 TW 07, server: 01-hgvhjh.globalrelay.link, port: 15507, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 台湾 TW 02, server: 01-hgvhjh.globalrelay.link, port: 15502, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: 台湾 TW 03, server: 01-hgvhjh.globalrelay.link, port: 15503, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: wxgzh:zimuheikeji 8, server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 114香港∞直连, server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 台湾 TW 06, server: 01-hgvhjh.globalrelay.link, port: 15506, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: Ytb:鹏哥分享_HK_香港_6, server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: spsss  -05, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu, skip-cert-verify: true, udp: true}
+  - {name: Jsnzkpg, server: ln-01.yuyu.cool, port: 20008, type: ssr, cipher: chacha20-ietf, password: 7mtHSG, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 3863:sUJNw3, obfs-param: d8fdf2.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,68 +152,151 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[香港 02] 香港｜Azure"
+      - 香港免流节点6号|10Gps
+      - 香港免流节点2号|10Gps
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 台湾 TW 01
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,16 +312,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港免流节点6号|10Gps
       - "[日本 01] 直连｜Aws"
-      - "[香港 02] 香港｜Azure"
-      - V1-日本B组 直连 速度随缘 1x
+      - 日本 | 东京 -4
+      - 新加坡 SG 07
+      - 香港免流节点2号|10Gps
+      - 新加坡 SG 02
+      - 新加坡 SG 03
+      - "[日本 01] 直连｜Aws 2"
       - "[韩国 01] 直连｜Aws"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - "[韩国 01] 直连｜Aws 2"
+      - 116香港∞直连
+      - Ytb:鹏哥分享_HK_香港_4
+      - 台湾 TW 05
+      - 新加坡 | 新加坡
+      - 韩国 KR 02
+      - 台湾 TW 01
+      - 新加坡 SG 05
+      - 新加坡 SG 04
+      - 韩国 KR 07
+      - 台湾 TW 07
+      - 台湾 TW 02
+      - 台湾 TW 03
+      - wxgzh:zimuheikeji 8
+      - 114香港∞直连
+      - 台湾 TW 06
+      - Ytb:鹏哥分享_HK_香港_6
+      - spsss  -05
+      - Jsnzkpg
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
