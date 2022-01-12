@@ -9,6 +9,11 @@ proxies:
   - {name: 韩国 KR 02, server: 01-hgvhjh.globalrelay.link, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 158.247.197.36, port: 7244, type: vmess, uuid: f2ec65ae-733c-11ec-a0b8-560003ca3919, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b7GIli9S/, ws-headers: {Host: 158.247.197.36}, udp: true}
   - {name: FR_490, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 158.247.197.36, port: 7244, type: vmess, uuid: f2ec65ae-733c-11ec-a0b8-560003ca3919, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b7GIli9S/, ws-headers: {Host: 158.247.197.36}, udp: true}
+  - {name: 韩国 KR 02, server: 01-hgvhjh.globalrelay.link, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:885pgDOfGlIJq7Nt, obfs-param: ae3136622.microsoft.com, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _FR_法国 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR_法国 3, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
