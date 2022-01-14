@@ -5,71 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK|suxingcloud.com, server: trhk2.qiguangyicai.xyz, port: 4443, type: trojan, password: 09f043d3-159f-4064-81fe-f4ac329afbdc, sni: trhk2.qiguangyicai.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 158.247.201.144, port: 57606, type: vmess, uuid: c1b22b5c-740b-11ec-a8ce-560003caafbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JOjns12Y/, ws-headers: {Host: 158.247.201.144}, udp: true}
-  - {name: V1-香港B组 直连 速度随缘 1x, server: hk-group-b-direct.myn0des.com, port: 8880, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: "中转|日本GMO08|华南隧道[流媒体解锁]", server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: aaaced8e-e212-431a-8671-9f414a2ec807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君), server: 194.5.79.15, port: 60764, type: vmess, uuid: e1107940-740b-11ec-8f34-0e8969ca1a20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 193.42.114.254, port: 45531, type: vmess, uuid: 2763c4b0-740c-11ec-a0cf-aa317bcbd0cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.251.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shuier, ws-headers: {Host: xc1.v2rie.pp.ua}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港Azure19|停机卡免流, server: cm-jm.okvpn.xyz, port: 20008, type: vmess, uuid: aaaced8e-e212-431a-8671-9f414a2ec807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: super-hk.smdynet.com}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: 172.105.251.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "[韩国 01] 直连｜Aws", server: 3.34.134.181, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: 新加坡SP · 01 沪港, server: shcn2.fastcloud.club, port: 41327, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
+  - {name: "[日本 01] 沪联｜Aws", server: sh.jiyunshu.com, port: 56743, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: "[日本 01] 直连｜Aws", server: 13.115.119.175, port: 8080, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: 美国CN2 GIA三网回国高带宽, server: targoo1.mirror.cn.com, port: 443, type: vmess, uuid: 351b9b77-a6f0-4772-a845-04bed6814563, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: targoo1.mirror.cn.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国 2, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _FR_法国 3, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _FR_法国 4, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,77 +100,88 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V1-香港B组 直连 速度随缘 1x
-      - 香港Azure19|停机卡免流
+      - 新加坡SP · 01 沪港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,18 +197,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK|suxingcloud.com
-      - 美国(欢迎订阅Youtube破解资源君)
-      - V1-香港B组 直连 速度随缘 1x
-      - 中转|日本GMO08|华南隧道[流媒体解锁]
-      - 俄罗斯(欢迎订阅Youtube破解资源君)
-      - 俄罗斯(欢迎订阅Youtube破解资源君) 2
+      - "[韩国 01] 直连｜Aws"
+      - 新加坡SP · 01 沪港
+      - "[日本 01] 沪联｜Aws"
+      - "[日本 01] 直连｜Aws"
+      - 美国CN2 GIA三网回国高带宽
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国->🇫🇷_FR_法国
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _FR_法国
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 香港Azure19|停机卡免流
+      - _FR_法国 2
+      - _FR_法国 3
+      - _FR_法国 4
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 日本(欢迎订阅Youtube破解资源君)
+      - _US_美国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
