@@ -5,107 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[韩国 01] 直连｜Aws", server: 3.34.134.181, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 新加坡 SG 08, server: 01-hgvhjh.globalrelay.link, port: 15408, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:Vsa0I6p5sGV2inTI, obfs-param: 05bb56622.microsoft.com, udp: true}
-  - {name: 新加坡SP · 01 沪港, server: shcn2.fastcloud.club, port: 41327, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
+  - {name: "JP - AWS Global EC2 #3", server: jp_g_aws_m.hudaye.space, port: 55486, type: ss, cipher: aes-128-gcm, password: 2ecd44af-e27c-4899-9482-cb2bb1a73fcc, udp: true}
+  - {name: Moon365.net🇨🇳TW 357 free, server: 113.31.155.165, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: Moon365.net🇨🇳TW 354 free, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: 韩国 KR 03, server: 01-hgvhjh.globalrelay.link, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:Vsa0I6p5sGV2inTI, obfs-param: 05bb56622.microsoft.com, udp: true}
+  - {name: Moon365.net🇨🇳TW 355 free, server: 123.59.87.29, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: 韩国 KR 05, server: 01-hgvhjh.globalrelay.link, port: 15305, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:Vsa0I6p5sGV2inTI, obfs-param: 05bb56622.microsoft.com, udp: true}
+  - {name: 韩国 KR 02, server: 01-hgvhjh.globalrelay.link, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:Vsa0I6p5sGV2inTI, obfs-param: 05bb56622.microsoft.com, udp: true}
+  - {name: 韩国 KR 04, server: 01-hgvhjh.globalrelay.link, port: 15304, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:Vsa0I6p5sGV2inTI, obfs-param: 05bb56622.microsoft.com, udp: true}
+  - {name: JP - AWS Global EC2 CC20, server: jp_g_aws_m.hudaye.space, port: 55487, type: ss, cipher: chacha20-ietf-poly1305, password: 2ecd44af-e27c-4899-9482-cb2bb1a73fcc, udp: true}
+  - {name: 最低19元每月，优惠券不定期发放中, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b6cfdcc9-804e-4609-a317-d171d39c5725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 台湾 TW 08, server: 01-hgvhjh.globalrelay.link, port: 15508, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:Vsa0I6p5sGV2inTI, obfs-param: 05bb56622.microsoft.com, udp: true}
+  - {name: Moon365.net🇭🇰HK 628 free, server: 120.197.88.216, port: 20001, type: vmess, uuid: aaaced8e-e212-431a-8671-9f414a2ec807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22120.197.88.216%22%7D"}, udp: true}
+  - {name: moon365.net🇭🇰HK 527 free, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Moon365.net🇭🇰HK 640 free, server: 116.162.32.200, port: 18000, type: vmess, uuid: aaaced8e-e212-431a-8671-9f414a2ec807, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22116.162.32.200%22%7D"}, udp: true}
+  - {name: 香港Azure16|停机卡免流, server: cm-jm.okvpn.xyz, port: 20008, type: vmess, uuid: b6cfdcc9-804e-4609-a317-d171d39c5725, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: super-hk.smdynet.com}, udp: true}
+  - {name: Moon365.net🇨🇳TW 362 free, server: 106.75.233.91, port: 3389, type: trojan, password: 1a1247ea6cb266b4, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 38.75.137.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: cslt.sf66.cf, port: 34716, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cslt.sf66.cf}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: t3.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Moon365.net🇨🇳TW 359 free, server: 139.226.112.116, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: "%7B%22Host%22:%22139.226.112.116%22%7D"}, udp: true}
-  - {name: Moon365.net🇨🇳TW 374 free, server: in05.2333dns.com, port: 64068, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: "%7B%22Host%22:%22cdn.bootcdn.net%22%7D"}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: lsb1.tgproxy.wtf, port: 80, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lsb1.tgproxy.wtf}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: t1.ssrsub.com, port: 8443, type: trojan, password: b3f4826a-01e1-438a-8cb4-becb9e8b140c, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: t3.ssrsub.com, port: 8443, type: trojan, password: b3f4826a-01e1-438a-8cb4-becb9e8b140c, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: 62.210.209.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _FR_法国 2, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 美国|09|流解, server: 209.209.114.222, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 209.209.114.222}, udp: true}
-  - {name: _FR_法国 3, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 日本JP · 01, server: shcn2.fastcloud.club, port: 41338, type: vmess, uuid: d8a40156-c37b-40e7-82ca-a9acd3433347, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: shcn2.fastcloud.club}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: t1.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 4, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 10, server: 38.75.137.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: cslt.sf66.cf, port: 34716, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cslt.sf66.cf}, udp: true}
+  - {name: moon365.net🇭🇰HK 552 free, server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _HK_香港_FMYC-2022.01.15_141, server: 62.216.92.180, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: 付费更快更稳 -07, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: t1.ssrsub.com, port: 8443, type: trojan, password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: Moon365.net🇲🇾MY 673 free, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,112 +156,146 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 新加坡SP · 01 沪港
+      - 台湾 TW 08
+      - 香港Azure16|停机卡免流
+      - _HK_香港_FMYC-2022.01.15_141
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -245,27 +311,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[韩国 01] 直连｜Aws"
-      - 新加坡 SG 08
-      - 新加坡SP · 01 沪港
+      - "JP - AWS Global EC2 #3"
+      - Moon365.net🇨🇳TW 357 free
+      - Moon365.net🇨🇳TW 354 free
+      - 韩国 KR 03
+      - Moon365.net🇨🇳TW 355 free
+      - 韩国 KR 05
+      - 韩国 KR 02
+      - 韩国 KR 04
+      - JP - AWS Global EC2 CC20
+      - 最低19元每月，优惠券不定期发放中
+      - 台湾 TW 08
+      - Moon365.net🇭🇰HK 628 free
+      - moon365.net🇭🇰HK 527 free
+      - Moon365.net🇭🇰HK 640 free
+      - 香港Azure16|停机卡免流
+      - Moon365.net🇨🇳TW 362 free
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 美国(欢迎订阅Youtube破解资源君)
-      - Moon365.net🇨🇳TW 359 free
-      - Moon365.net🇨🇳TW 374 free
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _FR_法国
-      - _FR_法国 2
       - 美国|09|流解
-      - _FR_法国 3
-      - 日本JP · 01
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _FR_法国 4
+      - _US_美国 10
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - moon365.net🇭🇰HK 552 free
+      - _HK_香港_FMYC-2022.01.15_141
+      - 付费更快更稳 -07
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - Moon365.net🇲🇾MY 673 free
+      - _FR_法国
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
