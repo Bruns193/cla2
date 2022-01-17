@@ -6,39 +6,133 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: V1-韩国A组 直连 速度随缘 1x, server: kr-group-a-direct.myn0des.com, port: 8880, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: 南朝鲜-Netflix解锁, server: kr4.futi.online, port: 2053, type: vmess, uuid: 433a2618-bf4e-4a84-9b90-c59e912f1585, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.59.32, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.105.59.32, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 172.105.59.32, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 172.105.59.32, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.52, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 134.195.196.52, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.52, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 38.86.135.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 38.86.135.27, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 38.86.135.27, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 172.105.59.32, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 212.38.189.174, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: 38.86.135.27, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 2, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 134.195.196.52, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_8119 @WangCai_1, server: 134.195.196.199, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 3, server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 4, server: 38.75.137.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 5, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 6, server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 134.195.196.52, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 7, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 8, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 9, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 10, server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _NO_挪威, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.52, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 11, server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_3389 @WangCai_1, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 12, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_5601 @WangCai_1, server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 13, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 4, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 134.195.196.52, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_8091 @WangCai_1, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_5003 @WangCai_1, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 38.86.135.27, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 14, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 15, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 16, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2375 @WangCai_1, server: 169.197.143.157, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_8881 @WangCai_1, server: 169.197.143.157, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 17, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 18, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 19, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1 2, server: 134.195.196.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_8009 @WangCai_1, server: 169.197.143.157, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_8008 @WangCai_1, server: 134.195.196.199, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 20, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.199, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 8, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 21, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 22, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_9101 @WangCai_1, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 23, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_8080 @WangCai_1, server: 134.195.196.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8882 @WangCai_1, server: 134.195.196.199, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_5001 @WangCai_1, server: 134.195.196.199, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 24, server: 142.202.48.17, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_3389 @WangCai_1, server: 169.197.143.157, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_5004 @WangCai_1, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 25, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_7001 @WangCai_1, server: 169.197.143.157, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: GB_3389 @WangCai_1, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5500 @WangCai_1, server: 134.195.196.52, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_8008 @WangCai_1 2, server: 134.195.196.52, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5004 @WangCai_1, server: 169.197.143.157, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.154, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 212.38.189.174, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8009 @WangCai_1, server: 134.195.196.199, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8091 @WangCai_1 2, server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 26, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_5601 @WangCai_1, server: 169.197.143.157, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 27, server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 134.195.196.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _GB_英国 6, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_6697 @WangCai_1, server: 134.195.198.250, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 28, server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 29, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 30, server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 31, server: 167.88.61.204, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_8881 @WangCai_1, server: 134.195.196.199, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_9102 @WangCai_1, server: 134.195.196.52, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6, udp: true}
+  - {name: US_8119 @WangCai_1, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8881 @WangCai_1 2, server: 134.195.196.52, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 16, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_5000 @WangCai_1, server: 169.197.143.157, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国 7, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 32, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_5600 @WangCai_1, server: 134.195.196.52, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_5003 @WangCai_1, server: 134.195.198.250, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 33, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5000 @WangCai_1, server: 134.195.196.199, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB_8009 @WangCai_1, server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_5601 @WangCai_1 2, server: 134.195.198.250, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 34, server: 142.202.48.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 8, server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1 2, server: 134.195.198.250, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1 3, server: 134.195.196.52, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5001 @WangCai_1 2, server: 134.195.196.52, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 35, server: 167.88.63.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 36, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 21, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _NL_荷兰, server: 37.218.245.122, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fPn40BnheGrB, udp: true}
+  - {name: _CA_加拿大 22, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_8090 @WangCai_1, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -46,78 +140,266 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -125,39 +407,133 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -177,39 +553,133 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -221,78 +691,266 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -300,39 +958,133 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -349,39 +1101,133 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - V1-韩国A组 直连 速度随缘 1x
-      - 南朝鲜-Netflix解锁
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国
+      - _US_美国 2
+      - ‌‌🇨🇦CA_8118 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 3
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 3
+      - _US_美国 4
+      - _US_美国 5
+      - _US_美国 6
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _GB_英国
+      - _US_美国 7
+      - _US_美国 8
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大
+      - _US_美国 9
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 10
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 3
+      - _NO_挪威
       - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 11
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - _US_美国 12
+      - ‌‌🇨🇦CA_5601 @WangCai_1
       - 美国(欢迎订阅Youtube破解资源君) 6
+      - _US_美国 13
+      - _CA_加拿大 4
       - 美国(欢迎订阅Youtube破解资源君) 7
       - 美国(欢迎订阅Youtube破解资源君) 8
+      - _CA_加拿大 5
+      - US_8091 @WangCai_1
+      - US_5003 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 6
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _GB_英国 2
+      - US_2375 @WangCai_1
+      - US_8881 @WangCai_1
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _CA_加拿大 7
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _US_美国 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - _CA_加拿大 8
+      - _US_美国 21
+      - _US_美国 22
+      - US_9101 @WangCai_1
+      - _US_美国 23
+      - _CA_加拿大 9
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 10
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - _US_美国 24
+      - US_3389 @WangCai_1
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 25
+      - _CA_加拿大 12
+      - US_7001 @WangCai_1
+      - GB_3389 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - _GB_英国 4
+      - ‌‌🇨🇦CA_8008 @WangCai_1 2
       - 美国(欢迎订阅Youtube破解资源君) 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 20
+      - _GB_英国 5
+      - US_5004 @WangCai_1
+      - _CA_加拿大 13
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - US_8091 @WangCai_1 2
+      - _US_美国 26
+      - _CA_加拿大 14
+      - US_5601 @WangCai_1
+      - _US_美国 27
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - _GB_英国 6
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - _US_美国 28
+      - _CA_加拿大 15
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - ‌‌🇨🇦CA_8881 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - US_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8881 @WangCai_1 2
+      - _CA_加拿大 16
+      - US_5000 @WangCai_1
+      - _GB_英国 7
+      - _CA_加拿大 17
+      - _US_美国 32
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - _CA_加拿大 18
+      - ‌‌🇨🇦CA_5003 @WangCai_1
+      - _CA_加拿大 19
+      - _US_美国 33
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - GB_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5601 @WangCai_1 2
+      - _US_美国 34
+      - _GB_英国 8
+      - _CA_加拿大 20
+      - ‌‌🇨🇦CA_8888 @WangCai_1 2
+      - ‌‌🇨🇦CA_8888 @WangCai_1 3
+      - ‌‌🇨🇦CA_5001 @WangCai_1 2
+      - _US_美国 35
+      - _US_美国 36
+      - _CA_加拿大 21
+      - _NL_荷兰
+      - _CA_加拿大 22
+      - US_8090 @WangCai_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
