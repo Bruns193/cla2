@@ -5,275 +5,867 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「🇯🇵」Japan 02, server: 13.115.119.175, port: 8888, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 香港iCable-优化3 3, server: ct.cnhost.top, port: 16634, type: vmess, uuid: 93734d66-2b3c-49b5-aced-016149c0358e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mjp, ws-headers: {Host: "%7B%22Host%22:%22pull.free.video.10010.com%22%7D"}, udp: true}
-  - {name: 日本（捐赠）, server: awsrb.moonfree.top, port: 443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsrb.moonfree.top}, udp: true}
-  - {name: 广州-香港BGP-A, server: gz.azure.salmon-tech.com, port: 9578, type: ss, cipher: aes-256-gcm, password: 63370084-81fd-4be7-9262-aaa8d966218d, udp: true}
-  - {name: 【推荐】SS-香港【原生流媒体-1.5x】, server: hkss.jjyun.work, port: 51240, type: ss, cipher: chacha20-ietf-poly1305, password: 7224175a-5f3e-4f29-aff8-d185363e5853, udp: true}
-  - {name: 「🇯🇵」Japan 01, server: 15.152.50.106, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: 韩国（捐赠）, server: awskr.moonfree.top, port: 443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awskr.moonfree.top}, udp: true}
-  - {name: 广州-香港BGP-B, server: gz.azure.salmon-tech.com, port: 9877, type: ss, cipher: aes-256-gcm, password: 63370084-81fd-4be7-9262-aaa8d966218d, udp: true}
-  - {name: V1-韩国A组 直连 速度随缘 1x, server: kr-group-a-direct.myn0des.com, port: 8880, type: vmess, uuid: 09fe98b8-3795-3294-b749-5a39208a6cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: _US_美国, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _NO_挪威, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国, server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 4, server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _NO_挪威, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 5, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 6, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 7, server: 38.75.136.116, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 8, server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 9, server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 10, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 11, server: 169.197.143.157, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_8091+@WangCai_1, server: 169.197.143.157, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 12, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 13, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 14, server: 169.197.143.157, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 15, server: 169.197.143.157, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 16, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 17, server: 169.197.143.157, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 18, server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 19, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _NO_挪威 2, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 20, server: 169.197.143.157, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 21, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 22, server: 38.68.134.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _NO_挪威 3, server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 23, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 24, server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 3, server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.33, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 4, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 134.195.196.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.52, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_8882 @WangCai_1, server: 134.195.196.199, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_英国, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 5, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 5, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 6, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 7, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 8, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_8008 @WangCai_1, server: 134.195.196.199, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ‌‌🇨🇦CA_8080 @WangCai_1, server: 134.195.196.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ‌‌🇨🇦CA_5004 @WangCai_1, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 9, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 10, server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_5601 @WangCai_1, server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 11, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ‌‌🇨🇦CA_7001 @WangCai_1 2, server: 134.195.196.52, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 134.195.196.52, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.52, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 9, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.199, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 25, server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 26, server: 38.68.135.19, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 27, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 28, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 29, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 30, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 31, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 32, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 33, server: 167.88.62.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 34, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 35, server: 38.75.136.93, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 36, server: 38.68.134.69, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 37, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 38, server: 167.88.61.204, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 39, server: 38.68.134.69, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 40, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 41, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 42, server: 38.68.134.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 43, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 44, server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 45, server: 38.68.134.202, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 46, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 47, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 48, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.101, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 49, server: 142.202.48.17, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 50, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 51, server: 169.197.143.157, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 52, server: 38.68.134.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 53, server: 38.91.101.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 54, server: 38.68.134.202, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 55, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: ‌‌🇨🇦CA_3389 @WangCai_1, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 10, server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 12, server: 142.202.48.17, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 香港HGC-优化2, server: cm.cnhost.top, port: 16621, type: vmess, uuid: fd603898-ed98-4ff1-9101-f330a3158c05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22cm.cnhost.top%22%7D"}, udp: true}
+  - {name: US_5004+@WangCai_1, server: 169.197.143.157, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.52, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 56, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 57, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 58, server: 142.202.48.17, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 59, server: 38.68.134.85, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 60, server: 38.64.138.145, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 61, server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 62, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国, server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_5601 @WangCai_1, server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 63, server: 38.68.134.202, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.101, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 64, server: 38.68.134.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.52, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 65, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 66, server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 67, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 68, server: 169.197.143.157, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 69, server: 38.64.138.145, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.101, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 70, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 71, server: 142.202.48.34, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 72, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 73, server: 38.75.136.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 74, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 75, server: 142.202.48.105, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.52, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.198.250, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 76, server: 142.202.48.17, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 77, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_9101+@WangCai_1, server: 134.195.198.250, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.191, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 78, server: 142.202.48.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.52, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 79, server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 134.195.196.52, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 80, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 81, server: 142.202.48.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 82, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 83, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: ‌‌🇨🇦CA_8119 @WangCai_1, server: 134.195.196.199, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _SG_TG@mffxznews_61, server: 172.104.168.83, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 香港iCable-优化3, server: ct.cnhost.top, port: 16634, type: vmess, uuid: fd603898-ed98-4ff1-9101-f330a3158c05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mjp, ws-headers: {Host: "%7B%22Host%22:%22pull.free.video.10010.com%22%7D"}, udp: true}
-  - {name: _CA_加拿大 11, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 13, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 14, server: 142.202.48.105, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港HKT-优化3, server: ct.cnhost.top, port: 16620, type: vmess, uuid: fd603898-ed98-4ff1-9101-f330a3158c05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22ct.cnhost.top%22%7D"}, udp: true}
-  - {name: _US_美国 15, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 84, server: 38.64.138.145, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 85, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.198.250, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 16, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.198.250, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 18, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 86, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.198.250, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.199, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 21, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 87, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 88, server: 142.202.48.108, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 22, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_6697+@WangCai_1, server: 134.195.198.250, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 23, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 6, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.52, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 24, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 89, server: 167.88.63.61, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ‌‌🇨🇦CA_8008 @WangCai_1, server: 134.195.196.199, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 25, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 26, server: 134.195.196.52, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 27, server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 28, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 90, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 91, server: 142.202.48.78, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 30, server: 134.195.198.250, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大 31, server: 134.195.196.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 32, server: 134.195.196.52, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_8882 @WangCai_1, server: 134.195.196.199, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 33, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 34, server: 198.57.27.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 92, server: 142.202.48.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 93, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 35, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 94, server: 142.202.48.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_8881+@WangCai_1, server: 134.195.196.52, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8080 @WangCai_1, server: 134.195.196.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 95, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 134.195.196.52, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 96, server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 7, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 36, server: 134.195.198.250, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 37, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 38, server: 134.195.196.33, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 39, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_5004 @WangCai_1, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 97, server: 142.202.48.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 40, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 41, server: 198.57.27.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 42, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 43, server: 134.195.196.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_8118+@WangCai_1, server: 134.195.198.250, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 98, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 44, server: 134.195.196.199, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 45, server: 134.195.196.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 46, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 47, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 48, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 49, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 99, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 50, server: 134.195.196.199, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 100, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 101, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 102, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 103, server: 167.88.63.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 104, server: 167.88.63.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 51, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 52, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 53, server: 134.195.196.52, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 54, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 105, server: 167.88.63.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 106, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 107, server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 108, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 109, server: 38.91.100.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 110, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 111, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 55, server: 134.195.196.52, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 112, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1 2, server: 134.195.196.199, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 113, server: 167.88.63.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 114, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 115, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国 116, server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 117, server: 167.88.63.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 118, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 119, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _IT_意大利, server: 185.213.21.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 56, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 120, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大 57, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 121, server: 38.75.136.93, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -292,286 +884,871 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港iCable-优化3 3
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 广州-香港BGP-B
-      - 香港HGC-优化2
-      - 香港iCable-优化3
-      - 香港HKT-优化3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -587,69 +1764,217 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇯🇵」Japan 02
-      - 香港iCable-优化3 3
-      - 日本（捐赠）
-      - 广州-香港BGP-A
-      - 【推荐】SS-香港【原生流媒体-1.5x】
-      - 「🇯🇵」Japan 01
-      - 韩国（捐赠）
-      - 广州-香港BGP-B
-      - V1-韩国A组 直连 速度随缘 1x
       - _US_美国
       - _US_美国 2
-      - _NO_挪威
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 3
-      - _CA_加拿大
-      - _CA_加拿大 2
       - _US_美国 4
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - _GB_英国
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _CA_加拿大 5
+      - _NO_挪威
       - _US_美国 5
-      - _CA_加拿大 6
-      - _GB_英国 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
       - _US_美国 6
       - _US_美国 7
       - _US_美国 8
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8080 @WangCai_1
-      - _GB_英国 3
-      - ‌‌🇨🇦CA_5004 @WangCai_1
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - _US_美国 10
-      - ‌‌🇨🇦CA_5601 @WangCai_1
       - _US_美国 11
-      - _CA_加拿大 7
-      - _CA_加拿大 8
-      - ‌‌🇨🇦CA_7001 @WangCai_1 2
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - _CA_加拿大 9
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - ‌‌🇨🇦CA_3389 @WangCai_1
-      - _CA_加拿大 10
+      - US_8091+@WangCai_1
       - _US_美国 12
-      - 香港HGC-优化2
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - _SG_TG@mffxznews_61
-      - 香港iCable-优化3
-      - _CA_加拿大 11
       - _US_美国 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 7
       - _US_美国 14
-      - 香港HKT-优化3
       - _US_美国 15
+      - _US_美国 16
+      - _US_美国 17
+      - _US_美国 18
+      - _US_美国 19
+      - _NO_挪威 2
+      - _US_美国 20
+      - _US_美国 21
+      - _US_美国 22
+      - _NO_挪威 3
+      - _US_美国 23
+      - _US_美国 24
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 25
+      - _US_美国 26
+      - _US_美国 27
+      - _US_美国 28
+      - _US_美国 29
+      - _US_美国 30
+      - _US_美国 31
+      - _US_美国 32
+      - _US_美国 33
+      - _US_美国 34
+      - _US_美国 35
+      - _US_美国 36
+      - _US_美国 37
+      - _US_美国 38
+      - _US_美国 39
+      - _US_美国 40
+      - _US_美国 41
+      - _US_美国 42
+      - _US_美国 43
+      - _US_美国 44
+      - _US_美国 45
+      - _US_美国 46
+      - _US_美国 47
+      - _US_美国 48
+      - _CA_加拿大
+      - _US_美国 49
+      - _US_美国 50
+      - _US_美国 51
+      - _US_美国 52
+      - _US_美国 53
+      - _US_美国 54
+      - _US_美国 55
+      - ‌‌🇨🇦CA_3389 @WangCai_1
+      - US_5004+@WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 56
+      - _US_美国 57
+      - _US_美国 58
+      - _US_美国 59
+      - _US_美国 60
+      - _US_美国 61
+      - _US_美国 62
+      - _GB_英国
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - _US_美国 63
+      - _CA_加拿大 2
+      - _US_美国 64
+      - _CA_加拿大 3
+      - _US_美国 65
+      - _CA_加拿大 4
+      - _US_美国 66
+      - _US_美国 67
+      - _US_美国 68
+      - _US_美国 69
+      - _CA_加拿大 5
+      - _US_美国 70
+      - _CA_加拿大 6
+      - _US_美国 71
+      - _CA_加拿大 7
+      - _US_美国 72
+      - _US_美国 73
+      - _US_美国 74
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _US_美国 75
+      - _CA_加拿大 10
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - _GB_英国 3
+      - _CA_加拿大 11
+      - _US_美国 76
+      - _US_美国 77
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - _CA_加拿大 12
+      - _US_美国 78
+      - _CA_加拿大 13
+      - _CA_加拿大 14
+      - _GB_英国 4
+      - _US_美国 79
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - _US_美国 80
+      - _US_美国 81
+      - _US_美国 82
+      - _US_美国 83
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - _US_美国 84
+      - _US_美国 85
+      - _CA_加拿大 15
+      - _CA_加拿大 16
+      - _CA_加拿大 17
+      - _CA_加拿大 18
+      - _US_美国 86
+      - _CA_加拿大 19
+      - _CA_加拿大 20
+      - _CA_加拿大 21
+      - _GB_英国 5
+      - _US_美国 87
+      - _US_美国 88
+      - _CA_加拿大 22
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - _CA_加拿大 23
+      - _GB_英国 6
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _CA_加拿大 24
+      - _US_美国 89
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - _CA_加拿大 25
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _CA_加拿大 28
+      - _CA_加拿大 29
+      - _US_美国 90
+      - _US_美国 91
+      - _CA_加拿大 30
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - _CA_加拿大 33
+      - _CA_加拿大 34
+      - _US_美国 92
+      - _US_美国 93
+      - _CA_加拿大 35
+      - _US_美国 94
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8080 @WangCai_1
+      - _US_美国 95
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _US_美国 96
+      - _GB_英国 7
+      - _CA_加拿大 36
+      - _CA_加拿大 37
+      - _CA_加拿大 38
+      - _CA_加拿大 39
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - _US_美国 97
+      - _CA_加拿大 40
+      - _CA_加拿大 41
+      - _CA_加拿大 42
+      - _CA_加拿大 43
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - _US_美国 98
+      - _CA_加拿大 44
+      - _CA_加拿大 45
+      - _CA_加拿大 46
+      - _CA_加拿大 47
+      - _CA_加拿大 48
+      - _CA_加拿大 49
+      - _US_美国 99
+      - _CA_加拿大 50
+      - _US_美国 100
+      - _US_美国 101
+      - _US_美国 102
+      - _US_美国 103
+      - _US_美国 104
+      - _CA_加拿大 51
+      - _CA_加拿大 52
+      - _CA_加拿大 53
+      - _CA_加拿大 54
+      - _US_美国 105
+      - _US_美国 106
+      - _US_美国 107
+      - _US_美国 108
+      - _US_美国 109
+      - _US_美国 110
+      - _US_美国 111
+      - _CA_加拿大 55
+      - _US_美国 112
+      - ‌‌🇨🇦CA_7001 @WangCai_1 2
+      - _US_美国 113
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _US_美国 114
+      - _US_美国 115
+      - _US_美国 116
+      - _US_美国 117
+      - _US_美国 118
+      - _US_美国 119
+      - _IT_意大利
+      - _CA_加拿大 56
+      - _US_美国 120
+      - _CA_加拿大 57
+      - _US_美国 121
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
