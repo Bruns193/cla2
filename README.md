@@ -5,419 +5,243 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Hi🇭🇰HK 947 t.me/moon365free, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本2（捐赠）, server: awsrb3.moonfree.top, port: 443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsrb3.moonfree.top}, udp: true}
-  - {name: "[高速][优化]🇯🇵日本3", server: azhk.relay.qchwnd.moe, port: 10204, type: vmess, uuid: 476ddab3-29a2-4a32-8f0d-33cf6add3722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[高速][解锁][负载均衡]🇭🇰香港", server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 【推荐】上海联通-首尔专线21, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v1丨台湾丨隧道中转丨2, server: yooo1.xiaobaigou.cc, port: 56016, type: trojan, password: ee378a62-03b0-3f55-89d9-36bea6b4917a, sni: yooo1.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: "*国内中转*SG|广州移动-新加坡_0003", server: z0003.security-cloudfront-cdn.com, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: v1丨马来西亚丨原生丨直连, server: yooo.xiaobaigou.cc, port: 1001, type: trojan, password: ee378a62-03b0-3f55-89d9-36bea6b4917a, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨台湾丨隧道中转丨解锁流媒体, server: yooo.xiaobaigou.cc, port: 56017, type: trojan, password: ee378a62-03b0-3f55-89d9-36bea6b4917a, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨泰国丨隧道中转丨1丨V2ray, server: yooo1.xiaobaigou.cc, port: 1003, type: trojan, password: ee378a62-03b0-3f55-89d9-36bea6b4917a, sni: yooo1.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: "*🇸🇬SG -1043 t.me/moon365free", server: 112.33.36.109, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
   - {name: 【426节点池】US_1888, server: 158.247.209.92, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 新加坡 (捐赠), server: awsxjp.moonfree.top, port: 443, type: vmess, uuid: 348f0186-e84e-4eec-b57f-03b988d2c498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: awsxjp.moonfree.top}, udp: true}
-  - {name: Go加速 - V2 IEPL Game | SG1, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: 8SFY7w, udp: true}
-  - {name: Hi🇭🇰HK 937 t.me/moon365free, server: 101.89.109.30, port: 10015, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: v1丨新加坡丨直连丨已全面换 Torjan, server: yooo.xiaobaigou.cc, port: 12345, type: trojan, password: ee378a62-03b0-3f55-89d9-36bea6b4917a, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: "[高速][流媒体]🇺🇸美国1", server: azhk.relay.qchwnd.moe, port: 10205, type: vmess, uuid: 476ddab3-29a2-4a32-8f0d-33cf6add3722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NO_挪威, server: 46.29.218.170, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "[游戏|禁下载]United State 04", server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 【426节点池】US_2149, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _NO_挪威 2, server: 46.29.218.170, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 新加坡2, server: 2.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "*国内中转*SG|广州移动-新加坡_0003", server: z0003.security-cloudfront-cdn.com, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
+  - {name: 付费更快更稳 -07, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 【426节点池】US_2498, server: 38.75.136.58, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 2, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 2, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 3, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 【426节点池】US_2240, server: 38.75.136.58, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 3, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "[高速]🇷🇺俄罗斯", server: azhk.relay.qchwnd.moe, port: 10208, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[高速][流媒体]🇺🇸美国2", server: azhk.relay.qchwnd.moe, port: 10206, type: vmess, uuid: 476ddab3-29a2-4a32-8f0d-33cf6add3722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 169.197.143.157, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君), server: 169.197.143.157, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 5, server: 169.197.143.157, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 6, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 7, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 8, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 【426节点池】US_2477, server: 38.75.136.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 9, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 10, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 11, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 12, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 【426节点池】US_2525, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 【426节点池】US_2462, server: 38.75.136.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 13, server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 14, server: 169.197.143.157, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 15, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 16, server: 169.197.143.157, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 17, server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 18, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 【426节点池】US_1906, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 【426节点池】US_1932, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 19, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 20, server: 142.202.48.108, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 21, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "[IEPL]Canada 04", server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 22, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 23, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国 24, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 167.88.63.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 【426节点池】US_1431, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ‌‌🇨🇦CA_8008+@WangCai_1, server: 134.195.196.199, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.199, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 25, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 26, server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _CA_加拿大 8, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 27, server: 142.202.48.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 9, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 10, server: 134.195.196.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 28, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "[IEPL]Canada 06", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 29, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 30, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 日本 移动优选 B Cloudflare CDN, server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc01.testred.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 31, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ‌‌🇨🇦CA_5601 @WangCai_1, server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 32, server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 33, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 34, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大 11, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 12, server: 134.195.196.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 4, server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 5, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 6, server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 【426节点池】US_2488, server: 38.75.136.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Go加速 - V2 IEPL Game | HK2, server: x.gotout.work, port: 30012, type: ss, cipher: aes-256-gcm, password: 8SFY7w, udp: true}
+  - {name: _US_美国 7, server: 169.197.143.157, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 8, server: 169.197.143.157, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 9, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 10, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Hanoi, server: 188.214.152.194, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
+  - {name: _US_美国 11, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 12, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 13, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 14, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 【426节点池】US_1431, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 15, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_8008+@WangCai_1, server: 134.195.196.199, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 16, server: 169.197.143.157, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "[IEPL]Canada 06", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 17, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 18, server: 142.202.48.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 46.29.218.170, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 19, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 20, server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.33, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.199, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 7, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.199, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 21, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 新加坡4, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 22, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -436,426 +260,247 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - v1丨台湾丨隧道中转丨2
-      - v1丨台湾丨隧道中转丨解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -871,105 +516,61 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Hi🇭🇰HK 947 t.me/moon365free
-      - 日本2（捐赠）
-      - "[高速][优化]🇯🇵日本3"
-      - "[高速][解锁][负载均衡]🇭🇰香港"
-      - 【推荐】上海联通-首尔专线21
-      - v1丨台湾丨隧道中转丨2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - v1丨马来西亚丨原生丨直连
-      - v1丨台湾丨隧道中转丨解锁流媒体
-      - v1丨泰国丨隧道中转丨1丨V2ray
+      - "*🇸🇬SG -1043 t.me/moon365free"
       - 【426节点池】US_1888
-      - 新加坡 (捐赠)
-      - Go加速 - V2 IEPL Game | SG1
-      - Hi🇭🇰HK 937 t.me/moon365free
-      - v1丨新加坡丨直连丨已全面换 Torjan
-      - "[高速][流媒体]🇺🇸美国1"
-      - _NO_挪威
-      - "[游戏|禁下载]United State 04"
-      - 【426节点池】US_2149
+      - 新加坡2
+      - "*国内中转*SG|广州移动-新加坡_0003"
+      - 付费更快更稳 -07
       - _US_美国
-      - _NO_挪威 2
       - India 2 (t.me/SurfShark_ALA)
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 【426节点池】US_2498
       - _US_美国 2
-      - 【426节点池】US_2240
       - _US_美国 3
-      - "[高速]🇷🇺俄罗斯"
-      - "[高速][流媒体]🇺🇸美国2"
-      - _US_美国 4
+      - 【426节点池】US_2240
       - 美国(欢迎订阅Youtube破解资源君)
+      - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 【426节点池】US_2488
       - _US_美国 7
       - _US_美国 8
-      - 【426节点池】US_2477
       - _US_美国 9
       - _US_美国 10
+      - Hanoi
       - _US_美国 11
-      - _GB_英国
       - _US_美国 12
-      - 【426节点池】US_2525
-      - _CA_加拿大
-      - 【426节点池】US_2462
       - _US_美国 13
+      - _GB_英国
       - _US_美国 14
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - _US_美国 18
-      - 【426节点池】US_1906
-      - 【426节点池】US_1932
-      - _CA_加拿大 2
-      - _US_美国 19
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 20
-      - _US_美国 21
-      - "[IEPL]Canada 04"
-      - _CA_加拿大 3
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _GB_英国 2
-      - _US_美国 23
-      - _US_美国 24
-      - _CA_加拿大 5
-      - 美国(欢迎订阅Youtube破解资源君) 2
       - 【426节点池】US_1431
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - _US_美国 15
       - ‌‌🇨🇦CA_8008+@WangCai_1
-      - _CA_加拿大 6
+      - _CA_加拿大 2
+      - _GB_英国 2
+      - _US_美国 16
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - _CA_加拿大 7
-      - _US_美国 25
-      - _US_美国 26
-      - _CA_加拿大 8
-      - _US_美国 27
-      - _CA_加拿大 9
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _GB_英国 3
-      - _CA_加拿大 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 28
-      - "[IEPL]Canada 06"
-      - _US_美国 29
-      - _US_美国 30
-      - 日本 移动优选 B Cloudflare CDN
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 31
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - ‌‌🇨🇦CA_5601 @WangCai_1
-      - _US_美国 32
-      - _US_美国 33
       - 【426节点池】US_2284
-      - _US_美国 34
-      - _CA_加拿大 11
-      - _CA_加拿大 12
+      - _CA_加拿大 3
+      - _GB_英国 3
+      - "[IEPL]Canada 06"
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _GB_英国 4
-      - 【426节点池】US_2488
-      - Go加速 - V2 IEPL Game | HK2
+      - _US_美国 17
+      - _US_美国 18
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - _US_美国 19
+      - _US_美国 20
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _US_美国 21
+      - 新加坡4
+      - _US_美国 22
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
