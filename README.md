@@ -5,25 +5,52 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[01.22]👖TG频道：@Jsnzk", server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2, server: 2.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 2", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 3", server: awsjp.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 4", server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 5", server: azhk.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 6", server: 5.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk", server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 2", server: awsjp.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 3", server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 4", server: 5.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 5", server: 4.vpnbro.ml, port: 9999, type: trojan, password: fb64c541-d412-4a01-ab8f-16bbdea884ac, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
   - {name: 新加坡4, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 7", server: 3.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 8", server: 4.vpnbro.ml, port: 9999, type: trojan, password: fb64c541-d412-4a01-ab8f-16bbdea884ac, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 6", server: 3.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2, server: 2.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
   - {name: 付费更快更稳 -07, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu, skip-cert-verify: true, udp: true}
+  - {name: _IN_印度, server: 192.46.208.153, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _IN_印度 2, server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _IN_印度 3, server: 192.46.208.153, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国, server: 167.88.61.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 9", server: msk.mtoly.xyz, port: 34464, type: trojan, password: aefe3659-4737-433a-b879-e172ce7fd212, sni: msk.mtoly.xyz, skip-cert-verify: true, udp: true}
-  - {name: _GB_英国, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 10", server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 11", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.109, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _IN_印度 4, server: 192.46.208.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _IN_印度 5, server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 3, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 4, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 5, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 6, server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 4, server: 198.57.27.191, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 5, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _AU_澳大利亚, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 7, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 6, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 8, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 10, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 11, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 13, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _AU_澳大利亚 2, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 7", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 8", server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 8, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 9", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -31,48 +58,102 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -80,24 +161,51 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -117,24 +225,51 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -146,48 +281,102 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -195,24 +384,51 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,24 +445,51 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "[01.22]👖TG频道：@Jsnzk"
-      - 新加坡2
       - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
       - "[01.22]👖TG频道：@Jsnzk 4"
       - "[01.22]👖TG频道：@Jsnzk 5"
-      - "[01.22]👖TG频道：@Jsnzk 6"
       - 新加坡4
-      - "[01.22]👖TG频道：@Jsnzk 7"
-      - "[01.22]👖TG频道：@Jsnzk 8"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡2
       - 付费更快更稳 -07
-      - India 2 (t.me/SurfShark_ALA)
-      - "[01.22]👖TG频道：@Jsnzk 9"
-      - _GB_英国
-      - _CA_加拿大
-      - "[01.22]👖TG频道：@Jsnzk 10"
-      - _CA_加拿大 2
-      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _IN_印度
+      - _IN_印度 2
+      - _IN_印度 3
       - _US_美国
+      - India 2 (t.me/SurfShark_ALA)
+      - _US_美国 2
+      - _IN_印度 4
+      - _IN_印度 5
+      - _US_美国 3
+      - _CA_加拿大
+      - _US_美国 4
+      - _US_美国 5
+      - _CA_加拿大 2
+      - _CA_加拿大 3
+      - _US_美国 6
+      - _CA_加拿大 4
+      - _CA_加拿大 5
+      - _GB_英国
+      - _AU_澳大利亚
+      - _US_美国 7
+      - _CA_加拿大 6
+      - _CA_加拿大 7
+      - _CA_加拿大 8
+      - _CA_加拿大 9
+      - _GB_英国 2
+      - _CA_加拿大 10
+      - _CA_加拿大 11
+      - _CA_加拿大 12
+      - _CA_加拿大 13
+      - _AU_澳大利亚 2
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - _GB_英国 3
+      - _GB_英国 4
+      - _GB_英国 5
+      - "[01.22]👖TG频道：@Jsnzk 8"
+      - _US_美国 8
+      - "[01.22]👖TG频道：@Jsnzk 9"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
