@@ -5,135 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡4, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk", server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 新加坡2, server: 2.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: "*国内中转*SG|广州移动-新加坡_0003", server: z0003.security-cloudfront-cdn.com, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: 【426节点池】US_1888, server: 158.247.209.92, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国, server: 169.197.143.157, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 3, server: 169.197.143.157, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 4, server: 169.197.143.157, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 5, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 2", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 3", server: awsjp.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 4", server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 5", server: azhk.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 6", server: 5.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: 新加坡4, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 7", server: 3.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 8", server: 4.vpnbro.ml, port: 9999, type: trojan, password: fb64c541-d412-4a01-ab8f-16bbdea884ac, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
   - {name: 付费更快更稳 -07, server: baip.huhu.icu, port: 19999, type: trojan, password: b520a49d-ea4c-49cf-a08b-7c54793cbeab, sni: baip.huhu.icu, skip-cert-verify: true, udp: true}
-  - {name: "*🇸🇬SG -1043 t.me/moon365free", server: 112.33.36.109, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _US_美国 6, server: 169.197.143.157, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 7, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 8, server: 169.197.143.157, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 9, server: 169.197.143.157, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 10, server: 169.197.143.157, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 11, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 9", server: msk.mtoly.xyz, port: 34464, type: trojan, password: aefe3659-4737-433a-b879-e172ce7fd212, sni: msk.mtoly.xyz, skip-cert-verify: true, udp: true}
   - {name: _GB_英国, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 12, server: 169.197.143.157, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 13, server: 169.197.143.157, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 【426节点池】US_2488, server: 38.75.136.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 14, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国 15, server: 169.197.143.157, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _CA_加拿大, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 16, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 10", server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 2, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 11", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -152,34 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -190,101 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,34 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk"
       - 新加坡2
-      - "*国内中转*SG|广州移动-新加坡_0003"
-      - 【426节点池】US_1888
-      - _US_美国
-      - _US_美国 2
-      - _US_美国 3
-      - India 2 (t.me/SurfShark_ALA)
-      - _US_美国 4
-      - _US_美国 5
+      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "[01.22]👖TG频道：@Jsnzk 3"
+      - "[01.22]👖TG频道：@Jsnzk 4"
+      - "[01.22]👖TG频道：@Jsnzk 5"
+      - "[01.22]👖TG频道：@Jsnzk 6"
+      - 新加坡4
+      - "[01.22]👖TG频道：@Jsnzk 7"
+      - "[01.22]👖TG频道：@Jsnzk 8"
       - 付费更快更稳 -07
-      - "*🇸🇬SG -1043 t.me/moon365free"
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_美国 11
+      - India 2 (t.me/SurfShark_ALA)
+      - "[01.22]👖TG频道：@Jsnzk 9"
       - _GB_英国
-      - _US_美国 12
-      - _US_美国 13
-      - 【426节点池】US_2488
-      - _US_美国 14
-      - _US_美国 15
       - _CA_加拿大
-      - _US_美国 16
+      - "[01.22]👖TG频道：@Jsnzk 10"
       - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君)
+      - "[01.22]👖TG频道：@Jsnzk 11"
+      - _US_美国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
