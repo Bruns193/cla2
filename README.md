@@ -5,543 +5,395 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "*🇯🇵JP -517 TG@moon365free", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: d74257b1-3403-456d-80bb-78aff7af4f05, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: <公益>Japan 02, server: 54.199.71.126, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "*🇯🇵JP -516 TG@moon365free", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: V106 日本>>上海*1.5, server: V106.bgpnet.top, port: 26106, type: vmess, uuid: 13634583-33fb-3aaf-bd0a-7c8286662256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: download.windowsupdate.com}, udp: true}
-  - {name: "[高速][流媒体]🇸🇬新加坡2-0.8x", server: azhk.relay.qchwnd.moe, port: 60603, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: <公益>Japan 01, server: 15.152.50.106, port: 65535, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: "[高速]日本🇯🇵-1x", server: azjp.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: azjp.pluscloud.top, skip-cert-verify: true, udp: true}
   - {name: "[高速][解锁][负载均衡]🇭🇰香港-1.5x", server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 2", server: 5.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "*🇯🇵JP -516 TG@moon365free", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: "*🇯🇵JP -517 TG@moon365free", server: awsjp10.pluscloud.top, port: 443, type: trojan, password: d74257b1-3403-456d-80bb-78aff7af4f05, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_-🇯🇵JP_19, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[高速][流媒体]🇸🇬新加坡2-0.8x", server: azhk.relay.qchwnd.moe, port: 60603, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk", server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 日本1|BGP中转|Netflix, server: azhk.relay.qchwnd.moe, port: 44602, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: V107 日本>>上海*1.5, server: V107.bgpnet.top, port: 26107, type: vmess, uuid: 13634583-33fb-3aaf-bd0a-7c8286662256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: download.windowsupdate.com}, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 3", server: 4.vpnbro.ml, port: 9999, type: trojan, password: fb64c541-d412-4a01-ab8f-16bbdea884ac, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2, server: 2.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: HK_728 |24.63Mb, server: 20.187.114.217, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 2", server: 4.vpnbro.ml, port: 9999, type: trojan, password: fb64c541-d412-4a01-ab8f-16bbdea884ac, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: "[01.22]👖TG频道：@Jsnzk 3", server: 5.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
   - {name: 香港 (5000Mbps), server: xg1.vpnbro.ml, port: 443, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: xg1.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: _IN_印度, server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _IN_印度 2, server: 192.46.208.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 新加坡4, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: ddns04.r8o8c8k.xyz, port: 65012, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: V105 日本>>上海*1.5, server: V105.bgpnet.top, port: 26105, type: vmess, uuid: 13634583-33fb-3aaf-bd0a-7c8286662256, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /admin, ws-headers: {Host: download.windowsupdate.com}, udp: true}
-  - {name: "*🇭🇰HK -510 TG@moon365free", server: azhk.pluscloud.top, port: 443, type: trojan, password: d74257b1-3403-456d-80bb-78aff7af4f05, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: "[高速]新加坡🇸🇬-1x", server: azsg.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: azsg.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_390 |10.89Mb, server: 120.232.182.190, port: 19079, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: _IN_印度, server: 192.46.208.153, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _IN_印度 2, server: 192.46.208.153, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: _IN_印度 3, server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: _IN_印度 4, server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "[高速]美国🇺🇸-1x", server: azus.pluscloud.top, port: 443, type: trojan, password: 78990d57-2af6-4092-bf6b-f11575db222f, sni: azus.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _IN_印度 4, server: 192.46.208.153, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _IN_印度 5, server: 192.46.208.153, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 4, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 5, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 6, server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 7, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 8, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 10, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 11, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 12, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 13, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 14, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 15, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 16, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 17, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 18, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 19, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 20, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _IN_印度 5, server: 192.46.208.153, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 3, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 4, server: 167.88.61.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 5, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 6, server: 167.88.62.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 馃嚭馃嚫US_1569, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 7, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 8, server: 38.91.101.11, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 3, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 21, server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 9, server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 10, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 11, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 4, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 5, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 12, server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 13, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 6, server: 198.57.27.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 7, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 14, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 15, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 16, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _AU_澳大利亚, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国 22, server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 23, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 9, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 10, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 11, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _AU_澳大利亚 2, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 24, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 12, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 25, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 13, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 14, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 15, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 16, server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 26, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 27, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 28, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 29, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 17, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 30, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 31, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 32, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 19, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 20, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 21, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 22, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 23, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 24, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 25, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 26, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 33, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 27, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 28, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 29, server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 30, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 9, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 10, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 11, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 13, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 17, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 15, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 16, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 17, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 18, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 19, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 20, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 18, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 19, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 20, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 21, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 21, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 22, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 23, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: "[01.22]👖TG频道：@Jsnzk 4", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 31, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 34, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 35, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 32, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 33, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 24, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 25, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 22, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 26, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 27, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 23, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 24, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 新加坡4, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 25, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: default_name, server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: _US_美国 36, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 37, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 日本 联通优选 A Cloudflare CDN, server: 104.24.172.156, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc01.testred.xyz}, udp: true}
-  - {name: _US_美国 38, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: default_name 2, server: 198.41.212.8, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: _US_美国 39, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 34, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 40, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 35, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 36, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港 移动优选 B Cloudflare CDN, server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc02.testred.xyz}, udp: true}
-  - {name: default_name 3, server: 198.41.212.2, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: 香港 联通优选 A Cloudflare CDN, server: 104.24.172.156, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc02.testred.xyz}, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk 5", server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 26, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 28, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 30, server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: <公益>Japan 02, server: 54.199.71.126, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -560,551 +412,401 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
       - 香港 (5000Mbps)
-      - 香港 移动优选 B Cloudflare CDN
-      - 香港 联通优选 A Cloudflare CDN
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1120,136 +822,99 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "*🇯🇵JP -517 TG@moon365free"
-      - "[01.22]👖TG频道：@Jsnzk"
-      - <公益>Japan 02
-      - "*🇯🇵JP -516 TG@moon365free"
-      - V106 日本>>上海*1.5
-      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
-      - <公益>Japan 01
-      - "[高速]日本🇯🇵-1x"
       - "[高速][解锁][负载均衡]🇭🇰香港-1.5x"
-      - "[01.22]👖TG频道：@Jsnzk 2"
+      - "*🇯🇵JP -516 TG@moon365free"
+      - "*🇯🇵JP -517 TG@moon365free"
+      - Relay_-🇯🇵JP_19
+      - "[高速][流媒体]🇸🇬新加坡2-0.8x"
+      - "[01.22]👖TG频道：@Jsnzk"
       - 日本1|BGP中转|Netflix
-      - V107 日本>>上海*1.5
+      - HK_728 |24.63Mb
+      - "[01.22]👖TG频道：@Jsnzk 2"
       - "[01.22]👖TG频道：@Jsnzk 3"
-      - 新加坡2
       - 香港 (5000Mbps)
+      - CN_390 |10.89Mb
       - _IN_印度
       - _IN_印度 2
-      - 新加坡4
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - V105 日本>>上海*1.5
-      - "*🇭🇰HK -510 TG@moon365free"
-      - "[高速]新加坡🇸🇬-1x"
+      - _IN_印度 3
+      - _IN_印度 4
       - _US_美国
       - _US_美国 2
-      - _IN_印度 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - India 2 (t.me/SurfShark_ALA)
-      - "[高速]美国🇺🇸-1x"
-      - _US_美国 3
-      - _IN_印度 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _IN_印度 5
+      - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
+      - 馃嚭馃嚫US_1569
+      - _CA_加拿大
+      - _CA_加拿大 2
       - _US_美国 7
-      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 8
+      - _CA_加拿大 3
       - _US_美国 9
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _GB_英国
       - _US_美国 10
       - _US_美国 11
+      - _CA_加拿大 4
+      - _GB_英国
+      - _CA_加拿大 5
+      - 美国(欢迎订阅Youtube破解资源君)
       - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 15
-      - _US_美国 16
-      - _US_美国 17
-      - _US_美国 18
-      - _CA_加拿大
-      - _US_美国 19
-      - _CA_加拿大 2
-      - _US_美国 20
-      - _GB_英国 2
-      - _CA_加拿大 3
-      - _US_美国 21
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - _AU_澳大利亚
-      - _US_美国 22
-      - _CA_加拿大 4
-      - _US_美国 23
-      - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
+      - _US_美国 14
+      - _US_美国 15
+      - _US_美国 16
+      - _AU_澳大利亚
+      - _AU_澳大利亚 2
       - _CA_加拿大 9
       - _CA_加拿大 10
       - _CA_加拿大 11
-      - _AU_澳大利亚 2
-      - _US_美国 24
       - _CA_加拿大 12
-      - _US_美国 25
       - _CA_加拿大 13
+      - _US_美国 17
       - _CA_加拿大 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 15
       - _CA_加拿大 16
-      - _US_美国 26
-      - _US_美国 27
-      - _US_美国 28
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - _US_美国 29
       - _CA_加拿大 17
-      - _US_美国 30
-      - _US_美国 31
-      - _US_美国 32
       - _CA_加拿大 18
       - _CA_加拿大 19
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - _CA_加拿大 20
-      - _GB_英国 3
+      - _US_美国 18
+      - _US_美国 19
+      - _US_美国 20
+      - _US_美国 21
       - _CA_加拿大 21
       - _CA_加拿大 22
+      - _GB_英国 2
       - _CA_加拿大 23
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - "[01.22]👖TG频道：@Jsnzk 4"
       - _CA_加拿大 24
       - _CA_加拿大 25
+      - _US_美国 22
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - _CA_加拿大 26
-      - _US_美国 33
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
       - _CA_加拿大 27
-      - _GB_英国 4
+      - _US_美国 23
+      - _US_美国 24
+      - _GB_英国 3
+      - 新加坡4
+      - _US_美国 25
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - default_name
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _US_美国 26
       - _CA_加拿大 28
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 29
       - _CA_加拿大 30
-      - _GB_英国 5
-      - "[01.22]👖TG频道：@Jsnzk 4"
-      - _CA_加拿大 31
-      - _US_美国 34
-      - _US_美国 35
-      - _CA_加拿大 32
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _CA_加拿大 33
-      - default_name
-      - _US_美国 36
-      - _US_美国 37
-      - 日本 联通优选 A Cloudflare CDN
-      - _US_美国 38
-      - default_name 2
-      - _US_美国 39
-      - _CA_加拿大 34
-      - _US_美国 40
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - 香港 移动优选 B Cloudflare CDN
-      - default_name 3
-      - 香港 联通优选 A Cloudflare CDN
-      - "[01.22]👖TG频道：@Jsnzk 5"
+      - _GB_英国 4
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - <公益>Japan 02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
