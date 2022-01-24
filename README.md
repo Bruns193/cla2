@@ -5,219 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: <公益>Japan 02, server: 54.199.71.126, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
   - {name: Relay_-🇯🇵JP_19, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: <公益>Singapore 01, server: 54.255.152.191, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
   - {name: <公益>Singapore 02, server: 54.179.167.214, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
-  - {name: HK_533, server: 104.208.89.168, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _IN_印度, server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 4, server: 172.104.207.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: <公益>Singapore 01, server: 54.255.152.191, port: 80, type: vmess, uuid: 8f40889c-1c25-43c0-b31b-c05f106ddf06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: net.dacy.cc}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _IN_印度 2, server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 5, server: 172.104.207.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _IN_印度, server: 172.105.35.151, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _IN_印度 2, server: 172.105.35.151, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 4, server: 172.104.207.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 5, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 印度(欢迎订阅Youtube破解资源君) 6, server: 172.104.207.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 拉脱维亚|01|流解, server: lv.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lv.tgproxy.wtf}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 38.68.134.190, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _AU_澳大利亚, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 134.195.196.128, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 134.195.196.128, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _CA_加拿大 3, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 4, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "[01.22]👖TG频道：@Jsnzk", server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 5, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: t1.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 2, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 6, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 134.195.196.128, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_-🇯🇵JP_15, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_2289, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: _CA_加拿大 7, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_-🇸🇬SG_26, server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_533, server: 104.208.89.168, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -236,55 +132,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -295,164 +165,86 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -468,55 +260,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - <公益>Japan 02
       - Relay_-🇯🇵JP_19
-      - <公益>Singapore 01
       - <公益>Singapore 02
-      - HK_533
       - 印度(欢迎订阅Youtube破解资源君)
+      - <公益>Singapore 01
       - 欧洲(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
-      - _IN_印度
-      - 印度(欢迎订阅Youtube破解资源君) 3
-      - 印度(欢迎订阅Youtube破解资源君) 4
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 印度(欢迎订阅Youtube破解资源君) 3
+      - _IN_印度
       - _IN_印度 2
+      - 印度(欢迎订阅Youtube破解资源君) 4
       - 印度(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
       - India 2 (t.me/SurfShark_ALA)
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 印度(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 拉脱维亚|01|流解
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
       - _AU_澳大利亚
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - HK_533
       - _CA_加拿大
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - _CA_加拿大 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大 3
-      - _CA_加拿大 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 9
-      - "[01.22]👖TG频道：@Jsnzk"
-      - _US_美国
-      - _CA_加拿大 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 欧洲(欢迎订阅Youtube破解资源君) 11
-      - _US_美国 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - Relay_-🇯🇵JP_15
-      - US_2289
-      - _CA_加拿大 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 16
-      - 欧洲(欢迎订阅Youtube破解资源君) 17
-      - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - Relay_-🇸🇬SG_26
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
