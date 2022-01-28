@@ -5,471 +5,231 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "「🇯🇵·JP」火龙果｜[直连]", server: 54.178.106.223, port: 80, type: vmess, uuid: 3bc02db5-9977-4846-908a-e659f8723626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 54.178.106.223}, udp: true}
-  - {name: 东京IPLC｜变态加速｜专线, server: dajbxhk.naikonode.top, port: 15010, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 柏林IPLC｜变态加速｜专线, server: dajbxhk.naikonode.top, port: 15008, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线, server: 13.75.106.127, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 2, server: 20.187.91.141, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
-  - {name: 东京IPLC｜变态加速｜专线 2, server: dajbxhk.naikonode.top, port: 15004, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 东京IPLC｜变态加速｜专线 3, server: dajbxhk.naikonode.top, port: 15007, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 柏林IPLC｜变态加速｜专线 2, server: dajbxhk.naikonode.top, port: 15005, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: 116.163.14.129, port: 26020, type: vmess, uuid: 38f621c4-6db4-3828-bcc5-5d3707b63a33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「🇯🇵」鬼书「直连⦻0.1」, server: tt6.tjvpn.top, port: 443, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt6.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: 日本 | 东京 -4, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 3, server: dajbxsg.naikonode.top, port: 15406, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 5次_50, server: cm03.paofuvip.xyz, port: 1098, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: 日本高速节点, server: 18.183.227.133, port: 10000, type: vmess, uuid: 3a254f5c-74f3-4c19-908e-0e16f17c8936, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国_阿伟科技-油管, server: 218.78.22.199, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5次_48, server: cm03.paofuvip.xyz, port: 1096, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
   - {name: 日本(绿头外网集团)(Public) 5, server: 106.75.233.91, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: "香港L3 专线N2 [8]_64", server: hk-l3.sd-yun.cc, port: 10144, type: vmess, uuid: d54239a5-d977-3555-b169-ad69a5fa0abb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "香港L3 专线N1 [8]_63", server: hk-l3.sd-yun.cc, port: 10143, type: vmess, uuid: d54239a5-d977-3555-b169-ad69a5fa0abb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港千兆-04号, server: 101.89.109.30, port: 10011, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "「🇸🇬·SG」波罗蜜｜[香港中转]", server: 20.24.80.18, port: 36511, type: vmess, uuid: 3bc02db5-9977-4846-908a-e659f8723626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.80.18}, udp: true}
-  - {name: 5次_49, server: cm03.paofuvip.xyz, port: 1097, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: 台湾绿头外网集团Public_194, server: 120.233.150.200, port: 50302, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 4, server: gz-1.ddns02.xyz, port: 15002, type: vmess, uuid: bbf5b153-89bd-353e-ba51-fc23994f9ef5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 日本|主|03|AWSJP|0.1x|流解, server: aws.jp.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.jp.tgproxy.wtf}, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 5, server: gz-1.ddns02.xyz, port: 15003, type: vmess, uuid: bbf5b153-89bd-353e-ba51-fc23994f9ef5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 「🇭🇰」仙书「直连⦻0.1」, server: az.tjvpn.top, port: 46294, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: az.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 6, server: dajbxsg.naikonode.top, port: 15403, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 江门 - 香港05【SS】, server: jm.v2bees.net, port: 45341, type: ss, cipher: chacha20-ietf-poly1305, password: aa167096-571e-4e28-8927-dc3d2ea83c72, udp: true}
-  - {name: "「🇰🇷·KR」哈密瓜｜[直连]", server: 13.125.75.43, port: 80, type: vmess, uuid: 3bc02db5-9977-4846-908a-e659f8723626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 13.125.75.43}, udp: true}
-  - {name: 5次_7, server: cm03.paofuvip.xyz, port: 1092, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 7, server: gz-1.ddns02.xyz, port: 15001, type: vmess, uuid: bbf5b153-89bd-353e-ba51-fc23994f9ef5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 江门 - 香港03【SS】, server: jm.v2bees.net, port: 45323, type: ss, cipher: chacha20-ietf-poly1305, password: aa167096-571e-4e28-8927-dc3d2ea83c72, udp: true}
-  - {name: 『1.0x』公益A不限速, server: freea.vproxy.us, port: 32559, type: trojan, password: 24e85e2f-a8bc-4d1c-a95f-2b21b8e36791, sni: freea.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: "「🇸🇬·SG」波罗蜜｜[直连]", server: 13.212.119.128, port: 80, type: vmess, uuid: 3bc02db5-9977-4846-908a-e659f8723626, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 13.212.119.128}, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 8, server: gz-1.ddns02.xyz, port: 15000, type: vmess, uuid: bbf5b153-89bd-353e-ba51-fc23994f9ef5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 5次_8, server: cm03.paofuvip.xyz, port: 1093, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: 江门 - 香港01【SS】, server: jm.v2bees.net, port: 45233, type: ss, cipher: chacha20-ietf-poly1305, password: aa167096-571e-4e28-8927-dc3d2ea83c72, udp: true}
-  - {name: 柏林IPLC｜变态加速｜专线 3, server: dajbxhk.naikonode.top, port: 15003, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 5次_47, server: cm03.paofuvip.xyz, port: 1095, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 21, server: 120.232.192.136, port: 3384, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: 5次_5, server: cm03.paofuvip.xyz, port: 1090, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: "台湾L3 专线N2[8]_18", server: tw-l3.sd-yun.cc, port: 25138, type: vmess, uuid: d54239a5-d977-3555-b169-ad69a5fa0abb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国|01|AWSKR|0.1x|移动起飞, server: aws.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.kr.tgproxy.wtf}, udp: true}
-  - {name: 岛主az中转日本高速节点, server: 20.24.80.18, port: 57872, type: vmess, uuid: 3a254f5c-74f3-4c19-908e-0e16f17c8936, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 5次_6, server: cm03.paofuvip.xyz, port: 1091, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 东京IPLC｜变态加速｜专线 4, server: dajbxhk.naikonode.top, port: 15002, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: youtube:8度科技_印度, server: 172.104.207.231, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 84.17.38.144, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT, udp: true}
-  - {name: 「🇸🇬」地书「直连⦻0.1」, server: tt1.tjvpn.top, port: 2022, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, sni: tt1.tjvpn.top, skip-cert-verify: true, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 172.104.207.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 印度(欢迎订阅Youtube破解资源君) 4, server: 172.104.207.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国_阿伟科技-油管, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_印度 2, server: 172.104.207.231, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_印度 3, server: 172.104.207.231, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_阿伟科技-油管 2, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港7|安徽入口|原生, server: ah.cm.01.211129.xyz, port: 46305, type: trojan, password: 7adb9b35-b586-4bd5-bc3b-9e494d1d80d8, sni: ah.cm.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 新加坡千兆-15号, server: 198.41.212.18, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 深港IPLC｜变态加速｜专线, server: 20.187.91.141, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
+  - {name: 深港IPLC｜变态加速｜专线 2, server: dajbxsg.naikonode.top, port: 15406, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
+  - {name: 深港IPLC｜变态加速｜专线 3, server: dajbxsg.naikonode.top, port: 15403, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 6622:umBmMua7YX9zoIyS, obfs-param: 022636622.microsoft.com, udp: true}
+  - {name: 深港IPLC｜变态加速｜专线 4, server: 13.75.106.127, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
   - {name: 台湾绿头外网集团Public_266, server: 120.233.150.200, port: 50301, type: ss, cipher: aes-128-gcm, password: 0f7fe3da-c8eb-48f8-a983-b10ed5edcab9, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: youtube:8度科技_印度, server: 172.104.207.231, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: youtube:8度科技_印度 2, server: 172.104.207.231, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_阿伟科技-油管, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: India 2 (t.me/SurfShark_ALA), server: 172.105.63.119, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 印度(欢迎订阅Youtube破解资源君) 4, server: 172.104.207.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_阿伟科技-油管 2, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 日本高速节点, server: 18.183.227.133, port: 10000, type: vmess, uuid: 3a254f5c-74f3-4c19-908e-0e16f17c8936, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 134.195.196.128, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 9, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 10, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 13, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 134.195.196.128, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 134.195.196.128, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: youtube:8度科技_加拿大, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_加拿大 2, server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_加拿大 3, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 38.86.135.27, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 25, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 26, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 14, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 27, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 台湾2|安徽入口|原生|NF, server: ah.cm.01.211129.xyz, port: 25800, type: trojan, password: 7adb9b35-b586-4bd5-bc3b-9e494d1d80d8, sni: ah.cm.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: 深港IPLC｜变态加速｜专线 9, server: gz-1.ddns02.xyz, port: 15006, type: vmess, uuid: bbf5b153-89bd-353e-ba51-fc23994f9ef5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 28, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 15, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 29, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 30, server: 134.195.196.200, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 21, server: 120.232.192.136, port: 3384, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 14, server: 134.195.196.128, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 15, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 17, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 18, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 19, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: youtube:8度科技_法国, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 20, server: 167.88.61.130, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 21, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 22, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 23, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 24, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -488,118 +248,58 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -607,378 +307,182 @@ proxy-groups:
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
       - 深港IPLC｜变态加速｜专线 3
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 深港IPLC｜变态加速｜专线 5
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 深港IPLC｜变态加速｜专线 8
-      - 江门 - 香港01【SS】
-      - 香港(绿头外网集团)(Public) 21
-      - 台湾L3 专线N2[8]_18
-      - 香港7|安徽入口|原生
       - 台湾绿头外网集团Public_266
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
+      - 香港(绿头外网集团)(Public) 21
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -994,118 +498,58 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇯🇵·JP」火龙果｜[直连]
-      - 东京IPLC｜变态加速｜专线
-      - 柏林IPLC｜变态加速｜专线
+      - 日本(绿头外网集团)(Public) 5
       - 深港IPLC｜变态加速｜专线
       - 深港IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 2
-      - 东京IPLC｜变态加速｜专线 3
-      - 柏林IPLC｜变态加速｜专线 2
-      - 新加坡(绿头外网集团)(Public) 2
-      - 「🇯🇵」鬼书「直连⦻0.1」
-      - 日本 | 东京 -4
       - 深港IPLC｜变态加速｜专线 3
-      - 5次_50
-      - 日本高速节点
-      - 中国_阿伟科技-油管
-      - 5次_48
-      - 日本(绿头外网集团)(Public) 5
-      - 香港L3 专线N2 [8]_64
-      - 香港L3 专线N1 [8]_63
-      - 香港千兆-04号
-      - 「🇸🇬·SG」波罗蜜｜[香港中转]
-      - 5次_49
-      - 台湾绿头外网集团Public_194
       - 深港IPLC｜变态加速｜专线 4
-      - 日本|主|03|AWSJP|0.1x|流解
-      - 深港IPLC｜变态加速｜专线 5
-      - 「🇭🇰」仙书「直连⦻0.1」
-      - 深港IPLC｜变态加速｜专线 6
-      - 江门 - 香港05【SS】
-      - 「🇰🇷·KR」哈密瓜｜[直连]
-      - 5次_7
-      - 深港IPLC｜变态加速｜专线 7
-      - 江门 - 香港03【SS】
-      - 『1.0x』公益A不限速
-      - 「🇸🇬·SG」波罗蜜｜[直连]
-      - 深港IPLC｜变态加速｜专线 8
-      - 5次_8
-      - 江门 - 香港01【SS】
-      - 柏林IPLC｜变态加速｜专线 3
-      - 5次_47
-      - 香港(绿头外网集团)(Public) 21
-      - 5次_5
-      - 台湾L3 专线N2[8]_18
-      - 韩国|01|AWSKR|0.1x|移动起飞
-      - 岛主az中转日本高速节点
-      - 5次_6
+      - 台湾绿头外网集团Public_266
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 东京IPLC｜变态加速｜专线 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - youtube:8度科技_印度
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 「🇸🇬」地书「直连⦻0.1」
       - 印度(欢迎订阅Youtube破解资源君)
       - 印度(欢迎订阅Youtube破解资源君) 2
       - 印度(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 印度(欢迎订阅Youtube破解资源君) 4
-      - 美国_阿伟科技-油管
+      - youtube:8度科技_印度
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - youtube:8度科技_印度 2
-      - youtube:8度科技_印度 3
-      - 美国_阿伟科技-油管 2
+      - 美国_阿伟科技-油管
       - India 2 (t.me/SurfShark_ALA)
+      - 印度(欢迎订阅Youtube破解资源君) 4
+      - 美国_阿伟科技-油管 2
       - 美国(欢迎订阅Youtube破解资源君)
-      - 香港7|安徽入口|原生
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 新加坡千兆-15号
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 日本高速节点
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 台湾绿头外网集团Public_266
       - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 7
       - 欧洲(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 9
       - 欧洲(欢迎订阅Youtube破解资源君) 10
-      - 美国(欢迎订阅Youtube破解资源君) 5
       - 欧洲(欢迎订阅Youtube破解资源君) 11
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 6
       - 欧洲(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 6
       - 美国(欢迎订阅Youtube破解资源君) 7
+      - 香港(绿头外网集团)(Public) 21
       - 欧洲(欢迎订阅Youtube破解资源君) 14
-      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 15
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 16
       - 欧洲(欢迎订阅Youtube破解资源君) 17
       - 欧洲(欢迎订阅Youtube破解资源君) 18
-      - youtube:8度科技_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 8
       - 欧洲(欢迎订阅Youtube破解资源君) 19
-      - 美国(欢迎订阅Youtube破解资源君) 11
+      - 美国(欢迎订阅Youtube破解资源君) 9
+      - youtube:8度科技_法国
       - 欧洲(欢迎订阅Youtube破解资源君) 20
       - 欧洲(欢迎订阅Youtube破解资源君) 21
-      - youtube:8度科技_加拿大 2
-      - youtube:8度科技_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - 美国(欢迎订阅Youtube破解资源君) 13
+      - 美国(欢迎订阅Youtube破解资源君) 10
       - 欧洲(欢迎订阅Youtube破解资源君) 22
       - 欧洲(欢迎订阅Youtube破解资源君) 23
       - 欧洲(欢迎订阅Youtube破解资源君) 24
-      - 欧洲(欢迎订阅Youtube破解资源君) 25
-      - 欧洲(欢迎订阅Youtube破解资源君) 26
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 27
-      - 台湾2|安徽入口|原生|NF
-      - 深港IPLC｜变态加速｜专线 9
-      - 欧洲(欢迎订阅Youtube破解资源君) 28
-      - 美国(欢迎订阅Youtube破解资源君) 15
-      - 欧洲(欢迎订阅Youtube破解资源君) 29
-      - 欧洲(欢迎订阅Youtube破解资源君) 30
-      - youtube:8度科技_法国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
