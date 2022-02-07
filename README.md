@@ -5,203 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: IN_YT16W_9_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: IN_YT16W_19_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: IN_YT16W_5_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: IN_YT16W_16_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-38.68.135.112-503, server: 38.68.135.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.75.137.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 【LV1】上海CN2-日本, server: cn2.unicorntech.shop, port: 17676, type: ss, cipher: aes-256-gcm, password: 22efb2e7-d417-4fb3-bfb7-9e62ac6aa038, udp: true}
+  - {name: "[CT/CM]香港 05", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43499:2612Helong328$, obfs-param: "", udp: true}
+  - {name: AWS-JP-Trojan, server: news.homeos.ml, port: 8080, type: trojan, password: HomeOS, sni: news.homeos.ml, skip-cert-verify: true, udp: true}
+  - {name: AWS-JP-Vmess, server: news.homeos.ml, port: 3306, type: vmess, uuid: 46701148-0696-46ea-9c12-8105c3aff383, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[CT/CM]香港 03", server: hzrelaycu.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43499:2612Helong328$, obfs-param: "", udp: true}
+  - {name: 中继 香港  1号, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: e4e53d0f-5c72-4499-a577-f35f160a885f, udp: true}
+  - {name: 「🇭🇰」人书「免流⦻1」, server: tv1.tjvpn.top, port: 80, type: vmess, uuid: 0cb2cd1f-870b-485c-914a-60aba39eed39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: "@nfeng6 【VIP】Singapore - 2082", server: 139.99.123.171, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 「🇸🇬」EMO | 龙鳞果 x5, server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 0f361c28-6d30-4233-8eac-64a0eeea5831, udp: true}
+  - {name: "[CT/CM]香港 11", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43499:2612Helong328$, obfs-param: "", udp: true}
+  - {name: "免费节点-FreeNode[不代表付费节点的速度和质量]", server: 18.163.198.22, port: 301, type: vmess, uuid: 1aa5f32c-16f2-3a7c-94d2-7a7e11893ff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-free.coco.hetun.asia}, udp: true}
   - {name: IN_YT16W_3_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: IN_YT16W_15_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: IN_YT16W_18_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US-167.88.63.74-019, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US-167.88.63.74-020, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US-38.121.43.71-049, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB-172.99.190.188-292, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: IN_YT16W_2_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: IN_YT16W_13_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: IN_YT16W_15_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: IN_YT16W_5_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "@nfeng6 【VIP】Singapore - 2927", server: 139.99.68.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: IN_YT16W_16_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: IN_YT16W_19_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: IN_YT16W_12_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 韩国|主|01|流解, server: hgcc.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgcc.jgw.tgproxy.wtf}, udp: true}
+  - {name: IN_YT16W_14_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
+  - {name: IN_YT16W_9_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: linode.jp.tgproxy.wtf}, udp: true}
-  - {name: US-38.68.134.191-027, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US-167.88.63.74-535, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: FR-149.202.82.172-114, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: FR-51.255.87.96-470, server: 51.255.87.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA-134.195.196.71-455, server: 134.195.196.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-134.195.196.200-003, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 38.75.137.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-134.195.196.227-004, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: GB-172.99.190.149-021, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-198.57.27.152-454, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.227-005, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US-38.68.134.191-529, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 115, server: 169.197.142.48, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: GB-172.99.190.39-022, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-198.57.27.184-011, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-198.57.27.184-010, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: GB-172.99.190.84-311, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US-38.121.43.71-507, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 169.197.142.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US-38.68.134.191-079, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA-134.195.196.71-007, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-167.88.63.61-536, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: FR-145.239.1.100-037, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "@nfeng6 Singapore - 592", server: 139.99.69.80, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 中继 香港  1号 2, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -220,207 +156,148 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - "[CT/CM]香港 05"
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - "[CT/CM]香港 11"
+      - 中继 香港  1号 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -436,51 +313,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - IN_YT16W_9_电报群@VPNPOOL
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - US-38.68.135.112-503
-      - 美国(欢迎订阅Youtube破解资源君)
+      - 【LV1】上海CN2-日本
+      - "[CT/CM]香港 05"
+      - AWS-JP-Trojan
+      - AWS-JP-Vmess
+      - "[CT/CM]香港 03"
+      - 中继 香港  1号
+      - 「🇭🇰」人书「免流⦻1」
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - 「🇸🇬」EMO | 龙鳞果 x5
+      - "[CT/CM]香港 11"
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
       - IN_YT16W_3_电报群@VPNPOOL
-      - IN_YT16W_15_电报群@VPNPOOL
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
       - IN_YT16W_18_电报群@VPNPOOL
-      - US-167.88.63.74-019
-      - US-167.88.63.74-020
-      - US-38.121.43.71-049
-      - CA-134.195.196.200-459
-      - GB-172.99.190.188-292
+      - IN_YT16W_2_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_13_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - IN_YT16W_16_电报群@VPNPOOL
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 韩国|主|01|流解
+      - IN_YT16W_14_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
       - 日本(欢迎订阅Youtube破解资源君)
-      - US-38.68.134.191-027
-      - US-167.88.63.74-535
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - CA-198.57.27.152-008
-      - FR-149.202.82.172-114
-      - FR-51.255.87.96-470
-      - CA-134.195.196.71-455
-      - CA-134.195.196.200-003
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.227-004
-      - GB-172.99.190.149-021
-      - CA-198.57.27.152-454
-      - CA-134.195.196.227-005
-      - US-38.68.134.191-529
-      - 美国(绿头外网集团)(Public) 115
-      - GB-172.99.190.39-022
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - GB-172.99.190.84-311
-      - US-38.121.43.71-507
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US-38.68.134.191-079
-      - CA-134.195.196.71-007
-      - US-167.88.63.61-536
-      - FR-145.239.1.100-037
+      - "@nfeng6 Singapore - 592"
+      - 中继 香港  1号 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
