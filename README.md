@@ -5,167 +5,203 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 台湾 03, server: 122.9.214.44, port: 8365, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 台湾 04, server: 122.9.101.107, port: 8370, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 台湾 01, server: 122.9.214.44, port: 8355, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 台湾 02, server: 122.9.214.44, port: 8360, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 台湾 05, server: 122.9.101.107, port: 8375, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 香港 01, server: 122.9.214.44, port: 8300, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 香港 08, server: 122.9.101.107, port: 8335, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 香港 02, server: 122.9.214.44, port: 8305, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 香港 03, server: 122.9.214.44, port: 8310, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 新加坡 01, server: 122.9.214.44, port: 8380, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 香港 06, server: 122.9.101.107, port: 8325, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: 香港 10, server: 122.9.214.44, port: 8345, type: ssr, cipher: aes-128-ctr, password: Amytelecom2020, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33357:eqge3VQ225, obfs-param: "", udp: true}
-  - {name: "@nfeng6 【VIP】Singapore 9", server: 139.99.68.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: IN_YT16W_15_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: IN_YT16W_18_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: IN_YT16W_9_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: linode.jp.tgproxy.wtf}, udp: true}
   - {name: IN_YT16W_19_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: IN_YT16W_16_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: IN_YT16W_3_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 115, server: 169.197.142.48, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: IN_YT16W_5_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.75.137.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 38.75.137.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_69, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.43-457, server: 134.195.196.43, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: IN_YT16W_16_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-38.68.135.112-503, server: 38.68.135.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.75.137.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: IN_YT16W_3_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: IN_YT16W_15_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: IN_YT16W_18_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US-167.88.63.74-019, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-167.88.63.74-020, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.121.43.71-049, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB-172.99.190.188-292, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: linode.jp.tgproxy.wtf}, udp: true}
+  - {name: US-38.68.134.191-027, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US-167.88.63.74-535, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_110, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR-149.202.82.172-114, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: FR-51.255.87.96-470, server: 51.255.87.96, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_62, server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-134.195.196.71-455, server: 134.195.196.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.200-003, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 38.75.137.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.227-004, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB-172.99.190.149-021, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-198.57.27.152-454, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-134.195.196.227-005, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US-38.68.134.191-529, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 115, server: 169.197.142.48, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: GB-172.99.190.39-022, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-198.57.27.184-011, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-198.57.27.184-010, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB-172.99.190.84-311, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-38.121.43.71-507, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 169.197.142.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-38.68.134.191-079, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA-134.195.196.71-007, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US-167.88.63.61-536, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: FR-145.239.1.100-037, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,182 +220,207 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 香港 06
-      - 香港 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -375,42 +436,51 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾 03
-      - 台湾 04
-      - 台湾 01
-      - 台湾 02
-      - 台湾 05
-      - 香港 01
-      - 香港 08
-      - 香港 02
-      - 香港 03
-      - 新加坡 01
-      - 香港 06
-      - 香港 10
-      - "@nfeng6 【VIP】Singapore 9"
-      - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_18_电报群@VPNPOOL
       - IN_YT16W_9_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_3_电报群@VPNPOOL
-      - 美国(绿头外网集团)(Public) 115
       - IN_YT16W_5_电报群@VPNPOOL
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - IN_YT16W_16_电报群@VPNPOOL
+      - US-89.208.252.110-499
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US-38.68.135.112-503
       - 美国(欢迎订阅Youtube破解资源君)
+      - IN_YT16W_3_电报群@VPNPOOL
+      - IN_YT16W_15_电报群@VPNPOOL
       - 美国(欢迎订阅Youtube破解资源君) 2
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_69
-      - CA-134.195.196.43-457
+      - IN_YT16W_18_电报群@VPNPOOL
+      - US-167.88.63.74-019
+      - US-167.88.63.74-020
+      - US-38.121.43.71-049
+      - CA-134.195.196.200-459
+      - GB-172.99.190.188-292
+      - 日本(欢迎订阅Youtube破解资源君)
+      - US-38.68.134.191-027
+      - US-167.88.63.74-535
       - 美国(欢迎订阅Youtube破解资源君) 4
-      - ZZ_110
+      - CA-198.57.27.152-008
+      - FR-149.202.82.172-114
       - FR-51.255.87.96-470
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - US_62
+      - CA-134.195.196.71-455
+      - CA-134.195.196.200-003
       - 美国(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - CA-134.195.196.227-004
+      - GB-172.99.190.149-021
+      - CA-198.57.27.152-454
+      - CA-134.195.196.227-005
+      - US-38.68.134.191-529
+      - 美国(绿头外网集团)(Public) 115
+      - GB-172.99.190.39-022
+      - CA-198.57.27.184-011
+      - CA-198.57.27.184-010
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - GB-172.99.190.84-311
+      - US-38.121.43.71-507
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - US-38.68.134.191-079
+      - CA-134.195.196.71-007
+      - US-167.88.63.61-536
+      - FR-145.239.1.100-037
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
