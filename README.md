@@ -6,23 +6,49 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 【LV1】上海CN2-日本, server: cn2.unicorntech.shop, port: 17676, type: ss, cipher: aes-256-gcm, password: 22efb2e7-d417-4fb3-bfb7-9e62ac6aa038, udp: true}
-  - {name: AWS-JP-Trojan, server: news.homeos.ml, port: 8080, type: trojan, password: HomeOS, sni: news.homeos.ml, skip-cert-verify: true, udp: true}
-  - {name: 中继 香港  1号, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: e4e53d0f-5c72-4499-a577-f35f160a885f, udp: true}
-  - {name: 中继 香港  1号 2, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
-  - {name: IN_YT16W_5_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: IN_YT16W_12_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "免费节点-FreeNode[不代表付费节点的速度和质量]", server: 18.163.198.22, port: 301, type: vmess, uuid: 1aa5f32c-16f2-3a7c-94d2-7a7e11893ff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-free.coco.hetun.asia}, udp: true}
-  - {name: IN_YT16W_19_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: IN_YT16W_13_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: IN_YT16W_16_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: IN_YT16W_9_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: IN_YT16W_18_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 中继 香港 3号, server: az.xiaoyizi.in, port: 10093, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
   - {name: 韩国|主|01|流解, server: hgcc.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgcc.jgw.tgproxy.wtf}, udp: true}
-  - {name: IN_YT16W_2_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 中继 香港 2号, server: az.xiaoyizi.in, port: 10096, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
+  - {name: 中继 香港 3号 2, server: az.xiaoyizi.in, port: 10093, type: ss, cipher: aes-256-gcm, password: e4e53d0f-5c72-4499-a577-f35f160a885f, udp: true}
+  - {name: 中继 香港  1号, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: dba6227e-9b23-4399-b4e1-e5e4bba3f37b, udp: true}
+  - {name: 中继 香港  1号 2, server: az.xiaoyizi.in, port: 10094, type: ss, cipher: aes-256-gcm, password: e4e53d0f-5c72-4499-a577-f35f160a885f, udp: true}
+  - {name: 新加坡04, server: zz09.mcddns02.com, port: 18504, type: ssr, cipher: chacha20-ietf, password: GYAzB9, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 20071:JmauZHTc, obfs-param: 3f7ce20071.microsoft.com, udp: true}
+  - {name: 韩国|02|AWSKR|0.1x|移动起飞, server: aws1.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws1.kr.tgproxy.wtf}, udp: true}
+  - {name: "@nfeng6 SG_1516", server: 139.162.52.177, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: IN_YT16W_16_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "@nfeng6 SG_1517", server: 139.162.52.177, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: IN_YT16W_13_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "@nfeng6 Singapore - 592", server: 139.99.69.80, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: IN_YT16W_15_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: IN_YT16W_14_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "@nfeng6 【VIP】Singapore - 2082", server: 139.99.123.171, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: IN_YT16W_19_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: IN_YT16W_12_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 192.46.209.17, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "免费节点-FreeNode[不代表付费节点的速度和质量]", server: 18.163.198.22, port: 301, type: vmess, uuid: 1aa5f32c-16f2-3a7c-94d2-7a7e11893ff2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-free.coco.hetun.asia}, udp: true}
+  - {name: IN_YT16W_18_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "@nfeng6 【VIP】Singapore - 2927", server: 139.99.68.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
+  - {name: IN_YT16W_9_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "@nfeng6 JP_1354", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: IN_YT16W_2_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: IN_YT16W_5_电报群@VPNPOOL, server: in-vpnpool.freexiazai.ml, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: FR-149.202.82.172-114, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB-172.99.190.188-292, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB-172.99.190.205-100, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _05, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: AppleCloud | 美国 05, server: 43.moons.team, port: 8088, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 43.moons.team, skip-cert-verify: true, udp: true}
+  - {name: "*🇺🇸US -172 T.me/moon365free", server: www.huojian-vip1.com, port: 10500, type: ss, cipher: chacha20-ietf-poly1305, password: 4f86eefa-1c0f-422e-8244-078843bd1a8a, udp: true}
+  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB-172.99.190.39-022, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_89, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_65, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_98, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_90, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB-172.99.190.149-474, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_86, server: 38.114.114.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "", server: v1.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_119, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: US-38.68.134.191-027, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -30,46 +56,98 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -77,23 +155,49 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -113,27 +217,56 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 中继 香港 3号
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
       - 🔰 节点选择
@@ -143,46 +276,98 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -190,23 +375,49 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,23 +434,49 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 【LV1】上海CN2-日本
-      - AWS-JP-Trojan
+      - 中继 香港 3号
+      - 韩国|主|01|流解
+      - 中继 香港 2号
+      - 中继 香港 3号 2
       - 中继 香港  1号
       - 中继 香港  1号 2
-      - IN_YT16W_5_电报群@VPNPOOL
-      - IN_YT16W_12_电报群@VPNPOOL
-      - 免费节点-FreeNode[不代表付费节点的速度和质量]
-      - IN_YT16W_19_电报群@VPNPOOL
-      - IN_YT16W_13_电报群@VPNPOOL
+      - 新加坡04
+      - 韩国|02|AWSKR|0.1x|移动起飞
+      - "@nfeng6 SG_1516"
       - IN_YT16W_16_电报群@VPNPOOL
-      - IN_YT16W_9_电报群@VPNPOOL
-      - US-89.208.252.110-499
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - IN_YT16W_18_电报群@VPNPOOL
-      - 韩国|主|01|流解
-      - IN_YT16W_2_电报群@VPNPOOL
+      - "@nfeng6 SG_1517"
+      - IN_YT16W_13_电报群@VPNPOOL
+      - "@nfeng6 Singapore - 592"
       - IN_YT16W_15_电报群@VPNPOOL
-      - IN_YT16W_14_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2082"
+      - IN_YT16W_19_电报群@VPNPOOL
+      - IN_YT16W_12_电报群@VPNPOOL
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 免费节点-FreeNode[不代表付费节点的速度和质量]
+      - IN_YT16W_18_电报群@VPNPOOL
+      - "@nfeng6 【VIP】Singapore - 2927"
+      - US-89.208.252.110-499
+      - IN_YT16W_9_电报群@VPNPOOL
+      - "@nfeng6 JP_1354"
+      - IN_YT16W_2_电报群@VPNPOOL
+      - IN_YT16W_5_电报群@VPNPOOL
+      - FR-149.202.82.172-114
+      - GB-172.99.190.188-292
+      - GB-172.99.190.205-100
+      - _05
+      - AppleCloud | 美国 05
+      - "*🇺🇸US -172 T.me/moon365free"
+      - GB-172.99.190.205-473
+      - GB-172.99.190.39-022
+      - US_89
+      - US_65
+      - US_98
+      - US_90
+      - GB-172.99.190.149-474
+      - US_86
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_119
+      - US-38.68.134.191-027
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
