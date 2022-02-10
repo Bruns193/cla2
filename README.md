@@ -6,76 +6,34 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "HKG/香港 - 1[AZ][N|D ]", server: 104.208.112.174, port: 443, type: trojan, password: 3bcac755-6fb1-44fc-95c3-2c503ff9632e, skip-cert-verify: true, udp: true}
-  - {name: 韩国|02|AWSKR|0.1x|移动起飞, server: aws1.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws1.kr.tgproxy.wtf}, udp: true}
-  - {name: 新加坡|主|04|AWS|0.1x|流解, server: aws1.sgp.tgproxy.wtf, port: 8899, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws1.sgp.tgproxy.wtf}, udp: true}
-  - {name: "@nfeng6 SG_1517", server: 139.162.52.177, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 韩国|主|01|流解, server: hgcc.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgcc.jgw.tgproxy.wtf}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _SG_新加坡_高速_17, server: 45.118.133.51, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US-38.68.134.191-529, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_84, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: _SG_新加坡_FMYC-2022_02_08_70, server: 139.162.52.177, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 5, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: gz1.52168.xyz:1109, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
+  - {name: 54.70.54.34:8080, server: 54.70.54.34, port: 8080, type: ssr, cipher: aes-256-cfb, password: vGndzdmPB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: GB-172.99.190.205-100, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: GB-172.99.190.149-474, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_76, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_111, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_22, server: t4.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: US_77, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US-38.107.226.48-025, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-134.195.196.43-457, server: 134.195.196.43, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US-38.107.226.48-1133, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: GB-172.99.190.149-021, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US-38.121.43.71-507, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: DE-139.162.132.116-479, server: 139.162.132.116, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: US_70, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _SG_新加坡_高速_32, server: 45.118.133.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_50, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_105, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_106, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.227-005, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_53, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_69, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_90, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_65, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 北美地区  25, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 北美地区  9, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_14, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 38.75.137.66, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq - 北美地区  1, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "@nfeng6 【VIP】Singapore - 2082", server: 139.99.123.171, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_美国_FMYC-2022_02_08_113, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_109, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 北美地区  13, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_12, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.193-460, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 北美地区  2, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_101, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA-134.195.196.227-004, server: 134.195.196.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-134.195.196.147-013, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA_10, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: GB_32, server: 212.38.189.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_67, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-198.57.27.184-011, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-198.57.27.184-010, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _SG_新加坡_高速_18, server: 45.118.133.51, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: US-167.88.63.74-452, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB_34, server: 212.38.189.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA-134.195.196.71-007, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_76, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US-38.121.43.71-507, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_10, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA-198.57.27.184-011, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_105, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA-134.195.196.147-013, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_111, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_14, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 5, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 北美地区  2, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_22, server: t4.ssrsub.com, port: 8443, type: trojan, password: 535c9eef-40a3-4767-9253-706b0b128ed5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: CA-198.57.27.184-010, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: CA_16, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "@nfeng6 Singapore - 592", server: 139.99.69.80, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_89, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 916251fa-6aa5-459d-b7a1-968b49a01e4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: GB-172.99.190.205-100, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _05, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 142.202.48.77, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: DE-139.162.132.116-479, server: 139.162.132.116, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_69, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-134.195.196.71-007, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 北美地区  1, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_84, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 535c9eef-40a3-4767-9253-706b0b128ed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -83,152 +41,68 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -236,76 +110,34 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -325,76 +157,34 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -407,152 +197,68 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -560,76 +266,34 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -646,76 +310,34 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HKG/香港 - 1[AZ][N|D ]
-      - 韩国|02|AWSKR|0.1x|移动起飞
-      - 新加坡|主|04|AWS|0.1x|流解
-      - "@nfeng6 SG_1517"
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 韩国|主|01|流解
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - _SG_新加坡_高速_17
-      - US-38.68.134.191-529
-      - Relay_🇺🇸US-🇺🇸US_84
-      - _SG_新加坡_FMYC-2022_02_08_70
-      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - gz1.52168.xyz:1109
+      - 54.70.54.34:8080
+      - GB-172.99.190.205-100
       - GB-172.99.190.149-474
-      - US_76
-      - ZZ_111
-      - Relay_🇨🇦CA-🇨🇦CA_22
-      - US_77
-      - US-38.107.226.48-025
-      - CA-134.195.196.43-457
-      - US-38.107.226.48-1133
       - GB-172.99.190.149-021
-      - US-38.121.43.71-507
+      - 美国(欢迎订阅Youtube破解资源君)
+      - DE-139.162.132.116-479
       - US_70
       - GB-172.99.190.205-473
-      - _SG_新加坡_高速_32
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - US_50
-      - CA-198.57.27.152-008
-      - ZZ_105
-      - ZZ_106
-      - CA-134.195.196.227-005
-      - US_53
-      - US_69
-      - US_90
-      - US_65
-      - CA-134.195.196.147-462
-      - CA-134.195.196.200-459
-      - github.com/freefq - 北美地区  25
-      - github.com/freefq - 北美地区  9
-      - CA_14
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - github.com/freefq - 北美地区  1
-      - "@nfeng6 【VIP】Singapore - 2082"
-      - _US_美国_FMYC-2022_02_08_113
-      - ZZ_109
-      - github.com/freefq - 北美地区  13
-      - CA_12
-      - CA-134.195.196.193-460
-      - github.com/freefq - 北美地区  2
-      - ZZ_101
-      - CA-134.195.196.227-004
-      - CA-134.195.196.147-013
-      - CA_10
-      - GB_32
-      - US_67
-      - CA-198.57.27.184-011
-      - CA-198.57.27.184-010
-      - _SG_新加坡_高速_18
       - US-167.88.63.74-452
-      - GB_34
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - CA-134.195.196.71-007
+      - US_76
+      - US-38.121.43.71-507
+      - CA_10
+      - CA-198.57.27.184-011
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - ZZ_105
+      - CA-134.195.196.147-013
+      - ZZ_111
+      - CA_14
+      - github.com/freefq - 美国华盛顿Cogent通信公司 5
+      - github.com/freefq - 北美地区  2
+      - Relay_🇨🇦CA-🇨🇦CA_22
+      - CA-198.57.27.184-010
       - CA_16
-      - "@nfeng6 Singapore - 592"
-      - Relay_🇺🇸US-🇺🇸US_89
-      - GB-172.99.190.205-100
-      - _05
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE-139.162.132.116-479
-      - 美国(欢迎订阅Youtube破解资源君) 7
+      - US_69
+      - CA-134.195.196.71-007
+      - github.com/freefq - 北美地区  1
+      - Relay_🇺🇸US-🇺🇸US_84
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
