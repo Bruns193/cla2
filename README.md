@@ -5,99 +5,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK Native 03, server: 120.197.85.73, port: 2042, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
   - {name: HK Native 06, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: HK Native 03, server: 120.197.85.73, port: 2042, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
   - {name: HK Native 05, server: 120.197.85.73, port: 2044, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: linode.jp.tgproxy.wtf}, udp: true}
+  - {name: 印度_YouTube：8度科技, server: 172.104.206.165, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: V1-香港 多台负载均衡 中继C | 1.5x, server: in03.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 印度_YouTube：8度科技, server: 172.105.54.131, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 印度_YouTube：8度科技 2, server: 172.104.206.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 印度_YouTube：8度科技 3, server: 172.104.206.165, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 英国_YouTube：8度科技, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 印度_YouTube：8度科技 4, server: 172.104.206.165, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国_YouTube：8度科技, server: 167.88.63.28, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 印度_YouTube：8度科技 3, server: 172.104.206.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度_YouTube：8度科技 4, server: 172.104.206.165, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 印度_YouTube：8度科技 5, server: 172.105.54.131, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.75.137.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 2, server: 167.88.63.28, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国_YouTube：8度科技 3, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_YouTube：8度科技 4, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 加拿大_YouTube：8度科技, server: 198.57.27.152, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 5, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 6, server: 169.197.141.15, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_YouTube：8度科技 2, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_YouTube：8度科技 2, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技 7, server: 142.202.48.34, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国_YouTube：8度科技, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_YouTube：8度科技 8, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国_YouTube：8度科技 2, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 英国_YouTube：8度科技 3, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国_YouTube：8度科技 4, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_YouTube：8度科技 9, server: 167.88.63.28, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 英国_YouTube：8度科技 5, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国_YouTube：8度科技 6, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_YouTube：8度科技 10, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技 11, server: 167.88.62.34, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国_YouTube：8度科技 12, server: 167.88.63.28, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_YouTube：8度科技 13, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 3, server: 198.57.27.152, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大_YouTube：8度科技 4, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国_YouTube：8度科技 7, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_YouTube：8度科技 5, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_YouTube：8度科技 6, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国_YouTube：8度科技 8, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_YouTube：8度科技 7, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_YouTube：8度科技 14, server: 167.88.63.28, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大_YouTube：8度科技 8, server: 198.57.27.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大_YouTube：8度科技 9, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大_YouTube：8度科技 10, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_YouTube：8度科技 11, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 15, server: 167.88.63.74, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_YouTube：8度科技 12, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大_YouTube：8度科技 13, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 14, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_YouTube：8度科技 16, server: 666.lyzghim.com, port: 443, type: vmess, uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 666.lyzghim.com}, udp: true}
+  - {name: 加拿大_YouTube：8度科技 15, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_YouTube：8度科技 17, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国_YouTube：8度科技 9, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技 18, server: 167.88.63.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 加拿大_YouTube：8度科技 16, server: 198.57.27.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大_YouTube：8度科技 17, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国_YouTube：8度科技, server: 145.239.1.100, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 英国_YouTube：8度科技 10, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_YouTube：8度科技 18, server: 198.57.27.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大_YouTube：8度科技 19, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大_YouTube：8度科技 20, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_YouTube：8度科技 21, server: 198.57.27.241, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技 19, server: 169.197.141.109, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_YouTube：8度科技 22, server: 134.195.196.81, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国_YouTube：8度科技 2, server: 145.239.1.100, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_YouTube：8度科技 23, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_YouTube：8度科技 20, server: 167.88.62.34, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,105 +312,301 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继D | 1.5x
       - V1-香港 多台负载均衡 中继C | 1.5x
+      - V1-香港 多台负载均衡 中继D | 1.5x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,25 +622,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK Native 03
       - HK Native 06
+      - HK Native 03
       - HK Native 05
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 日本(欢迎订阅Youtube破解资源君)
-      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 英国_YouTube：8度科技
       - 印度_YouTube：8度科技 4
+      - 印度_YouTube：8度科技 5
       - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
-      - 加拿大_YouTube：8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 加拿大_YouTube：8度科技
+      - 美国_YouTube：8度科技 5
+      - 美国_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 7
+      - 英国_YouTube：8度科技
+      - 美国_YouTube：8度科技 8
+      - 英国_YouTube：8度科技 2
+      - 英国_YouTube：8度科技 3
+      - 英国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 9
+      - 英国_YouTube：8度科技 5
+      - 英国_YouTube：8度科技 6
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 12
+      - 美国_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 3
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大_YouTube：8度科技 6
+      - 英国_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 14
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 11
+      - 美国_YouTube：8度科技 15
+      - 加拿大_YouTube：8度科技 12
+      - 加拿大_YouTube：8度科技 13
+      - 加拿大_YouTube：8度科技 14
+      - 美国_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 15
+      - 美国_YouTube：8度科技 17
+      - 英国_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 18
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 加拿大_YouTube：8度科技 16
+      - 加拿大_YouTube：8度科技 17
+      - 法国_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 英国_YouTube：8度科技 10
+      - 加拿大_YouTube：8度科技 18
+      - 加拿大_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 20
+      - 加拿大_YouTube：8度科技 21
+      - 美国_YouTube：8度科技 19
+      - 加拿大_YouTube：8度科技 22
+      - 法国_YouTube：8度科技 2
+      - 加拿大_YouTube：8度科技 23
+      - 美国_YouTube：8度科技 20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
