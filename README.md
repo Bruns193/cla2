@@ -5,211 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 139.226.78.178, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
-  - {name: HK Native 06, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: vpnpool-JP, server: 120.232.215.196, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-JP 2, server: 120.232.214.247, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-SG, server: 120.232.214.247, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-SG 2, server: 120.232.214.247, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
   - {name: HK Native 03, server: 120.197.85.73, port: 2042, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: HK Native 01, server: 120.197.85.73, port: 2040, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: Lil 香港07 - nf | IEPL | 倍率:1.5, server: hee4bieh.nodeinfo.icu, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110415:t9uSc4, obfs-param: aa84e110415.www.gov.hk, udp: true}
-  - {name: vpnpool-SG 3, server: 120.232.214.247, port: 1004, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
+  - {name: HK Native 06, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
   - {name: HK Native 05, server: 120.197.85.73, port: 2044, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: vpnpool-新北Hinet, server: 120.232.215.251, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
+  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: linode.jp.tgproxy.wtf}, udp: true}
   - {name: V1-香港 多台负载均衡 中继C | 1.5x, server: in03.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: vpnpool-SG 4, server: 120.232.214.247, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 韩国(欢迎订阅Youtube破解资源君), server: 3.34.196.241, port: 8880, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: kr-group-a-direct.node001.xyz}, udp: true}
-  - {name: 印度_YouTube：8度科技, server: 172.104.206.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 印度_YouTube：8度科技, server: 172.105.54.131, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: 印度_YouTube：8度科技 2, server: 172.104.206.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 印度_YouTube：8度科技 3, server: 172.104.206.165, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 印度_YouTube：8度科技 4, server: 45.79.123.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 印度_YouTube：8度科技 5, server: 45.79.123.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 印度_YouTube：8度科技 6, server: 45.79.123.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 印度_YouTube：8度科技 7, server: 45.79.123.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 印度_YouTube：8度科技 8, server: 45.79.123.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 印度_YouTube：8度科技 9, server: 45.79.123.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 印度_YouTube：8度科技 10, server: 45.79.123.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 139.99.123.171, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 印度_YouTube：8度科技 11, server: 45.79.123.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 印度_YouTube：8度科技 12, server: 45.79.123.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 印度_YouTube：8度科技 13, server: 45.79.123.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.42.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 印度_YouTube：8度科技 14, server: 45.79.123.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 印度_YouTube：8度科技 15, server: 172.104.206.165, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 印度_YouTube：8度科技 16, server: 172.105.54.131, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 38.75.137.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: linode.jp.tgproxy.wtf}, udp: true}
   - {name: 英国_YouTube：8度科技, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_YouTube：8度科技, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国_YouTube：8度科技 2, server: 167.88.63.28, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 印度_YouTube：8度科技 4, server: 172.104.206.165, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_YouTube：8度科技, server: 167.88.63.28, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 加拿大_YouTube：8度科技, server: 198.57.27.152, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: vpnpool-香港, server: 183.232.56.176, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 196103:3iK6Ik, obfs-param: t.me/vpnhat, udp: true}
-  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 香港01|三网优化|1x, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awshk, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技 2, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.75.137.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -228,222 +116,105 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-新北Hinet
-      - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-香港
       - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
+      - V1-香港 多台负载均衡 中继C | 1.5x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -459,53 +230,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - HK Native 06
-      - vpnpool-JP
-      - vpnpool-JP 2
-      - vpnpool-SG
-      - vpnpool-SG 2
       - HK Native 03
-      - HK Native 01
-      - Lil 香港07 - nf | IEPL | 倍率:1.5
-      - vpnpool-SG 3
+      - HK Native 06
       - HK Native 05
-      - vpnpool-新北Hinet
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 日本(欢迎订阅Youtube破解资源君)
       - V1-香港 多台负载均衡 中继C | 1.5x
-      - vpnpool-SG 4
-      - 韩国(欢迎订阅Youtube破解资源君)
       - 印度_YouTube：8度科技
       - 印度_YouTube：8度科技 2
       - 印度_YouTube：8度科技 3
-      - 印度_YouTube：8度科技 4
-      - 印度_YouTube：8度科技 5
-      - 印度_YouTube：8度科技 6
-      - 印度_YouTube：8度科技 7
-      - 印度_YouTube：8度科技 8
-      - 印度_YouTube：8度科技 9
-      - 印度_YouTube：8度科技 10
-      - 加拿大(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 11
-      - 印度_YouTube：8度科技 12
-      - 印度_YouTube：8度科技 13
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 印度_YouTube：8度科技 14
-      - 印度_YouTube：8度科技 15
-      - 印度_YouTube：8度科技 16
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
       - 英国_YouTube：8度科技
+      - 印度_YouTube：8度科技 4
+      - 美国(欢迎订阅Youtube破解资源君)
       - 美国_YouTube：8度科技
+      - 加拿大_YouTube：8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君) 2
       - 美国_YouTube：8度科技 2
-      - 加拿大_YouTube：8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 3
       - 美国(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - vpnpool-香港
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 香港01|三网优化|1x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
