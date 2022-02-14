@@ -5,123 +5,315 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 111.28.3.117, port: 60010, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: 111.28.3.117, port: 60018, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 111.28.3.117, port: 60019, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: 日本(欢迎订阅Youtube破解资源君), server: 141.164.38.135, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 香港阿伟科技@TG/油管 3, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳门阿伟科技@TG/油管, server: polocloudmc.ednovas.net, port: 41214, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22polocloudmc.ednovas.net%22%7D"}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: greencloud.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: greencloud.jp.tgproxy.wtf}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 2, server: dali-hz.8n4t.cn, port: 37211, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 7, server: 13.208.193.219, port: 18380, type: ss, cipher: chacha20-ietf-poly1305, password: 8fa3ddf3-c258-4643-9a7c-69fff624c86a, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: tw01.lilyco.cc, port: 59801, type: vmess, uuid: a209854a-30ed-4887-e7d2-70c7e45f814c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw01.lilyco.cc}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 2, server: cslt.sf66.cf, port: 42923, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管, server: aws.xjp.tgproxy.wtf, port: 8888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.xjp.tgproxy.wtf}, udp: true}
+  - {name: 澳门(绿头外网集团)(Public), server: polocloudmc.ednovas.net, port: 41214, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22%257B%2522Host%2522:%2522polocloudmc.ednovas.net%2522%257D%22%7D"}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 3, server: cslt.sf66.cf, port: 56983, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tfn.tw.tgproxy.wtf}, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lin-sg.tgproxy.wtf}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public), server: 3.35.206.85, port: 8080, type: vmess, uuid: bec0f7e4-500f-4746-8e22-ce1430e51bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%223.35.206.85%22%7D"}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 4, server: tfn.tw.tgproxy.wtf, port: 8888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tfn.tw.tgproxy.wtf}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 5, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 6, server: 139.226.78.178, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
   - {name: 印度_YouTube：8度科技, server: 172.104.206.165, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 香港阿伟科技@TG/油管 4, server: 104.208.64.48, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 印度_YouTube：8度科技 2, server: 172.104.206.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 172.104.207.231, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 印度_YouTube：8度科技 3, server: 172.104.206.165, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 香港阿伟科技@TG/油管 5, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度_YouTube：8度科技 4, server: 172.104.206.165, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管, server: tunnel-sg-a-01.xncloud.xyz, port: 107, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-sg-a-01.xncloud.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 英国_YouTube：8度科技, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 香港阿伟科技@TG/油管 6, server: 102.wowogg.cyou, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: cc-us-01.zimu.cf, port: 443, type: vmess, uuid: c1a36326-cac2-47f5-dd3c-e0bd0e3554da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zimuheikeji, ws-headers: {Host: cc-us-01.zimu.cf}, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 2, server: 111.28.3.117, port: 60011, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 172.104.207.231, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_YouTube：8度科技, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 9, server: 3.112.20.77, port: 8080, type: vmess, uuid: bec0f7e4-500f-4746-8e22-ce1430e51bcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%223.112.20.77%22%7D"}, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: styd.sf66.cf, port: 50741, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: styd.sf66.cf}, udp: true}
+  - {name: 英国_YouTube：8度科技, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: 38.75.136.102, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _FR_法国, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_YouTube：8度科技, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_YouTube：8度科技 2, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_YouTube：8度科技 3, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_YouTube：8度科技 4, server: 167.88.63.28, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_YouTube：8度科技 5, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_YouTube：8度科技 6, server: 167.88.63.28, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国阿伟科技@TG/油管 5, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大_YouTube：8度科技, server: 198.57.27.152, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 7, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 6, server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大(欢迎订阅Youtube破解资源君), server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_YouTube：8度科技 2, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 7, server: 169.197.141.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_YouTube：8度科技 8, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国阿伟科技@TG/油管 7, server: 167.88.63.74, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大, server: 134.195.198.95, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国_YouTube：8度科技 2, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国_YouTube：8度科技, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国_YouTube：8度科技 9, server: 142.202.48.34, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国_YouTube：8度科技 2, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国阿伟科技@TG/油管 8, server: 167.88.63.28, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管, server: 198.57.27.184, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_YouTube：8度科技 3, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.198.95, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 4, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国_YouTube：8度科技 3, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 5, server: 198.57.27.152, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国_YouTube：8度科技 3, server: 145.239.1.100, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 法国_YouTube：8度科技 4, server: 145.239.1.100, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_YouTube：8度科技 10, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 美国_YouTube：8度科技 11, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大_YouTube：8度科技 6, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大_YouTube：8度科技 7, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大_YouTube：8度科技 8, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_YouTube：8度科技 9, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_YouTube：8度科技 12, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 迪拜阿伟科技@TG/油管, server: 193.123.95.114, port: 21999, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 193.123.95.114}, udp: true}
+  - {name: 英国_YouTube：8度科技 4, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,134 +332,327 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 香港阿伟科技@TG/油管 3
-      - 香港阿伟科技@TG/油管 4
-      - 香港阿伟科技@TG/油管 5
-      - 香港阿伟科技@TG/油管 6
+      - 台湾阿伟科技@TG/油管 3
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 台湾阿伟科技@TG/油管 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -283,31 +668,79 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 日本(欢迎订阅Youtube破解资源君)
+      - 澳门阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 日本(绿头外网集团)(Public) 7
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 香港阿伟科技@TG/油管 3
-      - 印度_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 4
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 印度_YouTube：8度科技 2
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 印度_YouTube：8度科技 3
-      - 香港阿伟科技@TG/油管 5
-      - 印度_YouTube：8度科技 4
       - 新加坡阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 英国_YouTube：8度科技
-      - 香港阿伟科技@TG/油管 6
+      - 澳门(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 3
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 韩国(绿头外网集团)(Public)
+      - 台湾阿伟科技@TG/油管 4
+      - 台湾阿伟科技@TG/油管 5
+      - 台湾阿伟科技@TG/油管 6
+      - 印度_YouTube：8度科技
+      - 日本(绿头外网集团)(Public) 9
       - 美国阿伟科技@TG/油管
-      - 亚洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 5
+      - 英国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 俄罗斯阿伟科技@TG/油管
+      - _FR_法国
+      - 法国阿伟科技@TG/油管
       - 美国_YouTube：8度科技
+      - 美国阿伟科技@TG/油管 4
+      - 美国_YouTube：8度科技 2
+      - 美国_YouTube：8度科技 3
+      - 美国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 5
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 美国_YouTube：8度科技 6
+      - 美国阿伟科技@TG/油管 5
+      - 加拿大_YouTube：8度科技
+      - 台湾阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 6
+      - 加拿大(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 美国_YouTube：8度科技 7
+      - 美国_YouTube：8度科技 8
+      - 美国阿伟科技@TG/油管 7
+      - _CA_加拿大
+      - 英国_YouTube：8度科技 2
+      - 法国_YouTube：8度科技
+      - 美国_YouTube：8度科技 9
+      - 法国_YouTube：8度科技 2
+      - 美国阿伟科技@TG/油管 8
+      - 加拿大阿伟科技@TG/油管
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 加拿大_YouTube：8度科技 3
+      - _CA_加拿大 2
+      - 加拿大_YouTube：8度科技 4
+      - 英国_YouTube：8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 加拿大_YouTube：8度科技 5
+      - 加拿大(欢迎订阅Youtube破解资源君) 2
+      - 法国_YouTube：8度科技 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 法国_YouTube：8度科技 4
+      - 美国_YouTube：8度科技 10
+      - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 6
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 8
+      - 加拿大_YouTube：8度科技 9
+      - 美国_YouTube：8度科技 12
+      - 德国阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 英国_YouTube：8度科技 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
