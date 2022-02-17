@@ -5,155 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Standard|广港|IEPL|09, server: iepl-basic-hk-1.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Standard|广港|IEPL|18, server: iepl-basic-hk-2.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 香港3-小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: 香港4-小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
-  - {name: Standard|广港|IEPL|15, server: iepl-basic-hk-2.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|08, server: iepl-basic-hk-1.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|14, server: iepl-basic-hk-2.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|20, server: iepl-basic-hk-2.ninjarelay.pro, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|01, server: iepl-basic-hk-1.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|17, server: iepl-basic-hk-2.ninjarelay.pro, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|12, server: iepl-basic-hk-2.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|05, server: iepl-basic-hk-1.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|16, server: iepl-basic-hk-2.ninjarelay.pro, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Standard|广港|IEPL|19, server: iepl-basic-hk-2.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Standard|广港|IEPL|13, server: iepl-basic-hk-2.ninjarelay.pro, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
-  - {name: Premium|广新|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|14, server: iepl-basic-hk-2.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 香港P3, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: Premium|广日|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Premium|广日|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|16, server: iepl-basic-hk-2.ninjarelay.pro, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|20, server: iepl-basic-hk-2.ninjarelay.pro, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|08, server: iepl-basic-hk-1.ninjarelay.pro, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|12, server: iepl-basic-hk-2.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|01, server: iepl-basic-hk-1.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广日|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|17, server: iepl-basic-hk-2.ninjarelay.pro, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广日|IEPL|08, server: iepl-basic-else-2.ninjarelay.pro, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: china-gzyd-1.forwardserver.xyz, port: 12345, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
-  - {name: Standard|广日|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 美国N150, server: n150.centaur.network, port: 8082, type: trojan, password: a00a413d-85f2-4b72-a396-b96e1b3d11a6, sni: n150.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: Standard|广港|IEPL|05, server: iepl-basic-hk-1.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.143.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Standard|广新|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: china-gzyd-1.forwardserver.xyz, port: 18646, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
-  - {name: Premium|广台|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: gia.uk.tgproxy.wtf}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: dg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: dg.jgw.tgproxy.wtf}, udp: true}
-  - {name: "[VIP] 新加坡 -1", server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: Standard|广港|IEPL|15, server: iepl-basic-hk-2.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Standard|广港|IEPL|11, server: iepl-basic-hk-2.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|09, server: iepl-basic-hk-1.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: 香港P3, server: p3.centaur.network, port: 16803, type: trojan, password: 00635f3d-2c64-4281-9367-f3c26ebb6a44, sni: p3.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: Standard|广日|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
+  - {name: 香港3-小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: 香港4-小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: Standard|广日|IEPL|08, server: iepl-basic-else-2.ninjarelay.pro, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Premium|广新|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.143.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: dg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: dg.jgw.tgproxy.wtf}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: gia.uk.tgproxy.wtf}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,177 +152,156 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
-      - Standard|广港|IEPL|19
-      - Standard|广港|IEPL|13
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
       - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
       - Standard|广港|IEPL|01
       - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
       - Standard|广港|IEPL|05
-      - Premium|广台|IEPL|01
+      - Standard|广港|IEPL|16
+      - Standard|广港|IEPL|19
+      - Standard|广港|IEPL|13
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - 香港P3
+      - 香港3-小浪浪
+      - 香港4-小浪浪
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -358,39 +317,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Standard|广港|IEPL|09
       - Standard|广港|IEPL|18
-      - 香港3-小浪浪
-      - 香港4-小浪浪
-      - Standard|广港|IEPL|15
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|14
+      - Standard|广港|IEPL|20
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|17
+      - Standard|广港|IEPL|12
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|16
       - Standard|广港|IEPL|19
       - Standard|广港|IEPL|13
-      - 韩国阿伟科技@TG/油管
-      - Premium|广新|IEPL|02
-      - Standard|广港|IEPL|14
-      - 香港P3
-      - Premium|广日|IEPL|03
-      - Premium|广日|IEPL|01
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|20
-      - Standard|广港|IEPL|08
-      - Standard|广港|IEPL|12
-      - Standard|广港|IEPL|01
-      - Standard|广日|IEPL|07
-      - Standard|广港|IEPL|17
-      - Standard|广日|IEPL|08
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Standard|广日|IEPL|03
-      - 美国N150
-      - Standard|广港|IEPL|05
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - Standard|广新|IEPL|07
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - Premium|广台|IEPL|01
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - "[VIP] 新加坡 -1"
+      - Standard|广港|IEPL|15
       - Standard|广港|IEPL|11
+      - Standard|广港|IEPL|09
+      - Standard|广新|IEPL|07
+      - 香港P3
+      - Standard|广日|IEPL|07
+      - 韩国阿伟科技@TG/油管
+      - 香港3-小浪浪
+      - 香港4-小浪浪
+      - Standard|广日|IEPL|08
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|03
+      - Premium|广新|IEPL|02
+      - Standard|广日|IEPL|03
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
