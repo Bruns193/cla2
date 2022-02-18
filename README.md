@@ -5,59 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 120.232.182.190, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: 新加坡阿伟科技@TG/油管, server: 111.28.3.117, port: 60020, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
+  - {name: "<Lv.1>日本｜[直连节点]", server: 54.178.95.72, port: 27104, type: ss, cipher: aes-256-gcm, password: 2fa377dc-aae2-4a2a-a83d-302dac640e48, udp: true}
   - {name: (1)香港 (5000Mbps), server: 2.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: download.cn.connecat.com, port: 60017, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22download.cn.connecat.com%22%7D"}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 法国_R_372, server: iepl-gz.yyuuii.cyou, port: 49853, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: download.cn.connecat.com, port: 60006, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
   - {name: youtube：8度科技_美国, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: Taiwan Direct two, server: tw.pikap.one, port: 30031, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw.pikap.one}, udp: true}
+  - {name: Korea Direct one, server: sk1.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sk1.pikap.one}, udp: true}
+  - {name: Japan Direct two, server: jp2.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp2.pikap.one}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,65 +72,62 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
       - (1)香港 (5000Mbps)
+      - Taiwan Direct two
+      - Japan Direct two
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -150,15 +143,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 新加坡阿伟科技@TG/油管
+      - <Lv.1>日本｜[直连节点]
       - (1)香港 (5000Mbps)
-      - 韩国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 法国_R_372
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 德国阿伟科技@TG/油管
       - youtube：8度科技_美国
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - Taiwan Direct two
+      - Korea Direct one
+      - Japan Direct two
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
