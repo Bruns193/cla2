@@ -5,215 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Japan Direct two, server: jp2.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp2.pikap.one}, udp: true}
-  - {name: 52231 @WangCai_1, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港3-小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: 香港2-小浪浪分享, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: 52226 @WangCai_1, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 11220 @WangCai_1, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 52283 @WangCai_1, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港1-小浪浪分享, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: US_1217 |16.78Mb, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-B1, server: 175.41.176.175, port: 58732, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: CN_421 | 2.56Mb, server: tunnel-tw-a-01.xncloud.xyz, port: 502, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-02.xncloud.xyz}, udp: true}
+  - {name: 印度-A1-中转, server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 61690, type: vmess, uuid: b7aa90f0-8be1-4420-a860-147e980a198e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: c4jrauwu5v.eastasia.cloudapp.azure.com}, udp: true}
   - {name: 香港-B3, server: 16.163.148.47, port: 38957, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: (1)香港 (5000Mbps), server: 2.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
   - {name: 香港-B2, server: 16.163.192.29, port: 37528, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: 52223 @WangCai_1, server: 123.wgong.xyz, port: 52223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_5500 @WangCai_1, server: 38.75.136.127, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_7306 @WangCai_1, server: 38.75.136.127, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: US_5001 @WangCai_1, server: 38.75.136.127, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_8119 @WangCai_1, server: 38.75.136.127, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_7001 @WangCai_1, server: 38.75.136.127, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_8091 @WangCai_1, server: 38.75.136.127, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: US_2375 @WangCai_1, server: 38.75.136.127, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_6379 @WangCai_1, server: 38.75.136.127, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: DE_6379 @WangCai_1, server: 193.108.117.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_8009 @WangCai_1, server: 38.75.136.127, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_8118 @WangCai_1, server: 38.75.136.127, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_5004 @WangCai_1, server: 38.75.136.127, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: DE_8090 @WangCai_1, server: 193.108.117.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_5601 @WangCai_1, server: 38.75.136.127, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 香港4-小浪浪分享, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51187:ff112233, obfs-param: "", udp: true}
-  - {name: US_2512 |97.03Mb, server: ua1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ua1.uuv2.co.uk}, udp: true}
-  - {name: DE_2376 @WangCai_1, server: 193.108.117.24, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: Korea Direct one, server: sk1.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sk1.pikap.one}, udp: true}
-  - {name: DE_5500 @WangCai_1, server: 193.108.117.24, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: DE_8000 @WangCai_1, server: 193.108.117.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: DE_8008 @WangCai_1, server: 193.108.117.24, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_2520 |27.50Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 45.35.84.162}, udp: true}
+  - {name: US_8091 @WangCai_1, server: 38.75.136.127, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_7001 @WangCai_1, server: 38.75.136.127, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: US_6697 @WangCai_1, server: 38.75.136.127, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: youtube:8度科技_美国, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: US_2539 |40.17Mb, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
-  - {name: Taiwan Direct two, server: tw.pikap.one, port: 30031, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw.pikap.one}, udp: true}
-  - {name: US_8882 @WangCai_1, server: 38.75.136.127, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_7002 @WangCai_1, server: 38.75.136.127, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8119 @WangCai_1, server: 38.75.136.127, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: youtube：8度科技, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 104.16.42.170, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: US_8000 @WangCai_1, server: 38.75.136.127, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "*🇫🇷FR -47 TG@moon365free", server: gzcm.v2hub.top, port: 19521, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
+  - {name: US_7002 @WangCai_1, server: 38.75.136.127, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_5500 @WangCai_1, server: 38.75.136.127, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8009 @WangCai_1, server: 38.75.136.127, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: US_7306 @WangCai_1, server: 38.75.136.127, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "[VIP]韩国3|华中入口|1x", server: hz.pbaplink.xyz, port: 47772, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: hz.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan Direct two, server: jp2.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp2.pikap.one}, udp: true}
+  - {name: US_8118 @WangCai_1, server: 38.75.136.127, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8882 @WangCai_1, server: 38.75.136.127, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Korea Direct one, server: sk1.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sk1.pikap.one}, udp: true}
+  - {name: Taiwan Direct two, server: tw.pikap.one, port: 30031, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw.pikap.one}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: US_5004 @WangCai_1, server: 38.75.136.127, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -232,66 +132,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Japan Direct two
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 香港1-小浪浪分享
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 香港4-小浪浪分享
+      - Japan Direct two
       - Taiwan Direct two
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -299,161 +169,86 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -469,54 +264,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan Direct two
-      - 52231 @WangCai_1
-      - 香港3-小浪浪分享
-      - 香港2-小浪浪分享
-      - 52226 @WangCai_1
-      - 11220 @WangCai_1
-      - 52283 @WangCai_1
-      - 香港1-小浪浪分享
-      - US_1217 |16.78Mb
-      - 新加坡-B1
-      - CN_421 | 2.56Mb
+      - 印度-A1-中转
       - 香港-B3
-      - (1)香港 (5000Mbps)
       - 香港-B2
-      - 52223 @WangCai_1
-      - US_5500 @WangCai_1
-      - US_7306 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_8091 @WangCai_1
       - US_2375 @WangCai_1
-      - US_6379 @WangCai_1
-      - DE_6379 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_5004 @WangCai_1
-      - DE_8090 @WangCai_1
-      - US_5601 @WangCai_1
-      - 香港4-小浪浪分享
-      - US_2512 |97.03Mb
-      - DE_2376 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - Korea Direct one
-      - DE_5500 @WangCai_1
-      - DE_8000 @WangCai_1
-      - DE_8008 @WangCai_1
-      - US_2520 |27.50Mb
+      - US_8091 @WangCai_1
+      - US_7001 @WangCai_1
       - US_6697 @WangCai_1
-      - youtube:8度科技_美国
-      - US_2539 |40.17Mb
-      - Taiwan Direct two
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
+      - US_8119 @WangCai_1
       - youtube：8度科技
+      - US_7002 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_8009 @WangCai_1
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - US_7306 @WangCai_1
+      - "[VIP]韩国3|华中入口|1x"
+      - Japan Direct two
+      - US_8118 @WangCai_1
+      - US_8882 @WangCai_1
+      - Korea Direct one
+      - Taiwan Direct two
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8000 @WangCai_1
-      - "*🇫🇷FR -47 TG@moon365free"
+      - US_5004 @WangCai_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
