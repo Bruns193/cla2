@@ -5,199 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港1-Baron小浪浪分享, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: AZ香港③-10Gbps, server: hk3.otwc-node.cc, port: 83, type: vmess, uuid: 52f236bb-b328-423c-944f-804f5c2059c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.otwc-node.cc}, udp: true}
-  - {name: TRANSIT HKG 02 @100MBPS, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国-Baron小浪浪分享, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: TRANSIT HKG 01 @100MBPS, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "TYO/JP - 2 [光头院长]", server: china-zj-hz-1.forwardserver.xyz, port: 39583, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: AZ香港①-10Gbps, server: hk1.otwc-node.cc, port: 81, type: vmess, uuid: 52f236bb-b328-423c-944f-804f5c2059c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.otwc-node.cc}, udp: true}
-  - {name: 香港3-Baron小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 香港4-Baron小浪浪分享, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
   - {name: TRANSIT HKG 03 @100MBPS, server: 101.230.149.27, port: 1113, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港 8080, server: c.azzhuangaping.tw, port: 8080, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: c.azzhuangaping.tw}, udp: true}
-  - {name: 韩国春川1|微信：ddly000, server: ka.pbaplink.xyz, port: 48500, type: trojan, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, sni: ka.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: T.10.日本.中继3, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 日本-优化, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 香港3-Baron小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
+  - {name: "TYO/JP - 2 [光头院长]", server: china-zj-hz-1.forwardserver.xyz, port: 39583, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国-Baron小浪浪分享, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
   - {name: 香港2-Baron小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: T.00.香港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: T.20.新加坡.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 日本-优化3, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
-  - {name: T.20.新加坡.中继1, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 愛沙尼亞(绿头外网集团)(Public), server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 倾城极速@qcjs1, server: 13.124.30.68, port: 52783, type: ss, cipher: chacha20-ietf-poly1305, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: T.10.日本.中继1, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: South Korea-B1, server: 13.124.30.68, port: 52783, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: "SIN/SG - 1 [微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 印度(绿头外网集团)(Public), server: c4jrauwu5v.eastasia.cloudapp.azure.com, port: 61690, type: vmess, uuid: b7aa90f0-8be1-4420-a860-147e980a198e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22c4jrauwu5v.eastasia.cloudapp.azure.com%22%7D"}, udp: true}
-  - {name: 日本-Baron小浪浪分享, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 香港-B3, server: 16.163.148.47, port: 38957, type: ss, cipher: aes-256-gcm, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
-  - {name: 韩国-优化2, server: cm.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
-  - {name: 倾城极速@qcjs1 2, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: b7aa90f0-8be1-4420-a860-147e980a198e, udp: true}
+  - {name: 香港1-Baron小浪浪分享, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
+  - {name: 韩国-优化3, server: ct.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
   - {name: "TWN/CN - 1 微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 37313, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: T.00.香港.HKG.中继3, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 韩国-优化, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 日本-优化, server: cu.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
+  - {name: 日本-优化3, server: ct.mj-cn.cyou, port: 16617, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ct.mj-cn.cyou}, udp: true}
+  - {name: T.00.香港.HKT.解锁NF.中继1, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: TRANSIT HKG 01 @100MBPS, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: T.10.日本.中继3, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: T.10.日本.中继1, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: T.00.香港.HKG.中继1, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: T.20.新加坡.中继3, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: T.40.台湾.中继3, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 韩国-优化2, server: cm.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.mj-cn.cyou}, udp: true}
+  - {name: T.20.新加坡.中继1, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: South Korea-B1, server: 13.124.30.68, port: 52783, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
+  - {name: V1-香港 多台负载均衡 中继C | 2x, server: in03.dns2333.xyz, port: 64078, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 香港 038, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: "SIN/SG - 1 [微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 愛沙尼亞(绿头外网集团)(Public), server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: Indonesia-A1, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: 东京2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37002, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: HongKong-B1, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 韩国春川1|微信：ddly000, server: ka.pbaplink.xyz, port: 48500, type: trojan, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, sni: ka.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 3, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 东京2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37002, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
   - {name: _FR_法国, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 耶路撒冷1 微信：ddly000, server: j2.pbaplink.xyz, port: 2082, type: vmess, uuid: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: j2.pbaplink.xyz}, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君), server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: 迪拜|x微信：ddly000, server: centralchina1.cloudlink123.com, port: 37000, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: Korea Direct one, server: sk1.pikap.one, port: 30029, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sk1.pikap.one}, udp: true}
-  - {name: youtube：8度科技, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
   - {name: Taiwan Direct two, server: tw.pikap.one, port: 30031, type: vmess, uuid: 744147c7-3857-4d0f-b6be-f3c1e8f45ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw.pikap.one}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
   - {name: "NJ/US - 2 [微信：ddly000]", server: 173.255.225.7, port: 11416, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: true, udp: true}
+  - {name: 耶路撒冷1 微信：ddly000, server: j2.pbaplink.xyz, port: 2082, type: vmess, uuid: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: j2.pbaplink.xyz}, udp: true}
+  - {name: 圣河西1|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37009, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: v1.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: T.40.台湾.中继2, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: TRANSIT HKG 02 @100MBPS, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,214 +224,223 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - 香港 8080
+      - 香港3-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
+      - 香港1-Baron小浪浪分享
       - T.00.香港.HKG.中继3
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 香港-B3
+      - T.00.香港.HKT.解锁NF.中继1
+      - T.00.香港.HKG.中继1
+      - T.40.台湾.中继3
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
       - Taiwan Direct two
+      - T.40.台湾.中继2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -439,50 +456,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港1-Baron小浪浪分享
-      - AZ香港③-10Gbps
-      - TRANSIT HKG 02 @100MBPS
-      - 韩国-Baron小浪浪分享
-      - TRANSIT HKG 01 @100MBPS
-      - TYO/JP - 2 [光头院长]
-      - AZ香港①-10Gbps
-      - 香港3-Baron小浪浪分享
-      - 香港4-Baron小浪浪分享
       - TRANSIT HKG 03 @100MBPS
       - 香港 8080
-      - 韩国春川1|微信：ddly000
-      - T.10.日本.中继3
-      - 日本-优化
+      - 香港3-Baron小浪浪分享
+      - TYO/JP - 2 [光头院长]
+      - 韩国-Baron小浪浪分享
       - 香港2-Baron小浪浪分享
-      - T.00.香港.HKG.中继3
-      - T.20.新加坡.中继3
-      - 日本-优化3
-      - T.20.新加坡.中继1
-      - 愛沙尼亞(绿头外网集团)(Public)
-      - 倾城极速@qcjs1
-      - T.10.日本.中继1
-      - South Korea-B1
-      - SIN/SG - 1 [微信：ddly000]
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 印度(绿头外网集团)(Public)
-      - 日本-Baron小浪浪分享
-      - 香港-B3
-      - 韩国-优化2
-      - 倾城极速@qcjs1 2
+      - 香港1-Baron小浪浪分享
+      - 韩国-优化3
       - TWN/CN - 1 微信：ddly000]
+      - T.00.香港.HKG.中继3
+      - 韩国-优化
+      - 日本-优化
+      - 日本-优化3
+      - T.00.香港.HKT.解锁NF.中继1
+      - TRANSIT HKG 01 @100MBPS
+      - T.10.日本.中继3
+      - T.10.日本.中继1
+      - T.00.香港.HKG.中继1
+      - T.20.新加坡.中继3
+      - T.40.台湾.中继3
+      - 韩国-优化2
+      - T.20.新加坡.中继1
+      - South Korea-B1
+      - V1-香港 多台负载均衡 中继C | 2x
+      - 香港 038
+      - SIN/SG - 1 [微信：ddly000]
+      - 愛沙尼亞(绿头外网集团)(Public)
       - Indonesia-A1
-      - 东京2|微信：ddly000
-      - _RU_俄罗斯联邦
       - HongKong-B1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国春川1|微信：ddly000
+      - 韩国(绿头外网集团)(Public) 3
+      - 东京2|微信：ddly000
       - _FR_法国
-      - 耶路撒冷1 微信：ddly000
+      - 法国(欢迎订阅Youtube破解资源君)
       - 迪拜|x微信：ddly000
-      - Korea Direct one
-      - youtube：8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - Taiwan Direct two
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - NJ/US - 2 [微信：ddly000]
+      - 耶路撒冷1 微信：ddly000
+      - 圣河西1|微信：ddly000
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - T.40.台湾.中继2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - TRANSIT HKG 02 @100MBPS
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
