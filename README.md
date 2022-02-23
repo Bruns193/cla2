@@ -5,139 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本阿伟科技@TG/油管, server: v2.4.doubledou.win, port: 4443, type: vmess, uuid: 3c91d857-2d40-39b9-81c0-f6adde8037ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /doudou, ws-headers: {Host: v2.4.doubledou.win}, udp: true}
-  - {name: JP_油管 TG 8度科技, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: sol.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: sol.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: trohkt.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: trohkt.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 台湾阿伟科技@TG/油管, server: v2tw.doubledou.win, port: 4245, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2tw.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管, server: 120.232.173.35, port: 10021, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度阿伟科技@TG/油管, server: in02.holiganfan.com, port: 10088, type: trojan, password: 15fd980c-edec-44ec-b5fd-d9b2061dba88, sni: in02.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: JP_油管 TG 8度科技 2, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 2, server: 183.240.2.6, port: 10050, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 中国阿伟科技@TG/油管 3, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 97ab5d71-96b7-4ab1-b77b-093685658d7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
   - {name: RU_油管 TG 8度科技, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 4, server: 183.240.2.6, port: 10050, type: vmess, uuid: 18666b47-575e-3b28-afa4-938d3e6d6279, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: loslite2.doubledou.win, port: 6519, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: loslite2.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 5, server: 120.232.173.35, port: 30007, type: vmess, uuid: 18666b47-575e-3b28-afa4-938d3e6d6279, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: loslite.doubledou.win, port: 6529, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: loslite.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管 3, server: cc2.doubledou.win, port: 4584, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cc2.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 南非阿伟科技@TG/油管, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 6, server: 120.232.173.35, port: 10051, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: uj.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: uj.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 7, server: 120.232.173.35, port: 10021, type: vmess, uuid: 18666b47-575e-3b28-afa4-938d3e6d6279, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: jp19.holiganfan.com, port: 10088, type: trojan, password: 15fd980c-edec-44ec-b5fd-d9b2061dba88, sni: jp19.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG/油管, server: 183.240.2.6, port: 10050, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
   - {name: DE_油管 TG 8度科技, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南阿伟科技@TG/油管, server: gzyd.wozcjd.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: 中国阿伟科技@TG/油管 8, server: 120.232.173.35, port: 10002, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 4.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 4.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: RU_油管 TG 8度科技 2, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 5.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 5.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG/油管 2, server: 183.240.2.6, port: 10050, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,145 +88,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -310,35 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本阿伟科技@TG/油管
-      - JP_油管 TG 8度科技
-      - 韩国阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管
-      - 台湾阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管 2
-      - 印度阿伟科技@TG/油管
-      - JP_油管 TG 8度科技 2
-      - 中国阿伟科技@TG/油管 2
-      - 中国阿伟科技@TG/油管 3
       - RU_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 2
+      - 中国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 3
-      - 韩国阿伟科技@TG/油管 3
-      - 南非阿伟科技@TG/油管
-      - 中国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 4
-      - 中国阿伟科技@TG/油管 7
-      - 日本阿伟科技@TG/油管 2
       - DE_油管 TG 8度科技
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 越南阿伟科技@TG/油管
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 中国阿伟科技@TG/油管 8
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - RU_油管 TG 8度科技 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 中国阿伟科技@TG/油管 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
