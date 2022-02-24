@@ -5,71 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: RU_油管 TG 8度科技, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 中国阿伟科技@TG/油管, server: 183.240.2.6, port: 10050, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: DE_油管 TG 8度科技, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 4.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 4.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true, udp: true}
-  - {name: RU_油管 TG 8度科技 2, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 5.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 5.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 29机场👉魔戒.net, server: jp05.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 30机场👉魔戒.net, server: jp09.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 27机场👉魔戒.net, server: hr04.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 3机场👉魔戒.net, server: tghk2.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghk2.77710086.xyz, skip-cert-verify: true, udp: true}
+  - {name: 26机场👉魔戒.net, server: hkt01.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 112.33.36.109, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 23机场👉魔戒.net, server: sg08.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 24机场👉魔戒.net, server: sg10.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 5.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 5.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 4.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 4.earths.team, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 5机场👉魔戒.net, server: jpoo.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: jpoo.77710086.xyz, skip-cert-verify: true, udp: true}
+  - {name: 7机场👉魔戒.net, server: tghg.77710086.xyz, port: 888, type: trojan, password: 887b9ece-45e8-45a1-844c-6991e2b086a8, sni: tghg.77710086.xyz, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国阿伟科技@TG/油管 2, server: 183.240.2.6, port: 10050, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 32机场👉魔戒.net, server: tw15.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: 31机场👉魔戒.net, server: tw13.clashcloud.tech, port: 9010, type: ss, cipher: rc4-md5, password: t8L2td, udp: true}
+  - {name: US_油管 TG 8度科技, server: 45.9.10.103, port: 443, type: trojan, password: WpfQAbO2wg, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 167.88.61.5, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 越南阿伟科技@TG/油管, server: gzyd.wozcjd.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君), server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_油管 TG 8度科技, server: 92.243.24.68, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: bIS3QQFwFIm1, udp: true}
+  - {name: 中国阿伟科技@TG/油管, server: 120.232.173.35, port: 10051, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: FR_油管 TG 8度科技 2, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 198.148.92.246, port: 443, type: vmess, uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _FR_法国, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 中国阿伟科技@TG/油管 2, server: 120.232.173.35, port: 10002, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君) 3, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 172.99.190.188, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.147, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,18 +184,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -110,53 +230,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,18 +364,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - RU_油管 TG 8度科技
-      - 中国阿伟科技@TG/油管
+      - 29机场👉魔戒.net
+      - 30机场👉魔戒.net
+      - 27机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - DE_油管 TG 8度科技
+      - 3机场👉魔戒.net
+      - 26机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 23机场👉魔戒.net
+      - 24机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - RU_油管 TG 8度科技 2
       - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - JP_油管 TG 8度科技
+      - 5机场👉魔戒.net
+      - 7机场👉魔戒.net
       - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - 32机场👉魔戒.net
+      - 31机场👉魔戒.net
+      - US_油管 TG 8度科技
+      - _US_美国
+      - 越南阿伟科技@TG/油管
+      - 法国(欢迎订阅Youtube破解资源君)
+      - FR_油管 TG 8度科技
+      - 中国阿伟科技@TG/油管
+      - FR_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - _FR_法国
       - 中国阿伟科技@TG/油管 2
+      - 法国(欢迎订阅Youtube破解资源君) 2
+      - _CA_加拿大
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 法国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 美国(欢迎订阅Youtube破解资源君) 4
+      - 美国(欢迎订阅Youtube破解资源君) 5
+      - _CA_加拿大 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
