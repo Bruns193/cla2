@@ -5,211 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_油管 TG 8度科技, server: shcris03.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技 2, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: 魔戒.net韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT K", server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT L", server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 3, server: 139.226.50.243, port: 6666, type: vmess, uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技 4, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 5, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT M", server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKBN B", server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
   - {name: 香港阿伟科技@TG/油管, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
   - {name: 香港阿伟科技@TG/油管 2, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team, skip-cert-verify: true, udp: true}
-  - {name: "魔戒.net[CT/CM] HKBN A", server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT J", server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT A", server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: 魔戒.net香港a, server: f2s.by55k1.xyz, port: 39658, type: vmess, uuid: c460ff8a-c55e-4c7c-d556-356b758af32b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pank, ws-headers: {Host: www.shanpao.xyz}, udp: true}
-  - {name: CN_油管 TG 8度科技 6, server: relaypro.procncon.xyz, port: 618, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 7, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 8, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 9, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 10, server: usastandard2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT I", server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 11, server: relaypro.procncon.xyz, port: 610, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 12, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 13, server: shallaz.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: 魔戒.net*🇭🇰HK 662| hi-moon.pw, server: 25.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 25.earths.team, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技 14, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 15, server: usastandard2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 16, server: relaypro.procncon.xyz, port: 615, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: "魔戒.net[CT/CM] HKT H", server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: CN_油管 TG 8度科技 17, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: 魔戒.net日本 Azure B 2.5x, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 11083:jiunfy1314, obfs-param: "", udp: true}
-  - {name: GB_油管 TG 8度科技, server: 172.99.190.92, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 3, server: 26.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 法国(欢迎订阅Youtube破解资源君), server: 26.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 26.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: 150.230.252.80, port: 45565, type: vmess, uuid: c18ccae1-572b-4516-d120-22154ea8db06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 7.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: US_油管 TG 8度科技, server: 209.141.47.137, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: 7.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 7.earths.team, skip-cert-verify: true, udp: true}
+  - {name: US_油管 TG 8度科技 2, server: 209.141.47.137, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, skip-cert-verify: true, udp: true}
+  - {name: 印度阿伟科技@TG/油管, server: 155.248.244.247, port: 45565, type: vmess, uuid: 4cfa02c7-e7b3-48e2-c8dc-7bb9bbae36ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /liangting, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: 13.75.64.55, port: 443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/rn, ws-headers: {Host: usbv2.ddns.tjiasu.xyz}, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管, server: s1.kaxff.com, port: 15654, type: trojan, password: 6Uu5c0cJUV, sni: s1.kaxff.com, skip-cert-verify: true, udp: true}
   - {name: 瑞士阿伟科技@TG/油管, server: sw.oracleusa.ml, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sw.oracleusa.ml}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usa.oracleusa.ml}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 173.255.215.146, port: 443, type: vmess, uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/common, ws-headers: {Host: usav2.ddns.tjiasu.xyz}, udp: true}
-  - {name: 魔戒.net*🇭🇰HK 660| hi-moon.pw, server: 25.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 25.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaochen.chenyingjie5201314.workers.dev}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: vir.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir.oracleusa.ml}, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: de.oracleusa.ml, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de.oracleusa.ml}, udp: true}
-  - {name: GB_油管 TG 8度科技 2, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国阿伟科技@TG/油管 5, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 6, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 7, server: sw.gfwglass.tk, port: 443, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sw.gfwglass.tk}, udp: true}
+  - {name: 迪拜阿伟科技@TG/油管, server: 193.123.84.188, port: 45565, type: vmess, uuid: c8983b5e-ec6f-4c6b-ec9f-6d10540c1a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 日本阿伟科技@TG/油管 2, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: 192.18.132.64, port: 45565, type: vmess, uuid: 2e93c685-d743-410d-b96b-628a00018c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.147, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -228,227 +116,107 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - 魔戒.net[CT/CM] HKT I
-      - 魔戒.net[CT/CM] HKT H
+      - 香港阿伟科技@TG/油管 3
+      - 香港(欢迎订阅Youtube破解资源君)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -464,53 +232,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技
-      - 日本阿伟科技@TG/油管
-      - CN_油管 TG 8度科技 2
-      - 魔戒.net韩国高速接入A
-      - 魔戒.net[CT/CM] HKT K
-      - 魔戒.net[CT/CM] HKT L
-      - CN_油管 TG 8度科技 3
-      - 日本阿伟科技@TG/油管 2
-      - CN_油管 TG 8度科技 4
-      - CN_油管 TG 8度科技 5
-      - 魔戒.net[CT/CM] HKT M
-      - 魔戒.net[CT/CM] HKBN B
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
-      - 魔戒.net[CT/CM] HKBN A
-      - 魔戒.net[CT/CM] HKT J
-      - 魔戒.net[CT/CM] HKT A
-      - 魔戒.net香港a
-      - CN_油管 TG 8度科技 6
-      - CN_油管 TG 8度科技 7
-      - CN_油管 TG 8度科技 8
-      - CN_油管 TG 8度科技 9
-      - CN_油管 TG 8度科技 10
-      - 魔戒.net[CT/CM] HKT I
-      - CN_油管 TG 8度科技 11
-      - CN_油管 TG 8度科技 12
-      - CN_油管 TG 8度科技 13
-      - 魔戒.net*🇭🇰HK 662| hi-moon.pw
-      - CN_油管 TG 8度科技 14
-      - CN_油管 TG 8度科技 15
-      - CN_油管 TG 8度科技 16
-      - 魔戒.net[CT/CM] HKT H
-      - CN_油管 TG 8度科技 17
-      - 魔戒.net日本 Azure B 2.5x
-      - GB_油管 TG 8度科技
-      - 瑞士阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管
+      - JP_油管 TG 8度科技
+      - 香港阿伟科技@TG/油管 3
+      - 法国(欢迎订阅Youtube破解资源君)
+      - 韩国阿伟科技@TG/油管
       - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
       - 美国阿伟科技@TG/油管 2
-      - 魔戒.net*🇭🇰HK 660| hi-moon.pw
+      - US_油管 TG 8度科技 2
+      - 印度阿伟科技@TG/油管
+      - 香港(欢迎订阅Youtube破解资源君)
+      - 新加坡阿伟科技@TG/油管
+      - 瑞士阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管
+      - 日本阿伟科技@TG/油管 2
       - 美国阿伟科技@TG/油管 3
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 美国阿伟科技@TG/油管 4
-      - 德国阿伟科技@TG/油管
-      - GB_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 5
-      - 美国阿伟科技@TG/油管 6
-      - 美国阿伟科技@TG/油管 7
+      - 欧洲(欢迎订阅Youtube破解资源君)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
