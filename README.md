@@ -5,251 +5,195 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港阿伟科技@TG/油管, server: 40.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 40.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]", server: 20.205.120.35, port: 11536, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
-  - {name: "魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]", server: 52.175.62.234, port: 10853, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
-  - {name: "魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]", server: hkt.node.qchwnd.moe, port: 11432, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net老田_1, server: 154.31.114.97, port: 15590, type: vmess, uuid: b5ebd866-9aa8-45ce-e85e-ef6a6799ba97, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 38.91.100.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 158.247.226.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 4, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_老杨爱分享_71, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君), server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _美国_老杨爱分享_76, server: 38.143.66.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 6, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 7, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _美国_老杨爱分享_49, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _美国_老杨爱分享_67, server: 38.75.136.93, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _美国_老杨爱分享_69, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 3, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _美国_老杨爱分享_60, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 8, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_8888+@WangCai_1, server: 134.195.196.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 9, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ‌‌🇨🇦CA_7307+@WangCai_1, server: 134.195.196.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_老杨爱分享_75, server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 11, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 2, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 13, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 4, server: 38.91.100.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国 5, server: 38.91.100.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _美国_老杨爱分享_53, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _美国_老杨爱分享_80, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _美国_老杨爱分享_63, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 3, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _GB_英国, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
-  - {name: _GB_英国 2, server: 145.239.7.164, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 4, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 3, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 14, server: 38.86.135.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 8, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国_80, server: 167.88.61.175, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 魔戒.net科技网络8, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: KR_4 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 4003, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_6379 @WangCai_1, server: 134.195.196.12, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ‌‌🇨🇦CA_6679 @WangCai_1, server: 134.195.196.12, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_9101 @WangCai_1, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public), server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8119 @WangCai_1, server: 198.57.27.218, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8000 @WangCai_1, server: 198.57.27.218, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_6379 @WangCai_1 2, server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ‌‌🇨🇦CA_6697 @WangCai_1, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_5004 @WangCai_1, server: 198.57.27.218, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_9102 @WangCai_1, server: 198.57.27.218, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ‌‌🇨🇦CA_5500 @WangCai_1, server: 134.195.196.12, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 198.57.27.218, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_100, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8008 @WangCai_1, server: 198.57.27.218, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_8091 @WangCai_1, server: 198.57.27.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_7306 @WangCai_1, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 魔戒.net 🇨🇦CA-134.195.196.12-03, server: 134.195.196.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 134.195.196.12, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_8119 @WangCai_1 2, server: 134.195.196.12, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _CA_加拿大_40, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_5001 @WangCai_1, server: 134.195.196.12, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_8009 @WangCai_1, server: 134.195.196.12, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_6679 @WangCai_1 2, server: 198.57.27.218, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_8882 @WangCai_1, server: 198.57.27.218, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_6697 @WangCai_1 2, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_8000 @WangCai_1 2, server: 134.195.196.12, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: 21.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 21.earths.team, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR-Strasbourg-VELIANET@vpnhat, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: ‌‌🇨🇦CA_5000 @WangCai_1, server: 134.195.196.12, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Seoul-BCPL@vpnhat, server: 202.79.164.124, port: 8441, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: ‌‌🇨🇦CA_3306 @WangCai_1, server: 134.195.196.12, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5000 @WangCai_1 2, server: 198.57.27.172, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -268,258 +212,200 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -535,63 +421,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
-      - 美国(欢迎订阅Youtube破解资源君)
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 魔戒.net 🇨🇳HKG/CN - 1 [AZ][DIRECT][STREAM]
-      - 魔戒.net 🇨🇳HKG/CN - 2 [AZ][DIRECT]
-      - 魔戒.net 🇨🇳HKG/CN - 4 [2x][HKT][NATIVE][DIRECT][STREAM]
-      - 魔戒.net老田_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - 魔戒.net 🇸🇬SIN/SG - 1 [LINODE][TRANSIT]
-      - 美国(欢迎订阅Youtube破解资源君) 3
+      - _US_美国_80
+      - 魔戒.net科技网络8
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
+      - KR_4 @WangCai_1
       - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国(欢迎订阅Youtube破解资源君) 4
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - _美国_老杨爱分享_71
-      - 法国(欢迎订阅Youtube破解资源君)
-      - _US_美国
-      - _美国_老杨爱分享_76
+      - ‌‌🇨🇦CA_6379 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_9101 @WangCai_1
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
+      - ‌‌🇨🇦CA_8119 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1
+      - ‌‌🇨🇦CA_6379 @WangCai_1 2
+      - ‌‌🇨🇦CA_6697 @WangCai_1
+      - ‌‌🇨🇦CA_5004 @WangCai_1
+      - ‌‌🇨🇦CA_9102 @WangCai_1
+      - ‌‌🇨🇦CA_5500 @WangCai_1
+      - ‌‌🇨🇦CA_8118 @WangCai_1
+      - _CA_加拿大_100
+      - ‌‌🇨🇦CA_8008 @WangCai_1
+      - ‌‌🇨🇦CA_8091 @WangCai_1
+      - ‌‌🇨🇦CA_7306 @WangCai_1
+      - 魔戒.net 🇨🇦CA-134.195.196.12-03
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ‌‌🇨🇦CA_8119 @WangCai_1 2
+      - _CA_加拿大_40
+      - ‌‌🇨🇦CA_5001 @WangCai_1
+      - ‌‌🇨🇦CA_8009 @WangCai_1
+      - ‌‌🇨🇦CA_6679 @WangCai_1 2
+      - ‌‌🇨🇦CA_8882 @WangCai_1
+      - ‌‌🇨🇦CA_6697 @WangCai_1 2
+      - ‌‌🇨🇦CA_7001 @WangCai_1
+      - ‌‌🇨🇦CA_8000 @WangCai_1 2
+      - 香港阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
       - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - _US_美国 2
-      - 美国(欢迎订阅Youtube破解资源君) 6
-      - 美国(欢迎订阅Youtube破解资源君) 7
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - _美国_老杨爱分享_49
-      - _美国_老杨爱分享_67
-      - _美国_老杨爱分享_69
-      - _US_美国 3
-      - _美国_老杨爱分享_60
-      - 美国(欢迎订阅Youtube破解资源君) 8
-      - _CA_加拿大
-      - ‌‌🇨🇦CA_8888+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 9
-      - ‌‌🇨🇦CA_7307+@WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 10
-      - _美国_老杨爱分享_75
-      - 美国(欢迎订阅Youtube破解资源君) 11
-      - 美国(欢迎订阅Youtube破解资源君) 12
-      - _CA_加拿大 2
-      - 美国(欢迎订阅Youtube破解资源君) 13
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - _US_美国 4
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - 欧洲(欢迎订阅Youtube破解资源君) 7
-      - _US_美国 5
-      - _美国_老杨爱分享_53
-      - _美国_老杨爱分享_80
-      - _美国_老杨爱分享_63
-      - 法国(欢迎订阅Youtube破解资源君) 3
-      - _GB_英国
-      - 美国阿伟科技@TG/油管
-      - _GB_英国 2
-      - 法国(欢迎订阅Youtube破解资源君) 4
-      - _CA_加拿大 3
-      - 美国(欢迎订阅Youtube破解资源君) 14
-      - 欧洲(欢迎订阅Youtube破解资源君) 8
+      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
+      - FR-Strasbourg-VELIANET@vpnhat
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - Seoul-BCPL@vpnhat
+      - ‌‌🇨🇦CA_3306 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
