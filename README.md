@@ -5,195 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_80, server: 167.88.61.175, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 魔戒.net科技网络8, server: 38.91.100.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: KR_4 @WangCai_1, server: cmrelay01.yiyorelay.xyz, port: 4003, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62611:fx2iOd, obfs-param: microsoft.com, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ‌‌🇨🇦CA_6379 @WangCai_1, server: 134.195.196.12, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ‌‌🇨🇦CA_6679 @WangCai_1, server: 134.195.196.12, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ‌‌🇨🇦CA_9101 @WangCai_1, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public), server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_8119 @WangCai_1, server: 198.57.27.218, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ‌‌🇨🇦CA_8000 @WangCai_1, server: 198.57.27.218, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_6379 @WangCai_1 2, server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ‌‌🇨🇦CA_6697 @WangCai_1, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ‌‌🇨🇦CA_5004 @WangCai_1, server: 198.57.27.218, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ‌‌🇨🇦CA_9102 @WangCai_1, server: 198.57.27.218, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ‌‌🇨🇦CA_5500 @WangCai_1, server: 134.195.196.12, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ‌‌🇨🇦CA_8118 @WangCai_1, server: 198.57.27.218, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_100, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ‌‌🇨🇦CA_8008 @WangCai_1, server: 198.57.27.218, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ‌‌🇨🇦CA_8091 @WangCai_1, server: 198.57.27.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ‌‌🇨🇦CA_7306 @WangCai_1, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 魔戒.net 🇨🇦CA-134.195.196.12-03, server: 134.195.196.12, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 134.195.196.12, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ‌‌🇨🇦CA_8119 @WangCai_1 2, server: 134.195.196.12, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CA_加拿大_40, server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ‌‌🇨🇦CA_5001 @WangCai_1, server: 134.195.196.12, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ‌‌🇨🇦CA_8009 @WangCai_1, server: 134.195.196.12, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ‌‌🇨🇦CA_6679 @WangCai_1 2, server: 198.57.27.218, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ‌‌🇨🇦CA_8882 @WangCai_1, server: 198.57.27.218, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ‌‌🇨🇦CA_6697 @WangCai_1 2, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ‌‌🇨🇦CA_7001 @WangCai_1, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ‌‌🇨🇦CA_8000 @WangCai_1 2, server: 134.195.196.12, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: 21.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 21.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: 21.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 21.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2, server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR-Strasbourg-VELIANET@vpnhat, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ‌‌🇨🇦CA_5000 @WangCai_1, server: 134.195.196.12, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Seoul-BCPL@vpnhat, server: 202.79.164.124, port: 8441, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ‌‌🇨🇦CA_3306 @WangCai_1, server: 134.195.196.12, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ‌‌🇨🇦CA_5000 @WangCai_1 2, server: 198.57.27.172, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 魔戒.net HK1, server: iepl1.ggboynextdoor.best, port: 65115, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3064, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _IN_印度, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x, server: iplc01.dns2333.xyz, port: 3044, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,200 +68,55 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -421,49 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - _US_美国_80
-      - 魔戒.net科技网络8
-      - ‌‌🇨🇦CA_8888 @WangCai_1
-      - 魔戒.net 🇺🇸美國(绿头外网集团)(Public) 12
-      - KR_4 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - ‌‌🇨🇦CA_6379 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1
-      - ‌‌🇨🇦CA_9101 @WangCai_1
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public)
-      - ‌‌🇨🇦CA_8119 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1
-      - ‌‌🇨🇦CA_6379 @WangCai_1 2
-      - ‌‌🇨🇦CA_6697 @WangCai_1
-      - ‌‌🇨🇦CA_5004 @WangCai_1
-      - ‌‌🇨🇦CA_9102 @WangCai_1
-      - ‌‌🇨🇦CA_5500 @WangCai_1
-      - ‌‌🇨🇦CA_8118 @WangCai_1
-      - _CA_加拿大_100
-      - ‌‌🇨🇦CA_8008 @WangCai_1
-      - ‌‌🇨🇦CA_8091 @WangCai_1
-      - ‌‌🇨🇦CA_7306 @WangCai_1
-      - 魔戒.net 🇨🇦CA-134.195.196.12-03
-      - ‌‌🇨🇦CA_7002 @WangCai_1
-      - ‌‌🇨🇦CA_8119 @WangCai_1 2
-      - _CA_加拿大_40
-      - ‌‌🇨🇦CA_5001 @WangCai_1
-      - ‌‌🇨🇦CA_8009 @WangCai_1
-      - ‌‌🇨🇦CA_6679 @WangCai_1 2
-      - ‌‌🇨🇦CA_8882 @WangCai_1
-      - ‌‌🇨🇦CA_6697 @WangCai_1 2
-      - ‌‌🇨🇦CA_7001 @WangCai_1
-      - ‌‌🇨🇦CA_8000 @WangCai_1 2
-      - 香港阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 魔戒.net 🇨🇦加拿大(绿头外网集团)(Public) 2
-      - FR-Strasbourg-VELIANET@vpnhat
-      - ‌‌🇨🇦CA_5000 @WangCai_1
-      - Seoul-BCPL@vpnhat
-      - ‌‌🇨🇦CA_3306 @WangCai_1
-      - ‌‌🇨🇦CA_5000 @WangCai_1 2
+      - 魔戒.net HK1
+      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - _US_美国
+      - _IN_印度
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
