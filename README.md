@@ -5,51 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 魔戒.net HK1, server: iepl1.ggboynextdoor.best, port: 65115, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3064, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _IN_印度, server: 192.46.209.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x, server: iplc01.dns2333.xyz, port: 3044, type: vmess, uuid: 08c13347-4b34-32bc-b292-1887b9d42d31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 39.earths.team, skip-cert-verify: true, udp: true}
+  - {name: SG_7307+@WangCai_1, server: 172.104.168.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
+  - {name: SG_7307+@WangCai_1 2, server: 172.104.168.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_油管+TG+8度科技, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA_油管+TG+8度科技 2, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ‌‌🇨🇦CA_6697+@WangCai_1, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: CA_油管+TG+8度科技 3, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,55 +72,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港(欢迎订阅Youtube破解资源君)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +141,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net HK1
-      - 魔戒.net 🇯🇵 V3-IEPL专线 日04 | 7x
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - _US_美国
-      - _IN_印度
-      - 魔戒.net 🇸🇬 V3-IEPL专线 新03 | 8x
+      - 香港(欢迎订阅Youtube破解资源君)
+      - SG_7307+@WangCai_1
+      - 美国阿伟科技@TG/油管
+      - SG_7307+@WangCai_1 2
+      - CA_油管+TG+8度科技
+      - CA_油管+TG+8度科技 2
+      - ‌‌🇨🇦CA_6697+@WangCai_1
+      - CA_油管+TG+8度科技 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
