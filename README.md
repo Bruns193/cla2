@@ -5,55 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 39.earths.team, skip-cert-verify: true, udp: true}
-  - {name: SG_7307+@WangCai_1, server: 172.104.168.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
-  - {name: SG_7307+@WangCai_1 2, server: 172.104.168.83, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_油管+TG+8度科技, server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_油管+TG+8度科技 2, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ‌‌🇨🇦CA_6697+@WangCai_1, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA_油管+TG+8度科技 3, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 魔戒.net 77, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 81, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 75, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 80, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 78, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 74, server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 76, server: shonlinesandcu03.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 魔戒.net 82, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_油管 TG 8度科技, server: azure-f4s-hk-1.forwardserver.xyz, port: 49242, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azure-f4s-hk-1.forwardserver.xyz}, udp: true}
+  - {name: HK_油管 TG 8度科技 2, server: azure-f4s-hk-1.forwardserver.xyz, port: 32434, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azure-f4s-hk-1.forwardserver.xyz}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_油管 TG 8度科技, server: 104.24.54.206, port: 443, type: vmess, uuid: 3c581ecc-ea0e-4d20-d526-46397c98e99e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dashanpao.mp3, ws-headers: {Host: misty-meadow-9120.lishanpao.workers.dev}, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
+  - {name: 魔戒.net 84, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +96,83 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +188,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港(欢迎订阅Youtube破解资源君)
-      - SG_7307+@WangCai_1
-      - 美国阿伟科技@TG/油管
-      - SG_7307+@WangCai_1 2
-      - CA_油管+TG+8度科技
-      - CA_油管+TG+8度科技 2
-      - ‌‌🇨🇦CA_6697+@WangCai_1
-      - CA_油管+TG+8度科技 3
+      - 魔戒.net 77
+      - 魔戒.net 81
+      - 魔戒.net 75
+      - 魔戒.net 80
+      - 魔戒.net 78
+      - 魔戒.net 74
+      - 魔戒.net 76
+      - 魔戒.net 82
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_油管 TG 8度科技
+      - 日本(欢迎订阅Youtube破解资源君)
+      - 魔戒.net 84
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
