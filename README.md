@@ -5,34 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国阿伟科技@TG/油管, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
-  - {name: MK_油管 TG 8度科技, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 高速6, server: g9.gs1024.com, port: 21223, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g9.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Bengaluru-DigitalOcean, server: 183.240.132.27, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: 国内动态2|1G|80端口, server: cn-2.bpldply.xyz, port: 80, type: vmess, uuid: 3df35894-f0d2-451e-8322-b858ef068efc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: 高速BBB, server: g3.gs1024.com, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g3.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: 香港2|1G|80端口, server: hk-ii.bpldply.xyz, port: 80, type: vmess, uuid: 3df35894-f0d2-451e-8322-b858ef068efc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: vpnpool-SG-DigitalOcean, server: 117.185.229.24, port: 21223, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: HK_油管 TG 8度科技, server: azure-f4s-hk-1.forwardserver.xyz, port: 49242, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azure-f4s-hk-1.forwardserver.xyz}, udp: true}
-  - {name: default_name, server: icook.hk, port: 443, type: vmess, uuid: 9a85a293-3eb7-4189-e17d-bfa46f9ad0ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /freebaipiao, ws-headers: {Host: xmlinodejp2.aifx.eu.org}, udp: true}
-  - {name: US_油管+TG+8度科技, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_油管+TG+8度科技, server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: 🎥 NETFLIX
     type: select
@@ -40,11 +46,13 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: ⛔️ 广告拦截
     type: select
@@ -64,38 +72,45 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港2|1G|80端口
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: 🍎 苹果服务
     type: select
@@ -103,11 +118,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
   - name: 🎯 全球直连
     type: select
@@ -124,11 +141,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国阿伟科技@TG/油管
-      - MK_油管 TG 8度科技
+      - 高速6
+      - vpnpool-Bengaluru-DigitalOcean
+      - 国内动态2|1G|80端口
+      - 高速BBB
+      - 香港2|1G|80端口
+      - vpnpool-SG-DigitalOcean
       - 日本(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技
-      - default_name
       - US_油管+TG+8度科技
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
