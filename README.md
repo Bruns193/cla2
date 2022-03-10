@@ -5,55 +5,51 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 高速6, server: g9.gs1024.com, port: 21223, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g9.gs1024.com, skip-cert-verify: true, udp: true}
-  - {name: vpnpool-Bengaluru-DigitalOcean, server: 183.240.132.27, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
-  - {name: 国内动态2|1G|80端口, server: cn-2.bpldply.xyz, port: 80, type: vmess, uuid: 3df35894-f0d2-451e-8322-b858ef068efc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
   - {name: 高速BBB, server: g3.gs1024.com, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g3.gs1024.com, skip-cert-verify: true, udp: true}
-  - {name: 香港2|1G|80端口, server: hk-ii.bpldply.xyz, port: 80, type: vmess, uuid: 3df35894-f0d2-451e-8322-b858ef068efc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: vpnpool-SG-DigitalOcean, server: 117.185.229.24, port: 21223, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: vpnpool-Bengaluru-DigitalOcean, server: 183.240.132.27, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gongyisg1.yigeweizhuang.com}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: gongyijp2.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gongyijp2.yigeweizhuang.com}, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
-  - {name: US_油管+TG+8度科技, server: 38.143.66.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +68,55 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港2|1G|80端口
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +132,13 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 高速6
-      - vpnpool-Bengaluru-DigitalOcean
-      - 国内动态2|1G|80端口
       - 高速BBB
-      - 香港2|1G|80端口
-      - vpnpool-SG-DigitalOcean
+      - vpnpool-Bengaluru-DigitalOcean
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - 日本(欢迎订阅Youtube破解资源君)
-      - US_油管+TG+8度科技
+      - 日本(欢迎订阅Youtube破解资源君) 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
