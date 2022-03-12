@@ -5,43 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 魔戒.net-34, server: usaarm1.oracleusa.ml, port: 980, type: vmess, uuid: 810a7deb-4fcf-4e21-93bd-3d7685bb8cb4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22usaarm1.oracleusa.ml%22%7D"}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 39.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 39.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: 39.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 39.earths.team, skip-cert-verify: true, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君), server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
   - {name: 日本(欢迎订阅Youtube破解资源君) 2, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
+  - {name: 魔戒.net <S>直连｜香港 Azure, server: 104.208.110.196, port: 80, type: vmess, uuid: c92d1217-aa09-43fd-b860-9d6664edb4dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.html, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 6 魔戒.net, server: 13.75.105.89, port: 12258, type: vmess, uuid: c2aa2592-aa31-4ae7-84bd-14f0ca3b3e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}, udp: true}
+  - {name: 5 魔戒.net, server: 13.75.105.89, port: 35353, type: vmess, uuid: fcc0fc7d-0d47-4968-842d-b525299af111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}, udp: true}
+  - {name: 2 魔戒.net, server: 23.102.234.10, port: 23684, type: vmess, uuid: f73f82ab-d439-444b-887f-860ba0aa6618, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2223.102.234.10%22%7D"}, udp: true}
+  - {name: 8 魔戒.net, server: 13.75.105.89, port: 51306, type: vmess, uuid: 06fbac56-cbcb-4fc6-aac7-d36f938b38ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}, udp: true}
+  - {name: 1 魔戒.net, server: 23.102.234.10, port: 11190, type: vmess, uuid: e9878bd5-2257-4c4c-b1a3-329b8808743d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2223.102.234.10%22%7D"}, udp: true}
+  - {name: 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2, server: vpnpool.hongkong.2.xiaocai.ga, port: 80, type: vmess, uuid: f6fffc7f-ab53-4ab7-af70-50923a525798, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vpnpool.hongkong.2.xiaocai.ga}, udp: true}
+  - {name: 7 魔戒.net, server: 13.75.105.89, port: 20528, type: vmess, uuid: e6f3a8af-3507-4c5a-dc72-f5264fdf4374, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%2213.75.105.89%22%7D"}, udp: true}
+  - {name: 魔戒.net 🇭🇰香港|IPEL| 中环, server: 120.233.7.10, port: 19114, type: vmess, uuid: 348c48d4-1722-37a6-8484-aba37ff7b16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(欢迎订阅Youtube破解资源君) 3, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.105.222.98}, udp: true}
+  - {name: US_3154, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
+  - {name: 魔戒.net-222, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 71.72vpn.xyz}, udp: true}
+  - {name: 魔戒.net-444, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 73.72vpn.xyz}, udp: true}
+  - {name: 魔戒.net-333, server: 10.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 10.72vpn.xyz}, udp: true}
+  - {name: 魔戒.net-111, server: 74.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 74.72vpn.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇮🇪IE_3142, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaochen.chenyingjie5201314.workers.dev}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3150, server: my.aoyyds.ga, port: 8443, type: vmess, uuid: e230dabd-7152-3c22-c9e5-79c84fb76236, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xsqfvws, ws-headers: {Host: my.aoyyds.ga}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +116,105 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
+      - 魔戒.net <S>直连｜香港 Azure
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +230,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net-34
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君)
       - 日本(欢迎订阅Youtube破解资源君) 2
+      - 魔戒.net <S>直连｜香港 Azure
+      - 6 魔戒.net
+      - 5 魔戒.net
+      - 2 魔戒.net
+      - 8 魔戒.net
+      - 1 魔戒.net
+      - 魔戒.net 4.61|AzureHongKong2Vpnpool专属 2
+      - 7 魔戒.net
+      - 魔戒.net 🇭🇰香港|IPEL| 中环
+      - 日本(欢迎订阅Youtube破解资源君) 3
+      - US_3154
+      - 魔戒.net-222
+      - 魔戒.net-444
+      - 魔戒.net-333
+      - 魔戒.net-111
+      - Relay_🇺🇸US-🇮🇪IE_3142
+      - Relay_🇺🇸US-🇺🇸US_3150
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
