@@ -5,127 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 魔戒.net-222, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 71.72vpn.xyz}, udp: true}
-  - {name: 魔戒.net-333, server: 10.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 10.72vpn.xyz}, udp: true}
-  - {name: 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7, server: 116.129.253.177, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: 香港IEPL, server: 120.233.10.218, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 新加坡IEPL, server: 120.233.10.218, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 香港IEPL 2, server: 120.233.10.218, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 香港IEPL 3, server: 120.233.10.218, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 新加坡IEPL 2, server: 120.233.10.218, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 日本IEPL, server: 120.233.10.218, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 日本IEPL 2, server: 120.233.10.218, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 日本IEPL 3, server: 120.233.10.218, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 香港IEPL 4, server: 120.233.10.218, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 新加坡IEPL 3, server: 120.233.10.218, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 香港IEPL 5, server: 120.233.10.218, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 美国IEPL, server: 120.233.10.218, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 美国IEPL 2, server: 120.233.10.218, port: 31002, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 美国IEPL 3, server: 120.233.10.218, port: 31005, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 俄罗斯IEPL, server: 120.233.10.218, port: 51001, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 日本IEPL 4, server: 120.233.10.218, port: 11004, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 香港IEPL 6, server: 120.233.10.218, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 新加坡IEPL 4, server: 120.233.10.218, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 英国IEPL, server: 120.233.10.218, port: 51002, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
+  - {name: HK_欢迎使用软件库APP, server: 8.210.45.168, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP, server: 152.69.196.94, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 2, server: 129.146.103.173, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: DE_欢迎使用软件库APP, server: 130.61.187.26, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 3, server: 152.69.194.223, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: NL_欢迎使用软件库APP, server: 130.162.227.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: DE_欢迎使用软件库APP 2, server: 130.61.200.5, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: DE_欢迎使用软件库APP 3, server: 130.61.246.115, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: NL_欢迎使用软件库APP 2, server: 130.162.42.184, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 魔戒.net-444, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 73.72vpn.xyz}, udp: true}
+  - {name: US_欢迎使用软件库APP 4, server: 132.226.150.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 5, server: 129.153.198.41, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: AE_欢迎使用软件库APP, server: 139.185.47.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: AE_欢迎使用软件库APP 2, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 71.72vpn.xyz}, udp: true}
+  - {name: US_欢迎使用软件库APP 6, server: 155.248.227.143, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 7, server: 155.248.227.184, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CA_欢迎使用软件库APP, server: 168.138.94.194, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 8, server: 155.248.230.241, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
-  - {name: 新加坡IEPL 5, server: 120.233.10.218, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 香港IEPL 7, server: 120.233.7.73, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
-  - {name: 新加坡IEPL 6, server: 120.233.10.218, port: 61003, type: ss, cipher: chacha20-ietf-poly1305, password: a93bb5bf-3213-4d06-90f4-71b53544eff0, udp: true}
+  - {name: CA_欢迎使用软件库APP 2, server: 168.138.78.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 9, server: 155.248.224.189, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欢迎使用软件库APP, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 5.72vpn.xyz}, udp: true}
+  - {name: AE_欢迎使用软件库APP 3, server: 139.185.43.151, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: AE_欢迎使用软件库APP 4, server: 139.185.47.49, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 10, server: 172.67.140.165, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 30.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 2, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 6.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 3, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 2.72vpn.xyz}, udp: true}
+  - {name: AE_欢迎使用软件库APP 5, server: 139.185.35.157, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_欢迎使用软件库APP 11, server: 158.101.19.245, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欢迎使用软件库APP 4, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 30.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 5, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 3.72vpn.xyz}, udp: true}
+  - {name: US_欢迎使用软件库APP 12, server: 172.67.140.165, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 5.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 6, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 1.72vpn.xyz}, udp: true}
+  - {name: AE_欢迎使用软件库APP 6, server: 139.185.45.53, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,138 +176,163 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 香港IEPL 4
-      - 香港IEPL 5
-      - 香港IEPL 6
-      - 香港IEPL 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -291,32 +348,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net-222
-      - 魔戒.net-333
-      - 魔戒.net 🇯🇵日本(绿头外网集团)(Public) 7
-      - 香港IEPL
-      - 新加坡IEPL
-      - 香港IEPL 2
-      - 香港IEPL 3
-      - 新加坡IEPL 2
-      - 日本IEPL
-      - 日本IEPL 2
-      - 日本IEPL 3
-      - 香港IEPL 4
-      - 新加坡IEPL 3
-      - 香港IEPL 5
-      - 美国IEPL
-      - 美国IEPL 2
-      - 美国IEPL 3
-      - 俄罗斯IEPL
-      - 日本IEPL 4
-      - 香港IEPL 6
-      - 新加坡IEPL 4
-      - 英国IEPL
+      - HK_欢迎使用软件库APP
+      - US_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP
+      - DE_欢迎使用软件库APP 2
+      - DE_欢迎使用软件库APP 3
+      - NL_欢迎使用软件库APP 2
+      - 魔戒.net-444
+      - US_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 5
+      - AE_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 6
+      - US_欢迎使用软件库APP 7
+      - CA_欢迎使用软件库APP
+      - US_欢迎使用软件库APP 8
       - US_3059
-      - 新加坡IEPL 5
-      - 香港IEPL 7
-      - 新加坡IEPL 6
+      - CA_欢迎使用软件库APP 2
+      - US_欢迎使用软件库APP 9
+      - 欢迎使用软件库APP
+      - AE_欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 4
+      - US_欢迎使用软件库APP 10
+      - 欢迎使用软件库APP 2
+      - 欢迎使用软件库APP 3
+      - AE_欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 11
+      - 欢迎使用软件库APP 4
+      - 欢迎使用软件库APP 5
+      - US_欢迎使用软件库APP 12
+      - 欢迎使用软件库APP 6
+      - AE_欢迎使用软件库APP 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
