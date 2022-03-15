@@ -6,52 +6,76 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 魔戒.net-444, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 73.72vpn.xyz}, udp: true}
-  - {name: 欢迎使用软件库APP, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 6.72vpn.xyz}, udp: true}
-  - {name: 欢迎使用软件库APP 2, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 1.72vpn.xyz}, udp: true}
-  - {name: 魔戒.net-222, server: 71.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 71.72vpn.xyz}, udp: true}
+  - {name: 魔戒.net-444 2, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 73.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 2.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 2, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 6.72vpn.xyz}, udp: true}
   - {name: US_欢迎使用软件库APP, server: 172.67.140.165, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 30.72vpn.xyz}, udp: true}
-  - {name: 欢迎使用软件库APP 3, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 30.72vpn.xyz}, udp: true}
-  - {name: 欢迎使用软件库APP 4, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 2.72vpn.xyz}, udp: true}
-  - {name: 香港D·0.6, server: b7a4e9f8.ddns.tokyo, port: 36265, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /320f93ad-5216-4bf1-b544-326dbdce84a2, ws-headers: {Host: live.bilibili.com}, udp: true}
-  - {name: 香港B·1.0, server: b7a4e9f8.ddns.tokyo, port: 17905, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9e3503d3-26e1-43d0-adcb-61ddfc935dc3, ws-headers: {Host: vip.jd.com}, udp: true}
-  - {name: 狮城A·0.2, server: 0423f8f0.ddns.tokyo, port: 24367, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /3e7299b4-bfb8-439c-8c5d-6e924e0def40, ws-headers: {Host: mail.qq.com}, udp: true}
-  - {name: 香港F·2.0, server: 72c6f7e1.ddns.tokyo, port: 31104, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /452feee1-992d-41e2-a0f1-1ff7e566866f, ws-headers: {Host: wenwen.sogou.com}, udp: true}
-  - {name: 日本A·2.0, server: 0423f8f0.ddns.tokyo, port: 17430, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /291de542-f37b-4b57-893e-5e81594b865b, ws-headers: {Host: wt.jd.com}, udp: true}
-  - {name: 狮城B·0.2, server: 0423f8f0.ddns.tokyo, port: 24591, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b4569d8c-d012-4cb8-b2fa-c76d2182d433, ws-headers: {Host: yasuo.360.cn}, udp: true}
-  - {name: 日本B·1.0, server: 9c29ba40.ddns.tokyo, port: 43866, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b65c65c0-f8c0-49df-9034-adcd51d7d7d6, ws-headers: {Host: wt.jd.com}, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君), server: zz.vip341.xyz, port: 35899, type: vmess, uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: zz.vip341.xyz}, udp: true}
-  - {name: 韩国A·1.0, server: 9c29ba40.ddns.tokyo, port: 46392, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4362adec-13e8-474f-a70f-4c1890cd1be1, ws-headers: {Host: open.163.com}, udp: true}
-  - {name: 台湾B·0.6, server: 864e2e1a.ddns.tokyo, port: 57551, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /2b20a470-d485-400e-a4e9-31a7ec8f72d3, ws-headers: {Host: vip.163.com}, udp: true}
-  - {name: 香港E·2.0, server: 72c6f7e1.ddns.tokyo, port: 59075, type: ss, cipher: chacha20-ietf-poly1305, password: YQx0Ht, udp: true}
-  - {name: 悉尼A·0.2, server: 0423f8f0.ddns.tokyo, port: 43007, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /da666d4c-499f-4c56-979d-847d361006d6, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: 美国A·0.1, server: 213bf07d.ddns.tokyo, port: 56078, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /9bd86e29-8f49-49cd-8ee8-c5f0f14ae88c, ws-headers: {Host: daily.zhihu.com}, udp: true}
-  - {name: 法国(欢迎订阅Youtube破解资源君) 2, server: 120.232.174.85, port: 24089, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
-  - {name: 美国C·0.5, server: 213bf07d.ddns.tokyo, port: 17991, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aed45941-7804-4412-a66c-3569072f029c, ws-headers: {Host: game.163.com}, udp: true}
-  - {name: 土耳其A·1.0, server: 864e2e1a.ddns.tokyo, port: 42727, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a4ca418b-9324-47c0-8da4-8c05a033b717, ws-headers: {Host: beauty.jd.com}, udp: true}
+  - {name: 欢迎使用软件库APP 3, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 2.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 4, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 30.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 5, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 6.72vpn.xyz}, udp: true}
+  - {name: DO|新加坡|流媒体解锁, server: f2s.jddg.me, port: 14891, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文|新加坡|2G口|流媒体解锁, server: f2s.jddg.me, port: 27585, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: 甲骨文|韩国春川|高速G口|免流, server: kr.jddg.me, port: 443, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.jddg.me}, udp: true}
+  - {name: HGC|香港|流媒体解锁|中转, server: f2s.jddg.me, port: 40011, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: LINODE|日本|中转|流媒体解锁, server: f2s.jddg.me, port: 29422, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
+  - {name: 魔戒.net_560 |12.93Mb, server: bj.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: bj.ftnodes1.xyz}, udp: true}
+  - {name: Hinet|台湾2号|中转|流媒体解锁, server: f2s.jddg.me, port: 57405, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: "魔戒.net ❶香港 A4 [H]", server: transit01.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hk18, ws-headers: {Host: transit01.balala2016.xyz}, udp: true}
+  - {name: 魔戒.net x此条误选x, server: hk18.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hk18, ws-headers: {Host: hk18.balala2016.xyz}, udp: true}
+  - {name: 印度|流媒体解锁|中转, server: f2s.jddg.me, port: 61360, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: GCP|台湾|高速|2x, server: gcp.jddg.me, port: 443, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gcp.jddg.me}, udp: true}
+  - {name: V3-中转3074|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13074, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: zhonggang-sy01.ddns-oink.xyz}, udp: true}
+  - {name: JUST|俄罗斯|低价区|中转, server: f2s.jddg.me, port: 12226, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: 美西|流媒体解锁|中转, server: f2s.jddg.me, port: 15224, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: 美国|中转|免费节点|流媒体解锁, server: f2s.jddg.me, port: 15474, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: "魔戒.net ❷香港 13 [BGP]", server: hk13.balala2016.xyz, port: 80, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /balala, ws-headers: {Host: hk13.balala2016.xyz}, udp: true}
+  - {name: "魔戒.net ❷香港 14 [BGP]", server: hk14.balala2016.xyz, port: 80, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /balala, ws-headers: {Host: hk14.balala2016.xyz}, udp: true}
+  - {name: DO|美国2|流媒体全解锁|中转, server: f2s.jddg.me, port: 40002, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: AWS|美国|Trojan协议测试, server: xieyi.jddg.me, port: 443, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: xieyi.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: V4-中转3608|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13608, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: zhonggang-sy01.ddns-oink.xyz}, udp: true}
+  - {name: V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray, server: gd-x-sy183.ddns-oink.xyz, port: 13548, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-x-sy183.ddns-oink.xyz}, udp: true}
+  - {name: US|美国|流媒体解锁|TR协议, server: f2s.jddg.me, port: 51602, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: f2s.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: V3-中转3579|广东K-新加坡|x2.0|V2ray, server: gd-k-suying.ddns-oink.xyz, port: 13579, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-k-suying.ddns-oink.xyz}, udp: true}
+  - {name: AWS|美国|SS协议测试, server: xieyi.jddg.me, port: 60321, type: ss, cipher: chacha20-ietf-poly1305, password: d716e745-62f8-498e-af97-3a1e096d8c84, udp: true}
+  - {name: V3-中转2940|广东K-新加坡|x1.5|V2ray, server: gd-k-suying.ddns-oink.xyz, port: 12940, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-k-suying.ddns-oink.xyz}, udp: true}
+  - {name: V3-中转3587|广东K-新加坡|x1.5|V2ray, server: gd-k-suying.ddns-oink.xyz, port: 13587, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-k-suying.ddns-oink.xyz}, udp: true}
+  - {name: AWS|美国|V2ray协议测试, server: xieyi.jddg.me, port: 80, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: xieyi.jddg.me}, udp: true}
+  - {name: DO|美国|中转|高速|免流, server: f2s.jddg.me, port: 40008, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: US|洛杉矶|电信CN2|直连高速, server: cn2.v2jx.site, port: 443, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cn2.v2jx.site}, udp: true}
+  - {name: V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray, server: gd-k-suying.ddns-oink.xyz, port: 13058, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-k-suying.ddns-oink.xyz}, udp: true}
+  - {name: V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray, server: gd-k-suying.ddns-oink.xyz, port: 13060, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-k-suying.ddns-oink.xyz}, udp: true}
+  - {name: DE_欢迎使用软件库APP, server: 130.61.246.115, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: V3-中转3588|广东K-新加坡|x1.5|V2ray, server: gd-k-suying.ddns-oink.xyz, port: 13588, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-k-suying.ddns-oink.xyz}, udp: true}
   - {name: 美国B·0.1, server: 213bf07d.ddns.tokyo, port: 24016, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /80c77494-45da-4c90-a61d-eba4bc38a997, ws-headers: {Host: huodong.taobao.com}, udp: true}
   - {name: US_欢迎使用软件库APP 2, server: 158.101.19.245, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: DE_欢迎使用软件库APP, server: 130.61.187.26, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: NL_欢迎使用软件库APP, server: 130.162.42.184, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: US_欢迎使用软件库APP 3, server: 132.226.150.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: DE_欢迎使用软件库APP 2, server: 130.61.200.5, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: NL_欢迎使用软件库APP, server: 130.162.42.184, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: AE_欢迎使用软件库APP, server: 139.185.47.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: NL_欢迎使用软件库APP 2, server: 130.162.227.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 伦敦A·0.2, server: 0423f8f0.ddns.tokyo, port: 18760, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /03fdf73e-9079-45ed-9357-3e61f59c61a2, ws-headers: {Host: message.bilibili.com}, udp: true}
-  - {name: 台湾A·1.0, server: 864e2e1a.ddns.tokyo, port: 35030, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /3f9a1e98-e2af-4dee-9872-585d7de8082d, ws-headers: {Host: wenwen.sogou.com}, udp: true}
-  - {name: 印度A·2.0, server: 864e2e1a.ddns.tokyo, port: 22713, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4e993205-8a53-48c7-9d4c-1ff5c14c5a8c, ws-headers: {Host: jdwx.jd.com}, udp: true}
-  - {name: 阿根廷A·1.0, server: 9c29ba40.ddns.tokyo, port: 50452, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /e3fe4104-bd03-4266-afb5-e9f79a1cf4cd, ws-headers: {Host: house.qq.com}, udp: true}
-  - {name: AE_欢迎使用软件库APP, server: 139.185.43.151, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: DE_欢迎使用软件库APP 2, server: 130.61.246.115, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 乌克兰A·1.0, server: 9c29ba40.ddns.tokyo, port: 39936, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d11dbb94-95e4-4545-9244-9c439abd83f4, ws-headers: {Host: jiadian.jd.com}, udp: true}
-  - {name: 俄罗斯A·0.5, server: 864e2e1a.ddns.tokyo, port: 39696, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /0b9be807-7fa5-4852-a444-2c155ff847ad, ws-headers: {Host: shuma.jd.com}, udp: true}
+  - {name: V3-中转3660|广东M-美国|解锁|x2.5|V2ray, server: gd-m-ussuying.ddns-oink.xyz, port: 13660, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-m-ussuying.ddns-oink.xyz}, udp: true}
+  - {name: V3-中转3662|广东M-美国|解锁|x2.5|V2ray, server: gd-m-ussuying.ddns-oink.xyz, port: 13662, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-m-ussuying.ddns-oink.xyz}, udp: true}
+  - {name: 魔戒.net-444 3, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 73.72vpn.xyz}, udp: true}
+  - {name: V3-中转3664|广东M-美国|解锁|x2.5|V2ray, server: gd-m-ussuying.ddns-oink.xyz, port: 13664, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-m-ussuying.ddns-oink.xyz}, udp: true}
   - {name: US_欢迎使用软件库APP 4, server: 129.146.103.173, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: AE_欢迎使用软件库APP 2, server: 139.185.47.141, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: V3-中转3677|广东M-美国|解锁|x2.5|V2ray, server: gd-m-ussuying.ddns-oink.xyz, port: 13677, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-m-ussuying.ddns-oink.xyz}, udp: true}
+  - {name: 魔戒.net-888, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
+  - {name: V3-中转3606|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13606, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: zhonggang-sy01.ddns-oink.xyz}, udp: true}
+  - {name: US|美国|流媒体全解锁|CF隧道可优选IP, server: usipv6.jddg.me, port: 443, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usipv6.jddg.me}, udp: true}
   - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
   - {name: US_欢迎使用软件库APP 5, server: 129.153.198.41, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 欢迎使用软件库APP 5, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 1.72vpn.xyz}, udp: true}
-  - {name: DE_欢迎使用软件库APP 3, server: 130.61.200.5, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 欢迎使用软件库APP 6, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 6.72vpn.xyz}, udp: true}
-  - {name: 魔戒.net-444 2, server: 73.72vpn.xyz, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 73.72vpn.xyz}, udp: true}
-  - {name: 欢迎使用软件库APP 7, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 2.72vpn.xyz}, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 120.232.174.85, port: 47985, type: ss, cipher: aes-128-gcm, password: xoz6KQ, udp: true}
+  - {name: V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray, server: gd-g-suying.ddns-oink.xyz, port: 13586, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-g-suying.ddns-oink.xyz}, udp: true}
+  - {name: AE_欢迎使用软件库APP 2, server: 139.185.43.151, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 欢迎使用软件库APP 6, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 2.72vpn.xyz}, udp: true}
+  - {name: 欢迎使用软件库APP 7, server: 104.21.65.46, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: 6.72vpn.xyz}, udp: true}
+  - {name: DE_欢迎使用软件库APP 3, server: 130.61.187.26, port: 443, type: vmess, uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /google.com, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: V4-中转3308|广东H-台湾|解锁|x2.0|V2ray, server: gd-h-suying.ddns-oink.xyz, port: 13308, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-h-suying.ddns-oink.xyz}, udp: true}
+  - {name: V4-中转3557|广东G-新加坡|x2.0|V2ray, server: gd-g-suying.ddns-oink.xyz, port: 13557, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-g-suying.ddns-oink.xyz}, udp: true}
+  - {name: V4-中转3311|广东H-台湾|解锁|x2.0|V2ray, server: gd-h-suying.ddns-oink.xyz, port: 13311, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-h-suying.ddns-oink.xyz}, udp: true}
+  - {name: V4-中转3563|广东G-新加坡|x2.0|V2ray, server: gd-g-suying.ddns-oink.xyz, port: 13563, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-g-suying.ddns-oink.xyz}, udp: true}
+  - {name: V4-中转3567|广东G-新加坡|x2.0|V2ray, server: gd-g-suying.ddns-oink.xyz, port: 13567, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-g-suying.ddns-oink.xyz}, udp: true}
+  - {name: V4-中转2923|广东G-新加坡|x2.5|V2ray, server: gd-g-suying.ddns-oink.xyz, port: 51200, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: gd-g-suying.ddns-oink.xyz}, udp: true}
+  - {name: V3-中转3599|上海-日本M|解锁|x1.5|V2ray, server: zhonggang-sy01.ddns-oink.xyz, port: 13599, type: vmess, uuid: d4f9cbb5-24e9-3a24-89f8-4819fa2ac963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: zhonggang-sy01.ddns-oink.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -59,104 +83,152 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -164,52 +236,76 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -229,63 +325,89 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港D·0.6
-      - 香港B·1.0
-      - 香港F·2.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 台湾A·1.0
-      - 香港(欢迎订阅Youtube破解资源君)
+      - HGC|香港|流媒体解锁|中转
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - GCP|台湾|高速|2x
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -293,104 +415,152 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -398,52 +568,76 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -460,52 +654,76 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 魔戒.net-444
+      - 魔戒.net-444 2
       - 欢迎使用软件库APP
       - 欢迎使用软件库APP 2
-      - 魔戒.net-222
       - US_欢迎使用软件库APP
       - 欢迎使用软件库APP 3
       - 欢迎使用软件库APP 4
-      - 香港D·0.6
-      - 香港B·1.0
-      - 狮城A·0.2
-      - 香港F·2.0
-      - 日本A·2.0
-      - 狮城B·0.2
-      - 日本B·1.0
-      - 法国(欢迎订阅Youtube破解资源君)
-      - 韩国A·1.0
-      - 台湾B·0.6
-      - 香港E·2.0
-      - 悉尼A·0.2
-      - 美国A·0.1
-      - 法国(欢迎订阅Youtube破解资源君) 2
-      - 美国C·0.5
-      - 土耳其A·1.0
+      - 欢迎使用软件库APP 5
+      - DO|新加坡|流媒体解锁
+      - 甲骨文|新加坡|2G口|流媒体解锁
+      - 甲骨文|韩国春川|高速G口|免流
+      - HGC|香港|流媒体解锁|中转
+      - LINODE|日本|中转|流媒体解锁
+      - 魔戒.net_560 |12.93Mb
+      - Hinet|台湾2号|中转|流媒体解锁
+      - 魔戒.net ❶香港 A4 [H]
+      - 魔戒.net x此条误选x
+      - 印度|流媒体解锁|中转
+      - GCP|台湾|高速|2x
+      - V3-中转3074|上海-日本M|解锁|x1.5|V2ray
+      - JUST|俄罗斯|低价区|中转
+      - 美西|流媒体解锁|中转
+      - 美国|中转|免费节点|流媒体解锁
+      - 魔戒.net ❷香港 13 [BGP]
+      - 魔戒.net ❷香港 14 [BGP]
+      - DO|美国2|流媒体全解锁|中转
+      - AWS|美国|Trojan协议测试
+      - V4-中转3608|上海-日本M|解锁|x1.5|V2ray
+      - V3-中转3548|广东X-香港HKT|解锁|x1.5|V2ray
+      - US|美国|流媒体解锁|TR协议
+      - V3-中转3579|广东K-新加坡|x2.0|V2ray
+      - AWS|美国|SS协议测试
+      - V3-中转2940|广东K-新加坡|x1.5|V2ray
+      - V3-中转3587|广东K-新加坡|x1.5|V2ray
+      - AWS|美国|V2ray协议测试
+      - DO|美国|中转|高速|免流
+      - US|洛杉矶|电信CN2|直连高速
+      - V3-中转3058|广东K-新加坡|解锁|x1.3|V2ray
+      - V3-中转3060|广东K-新加坡|解锁|x1.3|V2ray
+      - DE_欢迎使用软件库APP
+      - V3-中转3588|广东K-新加坡|x1.5|V2ray
       - 美国B·0.1
       - US_欢迎使用软件库APP 2
-      - DE_欢迎使用软件库APP
-      - NL_欢迎使用软件库APP
       - US_欢迎使用软件库APP 3
-      - NL_欢迎使用软件库APP 2
-      - 伦敦A·0.2
-      - 台湾A·1.0
-      - 印度A·2.0
-      - 阿根廷A·1.0
-      - AE_欢迎使用软件库APP
       - DE_欢迎使用软件库APP 2
-      - 乌克兰A·1.0
-      - 俄罗斯A·0.5
+      - NL_欢迎使用软件库APP
+      - AE_欢迎使用软件库APP
+      - NL_欢迎使用软件库APP 2
+      - V3-中转3660|广东M-美国|解锁|x2.5|V2ray
+      - V3-中转3662|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-444 3
+      - V3-中转3664|广东M-美国|解锁|x2.5|V2ray
       - US_欢迎使用软件库APP 4
-      - AE_欢迎使用软件库APP 2
+      - V3-中转3677|广东M-美国|解锁|x2.5|V2ray
+      - 魔戒.net-888
+      - V3-中转3606|上海-日本M|解锁|x1.5|V2ray
+      - US|美国|流媒体全解锁|CF隧道可优选IP
       - US_3059
       - US_欢迎使用软件库APP 5
-      - 欢迎使用软件库APP 5
-      - DE_欢迎使用软件库APP 3
+      - V4-中转3586|广东G-新加坡|解锁|x2.0|V2ray
+      - AE_欢迎使用软件库APP 2
       - 欢迎使用软件库APP 6
-      - 魔戒.net-444 2
       - 欢迎使用软件库APP 7
-      - 香港(欢迎订阅Youtube破解资源君)
+      - DE_欢迎使用软件库APP 3
+      - V4-中转3308|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3557|广东G-新加坡|x2.0|V2ray
+      - V4-中转3311|广东H-台湾|解锁|x2.0|V2ray
+      - V4-中转3563|广东G-新加坡|x2.0|V2ray
+      - V4-中转3567|广东G-新加坡|x2.0|V2ray
+      - V4-中转2923|广东G-新加坡|x2.5|V2ray
+      - V3-中转3599|上海-日本M|解锁|x1.5|V2ray
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
