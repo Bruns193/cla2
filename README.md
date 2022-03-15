@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 魔戒.net x此条误选x, server: hk18.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hk18, ws-headers: {Host: hk18.balala2016.xyz}, udp: true}
   - {name: "魔戒.net ❶香港 A4 [H]", server: transit01.balala2016.xyz, port: 10080, type: vmess, uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hk18, ws-headers: {Host: transit01.balala2016.xyz}, udp: true}
   - {name: LINODE|日本|中转|流媒体解锁, server: f2s.jddg.me, port: 29422, type: vmess, uuid: d716e745-62f8-498e-af97-3a1e096d8c84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
   - {name: 魔戒.net-888, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
@@ -40,7 +39,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -74,7 +72,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -109,7 +106,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -156,7 +152,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -200,7 +195,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -234,7 +228,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -269,7 +262,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
@@ -313,7 +305,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net x此条误选x
       - 魔戒.net ❶香港 A4 [H]
       - LINODE|日本|中转|流媒体解锁
       - 魔戒.net-888
