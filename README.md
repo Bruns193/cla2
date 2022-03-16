@@ -5,59 +5,187 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _US_美国, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 魔戒.net-666, server: 104.208.112.171, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: ^🇭🇰香港HK 1158 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3084, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3054, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_欢迎使用软件库APP, server: 104.208.112.171, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
+  - {name: V3-IEPL专线 日本04 | 7x, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3064, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Japan-TY1-2-Rate:1.0, server: ty1-2.nigirocloud.com, port: 443, type: trojan, password: y3tqpagD93UYPaRumH, sni: ty1-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3054, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 澳洲(欢迎订阅Youtube破解资源君), server: 172.105.184.113, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 澳洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.184.113, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 澳洲(欢迎订阅Youtube破解资源君) 3, server: 172.105.184.113, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 澳洲(欢迎订阅Youtube破解资源君) 4, server: 172.105.184.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 澳洲(欢迎订阅Youtube破解资源君) 5, server: 172.105.184.113, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 澳洲(欢迎订阅Youtube破解资源君) 6, server: 172.105.184.113, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: UnitedStates-US3-5-Rate:1.0, server: us3-5.nigirocloud.com, port: 443, type: trojan, password: y3tqpagD93UYPaRumH, sni: us3-5.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V3-IEPL专线 新加坡05 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3054, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V4-#324_粤-台_NF_x2_0_V2ray_76, server: juzixjp-001.ddns-oink.xyz, port: 40324, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1, server: seoalhigh.515223.xyz, port: 41371, type: vmess, uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 魔戒.net_557 | 7.24Mb, server: gyb.ftnodes1.xyz, port: 80, type: vmess, uuid: e4fb1a56-8b94-4ab7-832e-fa077a024145, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gyb.ftnodes1.xyz}, udp: true}
+  - {name: V3-IEPL专线 日本04 | 7x 2, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V3-#320_粤-台_NF_x2_0_V2ray_46, server: juzixjp-001.ddns-oink.xyz, port: 40320, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: Germany-DE2-3-Rate:1.0, server: de2-3.nigirocloud.com, port: 443, type: trojan, password: y3tqpagD93UYPaRumH, sni: de2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 韩国KR 2227 *hi-moon.pw, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_1373, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: V1-日本 多台负载均衡 中继D 1.5x, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: V4-#326_粤-台_NF_x2_0_V2ray_78, server: juzixjp-001.ddns-oink.xyz, port: 40326, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: V3-#259_粤-港HKT_x1_5_V2ray_37, server: jzdjd-01.ddns-oink.xyz, port: 40259, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
+  - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: f9903605-bcde-3fdf-9fca-94d1fdc9cadb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V3-#25_粤-港HKT_NF_x1_5_V2ray_38, server: jzdjd-01.ddns-oink.xyz, port: 40025, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
+  - {name: V3-IEPL专线 美国02 6x, server: iplc01.dns2333.xyz, port: 3034, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_2202, server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: V2-#261_粤-港HKT_x1_2_V2ray_16, server: jzdjd-01.ddns-oink.xyz, port: 40261, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
+  - {name: V3-IEPL专线 英国01 | 6x, server: iplc01.dns2333.xyz, port: 3154, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V3-#239_粤-港HKT_NF_x1_5_V2ray_34, server: jzdjd-01.ddns-oink.xyz, port: 40239, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
+  - {name: US_1696, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: V3-#322_粤-台_NF_x2_0_V2ray_48, server: juzixjp-001.ddns-oink.xyz, port: 40322, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: US_1716, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1329, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: V3-#258_粤-港HKTx1_5_V2ray_36, server: jzdjd-01.ddns-oink.xyz, port: 40258, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
+  - {name: V2-#43_粤-台_NF_x2_0_V2ray_26, server: juzixjp-001.ddns-oink.xyz, port: 40043, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: V2-巴西01 中继C 2x, server: in03.dns2333.xyz, port: 64041, type: vmess, uuid: 10c56562-b2a0-3243-8dd1-c7c866205945, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: biteb-br01.covid19.rip}, udp: true}
+  - {name: V2-#261_粤-港HKT_x1_2_V2ray_16 2, server: jzdjd-01.ddns-oink.xyz, port: 40261, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: "%7B%22Host%22:%22jzdjd-01.ddns-oink.xyz%22%7D"}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,63 +204,204 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +417,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _US_美国
-      - 魔戒.net-666
-      - US_3059
+      - ^🇭🇰香港HK 1158 *hi-moon.pw
+      - 魔戒.net 🇸🇬 V3-IEPL专线 新加坡05 | 8x 原生IP
+      - HK_欢迎使用软件库APP
+      - V3-IEPL专线 日本04 | 7x
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚01 | 8x 原生IP
+      - Japan-TY1-2-Rate:1.0
+      - 魔戒.net ^🇸🇬新加坡SG 1188 *hi-moon.pw
       - 澳洲(欢迎订阅Youtube破解资源君)
-      - 澳洲(欢迎订阅Youtube破解资源君) 2
-      - 澳洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲(欢迎订阅Youtube破解资源君) 4
-      - 澳洲(欢迎订阅Youtube破解资源君) 5
-      - 澳洲(欢迎订阅Youtube破解资源君) 6
+      - UnitedStates-US3-5-Rate:1.0
+      - 魔戒.net 🇲🇾 V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - V3-IEPL专线 新加坡05 | 8x 原生IP
+      - V4-#324_粤-台_NF_x2_0_V2ray_76
+      - 魔戒.net 🇰🇷 _韩国_宝马ＧＴ_1
+      - 魔戒.net_557 | 7.24Mb
+      - V3-IEPL专线 日本04 | 7x 2
+      - V3-#320_粤-台_NF_x2_0_V2ray_46
+      - Germany-DE2-3-Rate:1.0
+      - 韩国KR 2227 *hi-moon.pw
+      - US_1373
+      - V3-IEPL专线 马来西亚02 | 8x 原生IP
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V4-#326_粤-台_NF_x2_0_V2ray_78
+      - V3-#259_粤-港HKT_x1_5_V2ray_37
+      - US_3059
+      - 魔戒.net ^🇲🇾MY 1187 *hi-moon.pw
+      - V3-#25_粤-港HKT_NF_x1_5_V2ray_38
+      - V3-IEPL专线 美国02 6x
+      - US_2202
+      - V2-#261_粤-港HKT_x1_2_V2ray_16
+      - V3-IEPL专线 英国01 | 6x
+      - V3-#239_粤-港HKT_NF_x1_5_V2ray_34
+      - US_1696
+      - V3-#322_粤-台_NF_x2_0_V2ray_48
+      - US_1716
+      - US_1329
+      - V3-#258_粤-港HKTx1_5_V2ray_36
+      - V2-#43_粤-台_NF_x2_0_V2ray_26
+      - V2-巴西01 中继C 2x
+      - V2-#261_粤-港HKT_x1_2_V2ray_16 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
