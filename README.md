@@ -5,115 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡-联通中转, server: liantong.latiao.cyou, port: 26802, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 香港02|厦门联通|高峰期稳定, server: lt.geia27.xyz, port: 21357, type: vmess, uuid: 420e775b-a27c-4ec2-95be-fcfbd670c7b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 日本-联通中转, server: liantong.latiao.cyou, port: 26801, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 日本01|厦门联通|解锁流媒体, server: lt.geia27.xyz, port: 60583, type: vmess, uuid: 420e775b-a27c-4ec2-95be-fcfbd670c7b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 韩国-联通中转, server: liantong.latiao.cyou, port: 26803, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 新加坡- 移动中转, server: yidong.latiao.cyou, port: 26802, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 日本-移动中转, server: yidong.latiao.cyou, port: 26801, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 韩国-移动中转, server: yidong.latiao.cyou, port: 26803, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 美国-联通中转, server: liantong.latiao.cyou, port: 26804, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 香港01|广州移动|高峰期稳定, server: gg.geia27.xyz, port: 33503, type: vmess, uuid: 420e775b-a27c-4ec2-95be-fcfbd670c7b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国-移动中转, server: yidong.latiao.cyou, port: 26804, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 德国-联通中转, server: liantong.latiao.cyou, port: 26805, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 英国-移动中转, server: yidong.latiao.cyou, port: 26807, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: 德国-移动中转, server: yidong.latiao.cyou, port: 26805, type: ss, cipher: chacha20-ietf-poly1305, password: 6670a234-0d0a-42c8-b3b5-087568abc653, udp: true}
-  - {name: IN_欢迎使用软件库APP, server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1329, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: 魔戒.net-222, server: 169.197.143.121, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 台湾_TGatnodesharing_58, server: tw.cloudoo.xyz, port: 443, type: vmess, uuid: 5872a1fb-4589-48db-85ce-a058f39fef9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: tw.cloudoo.xyz}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: us.rnmtq.gq, port: 63480, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vod3.nty.tv189.cn}, udp: true}
   - {name: US_欢迎使用软件库APP, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 198.57.27.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA_欢迎使用软件库APP, server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 198.57.27.191, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 台灣, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 台灣 2, server: tw.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_欢迎使用软件库APP 2, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: kr.rnmtq.gq, port: 63470, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vod3.nty.tv189.cn}, udp: true}
   - {name: US_1696, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1716, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,121 +80,70 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港02|厦门联通|高峰期稳定
-      - 香港01|广州移动|高峰期稳定
+      - 台湾_TGatnodesharing_58
+      - 台灣
+      - 台灣 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -262,29 +159,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-联通中转
-      - 香港02|厦门联通|高峰期稳定
-      - 日本-联通中转
-      - 日本01|厦门联通|解锁流媒体
-      - 韩国-联通中转
-      - 新加坡- 移动中转
-      - 日本-移动中转
-      - 韩国-移动中转
-      - 美国-联通中转
-      - 香港01|广州移动|高峰期稳定
-      - 美国-移动中转
-      - 德国-联通中转
-      - 英国-移动中转
-      - 德国-移动中转
-      - IN_欢迎使用软件库APP
-      - US_1329
-      - US_3059
+      - 魔戒.net-222
+      - 台湾_TGatnodesharing_58
+      - 美国(欢迎订阅Youtube破解资源君)
       - US_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - CA_欢迎使用软件库APP
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 台灣
+      - 台灣 2
+      - US_欢迎使用软件库APP 2
+      - 美国(欢迎订阅Youtube破解资源君) 2
       - US_1696
-      - US_1716
+      - 欧洲(欢迎订阅Youtube破解资源君)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
