@@ -5,63 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 魔戒.net-222, server: 169.197.143.121, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 台湾_TGatnodesharing_58, server: tw.cloudoo.xyz, port: 443, type: vmess, uuid: 5872a1fb-4589-48db-85ce-a058f39fef9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: tw.cloudoo.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: us.rnmtq.gq, port: 63480, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vod3.nty.tv189.cn}, udp: true}
-  - {name: US_欢迎使用软件库APP, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 台灣, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 台灣 2, server: tw.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US_欢迎使用软件库APP 2, server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: kr.rnmtq.gq, port: 63470, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vod3.nty.tv189.cn}, udp: true}
-  - {name: US_1696, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 台湾1-三网优化-强加密, server: 0314tw01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw01.fans8.xyz}, udp: true}
+  - {name: 台湾2-三网优化-强加密, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
+  - {name: 台湾3-三网优化, server: 0319tw123.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319tw123.fans8.xyz}, udp: true}
+  - {name: 魔戒.net_香港_奔驰ＡＭＧ_6, server: gz.yd01.paopaocloud.cyou, port: 10002, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.hk04.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_34, server: gz.yd01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.az01.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_7, server: gz.yd01.paopaocloud.cyou, port: 10006, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.tw01.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: 罗马尼亚1-三网优化, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0316ro.fans8.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8ce46aae-dae5-4d50-ebcd-f9514e4c048a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_10, server: gz.yd01.paopaocloud.cyou, port: 10014, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.sgp01.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: 香港8-三网优化-强加密, server: 0314hk99.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314hk99.fans8.xyz}, udp: true}
+  - {name: 越南胡志明-三网优化, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: db98941a-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 韩国2-三网优化-强加密, server: 0314kr01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314kr01.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d9267670-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 香港3-三网优化-强加密, server: 0318hk08.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0318hk08.fans8.xyz}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d6d43a60-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: e0184058-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: _香港_奔驰ＡＭＧ_9, server: gz.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.jp02.paopaocloud.cyou%22%7D"}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,70 +124,121 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾_TGatnodesharing_58
-      - 台灣
-      - 台灣 2
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 香港3-三网优化-强加密
+      - _香港_奔驰ＡＭＧ_9
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -159,16 +254,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net-222
-      - 台湾_TGatnodesharing_58
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_欢迎使用软件库APP
-      - 台灣
-      - 台灣 2
-      - US_欢迎使用软件库APP 2
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_1696
+      - 台湾1-三网优化-强加密
+      - 台湾2-三网优化-强加密
+      - 台湾3-三网优化
+      - 魔戒.net_香港_奔驰ＡＭＧ_6
+      - _香港_奔驰ＡＭＧ_34
+      - _香港_奔驰ＡＭＧ_7
+      - US_3059
+      - 罗马尼亚1-三网优化
+      - 美国阿伟科技@TG/油管
+      - _香港_奔驰ＡＭＧ_10
+      - 香港8-三网优化-强加密
+      - 越南胡志明-三网优化
       - 欧洲(欢迎订阅Youtube破解资源君)
+      - 韩国2-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 香港3-三网优化-强加密
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - _香港_奔驰ＡＭＧ_9
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
