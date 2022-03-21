@@ -5,187 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 魔戒.net3, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技, server: cn03.mynode.me, port: 8114, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 2, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 3, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net7, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net9, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net8, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net6, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net4, server: cn03.mynode.me, port: 8114, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net1, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: hk3.qingyun123.xyz, port: 10050, type: trojan, password: 6f5896ec-605f-47a9-bfa9-ccb3f2b17e8c, sni: hk3.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: kr3.qingyun123.xyz, port: 10050, type: trojan, password: 8c6ae7e7-d384-4d48-b078-2be389e6ada1, sni: kr3.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: 机场👉魔戒.net-🇧🇳, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: 油管 TG 8度科技 4, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 5, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 6, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管 TG 8度科技 7, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 8, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 9, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net5, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net2, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 油管 TG 8度科技 10, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 油管 TG 8度科技 11, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 172.99.190.92, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管+TG+8度科技, server: 169.197.142.4, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 机场👉魔戒.net- 🇺🇸 Azure Cloudflare, server: cdn6.xiaokuqwq.xyz, port: 8443, type: vmess, uuid: e7255c58-b2ba-4a1b-a203-3f52dffd99a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn6.xiaokuqwq.xyz}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d6d43a60-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: US_3059, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
-  - {name: 油管+TG+8度科技 2, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: e0184058-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 2.ezydfdd.com, port: 443, type: vmess, uuid: 8ce46aae-dae5-4d50-ebcd-f9514e4c048a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 2.ezydfdd.com}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 油管+TG+8度科技 3, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 172.99.190.92, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 油管+TG+8度科技 4, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 油管+TG+8度科技 5, server: 134.195.196.81, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 油管+TG+8度科技 6, server: 169.197.142.4, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _香港_奔驰ＡＭＧ_9, server: gz.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: d6a3f7ed-5d0d-323e-b092-5c1fdeadb34f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22paopao.v2.jp02.paopaocloud.cyou%22%7D"}, udp: true}
-  - {name: 油管+TG+8度科技 7, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 台湾3-三网优化, server: 0319tw123.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319tw123.fans8.xyz}, udp: true}
-  - {name: 台湾2-三网优化-强加密, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
+  - {name: 机场👉魔戒.net-🇧🇳 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: 迪拜阿伟科技@TG/油管, server: 120.233.147.118, port: 41435, type: vmess, uuid: f41ec24f-67f7-31f0-8218-f6ce260fe3f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bi.oracleusa.ml}, udp: true}
+  - {name: 迪拜阿伟科技@TG/油管 2, server: 20.212.220.101, port: 8010, type: vmess, uuid: e5d74f2a-b191-37ef-9be9-24c1576206cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bi.oracleusa.ml}, udp: true}
+  - {name: HK_油管 TG 8度科技, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
+  - {name: null_油管 TG 8度科技, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nl, ws-headers: {Host: 0316ro.fans8.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: tmxk.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tmxk.herokuapp.com}, udp: true}
+  - {name: 芬兰阿伟科技@TG/油管, server: kr3.uuv2.co.uk, port: 2053, type: vmess, uuid: bef4871a-a3ed-4cca-831f-88382c4382fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}, udp: true}
+  - {name: HK_油管 TG 8度科技 2, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: dt.xiaobai.network, port: 10009, type: vmess, uuid: 95a25327-9195-11ec-a4b3-00163e067fd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,194 +88,77 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _香港_奔驰ＡＭＧ_9
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -407,47 +174,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 魔戒.net3
-      - 油管 TG 8度科技
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - 魔戒.net7
-      - 魔戒.net9
-      - 魔戒.net8
-      - 魔戒.net6
-      - 魔戒.net4
-      - 魔戒.net1
+      - 香港阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
-      - 油管 TG 8度科技 4
-      - 油管 TG 8度科技 5
-      - 油管 TG 8度科技 6
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - 魔戒.net5
-      - 魔戒.net2
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管+TG+8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 机场👉魔戒.net- 🇺🇸 Azure Cloudflare
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_3059
-      - 油管+TG+8度科技 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 机场👉魔戒.net-🇧🇳 2
+      - 迪拜阿伟科技@TG/油管
+      - 迪拜阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技
+      - null_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 油管+TG+8度科技 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
-      - 油管+TG+8度科技 4
-      - 油管+TG+8度科技 5
-      - 油管+TG+8度科技 6
-      - _香港_奔驰ＡＭＧ_9
-      - 油管+TG+8度科技 7
-      - 台湾3-三网优化
-      - 台湾2-三网优化-强加密
+      - 芬兰阿伟科技@TG/油管
+      - HK_油管 TG 8度科技 2
+      - 香港阿伟科技@TG/油管 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
