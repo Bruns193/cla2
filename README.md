@@ -5,71 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港阿伟科技@TG/油管, server: hk3.qingyun123.xyz, port: 10050, type: trojan, password: 6f5896ec-605f-47a9-bfa9-ccb3f2b17e8c, sni: hk3.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国阿伟科技@TG/油管, server: kr3.qingyun123.xyz, port: 10050, type: trojan, password: 8c6ae7e7-d384-4d48-b078-2be389e6ada1, sni: kr3.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: 机场👉魔戒.net-🇧🇳, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: JP_油管 TG 8度科技, server: 172.104.76.239, port: 15020, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.104.76.239}, udp: true}
   - {name: 机场👉魔戒.net-🇧🇳 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: 迪拜阿伟科技@TG/油管, server: 120.233.147.118, port: 41435, type: vmess, uuid: f41ec24f-67f7-31f0-8218-f6ce260fe3f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bi.oracleusa.ml}, udp: true}
-  - {name: 迪拜阿伟科技@TG/油管 2, server: 20.212.220.101, port: 8010, type: vmess, uuid: e5d74f2a-b191-37ef-9be9-24c1576206cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: bi.oracleusa.ml}, udp: true}
-  - {name: HK_油管 TG 8度科技, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
-  - {name: null_油管 TG 8度科技, server: 0316ro.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nl, ws-headers: {Host: 0316ro.fans8.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: tmxk.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tmxk.herokuapp.com}, udp: true}
+  - {name: 甲骨文-春川-ARM1-trojan, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: www.189.cn}, udp: true}
   - {name: 芬兰阿伟科技@TG/油管, server: kr3.uuv2.co.uk, port: 2053, type: vmess, uuid: bef4871a-a3ed-4cca-831f-88382c4382fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}, udp: true}
+  - {name: 印度阿伟科技@TG/油管*NF, server: in02.holiganfan.com, port: 10088, type: trojan, password: b5643c19-65bb-4af8-a4cb-784f3ec12b21, sni: in02.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d9267670-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點, server: usa.fanqiangvpn.com, port: 443, type: trojan, password: afc34a50-76f7-4fb1-9393-c5da1c1a54db, sni: usa.fanqiangvpn.com, skip-cert-verify: true, udp: true}
+  - {name: HK_油管 TG 8度科技, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: au.slotheve.ml, port: 443, type: trojan, password: au, sni: au.slotheve.ml, skip-cert-verify: true, udp: true}
   - {name: HK_油管 TG 8度科技 2, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: dt.xiaobai.network, port: 10009, type: vmess, uuid: 95a25327-9195-11ec-a4b3-00163e067fd5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: HK_油管 TG 8度科技 3, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_油管 TG 8度科技 4, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_油管+TG+8度科技, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 甲骨文-春川-AMD2-trojan, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_油管 TG 8度科技, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: PL_油管+TG+8度科技, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 芬兰阿伟科技@TG/油管 2, server: kr3.uuv2.co.uk, port: 2053, type: vmess, uuid: bef4871a-a3ed-4cca-831f-88382c4382fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 20.203.137.25, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: TG@vpn_cracked+➤+勿刷流量3422, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,77 +164,151 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 香港阿伟科技@TG/油管 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,18 +324,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港阿伟科技@TG/油管
-      - 韩国阿伟科技@TG/油管
       - 机场👉魔戒.net-🇧🇳
+      - JP_油管 TG 8度科技
       - 机场👉魔戒.net-🇧🇳 2
-      - 迪拜阿伟科技@TG/油管
-      - 迪拜阿伟科技@TG/油管 2
-      - HK_油管 TG 8度科技
-      - null_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管
+      - 甲骨文-春川-ARM1-trojan
+      - CN_油管 TG 8度科技
       - 芬兰阿伟科技@TG/油管
+      - 印度阿伟科技@TG/油管*NF
+      - 美国阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
+      - HK_油管 TG 8度科技
+      - 美国(欢迎订阅Youtube破解资源君)
       - HK_油管 TG 8度科技 2
-      - 香港阿伟科技@TG/油管 2
+      - HK_油管 TG 8度科技 3
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - HK_油管 TG 8度科技 4
+      - 美国阿伟科技@TG/油管 4
+      - US_油管+TG+8度科技
+      - 甲骨文-春川-AMD2-trojan
+      - US_油管 TG 8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - PL_油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 4
+      - 芬兰阿伟科技@TG/油管 2
+      - 欧洲(欢迎订阅Youtube破解资源君) 5
+      - 美国(欢迎订阅Youtube破解资源君) 3
+      - 欧洲(欢迎订阅Youtube破解资源君) 6
+      - TG@vpn_cracked+➤+勿刷流量3422
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
