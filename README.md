@@ -5,147 +5,255 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 机场👉魔戒.net-🇧🇳, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: JP_油管 TG 8度科技, server: 172.104.76.239, port: 15020, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 172.104.76.239}, udp: true}
-  - {name: 机场👉魔戒.net-🇧🇳 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: 甲骨文-春川-ARM1-trojan, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN_油管 TG 8度科技, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: www.189.cn}, udp: true}
-  - {name: 芬兰阿伟科技@TG/油管, server: kr3.uuv2.co.uk, port: 2053, type: vmess, uuid: bef4871a-a3ed-4cca-831f-88382c4382fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}, udp: true}
   - {name: 印度阿伟科技@TG/油管*NF, server: in02.holiganfan.com, port: 10088, type: trojan, password: b5643c19-65bb-4af8-a4cb-784f3ec12b21, sni: in02.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d9267670-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點, server: usa.fanqiangvpn.com, port: 443, type: trojan, password: afc34a50-76f7-4fb1-9393-c5da1c1a54db, sni: usa.fanqiangvpn.com, skip-cert-verify: true, udp: true}
-  - {name: HK_油管 TG 8度科技, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: au.slotheve.ml, port: 443, type: trojan, password: au, sni: au.slotheve.ml, skip-cert-verify: true, udp: true}
-  - {name: HK_油管 TG 8度科技 2, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
-  - {name: HK_油管 TG 8度科技 3, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_油管 TG 8度科技 4, server: 0320hk857.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hk857.fans8.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_油管+TG+8度科技, server: 142.202.48.7, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: keliaz1.scsevers.cf, port: 28384, type: vmess, uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: keliaz1.scsevers.cf}, udp: true}
+  - {name: Premium|广港|IEPL|20, server: iepl-premium-2.ninjarelay.pro, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: jj02.nfeng6.pp.ua, port: 39009, type: vmess, uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Premium|广港|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 3500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|15, server: iepl-premium-2.ninjarelay.pro, port: 3504, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|17, server: iepl-premium-2.ninjarelay.pro, port: 3506, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 4, server: jj01.nfeng6.pp.ua, port: 39044, type: vmess, uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Premium|广港|IEPL|08, server: iepl-premium-1.ninjarelay.pro, port: 3507, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|13, server: iepl-premium-2.ninjarelay.pro, port: 3502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广日|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 4500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|16, server: iepl-premium-2.ninjarelay.pro, port: 3505, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|14, server: iepl-premium-2.ninjarelay.pro, port: 3503, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|06, server: iepl-premium-1.ninjarelay.pro, port: 3505, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广台|IEPL|04, server: iepl-premium-2.ninjarelay.pro, port: 3035, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|03, server: iepl-premium-1.ninjarelay.pro, port: 3502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广台|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 3035, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: 日 A | 粤移动中继 | Prepaid Users, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp1, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: Premium|广港|IEPL|09, server: iepl-premium-1.ninjarelay.pro, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|12, server: iepl-premium-2.ninjarelay.pro, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|11, server: iepl-premium-2.ninjarelay.pro, port: 3500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|19, server: iepl-premium-2.ninjarelay.pro, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: Premium|广港|IEPL|18, server: iepl-premium-2.ninjarelay.pro, port: 3507, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: CN_油管 TG 8度科技, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: www.189.cn}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 3, server: 35.221.240.23, port: 30153, type: vmess, uuid: a4460b67-d3f7-4f90-b135-97447d464253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 港 D | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hgc, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: Premium|广韩|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 7500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: 港 E | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wtt, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: jp.rnmtq.gq, port: 63510, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22jp.rnmtq.gq%22%7D"}, udp: true}
+  - {name: Premium|广港|IEPL|10, server: iepl-premium-1.ninjarelay.pro, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
+  - {name: 印 A | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: US_8000 @WangCai_1, server: 38.75.137.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 甲骨文-春川-AMD2-trojan, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US_0443 @WangCai_1, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_8118 @WangCai_1, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_8882 @WangCai_1, server: 38.75.137.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_7002 @WangCai_1, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_9102 @WangCai_1, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_8882 @WangCai_1 2, server: 38.75.137.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 新 A | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sg, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
   - {name: US_油管 TG 8度科技, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: PL_油管+TG+8度科技, server: 194.15.196.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 4, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 芬兰阿伟科技@TG/油管 2, server: kr3.uuv2.co.uk, port: 2053, type: vmess, uuid: bef4871a-a3ed-4cca-831f-88382c4382fa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 5, server: 134.195.196.3, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 20.203.137.25, port: 500, type: ss, cipher: aes-128-gcm, password: "@VPNFolder", udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: TG@vpn_cracked+➤+勿刷流量3422, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8008 @WangCai_1, server: 38.75.137.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 香港(欢迎订阅Youtube破解资源君), server: hk-az-zz.licom.ga, port: 48211, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: hk-az-zz.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: US_5001 @WangCai_1, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: HK_油管 TG 8度科技, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
+  - {name: HK_油管 TG 8度科技 2, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d9267670-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 5, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国阿伟科技@TG/油管 6, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,151 +272,285 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - 港 E | 沪联通中继 | Prepaid Users
+      - Premium|广港|IEPL|10
+      - 香港(欢迎订阅Youtube破解资源君)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -324,37 +566,64 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 机场👉魔戒.net-🇧🇳
-      - JP_油管 TG 8度科技
-      - 机场👉魔戒.net-🇧🇳 2
-      - 甲骨文-春川-ARM1-trojan
-      - CN_油管 TG 8度科技
-      - 芬兰阿伟科技@TG/油管
       - 印度阿伟科技@TG/油管*NF
-      - 美国阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 2
-      - 美国阿伟科技@TG/油管 3
-      - WARP 加密動態匿名IP | 流媒體Netflix® Disney® | 海外資源下載上傳提速 | ChromeCast AppleTV 電視盒子大屏觀看墻外 | 🇺🇸美国節點 www.fanqiangvpn.com 翻墙VPN.com 中國最快超級節點
-      - HK_油管 TG 8度科技
-      - 美国(欢迎订阅Youtube破解资源君)
-      - HK_油管 TG 8度科技 2
-      - HK_油管 TG 8度科技 3
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - HK_油管 TG 8度科技 4
-      - 美国阿伟科技@TG/油管 4
-      - US_油管+TG+8度科技
+      - 香港阿伟科技@TG/油管
+      - Premium|广港|IEPL|20
+      - 香港(绿头外网集团)(Public) 2
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|15
+      - Premium|广港|IEPL|17
+      - Premium|广港|IEPL|02
+      - 台湾(绿头外网集团)(Public) 4
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|13
+      - Premium|广日|IEPL|03
+      - Premium|广港|IEPL|16
+      - Premium|广港|IEPL|14
+      - Premium|广港|IEPL|06
+      - Premium|广台|IEPL|04
+      - Premium|广港|IEPL|03
+      - Premium|广台|IEPL|02
+      - 日 A | 粤移动中继 | Prepaid Users
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|12
+      - Premium|广港|IEPL|11
+      - Premium|广港|IEPL|19
+      - Premium|广港|IEPL|18
+      - CN_油管 TG 8度科技
+      - 台湾(绿头外网集团)(Public) 3
+      - 港 D | 沪联通中继 | Prepaid Users
+      - Premium|广韩|IEPL|03
+      - 港 E | 沪联通中继 | Prepaid Users
+      - 日本(绿头外网集团)(Public)
+      - Premium|广港|IEPL|10
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_8000 @WangCai_1
       - 甲骨文-春川-AMD2-trojan
+      - US_0443 @WangCai_1
+      - 美国阿伟科技@TG/油管
+      - US_8118 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君)
+      - US_8882 @WangCai_1
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - US_9102 @WangCai_1
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - US_8882 @WangCai_1 2
+      - 新 A | 沪联通中继 | Prepaid Users
       - US_油管 TG 8度科技
+      - US_8008 @WangCai_1
+      - 香港(欢迎订阅Youtube破解资源君)
+      - US_5001 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - HK_油管 TG 8度科技
+      - HK_油管 TG 8度科技 2
+      - 美国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 5
       - 欧洲(欢迎订阅Youtube破解资源君)
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - PL_油管+TG+8度科技
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 4
-      - 芬兰阿伟科技@TG/油管 2
-      - 欧洲(欢迎订阅Youtube破解资源君) 5
       - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - TG@vpn_cracked+➤+勿刷流量3422
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 美国阿伟科技@TG/油管 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
