@@ -5,255 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 印度阿伟科技@TG/油管*NF, server: in02.holiganfan.com, port: 10088, type: trojan, password: b5643c19-65bb-4af8-a4cb-784f3ec12b21, sni: in02.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: keliaz1.scsevers.cf, port: 28384, type: vmess, uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: keliaz1.scsevers.cf}, udp: true}
-  - {name: Premium|广港|IEPL|20, server: iepl-premium-2.ninjarelay.pro, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: jj02.nfeng6.pp.ua, port: 39009, type: vmess, uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Premium|广港|IEPL|01, server: iepl-premium-1.ninjarelay.pro, port: 3500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|15, server: iepl-premium-2.ninjarelay.pro, port: 3504, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|17, server: iepl-premium-2.ninjarelay.pro, port: 3506, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 4, server: jj01.nfeng6.pp.ua, port: 39044, type: vmess, uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Premium|广港|IEPL|08, server: iepl-premium-1.ninjarelay.pro, port: 3507, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|13, server: iepl-premium-2.ninjarelay.pro, port: 3502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广日|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 4500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|16, server: iepl-premium-2.ninjarelay.pro, port: 3505, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|14, server: iepl-premium-2.ninjarelay.pro, port: 3503, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|06, server: iepl-premium-1.ninjarelay.pro, port: 3505, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广台|IEPL|04, server: iepl-premium-2.ninjarelay.pro, port: 3035, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|03, server: iepl-premium-1.ninjarelay.pro, port: 3502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广台|IEPL|02, server: iepl-premium-1.ninjarelay.pro, port: 3035, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: 日 A | 粤移动中继 | Prepaid Users, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp1, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: Premium|广港|IEPL|09, server: iepl-premium-1.ninjarelay.pro, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|12, server: iepl-premium-2.ninjarelay.pro, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|11, server: iepl-premium-2.ninjarelay.pro, port: 3500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|19, server: iepl-premium-2.ninjarelay.pro, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: Premium|广港|IEPL|18, server: iepl-premium-2.ninjarelay.pro, port: 3507, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: CN_油管 TG 8度科技, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: www.189.cn}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 3, server: 35.221.240.23, port: 30153, type: vmess, uuid: a4460b67-d3f7-4f90-b135-97447d464253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 港 D | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hgc, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: Premium|广韩|IEPL|03, server: iepl-premium-2.ninjarelay.pro, port: 7500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: 港 E | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wtt, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: jp.rnmtq.gq, port: 63510, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22jp.rnmtq.gq%22%7D"}, udp: true}
-  - {name: Premium|广港|IEPL|10, server: iepl-premium-1.ninjarelay.pro, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 173571:YiiplM, obfs-param: "\"238ef173571.microsoft.com", udp: true}
-  - {name: 印 A | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: US_8000 @WangCai_1, server: 38.75.137.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 甲骨文-春川-AMD2-trojan, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: US_0443 @WangCai_1, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US_8118 @WangCai_1, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US_8882 @WangCai_1, server: 38.75.137.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_7002 @WangCai_1, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: US_9102 @WangCai_1, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_8882 @WangCai_1 2, server: 38.75.137.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 新 A | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sg, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: US_油管 TG 8度科技, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_8008 @WangCai_1, server: 38.75.137.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: hk-az-zz.licom.ga, port: 48211, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: hk-az-zz.licom.ga, skip-cert-verify: true, udp: true}
-  - {name: US_5001 @WangCai_1, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: V2-香港 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20001, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: 0.59|Super 新加坡01   MIEPL  倍率2, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk, udp: true}
+  - {name: V1-日本 IEPL 1-1x, server: speedtest-iepl.xtsmart.link, port: 20020, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: V2-台湾 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20031, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: V2-日本 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20021, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
+  - {name: V1-台湾 IEPL 1-1x, server: speedtest-iepl.xtsmart.link, port: 20030, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: V2-新加坡 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20011, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: 4.37|Super 台湾01   MIEPL  倍率21, server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 110309:FKaTFe, obfs-param: eaa58110309.www.gov.hk, udp: true}
+  - {name: V1-美国 IEPL 1-1x, server: speedtest.xtsmart.link, port: 20040, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
+  - {name: 美国US 4039 *hi-moon.pw, server: 167.88.63.108, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_油管 TG 8度科技, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
+  - {name: US_油管 TG 8度科技 2, server: 20.124.107.207, port: 11794, type: vmess, uuid: 8c30e7e4-2fdc-4a95-c58b-43e6ac7f0f48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-新加坡 IEPL-1x, server: speedtest-iepl.xtsmart.link, port: 20010, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
   - {name: HK_油管 TG 8度科技, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
   - {name: HK_油管 TG 8度科技 2, server: 0320hkhh.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0320hkhh.fans8.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: d9267670-a2e7-11ec-96d8-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AIYjzOJE/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 5, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.196.81, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 3, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国阿伟科技@TG/油管 6, server: 45.61.184.3, port: 40435, type: vmess, uuid: eca12e73-8f74-439f-b918-624e832422d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -272,285 +104,95 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - 港 E | 沪联通中继 | Prepaid Users
-      - Premium|广港|IEPL|10
-      - 香港(欢迎订阅Youtube破解资源君)
+      - V2-香港 PATHX 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V1-台湾 IEPL 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -566,64 +208,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度阿伟科技@TG/油管*NF
-      - 香港阿伟科技@TG/油管
-      - Premium|广港|IEPL|20
-      - 香港(绿头外网集团)(Public) 2
-      - Premium|广港|IEPL|01
-      - Premium|广港|IEPL|15
-      - Premium|广港|IEPL|17
-      - Premium|广港|IEPL|02
-      - 台湾(绿头外网集团)(Public) 4
-      - Premium|广港|IEPL|08
-      - Premium|广港|IEPL|13
-      - Premium|广日|IEPL|03
-      - Premium|广港|IEPL|16
-      - Premium|广港|IEPL|14
-      - Premium|广港|IEPL|06
-      - Premium|广台|IEPL|04
-      - Premium|广港|IEPL|03
-      - Premium|广台|IEPL|02
-      - 日 A | 粤移动中继 | Prepaid Users
-      - Premium|广港|IEPL|09
-      - Premium|广港|IEPL|12
-      - Premium|广港|IEPL|11
-      - Premium|广港|IEPL|19
-      - Premium|广港|IEPL|18
-      - CN_油管 TG 8度科技
-      - 台湾(绿头外网集团)(Public) 3
-      - 港 D | 沪联通中继 | Prepaid Users
-      - Premium|广韩|IEPL|03
-      - 港 E | 沪联通中继 | Prepaid Users
-      - 日本(绿头外网集团)(Public)
-      - Premium|广港|IEPL|10
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_8000 @WangCai_1
-      - 甲骨文-春川-AMD2-trojan
-      - US_0443 @WangCai_1
-      - 美国阿伟科技@TG/油管
-      - US_8118 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君)
-      - US_8882 @WangCai_1
-      - US_7002 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - US_9102 @WangCai_1
-      - 美国(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1 2
-      - 新 A | 沪联通中继 | Prepaid Users
+      - V2-香港 PATHX 1-1x
+      - 0.59|Super 新加坡01   MIEPL  倍率2
+      - V1-日本 IEPL 1-1x
+      - V2-台湾 PATHX 1-1x
+      - V2-日本 PATHX 1-1x
+      - 日本阿伟科技@TG/油管
+      - V1-台湾 IEPL 1-1x
+      - V2-新加坡 PATHX 1-1x
+      - 4.37|Super 台湾01   MIEPL  倍率21
+      - V1-美国 IEPL 1-1x
+      - 美国US 4039 *hi-moon.pw
       - US_油管 TG 8度科技
-      - US_8008 @WangCai_1
-      - 香港(欢迎订阅Youtube破解资源君)
-      - US_5001 @WangCai_1
-      - 美国阿伟科技@TG/油管 3
+      - US_油管 TG 8度科技 2
+      - V1-新加坡 IEPL-1x
       - HK_油管 TG 8度科技
       - HK_油管 TG 8度科技 2
-      - 美国阿伟科技@TG/油管 4
-      - 美国阿伟科技@TG/油管 5
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 美国(欢迎订阅Youtube破解资源君) 3
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 美国阿伟科技@TG/油管 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
