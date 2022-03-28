@@ -5,339 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: V2-香港 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20001, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: V2-新加坡 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20011, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: V1-新加坡 IEPL-1x, server: speedtest-iepl.xtsmart.link, port: 20010, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: HongKong 1, server: hk1.quoctai.xyz, port: 80, type: vmess, uuid: caf12d12-e017-44fe-b741-f8727e2fecd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /quoctai, ws-headers: {Host: Livestream2.tv360.vn}, udp: true}
   - {name: free80.ml, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22lin1.free80ml.tk%22%7D"}, udp: true}
   - {name: 日本阿伟科技@TG/油管, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: V1-台湾 IEPL 1-1x, server: speedtest-iepl.xtsmart.link, port: 20030, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: V2-台湾 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20031, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: V2-日本 PATHX 1-1x, server: speedtest-pathx.xtsmart.link, port: 20021, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: 香港 加密 DMT, server: hkdmt.humanzoo.us, port: 8443, type: trojan, password: 2b45acd0-8f20-4185-8948-575e71f4ffc5, sni: hkdmt.humanzoo.us, skip-cert-verify: true, udp: true}
-  - {name: "Trojan|台湾HiNet05|微信：ddly000]", server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: b34e13ec-3517-4216-be4a-1f2c28f8375c, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: US_9102 @WangCai_1, server: 38.114.114.69, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_油管 TG 8度科技, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
-  - {name: US_7002 @WangCai_1, server: 38.114.114.69, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_0443 @WangCai_1, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_8008 @WangCai_1, server: 38.114.114.69, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_5500 @WangCai_1, server: 38.114.114.69, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 油管 TG 8度科技, server: 167.88.63.108, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: V1-美国 IEPL 1-1x, server: speedtest.xtsmart.link, port: 20040, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 美国US 4039 *hi-moon.pw, server: 167.88.63.108, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_8009 @WangCai_1, server: 38.114.114.69, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_6379 @WangCai_1, server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 频道linodeJP, server: 172.104.50.145, port: 58789, type: vmess, uuid: 6e4c3659-aae6-4d13-be44-edc6a7123af1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_6697 @WangCai_1, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_8119 @WangCai_1, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _327, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 油管 TG 8度科技 2, server: 167.88.63.108, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管 TG 8度科技 3, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: AU_8008 @WangCai_1, server: 172.105.190.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU_8118 @WangCai_1, server: 172.105.190.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: AU_9102 @WangCai_1, server: 172.105.190.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: AU_3389 @WangCai_1, server: 172.105.190.20, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_5003 @WangCai_1, server: 172.105.190.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: AU_6679 @WangCai_1, server: 172.105.190.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: AU_8119 @WangCai_1, server: 172.105.190.20, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Trojan-美国01(Trojan USA01), server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_6679 @WangCai_1, server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: AU_5001 @WangCai_1, server: 172.105.190.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_6697 @WangCai_1, server: 172.105.190.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_9101 @WangCai_1, server: 38.114.114.69, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: V1-日本 IEPL 1-1x, server: speedtest-iepl.xtsmart.link, port: 20020, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 59e3b5f250.microsoft.com}, udp: true}
-  - {name: US_8000 @WangCai_1, server: 38.114.114.69, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: AU_8090 @WangCai_1, server: 172.105.190.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: AU_9101 @WangCai_1, server: 172.105.190.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 油管 TG 8度科技 4, server: 167.88.63.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AU_8000 @WangCai_1, server: 172.105.190.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: AU_7306 @WangCai_1, server: 172.105.190.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AU_7307 @WangCai_1, server: 172.105.190.20, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AU_8881 @WangCai_1, server: 172.105.190.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: AU_2376 @WangCai_1, server: 172.105.190.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: AU_8882 @WangCai_1, server: 172.105.190.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: AU_8888 @WangCai_1, server: 172.105.190.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_8091 @WangCai_1, server: 172.105.190.20, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: AU_5601 @WangCai_1, server: 172.105.190.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_7002 @WangCai_1, server: 172.105.190.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU_7001 @WangCai_1, server: 172.105.190.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU_5004 @WangCai_1, server: 172.105.190.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 油管 TG 8度科技 5, server: dns-05-351958.zhcn.one, port: 65027, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: dns-05-351958.zhcn.one}, udp: true}
-  - {name: US_5001 @WangCai_1, server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 油管 TG 8度科技 6, server: 167.88.63.108, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_8080 @WangCai_1, server: 172.105.190.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: AU_8009 @WangCai_1, server: 172.105.190.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU_5000 @WangCai_1, server: 172.105.190.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 油管 TG 8度科技 7, server: 167.88.63.108, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 油管 TG 8度科技 8, server: 167.88.63.108, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 油管 TG 8度科技 9, server: 167.88.63.108, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU_3306 @WangCai_1, server: 172.105.190.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_5600 @WangCai_1, server: 172.105.190.20, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_6379 @WangCai_1, server: 172.105.190.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: AU_2375 @WangCai_1, server: 172.105.190.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 油管 TG 8度科技 10, server: 167.88.63.108, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 油管 TG 8度科技 11, server: 134.195.196.51, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_8882 @WangCai_1, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 日本阿伟科技@TG/油管 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: 美国US+4039+*hi-moon.pw, server: 167.88.63.108, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: free80.ml 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22lin1.free80ml.tk%22%7D"}, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: US_油管 TG 8度科技, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 油管+TG+8度科技, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: Trojan-美国01(Trojan USA01), server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度阿伟科技@TG/油管, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -356,348 +88,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V2-香港 PATHX 1-1x
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -713,85 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V2-香港 PATHX 1-1x
-      - V2-新加坡 PATHX 1-1x
-      - V1-新加坡 IEPL-1x
-      - HongKong 1
       - free80.ml
       - 日本阿伟科技@TG/油管
-      - V1-台湾 IEPL 1-1x
-      - V2-台湾 PATHX 1-1x
-      - V2-日本 PATHX 1-1x
-      - 香港 加密 DMT
-      - Trojan|台湾HiNet05|微信：ddly000]
-      - 美国阿伟科技@TG/油管
-      - US_9102 @WangCai_1
-      - US_油管 TG 8度科技
-      - US_7002 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5500 @WangCai_1
-      - 油管 TG 8度科技
-      - V1-美国 IEPL 1-1x
-      - 美国阿伟科技@TG/油管 2
-      - 美国US 4039 *hi-moon.pw
-      - US_8009 @WangCai_1
-      - US_6379 @WangCai_1
-      - 频道linodeJP
-      - US_6697 @WangCai_1
-      - US_8119 @WangCai_1
-      - _327
-      - 油管 TG 8度科技 2
-      - 油管 TG 8度科技 3
-      - AU_8008 @WangCai_1
-      - AU_8118 @WangCai_1
-      - AU_9102 @WangCai_1
-      - AU_3389 @WangCai_1
-      - AU_5003 @WangCai_1
-      - AU_6679 @WangCai_1
-      - AU_8119 @WangCai_1
-      - Trojan-美国01(Trojan USA01)
-      - US_6679 @WangCai_1
-      - AU_5001 @WangCai_1
-      - AU_6697 @WangCai_1
-      - US_9101 @WangCai_1
-      - V1-日本 IEPL 1-1x
-      - US_8000 @WangCai_1
-      - AU_8090 @WangCai_1
-      - AU_9101 @WangCai_1
-      - 油管 TG 8度科技 4
-      - AU_8000 @WangCai_1
-      - AU_7306 @WangCai_1
-      - AU_7307 @WangCai_1
-      - AU_8881 @WangCai_1
-      - AU_2376 @WangCai_1
-      - AU_8882 @WangCai_1
-      - AU_8888 @WangCai_1
-      - AU_8091 @WangCai_1
-      - AU_5601 @WangCai_1
-      - AU_7002 @WangCai_1
-      - AU_7001 @WangCai_1
-      - AU_5004 @WangCai_1
-      - 油管 TG 8度科技 5
-      - US_5001 @WangCai_1
-      - 油管 TG 8度科技 6
-      - AU_8080 @WangCai_1
-      - AU_8009 @WangCai_1
-      - AU_5000 @WangCai_1
-      - 油管 TG 8度科技 7
-      - 油管 TG 8度科技 8
-      - 油管 TG 8度科技 9
-      - AU_3306 @WangCai_1
-      - AU_5600 @WangCai_1
-      - AU_6379 @WangCai_1
-      - AU_2375 @WangCai_1
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - 油管 TG 8度科技 10
-      - 油管 TG 8度科技 11
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - US_8882 @WangCai_1
       - 日本阿伟科技@TG/油管 2
-      - 美国US+4039+*hi-moon.pw
+      - free80.ml 2
+      - 美国阿伟科技@TG/油管
+      - US_油管 TG 8度科技
+      - 美国阿伟科技@TG/油管 2
+      - 油管+TG+8度科技
+      - 美国阿伟科技@TG/油管 3
+      - Trojan-美国01(Trojan USA01)
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
