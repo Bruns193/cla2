@@ -5,71 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: free80.ml, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22lin1.free80ml.tk%22%7D"}, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: lin1.free80ml.tk}, udp: true}
-  - {name: free80.ml 2, server: lin1.free80ml.tk, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22lin1.free80ml.tk%22%7D"}, udp: true}
+  - {name: 日本-中继-05, server: yy01.nfeng6.pp.ua, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: 日本-中继-09, server: yy01.nfeng6.pp.ua, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 美国阿伟科技@TG/油管, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: US_油管 TG 8度科技, server: san.515223.xyz, port: 17247, type: vmess, uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: san.515223.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 6075774a-fd44-4723-8d19-e5b6b52b07a0, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 油管+TG+8度科技, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: Trojan-美国01(Trojan USA01), server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度阿伟科技@TG/油管, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,75 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾(绿头外网集团)(Public)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,18 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - free80.ml
-      - 日本阿伟科技@TG/油管
-      - 日本阿伟科技@TG/油管 2
-      - free80.ml 2
+      - 日本-中继-05
+      - 日本-中继-09
+      - 欧洲(欢迎订阅Youtube破解资源君)
       - 美国阿伟科技@TG/油管
-      - US_油管 TG 8度科技
-      - 美国阿伟科技@TG/油管 2
+      - 台湾(绿头外网集团)(Public)
       - 油管+TG+8度科技
-      - 美国阿伟科技@TG/油管 3
-      - Trojan-美国01(Trojan USA01)
-      - 印度阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
