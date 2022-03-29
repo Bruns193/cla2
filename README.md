@@ -5,47 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本-中继-05, server: yy01.nfeng6.pp.ua, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 日本-中继-09, server: yy01.nfeng6.pp.ua, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 新加坡SG -02, server: china-az-hk-f2s.898868.xyz, port: 33652, type: trojan, password: cb588d6f-225a-4f3f-8133-cc09061cbba8, sni: china-az-hk-f2s.898868.xyz, skip-cert-verify: true, udp: true}
+  - {name: "@nfeng6 香港-中继-10", server: yy02.nfeng6.pp.ua, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: "@nfeng6 香港-中继-06", server: yy02.nfeng6.pp.ua, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: "@nfeng6 香港-中继-08", server: yy02.nfeng6.pp.ua, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: Clown_日本_3_971 |10.79Mb, server: dj1.csz666.ml, port: 443, type: vmess, uuid: e57e2134-e5cc-4b83-aa19-e2a438a5c517, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dj1.csz666.ml}, udp: true}
+  - {name: CN_油管 TG 8度科技, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 6075774a-fd44-4723-8d19-e5b6b52b07a0, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
   - {name: 美国阿伟科技@TG/油管, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: 6075774a-fd44-4723-8d19-e5b6b52b07a0, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 167.88.63.108, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 152.70.188.10:443, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 油管+TG+8度科技, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +88,78 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(绿头外网集团)(Public)
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +175,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-中继-05
-      - 日本-中继-09
-      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 新加坡SG -02
+      - "@nfeng6 香港-中继-10"
+      - "@nfeng6 香港-中继-06"
+      - "@nfeng6 香港-中继-08"
+      - Clown_日本_3_971 |10.79Mb
+      - CN_油管 TG 8度科技
       - 美国阿伟科技@TG/油管
-      - 台湾(绿头外网集团)(Public)
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - 欧洲(欢迎订阅Youtube破解资源君) 2
+      - 152.70.188.10:443
       - 油管+TG+8度科技
+      - 欧洲(欢迎订阅Youtube破解资源君) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
