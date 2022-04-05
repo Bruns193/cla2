@@ -5,167 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SG_9026WangCai_1, server: 103.172.116.9, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: SG_9050WangCai_1, server: 103.172.116.9, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: SG_9097WangCai_1, server: 103.172.116.9, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: SG_9073WangCai_1, server: 103.172.116.9, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: SG_9014WangCai_1, server: 103.172.116.9, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 新加坡 A-05 *NF | x1, server: gzydv2.baidupi.xyz, port: 27740, type: vmess, uuid: 86c4f0a9-4a19-3156-b012-6631ec8296ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: sga4.baidupi.best}, udp: true}
+  - {name: BG_746+|+4.01Mb, server: 213.183.63.221, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: _536+|+1.99Mb, server: 213.183.59.185, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: SG_9018WangCai_1, server: 103.172.116.9, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: SG_9027WangCai_1, server: 103.172.116.9, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: SG_9011WangCai_1, server: 103.172.116.9, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: SG_9015WangCai_1, server: 103.172.116.9, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: SG_9024WangCai_1, server: 103.172.116.9, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: SG_9045WangCai_1, server: 103.172.116.9, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: SG_9093WangCai_1, server: 103.172.116.9, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: SG_9056WangCai_1, server: 103.172.116.9, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: SG_9042WangCai_1, server: 103.172.116.9, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: SG_9057WangCai_1, server: 103.172.116.9, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: SG_9064WangCai_1, server: 103.172.116.9, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: SG_9098WangCai_1, server: 103.172.116.9, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: BG_734+|+2.85Mb, server: 213.183.63.221, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: _18+|+8.06Mb, server: 213.183.59.185, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _574+|+4.70Mb, server: 213.183.59.185, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: BG_759+|+6.79Mb, server: 213.183.63.221, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: SG_9014WangCai_1, server: 103.172.116.9, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 152.89.210.105:9093, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: SG_9053WangCai_1, server: 103.172.116.9, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: NL_油管+TG+8度科技, server: 213.183.59.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 152.89.210.105:9057, server: 152.89.210.105, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: SG_9026WangCai_1, server: 103.172.116.9, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: SG_9097WangCai_1, server: 103.172.116.9, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: BG_724+|+5.69Mb, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: 152.89.210.105:9040, server: 152.89.210.105, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: SG_9024WangCai_1, server: 103.172.116.9, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
   - {name: SG_9046WangCai_1, server: 103.172.116.9, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: eu.licom.ga, port: 60000, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: eu.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: 152.89.210.105:9088, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
   - {name: SG_9060WangCai_1, server: 103.172.116.9, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: SG_9084WangCai_1, server: 103.172.116.9, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: SG_9088WangCai_1, server: 103.172.116.9, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: SG_9040WangCai_1, server: 103.172.116.9, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: SG_9008WangCai_1, server: 103.172.116.9, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: SG_9079WangCai_1, server: 103.172.116.9, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: SG_9038WangCai_1, server: 103.172.116.9, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: SG_9070WangCai_1, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: SG_9094WangCai_1, server: 103.172.116.9, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: SG_9037WangCai_1, server: 103.172.116.9, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: SG_9003WangCai_1, server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: SG_9005WangCai_1, server: 103.172.116.9, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: SG_9020WangCai_1, server: 103.172.116.9, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: SG_9032WangCai_1, server: 103.172.116.9, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: SG_9019WangCai_1, server: 103.172.116.9, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: SG_9000WangCai_1, server: 103.172.116.9, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: SG_9041WangCai_1, server: 103.172.116.9, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -184,42 +136,30 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -230,125 +170,89 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -364,42 +268,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG_9026WangCai_1
-      - SG_9050WangCai_1
-      - SG_9097WangCai_1
-      - SG_9073WangCai_1
-      - SG_9014WangCai_1
+      - 新加坡 A-05 *NF | x1
+      - BG_746+|+4.01Mb
+      - _536+|+1.99Mb
       - SG_9018WangCai_1
-      - SG_9027WangCai_1
-      - SG_9011WangCai_1
-      - SG_9015WangCai_1
-      - SG_9024WangCai_1
-      - SG_9045WangCai_1
-      - SG_9093WangCai_1
-      - SG_9056WangCai_1
-      - SG_9042WangCai_1
-      - SG_9057WangCai_1
-      - SG_9064WangCai_1
-      - SG_9098WangCai_1
+      - BG_734+|+2.85Mb
+      - _18+|+8.06Mb
+      - _574+|+4.70Mb
+      - BG_759+|+6.79Mb
+      - SG_9014WangCai_1
+      - 152.89.210.105:9093
       - SG_9053WangCai_1
+      - NL_油管+TG+8度科技
+      - 152.89.210.105:9057
+      - SG_9026WangCai_1
+      - SG_9097WangCai_1
+      - BG_724+|+5.69Mb
+      - 152.89.210.105:9040
+      - SG_9024WangCai_1
       - SG_9046WangCai_1
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 152.89.210.105:9088
       - SG_9060WangCai_1
-      - SG_9084WangCai_1
-      - SG_9088WangCai_1
-      - SG_9040WangCai_1
-      - SG_9008WangCai_1
-      - SG_9079WangCai_1
-      - SG_9038WangCai_1
-      - SG_9070WangCai_1
-      - SG_9094WangCai_1
-      - SG_9037WangCai_1
-      - SG_9003WangCai_1
-      - SG_9005WangCai_1
-      - SG_9020WangCai_1
-      - SG_9032WangCai_1
-      - SG_9019WangCai_1
       - SG_9000WangCai_1
-      - SG_9041WangCai_1
+      - 美国阿伟科技@TG/油管
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
