@@ -5,119 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡 A-05 *NF | x1, server: gzydv2.baidupi.xyz, port: 27740, type: vmess, uuid: 86c4f0a9-4a19-3156-b012-6631ec8296ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: sga4.baidupi.best}, udp: true}
-  - {name: BG_746+|+4.01Mb, server: 213.183.63.221, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: _536+|+1.99Mb, server: 213.183.59.185, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: SG_9018WangCai_1, server: 103.172.116.9, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: BG_734+|+2.85Mb, server: 213.183.63.221, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: _18+|+8.06Mb, server: 213.183.59.185, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: _574+|+4.70Mb, server: 213.183.59.185, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: BG_759+|+6.79Mb, server: 213.183.63.221, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: SG_9014WangCai_1, server: 103.172.116.9, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 152.89.210.105:9093, server: 152.89.210.105, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: SG_9053WangCai_1, server: 103.172.116.9, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: NL_油管+TG+8度科技, server: 213.183.59.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 152.89.210.105:9057, server: 152.89.210.105, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: SG_9026WangCai_1, server: 103.172.116.9, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: SG_9097WangCai_1, server: 103.172.116.9, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: BG_724+|+5.69Mb, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: 152.89.210.105:9040, server: 152.89.210.105, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: SG_9024WangCai_1, server: 103.172.116.9, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: SG_9046WangCai_1, server: 103.172.116.9, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: eu.licom.ga, port: 60000, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: eu.licom.ga, skip-cert-verify: true, udp: true}
-  - {name: 152.89.210.105:9088, server: 152.89.210.105, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: SG_9060WangCai_1, server: 103.172.116.9, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: SG_9000WangCai_1, server: 103.172.116.9, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: 新加坡-05, server: sg5.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg5.jjzgy.live}, udp: true}
+  - {name: 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_, server: qinton002.bmbai.buzz, port: 600, type: vmess, uuid: 0f6c44c4-87e5-3e4c-8777-b9835fd3a0f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: qinton002.bmbai.buzz}, udp: true}
+  - {name: 日本-03, server: jp3.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp3.jjzgy.live}, udp: true}
+  - {name: 日本-04, server: jp4.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp4.jjzgy.live}, udp: true}
+  - {name: 新加坡-04, server: sg4.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg4.jjzgy.live}, udp: true}
+  - {name: 新加坡-01, server: sg1.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg1.jjzgy.live}, udp: true}
+  - {name: 新加坡-03, server: sg3.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg3.jjzgy.live}, udp: true}
+  - {name: 日本-02, server: jp2.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp2.jjzgy.live}, udp: true}
+  - {name: 新加坡-02, server: sg2.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg2.jjzgy.live}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,30 +76,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -170,89 +95,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -268,30 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡 A-05 *NF | x1
-      - BG_746+|+4.01Mb
-      - _536+|+1.99Mb
-      - SG_9018WangCai_1
-      - BG_734+|+2.85Mb
-      - _18+|+8.06Mb
-      - _574+|+4.70Mb
-      - BG_759+|+6.79Mb
-      - SG_9014WangCai_1
-      - 152.89.210.105:9093
-      - SG_9053WangCai_1
-      - NL_油管+TG+8度科技
-      - 152.89.210.105:9057
-      - SG_9026WangCai_1
-      - SG_9097WangCai_1
-      - BG_724+|+5.69Mb
-      - 152.89.210.105:9040
-      - SG_9024WangCai_1
-      - SG_9046WangCai_1
-      - 新加坡(欢迎订阅Youtube破解资源君)
-      - 152.89.210.105:9088
-      - SG_9060WangCai_1
-      - SG_9000WangCai_1
-      - 美国阿伟科技@TG/油管
+      - 新加坡-05
+      - 美国_體驗套餐_B_Steam商店专用节点_總帶寬100兆_0x_官網_ninihao_cc_体验节点不等于付费节点效果_
+      - 日本-03
+      - 日本-04
+      - 新加坡-04
+      - 新加坡-01
+      - 新加坡-03
+      - 日本-02
+      - 新加坡-02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
