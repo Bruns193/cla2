@@ -5,95 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本-03, server: jp3.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp3.jjzgy.live}, udp: true}
   - {name: 日本-02, server: jp2.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp2.jjzgy.live}, udp: true}
-  - {name: 视频优化日本, server: cn1.node.zeroteam.top, port: 28909, type: vmess, uuid: 2a9c8f87-1678-4144-983c-da6458812806, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c, ws-headers: {Host: jp.iplck.com}, udp: true}
-  - {name: 新加坡-04, server: sg4.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg4.jjzgy.live}, udp: true}
-  - {name: 【优质】台湾解锁奈飞, server: tw.iplck.com, port: 20642, type: vmess, uuid: 2a9c8f87-1678-4144-983c-da6458812806, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c, ws-headers: {Host: tw.iplck.com}, udp: true}
-  - {name: 三网优化新加坡, server: cn1.node.zeroteam.top, port: 30712, type: vmess, uuid: 2a9c8f87-1678-4144-983c-da6458812806, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cn1.node.zeroteam.top}, udp: true}
+  - {name: 日本-03, server: jp3.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp3.jjzgy.live}, udp: true}
   - {name: 全球直连④, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-04, server: sg4.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg4.jjzgy.live}, udp: true}
   - {name: 新加坡-02, server: sg2.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg2.jjzgy.live}, udp: true}
-  - {name: RU_9060 @WangCai_1, server: 213.183.53.200, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 俄罗斯RU 2488 *hi-moon.pw, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_9011 @WangCai_1, server: 213.183.53.200, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: RU_9053 @WangCai_1, server: 213.183.53.200, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: RU_9070 @WangCai_1, server: 213.183.53.200, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: RU_9073 @WangCai_1, server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: RU_9033 @WangCai_1, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: RU_9053 @WangCai_1 2, server: 213.183.53.177, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: 俄罗斯, server: ak.iplck.com, port: 23121, type: vmess, uuid: 2a9c8f87-1678-4144-983c-da6458812806, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ak.iplck.com}, udp: true}
-  - {name: BuyVM-拉斯维加斯, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 1aa55d83-a965-453e-df2b-d685a7d07a08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cH3oN5yS6sF2xY6zY6bZ0fW5zL4zY7eC, ws-headers: {Host: buyvm-us.gd1214b.icu}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,100 +60,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 【优质】台湾解锁奈飞
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -221,24 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-03
       - 日本-02
-      - 视频优化日本
-      - 新加坡-04
-      - 【优质】台湾解锁奈飞
-      - 三网优化新加坡
+      - 日本-03
       - 全球直连④
+      - 新加坡-04
       - 新加坡-02
-      - RU_9060 @WangCai_1
-      - 俄罗斯RU 2488 *hi-moon.pw
-      - RU_9011 @WangCai_1
-      - RU_9053 @WangCai_1
-      - RU_9070 @WangCai_1
-      - RU_9073 @WangCai_1
-      - RU_9033 @WangCai_1
-      - RU_9053 @WangCai_1 2
-      - 俄罗斯
-      - BuyVM-拉斯维加斯
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
