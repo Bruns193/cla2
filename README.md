@@ -5,43 +5,203 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本-02, server: jp2.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp2.jjzgy.live}, udp: true}
-  - {name: 日本-03, server: jp3.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp3.jjzgy.live}, udp: true}
-  - {name: 全球直连④, server: s4.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-04, server: sg4.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg4.jjzgy.live}, udp: true}
-  - {name: 新加坡-02, server: sg2.jjzgy.live, port: 443, type: vmess, uuid: 1356a099-dee8-39fb-aafc-246189f77172, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg2.jjzgy.live}, udp: true}
+  - {name: 新加坡12, server: cn08.mynode.me, port: 8212, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡18, server: cn09.mynode.me, port: 8218, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡17, server: cn09.mynode.me, port: 8217, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 香港07, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡10, server: cn08.mynode.me, port: 8210, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡03, server: cn06.mynode.me, port: 8203, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡15, server: cn09.mynode.me, port: 8215, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡02, server: cn06.mynode.me, port: 8202, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡11, server: cn08.mynode.me, port: 8211, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡16, server: cn09.mynode.me, port: 8216, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 日本07, server: cn12.mynode.me, port: 8407, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 香港10, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 韩国, server: cn17.mynode.me, port: 8602, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡13, server: cn08.mynode.me, port: 8213, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡05, server: cn06.mynode.me, port: 8205, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 香港09, server: cn02.mynode.me, port: 8109, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡04, server: cn06.mynode.me, port: 8204, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 法国, server: cn17.mynode.me, port: 8610, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 加拿大, server: cn17.mynode.me, port: 8612, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 荷兰, server: cn17.mynode.me, port: 8604, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 美国09, server: cn16.mynode.me, port: 8509, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 澳洲, server: cn17.mynode.me, port: 8603, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 德国, server: cn17.mynode.me, port: 8605, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 美国16, server: cn16.mynode.me, port: 8516, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 俄罗斯, server: cn17.mynode.me, port: 8613, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 土耳其, server: cn17.mynode.me, port: 8608, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 以色列, server: cn17.mynode.me, port: 8615, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 印度, server: cn17.mynode.me, port: 8606, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡09, server: cn08.mynode.me, port: 8209, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 香港08, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 巴西, server: cn17.mynode.me, port: 8607, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡07, server: cn07.mynode.me, port: 8207, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 213.183.53.200:9019, server: 213.183.53.200, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 213.183.53.200:9027, server: 213.183.53.200, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 213.183.53.200:9040, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 213.183.53.200:9042, server: 213.183.53.200, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 213.183.53.177:9042, server: 213.183.53.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: 213.183.53.200:9000, server: 213.183.53.200, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 213.183.53.200:9043, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 213.183.53.200:9032, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 213.183.53.200:9079, server: 213.183.53.200, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 台湾省04, server: cn10.mynode.me, port: 8304, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 新加坡08, server: cn07.mynode.me, port: 8208, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 阿根廷, server: cn17.mynode.me, port: 8609, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
+  - {name: 巴基斯坦, server: cn17.mynode.me, port: 8614, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 27300-vVAf0bKr.download.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,47 +220,212 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港07
+      - 香港10
+      - 香港09
+      - 香港08
+      - 台湾省04
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +441,51 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本-02
-      - 日本-03
-      - 全球直连④
-      - 新加坡-04
-      - 新加坡-02
+      - 新加坡12
+      - 新加坡18
+      - 新加坡17
+      - 香港07
+      - 新加坡10
+      - 新加坡03
+      - 新加坡15
+      - 新加坡02
+      - 新加坡11
+      - 新加坡16
+      - 日本07
+      - 香港10
+      - 韩国
+      - 新加坡13
+      - 新加坡05
+      - 香港09
+      - 新加坡04
+      - 法国
+      - 加拿大
+      - 荷兰
+      - 美国09
+      - 澳洲
+      - 德国
+      - 美国16
+      - 俄罗斯
+      - 土耳其
+      - 以色列
+      - 印度
+      - 新加坡09
+      - 香港08
+      - 巴西
+      - 新加坡07
+      - 213.183.53.200:9019
+      - 213.183.53.200:9027
+      - 213.183.53.200:9040
+      - 213.183.53.200:9042
+      - 213.183.53.177:9042
+      - 213.183.53.200:9000
+      - 213.183.53.200:9043
+      - 213.183.53.200:9032
+      - 213.183.53.200:9079
+      - 台湾省04
+      - 新加坡08
+      - 阿根廷
+      - 巴基斯坦
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
