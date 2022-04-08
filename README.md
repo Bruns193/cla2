@@ -5,571 +5,219 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 152.89.210.105:9042, server: 152.89.210.105, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: BG_9041+@WangCai_1+(2), server: 213.183.63.219, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: BG_9020+@WangCai_1+(2), server: 213.183.63.219, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: -德国-节点池筛选0408-5, server: 5.183.179.137, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: SG_9024+@WangCai_1+(2), server: 103.172.116.7, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: CH_9010+@WangCai_1, server: 185.126.116.117, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: GB_9057+@WangCai_1, server: 185.167.117.171, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: BG_9094+@WangCai_1+(1), server: 213.183.63.218, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: CH_9070+@WangCai_1, server: 185.126.116.117, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: BG_9007+@WangCai_1, server: 213.183.63.217, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: SG_9037+@WangCai_1+(2), server: 103.172.116.7, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: GB_9097+@WangCai_1, server: 185.167.117.171, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: BG_9006+@WangCai_1, server: 213.183.63.217, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: "[CT/CM]香港 11", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: 韩国(解锁Netflix)(免费)倍率(x0.01), server: hgmf.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: 213.183.53.200:9014, server: 213.183.53.200, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 213.183.53.200:9043, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: shsuconpro.procncon.xyz:561, server: shsuconpro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: CH_9060+@WangCai_1, server: 185.126.116.117, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: "[CT/CM]香港 12", server: cnrelaycm.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: 213.183.53.200:9097, server: 213.183.53.200, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: CH_9053+@WangCai_1, server: 185.126.116.117, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: Super|香港|10 你的每天扫码就是对我们最大的支持！, server: aead.tls.hongkongazsuper.dnsfree.top, port: 50003, type: vmess, uuid: c2941330-d6fa-4de4-9b6c-b4c097dab480, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tiebapic.baidu.com}, udp: true}
-  - {name: 152.89.210.105:9037, server: 152.89.210.105, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: -德国-节点池筛选0408-11, server: 5.183.179.139, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: GB_9093+@WangCai_1, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: GB_9045+@WangCai_1, server: 185.167.117.171, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: CH_9042+@WangCai_1, server: 185.126.116.117, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: CH_9094+@WangCai_1, server: 185.126.116.117, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 213.183.53.200:9060, server: 213.183.53.200, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 213.183.53.200:9056, server: 213.183.53.200, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: SG_9042+@WangCai_1+(2), server: 103.172.116.7, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: 213.183.53.200:9093, server: 213.183.53.200, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: 213.183.53.200:9059, server: 213.183.53.200, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: SG_9041+@WangCai_1+(2), server: 103.172.116.7, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: cstwrelay.onlineto.xyz:560, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: BG_9025+@WangCai_1+(2), server: 213.183.63.219, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: BG_9024+@WangCai_1, server: 213.183.63.217, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: HK_11 @WangCai_1, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 06", server: hzrelaycu.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 03", server: hzrelaycu.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
   - {name: shcu001online.proconcn.xyz:561, server: shcu001online.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: 213.183.53.177:9032, server: 213.183.53.177, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 213.183.53.200:9033, server: 213.183.53.200, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: BG_9015+@WangCai_1+(1), server: 213.183.63.218, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: BG_9045+@WangCai_1+(1), server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: BG_9084+@WangCai_1+(1), server: 213.183.63.218, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: BG_9033+@WangCai_1, server: 213.183.63.217, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 213.183.53.200:9041, server: 213.183.53.200, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 213.183.53.200:9098, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: SG_9025+@WangCai_1+(2), server: 103.172.116.7, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 213.183.53.200:9073, server: 213.183.53.200, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: -德国-节点池筛选0408-12, server: 5.183.179.170, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: -德国-节点池筛选0408-19, server: 5.183.179.148, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 213.183.53.200:9050, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: GB_9060+@WangCai_1, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 213.183.53.177:9037, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: GB_9056+@WangCai_1, server: 185.167.117.171, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: 213.183.53.177:9060, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: SG_9006+@WangCai_1+(2), server: 103.172.116.7, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: GB_9070+@WangCai_1, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: BG_9094+@WangCai_1, server: 213.183.63.217, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 213.183.53.200:9032, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: SG_9033WangCai_1, server: 103.172.116.9, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: CH_9033+@WangCai_1, server: 185.126.116.117, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: CH_9070+@WangCai_1+(1), server: 185.126.116.124, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: "%微软云 香港 5Gbps", server: 13.70.16.197, port: 33507, type: trojan, password: 5b192068-f80d-497a-aad0-7a52af7ef4df, skip-cert-verify: true, udp: true}
-  - {name: SG_9038+@WangCai_1+(2), server: 103.172.116.7, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 213.183.53.200:9064, server: 213.183.53.200, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: BG_9025+@WangCai_1+(1), server: 213.183.63.218, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: BG_9073+@WangCai_1, server: 213.183.63.217, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: CH_9010+@WangCai_1+(1), server: 185.126.116.124, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: 213.183.53.200:9015, server: 213.183.53.200, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: 213.183.53.177:9073, server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: 213.183.53.177:9040, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: SG_9000+@WangCai_1+(2), server: 103.172.116.7, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: CH_9024+@WangCai_1, server: 185.126.116.117, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: BG_9073+@WangCai_1+(1), server: 213.183.63.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: 213.183.53.200:9001, server: 213.183.53.200, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: GB_9084+@WangCai_1, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: -德国-节点池筛选0408-20, server: 5.183.179.140, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: SG_9040+@WangCai_1+(2), server: 103.172.116.7, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: "[CT/CM]香港 02", server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: 213.183.53.177:9000, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: SG_9007+@WangCai_1+(2), server: 103.172.116.7, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: SG_9043+@WangCai_1+(2), server: 103.172.116.7, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: -德国-节点池筛选0408-3, server: 5.183.179.141, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: -德国-节点池筛选0408-23, server: 5.183.179.167, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: BG_9059+@WangCai_1+(1), server: 213.183.63.218, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: BG_9032+@WangCai_1+(1), server: 213.183.63.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: shcu002online.proconcn.xyz:601, server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: -英国-节点池筛选0408-31, server: 152.89.210.84, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: BG_9008+@WangCai_1+(2), server: 213.183.63.219, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: -德国-节点池筛选0408-4, server: 5.183.179.170, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: BG_9073+@WangCai_1+(2), server: 213.183.63.219, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: SG_9003+@WangCai_1+(2), server: 103.172.116.7, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: CH_9018+@WangCai_1+(1), server: 185.126.116.124, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: -德国-节点池筛选0408-38, server: 5.183.179.141, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: cnrelaycm.procncon.xyz:561, server: cnrelaycm.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
-  - {name: -德国-节点池筛选0408-6, server: 5.183.179.141, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: SG_9015+@WangCai_1+(2), server: 103.172.116.7, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: BG_9056+@WangCai_1+(1), server: 213.183.63.218, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: -英国-节点池筛选0408-9, server: 152.89.210.84, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: -德国-节点池筛选0408-32, server: 5.183.179.139, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: SG_9043WangCai_1, server: 103.172.116.9, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: CH_9005+@WangCai_1+(1), server: 185.126.116.124, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: BG_9001+@WangCai_1+(2), server: 213.183.63.219, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: BG_9037+@WangCai_1+(2), server: 213.183.63.219, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: -德国-节点池筛选0408-33, server: 5.183.179.148, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: PL_9060atWangCai_1, server: 217.30.10.63, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: RU_9007 @WangCai_1, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: BG_9050+@WangCai_1+(2), server: 213.183.63.219, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: RU_9057 @WangCai_1, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: -德国-节点池筛选0408-24, server: 5.183.179.139, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: BG_9043+@WangCai_1+(2), server: 213.183.63.219, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: T.07.法国.中继2, server: t2.doggogogo.top, port: 50207, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: t2.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: BG_9094+@WangCai_1+(2), server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: SG_9093WangCai_1, server: 103.172.116.9, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: CH_9003+@WangCai_1+(1), server: 185.126.116.124, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: SG_9014WangCai_1, server: 103.172.116.9, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: BG_9015+@WangCai_1+(2), server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: -德国-节点池筛选0408-35, server: 5.183.179.148, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: -德国-节点池筛选0408-28, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: -德国-节点池筛选0408-26, server: 5.183.179.141, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: SG_9040WangCai_1, server: 103.172.116.9, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: 香港节点1(免费)倍率(x0.01), server: hkmf1.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: -德国-节点池筛选0408-39, server: 5.183.179.139, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 香港节点2(免费)倍率(x0.01), server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf2.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: THE WORLD, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: v4.xrenblog.com}, udp: true}
-  - {name: BG_9079+@WangCai_1+(2), server: 213.183.63.219, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: -德国-节点池筛选0408-37, server: 5.183.179.137, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: -英国-节点池筛选0408-10, server: 152.89.210.84, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: -德国-节点池筛选0408-15, server: 5.183.179.167, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 213.183.53.200:9008, server: 213.183.53.200, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: -德国-节点池筛选0408-36, server: 5.183.179.148, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: -德国-节点池筛选0408-30, server: 5.183.179.137, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 香港节点1(免费)倍率(x0.01), server: hkmf1.speedcncnforward2.tk, port: 8443, type: trojan, password: 72af330e-852d-4640-bb9f-36c99f3edb5f, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: TW_14 @WangCai_1, server: shallaz2.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
   - {name: 香港节点1(免费)倍率(x0.01) 2, server: hkmf1.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: 香港节点2(免费)倍率(x0.01) 2, server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf2.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: 韩国(解锁Netflix)(免费)倍率(x0.01) 2, server: hgmf.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(解锁Netflix)(免费)倍率(x0.01), server: xjpmf.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: xjpmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: 香港节点2(免费)倍率(x0.01), server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf2.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: 香港节点1(免费)倍率(x0.01) 3, server: hkmf1.speedcncnforward2.tk, port: 8443, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: TW_9 @WangCai_1, server: shallaz2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: Super|香港|10 你的每天扫码就是对我们最大的支持！, server: aead.tls.hongkongazsuper.dnsfree.top, port: 50003, type: vmess, uuid: c2941330-d6fa-4de4-9b6c-b4c097dab480, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tiebapic.baidu.com}, udp: true}
+  - {name: "[CT/CM]香港 17", server: shcu002online.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 10", server: shcu001online.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_15 @WangCai_1, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 13", server: shcu002online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: TW_4 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港节点2(免费)倍率(x0.01) 2, server: hkmf2.speedcncnforward2.tk, port: 8443, type: trojan, password: 72af330e-852d-4640-bb9f-36c99f3edb5f, sni: hkmf2.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: TW_2 @WangCai_1, server: cstwrelay.onlineto.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: cstwrelay.onlineto.xyz:560, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 07", server: shcu001online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: -德国-节点池筛选0408-36, server: 5.183.179.148, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: -德国-节点池筛选0408-6, server: 5.183.179.141, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: -德国-节点池筛选0408-35, server: 5.183.179.148, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: -德国-节点池筛选0408-23, server: 5.183.179.167, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: -德国-节点池筛选0408-24, server: 5.183.179.139, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: -英国-节点池筛选0408-31, server: 152.89.210.84, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: -德国-节点池筛选0408-12, server: 5.183.179.170, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: -德国-节点池筛选0408-28, server: 5.183.179.170, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: -德国-节点池筛选0408-32, server: 5.183.179.139, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: -德国-节点池筛选0408-38, server: 5.183.179.141, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: HK_21 @WangCai_1, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: -德国-节点池筛选0408-19, server: 5.183.179.148, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: -德国-节点池筛选0408-37, server: 5.183.179.137, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: -德国-节点池筛选0408-30, server: 5.183.179.137, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: -英国-节点池筛选0406-17, server: 152.89.210.84, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: -德国-节点池筛选0408-20, server: 5.183.179.140, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: -德国-节点池筛选0408-3, server: 5.183.179.141, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: -德国-节点池筛选0408-4, server: 5.183.179.170, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: -德国-节点池筛选0408-11, server: 5.183.179.139, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: -英国-节点池筛选0406-20, server: 152.89.210.84, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: -英国-节点池筛选0408-10, server: 152.89.210.84, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: SG_9043WangCai_1, server: 103.172.116.9, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: TW_11 @WangCai_1, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: SG_9093WangCai_1, server: 103.172.116.9, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: -英国-节点池筛选0408-9, server: 152.89.210.84, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: -德国-节点池筛选0408-33, server: 5.183.179.148, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: TW_12 @WangCai_1, server: shallaz2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港08 | 广州, server: gz.bgp.poe.edu.pl, port: 19408, type: ss, cipher: chacha20-ietf-poly1305, password: c0384da3-734c-4e74-8974-390b90a7a621, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -588,585 +236,237 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 12"
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - cstwrelay.onlineto.xyz:560
-      - "%微软云 香港 5Gbps"
-      - "[CT/CM]香港 02"
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - 香港节点1(免费)倍率(x0.01)
-      - 香港节点2(免费)倍率(x0.01)
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - "[CT/CM]香港 13"
       - 香港节点2(免费)倍率(x0.01) 2
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - 香港08 | 广州
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1182,143 +482,55 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 152.89.210.105:9042
-      - BG_9041+@WangCai_1+(2)
-      - BG_9020+@WangCai_1+(2)
-      - -德国-节点池筛选0408-5
-      - SG_9024+@WangCai_1+(2)
-      - CH_9010+@WangCai_1
-      - GB_9057+@WangCai_1
-      - BG_9094+@WangCai_1+(1)
-      - CH_9070+@WangCai_1
-      - BG_9007+@WangCai_1
-      - SG_9037+@WangCai_1+(2)
-      - GB_9097+@WangCai_1
-      - BG_9006+@WangCai_1
-      - "[CT/CM]香港 11"
-      - 韩国(解锁Netflix)(免费)倍率(x0.01)
-      - 213.183.53.200:9014
-      - 213.183.53.200:9043
-      - shsuconpro.procncon.xyz:561
-      - CH_9060+@WangCai_1
-      - "[CT/CM]香港 12"
-      - 213.183.53.200:9097
-      - CH_9053+@WangCai_1
-      - Super|香港|10 你的每天扫码就是对我们最大的支持！
-      - 152.89.210.105:9037
-      - -德国-节点池筛选0408-11
-      - GB_9093+@WangCai_1
-      - GB_9045+@WangCai_1
-      - CH_9042+@WangCai_1
-      - CH_9094+@WangCai_1
-      - 213.183.53.200:9060
-      - 213.183.53.200:9056
-      - SG_9042+@WangCai_1+(2)
-      - 213.183.53.200:9093
-      - 213.183.53.200:9059
-      - SG_9041+@WangCai_1+(2)
-      - cstwrelay.onlineto.xyz:560
-      - BG_9025+@WangCai_1+(2)
-      - BG_9024+@WangCai_1
+      - 韩国高速接入A
+      - HK_11 @WangCai_1
+      - "[CT/CM]香港 06"
+      - "[CT/CM]香港 03"
       - shcu001online.proconcn.xyz:561
-      - 213.183.53.177:9032
-      - 213.183.53.200:9033
-      - BG_9015+@WangCai_1+(1)
-      - BG_9045+@WangCai_1+(1)
-      - BG_9084+@WangCai_1+(1)
-      - BG_9033+@WangCai_1
-      - 213.183.53.200:9041
-      - 213.183.53.200:9098
-      - SG_9025+@WangCai_1+(2)
-      - 213.183.53.200:9073
-      - -德国-节点池筛选0408-12
-      - -德国-节点池筛选0408-19
-      - 213.183.53.200:9050
-      - GB_9060+@WangCai_1
-      - 213.183.53.177:9037
-      - GB_9056+@WangCai_1
-      - 213.183.53.177:9060
-      - SG_9006+@WangCai_1+(2)
-      - GB_9070+@WangCai_1
-      - BG_9094+@WangCai_1
-      - 213.183.53.200:9032
-      - SG_9033WangCai_1
-      - CH_9033+@WangCai_1
-      - CH_9070+@WangCai_1+(1)
-      - "%微软云 香港 5Gbps"
-      - SG_9038+@WangCai_1+(2)
-      - 213.183.53.200:9064
-      - BG_9025+@WangCai_1+(1)
-      - BG_9073+@WangCai_1
-      - CH_9010+@WangCai_1+(1)
-      - 213.183.53.200:9015
-      - 213.183.53.177:9073
-      - 213.183.53.177:9040
-      - SG_9000+@WangCai_1+(2)
-      - CH_9024+@WangCai_1
-      - BG_9073+@WangCai_1+(1)
-      - 213.183.53.200:9001
-      - GB_9084+@WangCai_1
-      - -德国-节点池筛选0408-20
-      - SG_9040+@WangCai_1+(2)
-      - "[CT/CM]香港 02"
-      - 213.183.53.177:9000
-      - SG_9007+@WangCai_1+(2)
-      - SG_9043+@WangCai_1+(2)
-      - -德国-节点池筛选0408-3
-      - -德国-节点池筛选0408-23
-      - BG_9059+@WangCai_1+(1)
-      - BG_9032+@WangCai_1+(1)
-      - shcu002online.proconcn.xyz:601
-      - -英国-节点池筛选0408-31
-      - BG_9008+@WangCai_1+(2)
-      - -德国-节点池筛选0408-4
-      - BG_9073+@WangCai_1+(2)
-      - SG_9003+@WangCai_1+(2)
-      - CH_9018+@WangCai_1+(1)
-      - -德国-节点池筛选0408-38
-      - cnrelaycm.procncon.xyz:561
-      - -德国-节点池筛选0408-6
-      - SG_9015+@WangCai_1+(2)
-      - BG_9056+@WangCai_1+(1)
-      - -英国-节点池筛选0408-9
-      - -德国-节点池筛选0408-32
-      - SG_9043WangCai_1
-      - CH_9005+@WangCai_1+(1)
-      - BG_9001+@WangCai_1+(2)
-      - BG_9037+@WangCai_1+(2)
-      - -德国-节点池筛选0408-33
-      - PL_9060atWangCai_1
-      - RU_9007 @WangCai_1
-      - BG_9050+@WangCai_1+(2)
-      - RU_9057 @WangCai_1
-      - -德国-节点池筛选0408-24
-      - BG_9043+@WangCai_1+(2)
-      - T.07.法国.中继2
-      - BG_9094+@WangCai_1+(2)
-      - SG_9093WangCai_1
-      - CH_9003+@WangCai_1+(1)
-      - SG_9014WangCai_1
-      - BG_9015+@WangCai_1+(2)
-      - -德国-节点池筛选0408-35
-      - -德国-节点池筛选0408-28
-      - -德国-节点池筛选0408-26
-      - SG_9040WangCai_1
       - 香港节点1(免费)倍率(x0.01)
-      - -德国-节点池筛选0408-39
-      - 香港节点2(免费)倍率(x0.01)
-      - THE WORLD
-      - BG_9079+@WangCai_1+(2)
-      - -德国-节点池筛选0408-37
-      - -英国-节点池筛选0408-10
-      - -德国-节点池筛选0408-15
-      - 213.183.53.200:9008
-      - -德国-节点池筛选0408-36
-      - -德国-节点池筛选0408-30
+      - TW_14 @WangCai_1
       - 香港节点1(免费)倍率(x0.01) 2
+      - 香港节点2(免费)倍率(x0.01)
+      - 香港节点1(免费)倍率(x0.01) 3
+      - TW_9 @WangCai_1
+      - Super|香港|10 你的每天扫码就是对我们最大的支持！
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 10"
+      - TW_15 @WangCai_1
+      - "[CT/CM]香港 13"
+      - TW_4 @WangCai_1
       - 香港节点2(免费)倍率(x0.01) 2
-      - 韩国(解锁Netflix)(免费)倍率(x0.01) 2
-      - 新加坡(解锁Netflix)(免费)倍率(x0.01)
+      - TW_2 @WangCai_1
+      - cstwrelay.onlineto.xyz:560
+      - "[CT/CM]香港 07"
+      - -德国-节点池筛选0408-36
+      - -德国-节点池筛选0408-6
+      - -德国-节点池筛选0408-35
+      - -德国-节点池筛选0408-23
+      - -德国-节点池筛选0408-24
+      - -英国-节点池筛选0408-31
+      - -德国-节点池筛选0408-12
+      - -德国-节点池筛选0408-28
+      - -德国-节点池筛选0408-32
+      - -德国-节点池筛选0408-38
+      - HK_21 @WangCai_1
+      - -德国-节点池筛选0408-19
+      - -德国-节点池筛选0408-37
+      - -德国-节点池筛选0408-30
+      - -英国-节点池筛选0406-17
+      - -德国-节点池筛选0408-20
+      - -德国-节点池筛选0408-3
+      - -德国-节点池筛选0408-4
+      - -德国-节点池筛选0408-11
+      - -英国-节点池筛选0406-20
+      - -英国-节点池筛选0408-10
+      - SG_9043WangCai_1
+      - TW_11 @WangCai_1
+      - SG_9093WangCai_1
+      - -英国-节点池筛选0408-9
+      - -德国-节点池筛选0408-33
+      - TW_12 @WangCai_1
+      - 香港08 | 广州
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
