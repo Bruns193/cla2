@@ -47,6 +47,8 @@ proxies:
   - {name: -德国-节点池筛选0408-11, server: 5.183.179.139, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
   - {name: -英国-节点池筛选0406-20, server: 152.89.210.84, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: -英国-节点池筛选0408-10, server: 152.89.210.84, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 【中转】SIN/狮城 A - 5 广州, server: 58.254.138.30, port: 80, type: vmess, uuid: 6a989e7f-175e-4bce-afff-1ce2981cefc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn002.cloudfront.rui77.com}, udp: true}
+  - {name: 【中转】SIN/狮城 A - 3 上海, server: 119.147.182.164, port: 80, type: vmess, uuid: 6a989e7f-175e-4bce-afff-1ce2981cefc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn002.cloudfront.rui77.com}, udp: true}
   - {name: SG_9043WangCai_1, server: 103.172.116.9, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
   - {name: TW_11 @WangCai_1, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
   - {name: SG_9093WangCai_1, server: 103.172.116.9, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
