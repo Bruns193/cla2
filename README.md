@@ -5,55 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TW_24022 @WangCai_1, server: 183.236.60.182, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:20220409, obfs-param: t.me/vpnhat, udp: true}
-  - {name: HK｜广州移动｜07, server: 183.236.60.136, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16355:20220409, obfs-param: t.me/vpnhat, udp: true}
-  - {name: ^🇭🇰香港HK 22 *hi-moon.pw, server: hn.cu1.fevers.cyou, port: 30080, type: vmess, uuid: 00a85fa0-a6fa-3006-8d31-fbeb0ebf18d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray-hkt-n2, ws-headers: {Host: hn.cu1.fevers.cyou}, udp: true}
-  - {name: ^🇭🇰香港HK 57 *hi-moon.pw, server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf2.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
-  - {name: ^🇸🇬新加坡SG 80 *hi-moon.pw, server: xjpmf.speedcncnforward2.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: xjpmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: 213.183.53.177:9057, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: 新加坡SG 141 *hi-moon.pw, server: 34.143.205.115, port: 58181, type: vmess, uuid: 6012591a-4a9f-4228-d4a2-245ecb598a92, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.143.205.115}, udp: true}
-  - {name: 美国US+175+*hi-moon.pw, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 日本节点(免费)倍率0x不消耗流量), server: rbmf.speedcncnforward3.tk, port: 10001, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: rbmf.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
+  - {name: ^🇭🇰香港HK 73 *hi-moon.pw, server: hkmf2.speedcncnforward3.tk, port: 10001, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf2.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
+  - {name: 香港节点2(免费)倍率0x不消耗流量), server: hkmf2.speedcncnforward3.tk, port: 10001, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf2.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
+  - {name: 香港节点1(免费)倍率0x不消耗流量), server: hkmf1.speedcncnforward2.tk, port: 10001, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: ^🇯🇵日本JP 74 *hi-moon.pw, server: az.hk.02.211129.xyz, port: 19369, type: trojan, password: 5ca11bfd-21f8-3efb-b5f3-519aec294e5e, sni: az.hk.02.211129.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: f2fa64af-619b-4b09-9e6c-3f9ff6de077c, udp: true}
+  - {name: ^🇭🇰香港HK 72 *hi-moon.pw, server: hkmf1.speedcncnforward2.tk, port: 10001, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf1.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: ^🇯🇵日本JP 75 *hi-moon.pw, server: sajp2.lanyunshi.cc, port: 1001, type: vmess, uuid: 06723583-38f7-3296-8d7a-20da62dde823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jd.hk}, udp: true}
+  - {name: 德国DE 41 *hi-moon.pw, server: 5.183.179.167, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: 韩国(解锁Netflix)(免费)倍率0x不消耗流量), server: hgmf.speedcncnforward2.tk, port: 10001, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: 德国DE 35 *hi-moon.pw, server: 5.183.179.167, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 新加坡(解锁Netflix)(免费)倍率0x不消耗流量), server: xjpmf.speedcncnforward2.tk, port: 10001, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: xjpmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: ^🇿🇦ZA 98 *hi-moon.pw, server: za02.holiganfan.com, port: 10088, type: trojan, password: 8c0a7502-0343-43d4-8551-030668fceab1, sni: za02.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: CN, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,61 +96,88 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,14 +193,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW_24022 @WangCai_1
-      - HK｜广州移动｜07
-      - ^🇭🇰香港HK 22 *hi-moon.pw
-      - ^🇭🇰香港HK 57 *hi-moon.pw
-      - ^🇸🇬新加坡SG 80 *hi-moon.pw
-      - 213.183.53.177:9057
-      - 新加坡SG 141 *hi-moon.pw
-      - 美国US+175+*hi-moon.pw
+      - 日本节点(免费)倍率0x不消耗流量)
+      - ^🇭🇰香港HK 73 *hi-moon.pw
+      - 香港节点2(免费)倍率0x不消耗流量)
+      - 香港节点1(免费)倍率0x不消耗流量)
+      - ^🇯🇵日本JP 74 *hi-moon.pw
+      - 香港家庭宽频|NF解锁|SS|A01
+      - ^🇭🇰香港HK 72 *hi-moon.pw
+      - ^🇯🇵日本JP 75 *hi-moon.pw
+      - 德国DE 41 *hi-moon.pw
+      - 韩国(解锁Netflix)(免费)倍率0x不消耗流量)
+      - 德国DE 35 *hi-moon.pw
+      - 新加坡(解锁Netflix)(免费)倍率0x不消耗流量)
+      - ^🇿🇦ZA 98 *hi-moon.pw
+      - CN
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
