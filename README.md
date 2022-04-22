@@ -6,24 +6,18 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: CN_8du.shop, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: CN_8du.shop 2, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 3, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_65, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_58, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 4, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君), server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_48, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 5, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 6, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 7, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 2, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: -NL-0416节点 14:00-23, server: 213.183.51.171, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 香港(欢迎订阅Youtube破解资源君) 3, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 8, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: -NL-0416节点 14:00-25, server: 213.183.51.171, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君), server: v1.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 免费伦敦1, server: rbmf.speedcncnforward3.tk, port: 20003, type: vmess, uuid: f1736c32-4fda-4aa4-9534-4eed17e4b40c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rbmf.speedcncnforward3.tk}, udp: true}
-  - {name: 免费伦敦2, server: rbmf.speedcncnforward3.tk, port: 20004, type: vmess, uuid: f1736c32-4fda-4aa4-9534-4eed17e4b40c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: rbmf.speedcncnforward3.tk}, udp: true}
+  - {name: 直连 | 香港1 | 0.01x, server: hk1.aead.ml, port: 10401, type: trojan, password: 4234aaad-2022-426d-991b-608960beae60, sni: hk1.aead.ml, skip-cert-verify: true, udp: true}
+  - {name: 直连 | 香港2 | 0.01x, server: hk2.aead.ml, port: 10402, type: trojan, password: 4234aaad-2022-426d-991b-608960beae60, sni: hk2.aead.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "台灣 01 福利 [0.1x]", server: tw.node001.insnow.xyz, port: 12001, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: tw.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 3, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 4, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 5, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 6, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "韩国 01 福利 [0.1x]", server: kr.node001.insnow.xyz, port: 9914, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: kr.node001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 7, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 8, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: "印度 01 福利 [0.1x]", server: doin.node003.insnow.xyz, port: 9933, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: doin.node003.insnow.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -31,48 +25,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -80,24 +62,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -117,31 +93,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(欢迎订阅Youtube破解资源君)
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - 香港(欢迎订阅Youtube破解资源君) 3
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
+      - 台灣 01 福利 [0.1x]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -149,48 +119,36 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -198,24 +156,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -232,24 +184,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - CN_8du.shop
+      - 直连 | 香港1 | 0.01x
+      - 直连 | 香港2 | 0.01x
       - CN_8du.shop 2
+      - 台灣 01 福利 [0.1x]
       - CN_8du.shop 3
-      - Relay_🇨🇳CN-🇹🇼TW_65
-      - Relay_🇨🇳CN-🇹🇼TW_58
       - CN_8du.shop 4
-      - 香港(欢迎订阅Youtube破解资源君)
-      - Relay_🇨🇳CN-🇹🇼TW_48
       - CN_8du.shop 5
       - CN_8du.shop 6
+      - 韩国 01 福利 [0.1x]
       - CN_8du.shop 7
-      - 香港(欢迎订阅Youtube破解资源君) 2
-      - -NL-0416节点 14:00-23
-      - 香港(欢迎订阅Youtube破解资源君) 3
       - CN_8du.shop 8
-      - -NL-0416节点 14:00-25
-      - 美国(欢迎订阅Youtube破解资源君)
-      - 免费伦敦1
-      - 免费伦敦2
+      - 印度 01 福利 [0.1x]
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
