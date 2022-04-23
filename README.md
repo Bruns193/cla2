@@ -5,147 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡+|+C+|+流媒體解鎖+|+X2, server: cmzhuyun.baiyun.pw, port: 5003, type: ss, cipher: aes-256-gcm, password: 70011e3a-a09e-40b7-b0b9-632b3dc270a2, udp: true}
-  - {name: 新加坡+|+B+|, server: cmzhuyun.baiyun.pw, port: 5002, type: ss, cipher: aes-256-gcm, password: 70011e3a-a09e-40b7-b0b9-632b3dc270a2, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管）, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: a6ad48df-9c9d-4828-9266-84ffc2d3cb33, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: jp1.wanss.win, port: 23344, type: vmess, uuid: 3FF32A43-8E7F-5EA8-72E9-0A3103FAA1C7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp1.wanss.win}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/seikozero/62621831a0fc7/, ws-headers: {Host: sg2.31vpn.com}, udp: true}
+  - {name: 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray, server: us-a.vmess.top, port: 56669, type: vmess, uuid: 28d116e4-5a8d-439c-9277-ec9d0106f8ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xasda65464uexi, ws-headers: {Host: us-a.vmess.top}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: a6ad48df-9c9d-4828-9266-84ffc2d3cb33, sni: nfus.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray, server: jp-b.vmess.top, port: 56669, type: vmess, uuid: 28d116e4-5a8d-439c-9277-ec9d0106f8ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdaexsadi, ws-headers: {Host: jp-b.vmess.top}, udp: true}
+  - {name: 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan, server: jp-b.vmess.top, port: 56656, type: trojan, password: 28d116e4-5a8d-439c-9277-ec9d0106f8ad, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray, server: us-b.vmess.top, port: 56669, type: vmess, uuid: 28d116e4-5a8d-439c-9277-ec9d0106f8ad, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: us-b.vmess.top}, udp: true}
+  - {name: 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan, server: us-b.vmess.top, port: 56656, type: trojan, password: 28d116e4-5a8d-439c-9277-ec9d0106f8ad, sni: us-b.vmess.top, skip-cert-verify: true, udp: true}
   - {name: 日本节点(限速节点不耗流量), server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: f1736c32-4fda-4aa4-9534-4eed17e4b40c, sni: rbmf.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港-III|1G|80端口, server: hk-iii.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: JP+Native+06, server: bgpddns.rentidnf.com, port: 58010, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: JP+Native+03, server: bgpddns.rentidnf.com, port: 58043, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: 香港-5|3.5G|80端口, server: hk-5.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 香港-I|1G|80端口, server: hk-i.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: JP+Native+Auto, server: bgpddns.rentidnf.com, port: 58032, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: JP+Native+05, server: bgpddns.rentidnf.com, port: 58023, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: 香港+|+F+|, server: cmzhuyun002.baiyun.pw, port: 5024, type: ss, cipher: aes-256-gcm, password: 70011e3a-a09e-40b7-b0b9-632b3dc270a2, udp: true}
-  - {name: 香港标准中继 05, server: vesta.hkg.ns.eevpn.info, port: 443, type: vmess, uuid: 771576fd-33be-4e02-869d-ceb9d28ce5f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港标准中继 03, server: jupiter.hkg.ns.eevpn.info, port: 443, type: vmess, uuid: 771576fd-33be-4e02-869d-ceb9d28ce5f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印尼（TG@阿伟科技/油管）, server: 20.219.104.241, port: 80, type: vmess, uuid: aadb434f-d306-495e-b36f-d1e577875c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /csa, ws-headers: {Host: livestream2.tv360.vn}, udp: true}
-  - {name: 香港+|+G+|, server: cmzhuyun002.baiyun.pw, port: 5025, type: ss, cipher: aes-256-gcm, password: 70011e3a-a09e-40b7-b0b9-632b3dc270a2, udp: true}
-  - {name: "INDIA CSA FREE [CHENNAI]", server: 20.219.104.241, port: 80, type: vmess, uuid: aadb434f-d306-495e-b36f-d1e577875c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /csa, ws-headers: {Host: "%7B%22Host%22:%22livestream2.tv360.vn%22%7D"}, udp: true}
-  - {name: 香港AZ-3号, server: 20.239.56.22, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
-  - {name: 香港AZ-1号, server: 20.205.98.64, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
-  - {name: SG+Native+Auto, server: bgpddns.rentidnf.com, port: 58031, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: 20.110.205.57, port: 80, type: vmess, uuid: aadb434f-d306-495e-b36f-d1e577875c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /csa, ws-headers: {Host: livestream2.tv360.vn}, udp: true}
-  - {name: JP+Native+07, server: bgpddns.rentidnf.com, port: 58011, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: 香港AZ-2号, server: 20.239.157.77, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
-  - {name: JP+Native+02, server: bgpddns.rentidnf.com, port: 58042, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: 香港-2|3.5G|80端口, server: hk-2.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: TW+Native+03, server: bgpddns.rentidnf.com, port: 58006, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: HK+Native+Auto, server: bgpddns.rentidnf.com, port: 58030, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: HK+Native+07, server: bgpddns.rentidnf.com, port: 58005, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: PH+Native, server: bgpddns.rentidnf.com, port: 58036, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: TW+Native+02, server: bgpddns.rentidnf.com, port: 58008, type: ss, cipher: chacha20-ietf-poly1305, password: cd783990-631e-4aef-8a3a-fdc90f0391b0, udp: true}
-  - {name: 直连+|+香港1+|+0.01x, server: hk1.aead.ml, port: 10401, type: ss, cipher: aes-128-gcm, password: 4234aaad-2022-426d-991b-608960beae60, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,163 +80,67 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-III|1G|80端口
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 香港+|+G+|
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - 香港AZ-2号
-      - 香港-2|3.5G|80端口
-      - 直连+|+香港1+|+0.01x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -336,37 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡+|+C+|+流媒體解鎖+|+X2
-      - 新加坡+|+B+|
-      - 日本节点(限速节点不耗流量)
       - 韩国（TG@阿伟科技/油管）
-      - 香港-III|1G|80端口
-      - JP+Native+06
-      - JP+Native+03
-      - 香港-5|3.5G|80端口
-      - 香港-I|1G|80端口
-      - JP+Native+Auto
-      - JP+Native+05
-      - 香港+|+F+|
-      - 香港标准中继 05
-      - 香港标准中继 03
-      - 印尼（TG@阿伟科技/油管）
-      - 香港+|+G+|
-      - INDIA CSA FREE [CHENNAI]
-      - 香港AZ-3号
-      - 香港AZ-1号
-      - SG+Native+Auto
+      - 日本（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray
       - 美国（TG@阿伟科技/油管）
-      - JP+Native+07
-      - 香港AZ-2号
-      - JP+Native+02
-      - 香港-2|3.5G|80端口
-      - TW+Native+03
-      - HK+Native+Auto
-      - HK+Native+07
-      - PH+Native
-      - TW+Native+02
-      - 直连+|+香港1+|+0.01x
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray
+      - 日本-C+|+直连+|+Tg群组内不定时抽奖，大量流量套餐奖励+|+Trojan
+      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray
+      - 美国-C+|+直连+|+Tg群组@paopaodog_group+请一定关注防止失联+|+Trojan
+      - 日本节点(限速节点不耗流量)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
