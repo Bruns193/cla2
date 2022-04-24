@@ -5,143 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 新加坡（TG@阿伟科技/油管）+2, server: cm.newhua99.xyz, port: 22801, type: ss, cipher: aes-128-gcm, password: d2143b25-6a10-440f-a513-6b720be505f4, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: tw.thissitesucks.top, port: 443, type: vmess, uuid: 2d5076a5-acab-4f85-b875-9989a39a9577, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dbd0/, ws-headers: {Host: tw.thissitesucks.top}, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管）+2, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）+4, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）+4, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
   - {name: CN_8du.shop, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
-  - {name: CN_8du.shop 2, server: gzcm.relay02.insnow.xyz, port: 19901, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: cmjm.senlinss.link, port: 21116, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
-  - {name: CN_8du.shop 3, server: 183.232.163.120, port: 21140, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 4, server: 183.232.163.120, port: 21116, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 5, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: CN_8du.shop 6, server: 183.232.163.120, port: 21120, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 7, server: cmjm.senlinss.link, port: 21120, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本（TG@阿伟科技/油管）, server: cmjm.senlinss.link, port: 21114, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
-  - {name: CN_8du.shop 8, server: 183.240.181.36, port: 36487, type: vmess, uuid: 354b8f96-75a1-4488-9aaf-25329f8a36ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: sg2.qcjs.one}, udp: true}
-  - {name: CN_8du.shop 9, server: 183.240.181.36, port: 12504, type: ss, cipher: chacha20-ietf-poly1305, password: 354b8f96-75a1-4488-9aaf-25329f8a36ff, udp: true}
-  - {name: CN_8du.shop 10, server: gzcm.relay02.insnow.xyz, port: 19921, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 11, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: HK_8du.shop, server: 104.208.88.1, port: 80, type: vmess, uuid: 985dc171-40f8-4daf-b1ca-c8fb6aecdb72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: CN_8du.shop 12, server: 183.232.163.120, port: 21134, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 13, server: 183.232.163.120, port: 21122, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 14, server: 183.232.163.120, port: 21142, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 15, server: 120.233.10.230, port: 50400, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: CN_8du.shop 16, server: gzcm.relay02.insnow.xyz, port: 19919, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君), server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/seikozero/62621831a0fc7/, ws-headers: {Host: sg2.31vpn.com}, udp: true}
-  - {name: CN_8du.shop 17, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: 50cera.moonfree.top, port: 8443, type: vmess, uuid: 6a856d0a-c374-4d25-b4db-327801ca9dc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 50cera.moonfree.top}, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管） 2, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: CN_8du.shop 18, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 2, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 19, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: 美国（TG@阿伟科技/油管） 3, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: nfus.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 20, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
-  - {name: CN_8du.shop 21, server: gzcm.relay02.insnow.xyz, port: 19925, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）+6, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: f29d8ac6-4ffd-48c1-84ad-6adcfd13db2a, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 21, server: bwg.qiyisoft.xyz, port: 443, type: vmess, uuid: 6ba05f2f-d319-46f0-92fd-8fa0ad30eed9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upgrade, ws-headers: {Host: bwg.qiyisoft.xyz}, udp: true}
+  - {name: "孟买\n", server: yifaer.tk, port: 19436, type: trojan, password: WDuipbwYYl, sni: yifaer.tk, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）+13, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: 928bb264-85ee-48f7-9e1d-6f78e625caf8, sni: nfus.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管） 4, server: sg.guiqing.ml, port: 43956, type: vmess, uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度（TG@阿伟科技/油管）, server: yifaer.tk, port: 19436, type: trojan, password: WDuipbwYYl, sni: yifaer.tk, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）+3, server: gzcm.relay02.insnow.xyz, port: 19904, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 9, server: 207.246.104.176, port: 64107, type: vmess, uuid: 6a979348-c37f-11ec-81ba-560003f62990, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /N3uaobSp/, ws-headers: {Host: 207.246.104.176}, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 19, server: www.digitalocean.com, port: 443, type: vmess, uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctvvws, ws-headers: {Host: olo.aoyyds.tk}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,147 +100,89 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）+4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +198,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 新加坡（TG@阿伟科技/油管）+2
+      - 台湾（TG@阿伟科技/油管）
+      - 韩国（TG@阿伟科技/油管）+2
+      - 香港（TG@阿伟科技/油管）+4
+      - 日本（TG@阿伟科技/油管）+4
       - CN_8du.shop
-      - CN_8du.shop 2
-      - 新加坡（TG@阿伟科技/油管）
-      - CN_8du.shop 3
-      - CN_8du.shop 4
-      - CN_8du.shop 5
-      - CN_8du.shop 6
-      - CN_8du.shop 7
-      - 韩国（TG@阿伟科技/油管）
-      - 日本（TG@阿伟科技/油管）
-      - CN_8du.shop 8
-      - CN_8du.shop 9
-      - CN_8du.shop 10
-      - CN_8du.shop 11
-      - HK_8du.shop
-      - CN_8du.shop 12
-      - CN_8du.shop 13
-      - CN_8du.shop 14
-      - CN_8du.shop 15
-      - CN_8du.shop 16
-      - 亚洲(欢迎订阅Youtube破解资源君)
-      - CN_8du.shop 17
-      - 美国（TG@阿伟科技/油管）
-      - 韩国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 18
-      - 美国（TG@阿伟科技/油管） 2
-      - CN_8du.shop 19
-      - 美国（TG@阿伟科技/油管） 3
-      - CN_8du.shop 20
-      - CN_8du.shop 21
+      - 英国（TG@阿伟科技/油管）+6
+      - 美国（TG@阿伟科技/油管） 21
+      - "孟买\n"
+      - 美国（TG@阿伟科技/油管）+13
+      - 新加坡（TG@阿伟科技/油管） 4
+      - 印度（TG@阿伟科技/油管）
+      - 新加坡（TG@阿伟科技/油管）+3
+      - 美国（TG@阿伟科技/油管） 9
+      - 美国（TG@阿伟科技/油管） 19
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
