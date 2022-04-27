@@ -5,111 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "新加坡+02+华南+流媒+[1.5x]", server: gzcm.relay02.insnow.xyz, port: 19904, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan 02, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan 03, server: api-02.malibaba.xyz, port: 15565, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: Japan 01, server: api-02.malibaba.xyz, port: 15563, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: HongKong 01, server: api-gzct.malibaba.xyz, port: 10080, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore 02, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore 01, server: api-01.malibaba.xyz, port: 31769, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: HongKong 02, server: api-gzct.malibaba.xyz, port: 10081, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
   - {name: 韩国（TG@阿伟科技/油管）, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: rr002.zhuan666.top, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: 5527dbd6-5ee2-431d-9c2f-2b818624f4ef, udp: true}
-  - {name: "香港+01+通用+流媒+[1x]", server: hkbgp.relay02.insnow.xyz, port: 19901, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: hkbgp.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国+03+华中+[1x]", server: cscu.relay01.insnow.xyz, port: 19925, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: cscu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 169.197.142.4, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Singapore 05, server: api-gzct.malibaba.xyz, port: 37071, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡1, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: sgp001.laxiyun.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: sgp002.laxiyun.com, skip-cert-verify: true, udp: true}
+  - {name: Singapore 03, server: api-gzct.malibaba.xyz, port: 17099, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
   - {name: 新加坡（TG@阿伟科技/油管） 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 美国（TG@阿伟科技/油管）, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 2, server: 169.197.142.4, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "台灣+03+华中+流媒+[1x]", server: cscu.relay01.insnow.xyz, port: 19927, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: cscu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 3, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: "印度+03+华中+[1x]", server: cscu.relay01.insnow.xyz, port: 19921, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: cscu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: "新加坡+01+通用+流媒+[1.5x]", server: hkbgp.relay02.insnow.xyz, port: 19904, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: hkbgp.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: "澳洲+03+华东+[1x]", server: shcu.relay01.insnow.xyz, port: 19937, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: ️‍🌈+节点不通请更新订阅, server: cscu.relay01.insnow.xyz, port: 19909, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: cscu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: "俄罗斯+03+华东+[1x]", server: shcu.relay01.insnow.xyz, port: 19931, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: "台灣+01+通用+流媒+[1x]", server: hkbgp.relay02.insnow.xyz, port: 19927, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: hkbgp.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管）, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: 0595e14c-5ce3-4526-a0e4-baf422a9963e, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 3, server: 169.197.142.4, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "澳洲+02+华南+[1x]", server: gzcm.relay02.insnow.xyz, port: 19937, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾（TG@阿伟科技/油管） 2, server: tw.52jjyun.top, port: 51238, type: vmess, uuid: f79237b4-52bb-44cc-91c2-90d7856a7122, alterId: 10, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jjyun, ws-headers: {Host: sg.jjyun.biz}, udp: true}
-  - {name: "印度+02+华南+[1x]", server: gzcm.relay02.insnow.xyz, port: 19921, type: trojan, password: 10598ac7-2283-4d17-b500-3cef6e305c21, sni: gzcm.relay02.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国弗吉尼亚 | 壹 | StarTrip, server: use1a1.sakurajimamai.love, port: 10086, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,120 +100,87 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港+01+通用+流媒+[1x]
-      - 台灣+03+华中+流媒+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 台湾（TG@阿伟科技/油管） 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -257,28 +196,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡+02+华南+流媒+[1.5x]
+      - Japan 02
+      - Japan 03
+      - Japan 01
+      - HongKong 01
+      - Singapore 02
+      - Singapore 01
+      - HongKong 02
       - 韩国（TG@阿伟科技/油管）
+      - Singapore 05
+      - 新加坡1
+      - 新加坡2
+      - Singapore 03
       - 新加坡（TG@阿伟科技/油管）
-      - 香港+01+通用+流媒+[1x]
-      - 美国+03+华中+[1x]
-      - 欧洲(欢迎订阅Youtube破解资源君)
       - 新加坡（TG@阿伟科技/油管） 2
-      - 美国（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 2
-      - 台灣+03+华中+流媒+[1x]
-      - 新加坡（TG@阿伟科技/油管） 3
-      - 印度+03+华中+[1x]
-      - 新加坡+01+通用+流媒+[1.5x]
-      - 澳洲+03+华东+[1x]
-      - ️‍🌈+节点不通请更新订阅
-      - 俄罗斯+03+华东+[1x]
-      - 台灣+01+通用+流媒+[1x]
-      - 台湾（TG@阿伟科技/油管）
-      - 欧洲(欢迎订阅Youtube破解资源君) 3
-      - 澳洲+02+华南+[1x]
-      - 台湾（TG@阿伟科技/油管） 2
-      - 印度+02+华南+[1x]
+      - 美国弗吉尼亚 | 壹 | StarTrip
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
