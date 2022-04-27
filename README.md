@@ -5,83 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Japan 02, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan 03, server: api-02.malibaba.xyz, port: 15565, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan 01, server: api-02.malibaba.xyz, port: 15563, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: HongKong 01, server: api-gzct.malibaba.xyz, port: 10080, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 02, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 01, server: api-01.malibaba.xyz, port: 31769, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: HongKong 02, server: api-gzct.malibaba.xyz, port: 10081, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国（TG@阿伟科技/油管）, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 05, server: api-gzct.malibaba.xyz, port: 37071, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡1, server: sgp001.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: sgp001.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡2, server: sgp002.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: sgp002.laxiyun.com, skip-cert-verify: true, udp: true}
-  - {name: Singapore 03, server: api-gzct.malibaba.xyz, port: 17099, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-gzct.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管）, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 新加坡（TG@阿伟科技/油管） 2, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 美国弗吉尼亚 | 壹 | StarTrip, server: use1a1.sakurajimamai.love, port: 10086, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）, server: szcm.9218561.xyz, port: 33308, type: ss, cipher: chacha20-ietf-poly1305, password: 4E, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: fs.keaiyun.top, port: 48521, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 2, server: gc1.criskaka.com, port: 45658, type: vmess, uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ✔️推荐 新加坡 03〖中转-V2〗, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 韩国（TG@阿伟科技/油管）, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: f4c09da2-2709-42d4-a012-34bb7f5c4435, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 3, server: fs.keaiyun.top, port: 55155, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ✔️推荐 美国 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15006, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: ✔️推荐 香港 HKT2 〖中转-V2〗, server: gz-1.jiasugou.one, port: 15001, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 2, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 2, server: ublubeu.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, ws-headers: {Host: ublubeu.fly.dev}, udp: true}
+  - {name: ✔️推荐 新加坡 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 3, server: yzhk.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, ws-headers: {Host: yzhk.fly.dev}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 2, server: fs.keaiyun.top, port: 48522, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 3, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, sni: shop-three.defun.us, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 4, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: f4c09da2-2709-42d4-a012-34bb7f5c4435, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管） 4, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ✔️推荐 英国 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15005, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 3, server: fs.keaiyun.top, port: 48520, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 4, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, sni: miner-one.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: ✔️推荐 日本 01〖中转-V2〗, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: 法国（TG@阿伟科技/油管）, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: af9935cf-c27b-4f7a-b599-7879efb03eaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管）, server: 104.16.147.69, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
+  - {name: 新加坡（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 6a2fb1df-9a79-4640-ab04-5335a8e32cc7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,87 +140,136 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,21 +285,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan 02
-      - Japan 03
-      - Japan 01
-      - HongKong 01
-      - Singapore 02
-      - Singapore 01
-      - HongKong 02
+      - 香港（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 03〖中转-V2〗
       - 韩国（TG@阿伟科技/油管）
-      - Singapore 05
-      - 新加坡1
-      - 新加坡2
-      - Singapore 03
+      - 台湾（TG@阿伟科技/油管） 3
+      - ✔️推荐 美国 01〖中转-V2〗
+      - ✔️推荐 香港 HKT2 〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管） 2
+      - ✔️推荐 新加坡 01〖中转-V2〗
+      - 香港（TG@阿伟科技/油管） 3
+      - 日本（TG@阿伟科技/油管） 2
+      - 美国（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 台湾（TG@阿伟科技/油管） 4
+      - ✔️推荐 英国 01〖中转-V2〗
+      - 日本（TG@阿伟科技/油管） 3
+      - 美国（TG@阿伟科技/油管） 4
+      - ✔️推荐 日本 01〖中转-V2〗
+      - 法国（TG@阿伟科技/油管）
+      - 荷兰（TG@阿伟科技/油管）
       - 新加坡（TG@阿伟科技/油管）
-      - 新加坡（TG@阿伟科技/油管） 2
-      - 美国弗吉尼亚 | 壹 | StarTrip
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
