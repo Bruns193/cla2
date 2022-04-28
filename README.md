@@ -5,255 +5,247 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Japan 03, server: api-02.malibaba.xyz, port: 15565, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |, server: free-sh.vmess.top, port: 24715, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: free-sh.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: hz_bgp_rx_naiun_pw:45251_8, server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, udp: true}
+  - {name: gz_bgp_rx_naiun_pw:45251_7, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, udp: true}
+  - {name: 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31804, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsaduexasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
+  - {name: 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2, server: dx-hk.vmess.top, port: 31804, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsaduexasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
+  - {name: 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |, server: jp-d.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdaxsadasasduexsadi, ws-headers: {Host: jp-d.vmess.top}, udp: true}
+  - {name: 日本-H | 隧道 | NetFlix | V2ray | 2x |, server: lt-jp.vmess.top, port: 31809, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: 新加坡-D | 隧道 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31811, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
   - {name: 日本-B | 隧道 | Trojan | 0.5x |, server: lt-jp.vmess.top, port: 31702, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
   - {name: 日本-H | 隧道 | NetFlix | Trojan | 2x |, server: lt-jp.vmess.top, port: 31709, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 日本-D | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31807, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdadsxuasdasdexasdasdi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: 日本-F | 隧道 | Trojan | 2x |, server: lt-jp.vmess.top, port: 31708, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 日本-F | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31808, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdueasdasdasdxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: 日本-H | 隧道 | NetFlix | V2ray | 2x |, server: lt-jp.vmess.top, port: 31809, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: 日本-B | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31802, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdawasdxuesadwaxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: 美国-D | 隧道 | Trojan | 2x |, server: lt-jp.vmess.top, port: 31714, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
   - {name: 日本-D | 隧道 | Trojan | 2x |, server: lt-jp.vmess.top, port: 31707, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: Singapore 02, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国-B | 隧道 | Trojan | 2x |, server: lt-jp.vmess.top, port: 31701, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 美国-D | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31814, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: 美国-B | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31801, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xusadwads645exi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |, server: jp-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdaexsadi, ws-headers: {Host: jp-b.vmess.top}, udp: true}
-  - {name: 日本-A | 直连 | V2ray | 1x |, server: jp-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexsadwadsadwaxi, ws-headers: {Host: jp-a.vmess.top}, udp: true}
+  - {name: 日本-F | 隧道 | Trojan | 2x |, server: lt-jp.vmess.top, port: 31708, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-D | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31807, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdadsxuasdasdexasdasdi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |, server: free-sh.vmess.top, port: 24815, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxuasdeasdasdxi, ws-headers: {Host: free-sh.vmess.top}, udp: true}
+  - {name: gz_bgp_rx_naiun_pw:45240_3, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, udp: true}
+  - {name: 日本-F | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31808, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdueasdasdasdxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
   - {name: Japan 01, server: api-02.malibaba.xyz, port: 15563, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本-B | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31802, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdawasdxuesadwaxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: 美国-B | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31801, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xusadwads645exi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: 香港IDC宽频_NF解锁_V2_A01_1, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港IDC宽频_NF解锁_V2_B01_2, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |, server: ygsd.vmess.top, port: 35703, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: ygsd.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |, server: jp-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 美国-D | 隧道 | V2ray | 2x |, server: lt-jp.vmess.top, port: 31814, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: Singapore 02, server: api-01.malibaba.xyz, port: 38599, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-01.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本-E | 直连 | V2ray | 1x |, server: jp-c.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxuasdasdeasdasdxi, ws-headers: {Host: jp-c.vmess.top}, udp: true}
+  - {name: 美国-D | 隧道 | Trojan | 2x |, server: lt-jp.vmess.top, port: 31714, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-E | 直连 | Trojan | 1x |, server: jp-c.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-c.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-A | 直连 | V2ray | 1x |, server: jp-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexsadwadsadwaxi, ws-headers: {Host: jp-a.vmess.top}, udp: true}
+  - {name: 新加坡-D | 隧道 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31711, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本-A | 直连 | Trojan | 1x |, server: jp-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-a.vmess.top, skip-cert-verify: true, udp: true}
   - {name: 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |, server: ygsd.vmess.top, port: 35803, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wdadsad, ws-headers: {Host: ygsd.vmess.top}, udp: true}
   - {name: 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31704, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 抱橙一团|Aws韩国①-1x, server: kr1.bcyituan.xyz, port: 443, type: trojan, password: bd03979c-a3d0-46e0-956f-f7b031ee8ad1, sni: kr1.bcyituan.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-D | 隧道 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31711, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 日本-E | 直连 | V2ray | 1x |, server: jp-c.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxuasdasdeasdasdxi, ws-headers: {Host: jp-c.vmess.top}, udp: true}
-  - {name: Japan 02, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本-A | 直连 | Trojan | 1x |, server: jp-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-C | 直连 | V2ray | 1x |, server: sg-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: sg-b.vmess.top}, udp: true}
-  - {name: 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |, server: free-sh.vmess.top, port: 24815, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxuasdeasdasdxi, ws-headers: {Host: free-sh.vmess.top}, udp: true}
-  - {name: 德国-B | 隧道 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31705, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 香港-C | 直连 | 下载用 | V2ray | 1x |, server: hk-b.vmess.top, port: 24603, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdxsaduesadwadxi, ws-headers: {Host: hk-b.vmess.top}, udp: true}
-  - {name: 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31804, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsaduexasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: YouTube阿伟科技, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: YouTube阿伟科技 2, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
-  - {name: 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |, server: sg-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsadausadasdexi, ws-headers: {Host: sg-a.vmess.top}, udp: true}
-  - {name: 日本-E | 直连 | Trojan | 1x |, server: jp-c.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-c.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技 3, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/ntmdq/6267584ee4988/, ws-headers: {Host: sg3.31vpn.com}, udp: true}
-  - {name: 新加坡-D | 隧道 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31811, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: YouTube阿伟科技 4, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
-  - {name: YouTube阿伟科技 5, server: 20.214.159.88, port: 1021, type: trojan, password: da581cfe-683f-3169-9933-f221a5c0426c, skip-cert-verify: true, udp: true}
-  - {name: 香港-C | 直连 | 下载用 |Trojan | 1x |, server: hk-b.vmess.top, port: 24503, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: hk-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 德国-B | 隧道 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31805, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadasdxasdasdueasdxasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |, server: us-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xasda65464uexi, ws-headers: {Host: us-a.vmess.top}, udp: true}
-  - {name: 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |, server: sg-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: sg-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |, server: us-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |, server: us-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: us-b.vmess.top}, udp: true}
-  - {name: 美国圣何塞 | 壹 | StarTrip, server: dsj1.sakurajimamai.love, port: 443, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: dsj1.sakurajimamai.love}, udp: true}
-  - {name: 英国-B | 隧道 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31712, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技 6, server: 104.16.23.3, port: 443, type: vmess, uuid: 248f4f6f-270c-47f7-bea8-ed9d89440054, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzkoyeb-7595333.koyeb.app}, udp: true}
-  - {name: 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |, server: jp-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技 7, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技 8, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |, server: us-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: us-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: YouTube阿伟科技 9, server: c27821f.hf.gladns.com, port: 3306, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /s/c27821f.fm.apple.com:16708, ws-headers: {Host: c27821f.hf.gladns.com}, udp: true}
-  - {name: YouTube阿伟科技 10, server: 104.17.67.190, port: 443, type: vmess, uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp.567568.ml}, udp: true}
-  - {name: 英国-B | 隧道 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31812, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: YouTube阿伟科技 11, server: 149.248.1.76, port: 27266, type: vmess, uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /QEc5C9RG/, ws-headers: {Host: 149.248.1.76}, udp: true}
-  - {name: YouTube阿伟科技 12, server: fs.keaiyun.top, port: 55155, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-D | 隧道 | V2ray | 2x |, server: dx-hk.vmess.top, port: 31810, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxusadexi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
   - {name: 日本-G | 直连 | NetFlix | V2ray | 1.5x |, server: dv-jp-a.vmess.top, port: 24602, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasduesdxi, ws-headers: {Host: dv-jp-a.vmess.top}, udp: true}
+  - {name: 日本-G | 直连 | NetFlix | Trojan | 1.2x |, server: dv-jp-a.vmess.top, port: 24502, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dv-jp-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 香港-B | 隧道 | Trojan | 0.5x |, server: dx-hk.vmess.top, port: 31703, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-C | 直连 | V2ray | 1x |, server: sg-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: sg-b.vmess.top}, udp: true}
+  - {name: Japan 02, server: api-02.malibaba.xyz, port: 15564, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: api-02.malibaba.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港-D | 隧道 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31710, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 美国IDC宽频_NF解锁_V2_A01_17, server: gz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |, server: sg-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsadausadasdexi, ws-headers: {Host: sg-a.vmess.top}, udp: true}
+  - {name: hz_bgp_rx_naiun_pw:45240_4, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, udp: true}
+  - {name: 香港-C | 直连 | 下载用 |Trojan | 1x |, server: hk-b.vmess.top, port: 24503, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: hk-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 美国IDC宽频_NF解锁_V2_B01_18, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 台湾家庭宽频_NF解锁_V2_B01_22, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: YouTube阿伟科技, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
+  - {name: YouTube阿伟科技 2, server: 40.81.24.182, port: 80, type: vmess, uuid: 5bb3188a-cea1-4733-a541-d918896a51df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 40.81.24.182}, udp: true}
+  - {name: 英国-B | 隧道 | Trojan | 2x |, server: dx-hk.vmess.top, port: 31712, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |, server: free-hk.vmess.top, port: 24501, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: free-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: YouTube阿伟科技 3, server: fs.keaiyun.top, port: 55155, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |, server: jp-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdaexsadi, ws-headers: {Host: jp-b.vmess.top}, udp: true}
+  - {name: 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |, server: us-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xasda65464uexi, ws-headers: {Host: us-a.vmess.top}, udp: true}
+  - {name: 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |, server: gz-hk.vmess.top, port: 35802, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadwawsad, ws-headers: {Host: gz-hk.vmess.top}, udp: true}
+  - {name: 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |, server: us-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 香港-C | 直连 | 下载用 | V2ray | 1x |, server: hk-b.vmess.top, port: 24603, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdxsaduesadwadxi, ws-headers: {Host: hk-b.vmess.top}, udp: true}
+  - {name: 台湾家庭宽频_NF解锁_V2_A01_21, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 687e56bf-9e89-4a19-9e4f-ea9271f5df4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: YouTube阿伟科技 4, server: hk1.qingyun123.xyz, port: 10000, type: trojan, password: 9ef6f63a-2f8c-4240-8e60-b51183ee03fd, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -272,263 +264,263 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
+      - 香港-D | 隧道 | Trojan | 2x |
       - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 香港-D | 隧道 | V2ray | 2x |
+      - 台湾家庭宽频_NF解锁_V2_B01_22
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -544,64 +536,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Japan 03
-      - 日本-J | 隧道 | 免费节点仅供日常查阅资料使用 无SLA保证 不代表付费节点质量 | Trojan | 2x |
+      - hz_bgp_rx_naiun_pw:45251_8
+      - gz_bgp_rx_naiun_pw:45251_7
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x | 2
+      - 日本-I | 直连 | 一定要加入Tg群防止失联 https://t.me/paopaodog_group | V2ray | 1x |
+      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
+      - 新加坡-D | 隧道 | V2ray | 2x |
       - 日本-B | 隧道 | Trojan | 0.5x |
       - 日本-H | 隧道 | NetFlix | Trojan | 2x |
-      - 日本-D | 隧道 | V2ray | 2x |
-      - 日本-F | 隧道 | Trojan | 2x |
-      - 日本-F | 隧道 | V2ray | 2x |
-      - 日本-H | 隧道 | NetFlix | V2ray | 2x |
-      - 日本-B | 隧道 | V2ray | 2x |
-      - 美国-D | 隧道 | Trojan | 2x |
       - 日本-D | 隧道 | Trojan | 2x |
-      - Singapore 02
-      - 美国-B | 隧道 | Trojan | 2x |
-      - 美国-D | 隧道 | V2ray | 2x |
-      - 美国-B | 隧道 | V2ray | 2x |
-      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
-      - 日本-A | 直连 | V2ray | 1x |
+      - 日本-F | 隧道 | Trojan | 2x |
+      - 日本-D | 隧道 | V2ray | 2x |
+      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
+      - gz_bgp_rx_naiun_pw:45240_3
+      - 日本-F | 隧道 | V2ray | 2x |
       - Japan 01
+      - 日本-B | 隧道 | V2ray | 2x |
+      - 美国-B | 隧道 | V2ray | 2x |
+      - 香港IDC宽频_NF解锁_V2_A01_1
+      - 香港IDC宽频_NF解锁_V2_B01_2
+      - 香港-G | 扬港 | 流媒体解锁 | Trojan | 0.5x |
+      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
+      - 美国-D | 隧道 | V2ray | 2x |
+      - Singapore 02
+      - 日本-E | 直连 | V2ray | 1x |
+      - 美国-D | 隧道 | Trojan | 2x |
+      - 日本-E | 直连 | Trojan | 1x |
+      - 日本-A | 直连 | V2ray | 1x |
+      - 新加坡-D | 隧道 | Trojan | 2x |
+      - 日本-A | 直连 | Trojan | 1x |
       - 香港-G | 扬港 | 流媒体解锁 | V2ray | 0.5x |
       - 新加坡-B | 隧道 | 流媒体解锁 | Trojan | 2x |
-      - 抱橙一团|Aws韩国①-1x
-      - 新加坡-D | 隧道 | Trojan | 2x |
-      - 日本-E | 直连 | V2ray | 1x |
-      - Japan 02
-      - 日本-A | 直连 | Trojan | 1x |
+      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 日本-G | 直连 | NetFlix | Trojan | 1.2x |
+      - 香港-B | 隧道 | Trojan | 0.5x |
       - 新加坡-C | 直连 | V2ray | 1x |
-      - 日本-J | 隧道 | 如果想要更好的体验请购买付费套餐，最低5.8元就可以拥有88G急速流量体验，高峰测速跑满3Gbps宽带 | V2ray | 2x |
-      - 德国-B | 隧道 | Trojan | 2x |
-      - 香港-C | 直连 | 下载用 | V2ray | 1x |
-      - 新加坡-B | 隧道 | 流媒体解锁 | V2ray | 2x |
+      - Japan 02
+      - 香港-D | 隧道 | Trojan | 2x |
+      - 美国IDC宽频_NF解锁_V2_A01_17
+      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
+      - hz_bgp_rx_naiun_pw:45240_4
+      - 香港-C | 直连 | 下载用 |Trojan | 1x |
+      - 美国IDC宽频_NF解锁_V2_B01_18
+      - 台湾家庭宽频_NF解锁_V2_B01_22
       - YouTube阿伟科技
       - YouTube阿伟科技 2
-      - 新加坡-A | 直连 | 流媒体解锁 | V2ray | 1x |
-      - 日本-E | 直连 | Trojan | 1x |
-      - YouTube阿伟科技 3
-      - 新加坡-D | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 4
-      - YouTube阿伟科技 5
-      - 香港-C | 直连 | 下载用 |Trojan | 1x |
-      - 德国-B | 隧道 | V2ray | 2x |
-      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
-      - 新加坡-A | 直连 | 流媒体解锁 | Trojan | 1x |
-      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联  | V2ray | 1x |
-      - 美国圣何塞 | 壹 | StarTrip
       - 英国-B | 隧道 | Trojan | 2x |
-      - YouTube阿伟科技 6
-      - 日本-C | 直连 | Tg群组内不定时抽奖，大量流量套餐奖励 | Trojan | 1x |
-      - YouTube阿伟科技 7
-      - YouTube阿伟科技 8
-      - 美国-C | 直连 | Tg群组@paopaodog_group 请一定关注防止失联 | Trojan | 1x |
-      - YouTube阿伟科技 9
-      - YouTube阿伟科技 10
-      - 英国-B | 隧道 | V2ray | 2x |
-      - YouTube阿伟科技 11
-      - YouTube阿伟科技 12
-      - 香港-D | 隧道 | V2ray | 2x |
-      - 日本-G | 直连 | NetFlix | V2ray | 1.5x |
+      - 香港-A | 直连 | 网站： Www.Paopao.Dog  | Trojan | 1.2x |
+      - YouTube阿伟科技 3
+      - 日本-C | 直连 | 白嫖节点使用人数过多，不保证可用性，不代表付费节点质量 | V2ray | 1x |
+      - 美国-A | 直连 | 付费套餐全隧道节点，晚高峰也能秒开8K哦，最低6元就能体验 | V2ray | 1x |
+      - 香港-F | 广港BGP | 流媒体解锁 | V2ray | 0.3x |
+      - 美国-A | 直连 | 带这类文字的都是公益节点，公益节点仅供交流学习，不代表付费节点品质  | Trojan | 1x |
+      - 香港-C | 直连 | 下载用 | V2ray | 1x |
+      - 台湾家庭宽频_NF解锁_V2_A01_21
+      - YouTube阿伟科技 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
