@@ -5,323 +5,279 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国（TG@阿伟科技/油管）, server: 20.239.68.187, port: 60006, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.239.68.187}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管）, server: 139.219.9.138, port: 19811, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
+  - {name: 台湾（TG@阿伟科技/油管）, server: fs.keaiyun.top, port: 55155, type: vmess, uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管）, server: fs.keaiyun.top, port: 48522, type: vmess, uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 2, server: az1.chuangshi999.xyz, port: 22818, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 3, server: az1.chuangshi999.xyz, port: 39675, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-12|专线|0.1x, server: lt-jp.vmess.top, port: 31808, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdueasdasdasdxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: JP-15|专线|0.1x, server: lt-jp.vmess.top, port: 31709, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: JP-11|专线|0.1x, server: lt-jp.vmess.top, port: 31708, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
   - {name: HK-11|专线|0.3x, server: dx-hk.vmess.top, port: 35702, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
   - {name: HK-12|专线|0.3x, server: dx-hk.vmess.top, port: 35802, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadwawsad, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: JP-7|专线|1.5x, server: lt-jp.vmess.top, port: 31707, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: JP-16|专线|0.1x, server: lt-jp.vmess.top, port: 31809, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: SG-8|专线|0.1x, server: dx-hk.vmess.top, port: 31811, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
+  - {name: Japan+01, server: shcu.cwcsrsyby.xyz, port: 15563, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-4|专线|1.5x, server: lt-jp.vmess.top, port: 31802, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdawasdxuesadwaxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
   - {name: JP-3|专线|1.5x, server: lt-jp.vmess.top, port: 31702, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
   - {name: JP-8|专线|1.5x, server: lt-jp.vmess.top, port: 31807, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdadsxuasdasdexasdasdi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: Japan+01, server: shcu.cwcsrsyby.xyz, port: 15563, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP-11|专线|1.5x, server: lt-jp.vmess.top, port: 31708, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: JP-16|专线|1.5x, server: lt-jp.vmess.top, port: 31809, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: JP-15|专线|1.5x, server: lt-jp.vmess.top, port: 31709, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: JP-12|专线|1.5x, server: lt-jp.vmess.top, port: 31808, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdueasdasdasdxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: JP-4|专线|1.5x, server: lt-jp.vmess.top, port: 31802, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdawasdxuesadwaxi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: Japan+02, server: shcu.cwcsrsyby.xyz, port: 15564, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: HongKong 02, server: szct.9218561.xyz, port: 42536, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: szct.9218561.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 01, server: cscu.01.211129.xyz, port: 31769, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: cscu.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 03, server: gy.cwcsrsyby.xyz, port: 9555, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 05, server: gy.cwcsrsyby.xyz, port: 30151, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore 04, server: gy.cwcsrsyby.xyz, port: 22364, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: Singapore+02, server: cscu.01.211129.xyz, port: 38599, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: cscu.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK-5|1x, server: dmit-hk-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dmit-hk-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: HK-6|1x, server: dmit-hk-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdxsaduesadwadxi, ws-headers: {Host: dmit-hk-b.vmess.top}, udp: true}
-  - {name: JP-1|1x, server: jp-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: Japan+04, server: shcu.forgebukkit.com, port: 15568, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.forgebukkit.com, skip-cert-verify: true, udp: true}
-  - {name: JP-13|1x, server: jp-d.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-d.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: JP-5|1x, server: jp-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: Japan 02, server: shcu.cwcsrsyby.xyz, port: 15564, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP-7|专线|1.5x, server: lt-jp.vmess.top, port: 31707, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
   - {name: JP-9|1x, server: jp-c.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-c.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: JP-6|1x, server: jp-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdaexsadi, ws-headers: {Host: jp-b.vmess.top}, udp: true}
-  - {name: JP-2|1x, server: jp-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexsadwadsadwaxi, ws-headers: {Host: jp-a.vmess.top}, udp: true}
-  - {name: JP-10|1x, server: jp-c.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxuasdasdeasdasdxi, ws-headers: {Host: jp-c.vmess.top}, udp: true}
-  - {name: Japan 03, server: shcu.cwcsrsyby.xyz, port: 15565, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK-7|专线|1.5x, server: dx-hk.vmess.top, port: 31710, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: HK-8|专线|1.5x, server: dx-hk.vmess.top, port: 31810, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxusadexi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: JP-14|1x, server: jp-d.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasduesdxi, ws-headers: {Host: jp-d.vmess.top}, udp: true}
-  - {name: HK-3|专线|1.5x, server: dx-hk.vmess.top, port: 31703, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: US-3|专线|1.5x, server: lt-jp.vmess.top, port: 31701, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: JP-13|1x, server: jp-d.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-d.vmess.top, skip-cert-verify: true, udp: true}
   - {name: TW-3|专线|1.5x, server: dx-hk.vmess.top, port: 31713, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: JP-2|1x, server: jp-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xuexsadwadsadwaxi, ws-headers: {Host: jp-a.vmess.top}, udp: true}
+  - {name: HK-4|专线|1.5x, server: dx-hk.vmess.top, port: 31803, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxusadexi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
+  - {name: SG-4|专线|1.5x, server: dx-hk.vmess.top, port: 31804, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsaduexasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
+  - {name: JP-5|1x, server: jp-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: SG-7|专线|1.5x, server: dx-hk.vmess.top, port: 31711, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: US-7|专线|1.5x, server: lt-jp.vmess.top, port: 31714, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: SG-3|专线|1.5x, server: dx-hk.vmess.top, port: 31704, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
   - {name: TW-4|专线|1.5x, server: dx-hk.vmess.top, port: 31813, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
   - {name: US-4|专线|1.5x, server: lt-jp.vmess.top, port: 31801, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xusadwads645exi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: HK-4|专线|1.5x, server: dx-hk.vmess.top, port: 31803, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxusadexi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: SG-7|专线|1.5x, server: dx-hk.vmess.top, port: 31711, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
   - {name: US-8|专线|1.5x, server: lt-jp.vmess.top, port: 31814, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
-  - {name: SG-3|专线|1.5x, server: dx-hk.vmess.top, port: 31704, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: SG-8|专线|1.5x, server: dx-hk.vmess.top, port: 31811, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: US-7|专线|1.5x, server: lt-jp.vmess.top, port: 31714, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: SG-4|专线|1.5x, server: dx-hk.vmess.top, port: 31804, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsaduexasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: HongKong 01, server: gd.cwcsrsyby.xyz, port: 28038, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: gd.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
-  - {name: Japan 05, server: 20.89.93.230, port: 80, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, skip-cert-verify: true, udp: true}
-  - {name: SG-5|1x, server: sg-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: sg-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: DE-3|专线|1.5x, server: dx-hk.vmess.top, port: 31705, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: SG-2|1x, server: sg-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxsadausadasdexi, ws-headers: {Host: sg-a.vmess.top}, udp: true}
-  - {name: SG-6|1x, server: sg-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: sg-b.vmess.top}, udp: true}
+  - {name: Japan+05, server: 20.89.93.230, port: 80, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, skip-cert-verify: true, udp: true}
+  - {name: Japan+04, server: shcu.forgebukkit.com, port: 15568, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: shcu.forgebukkit.com, skip-cert-verify: true, udp: true}
+  - {name: US-3|专线|1.5x, server: lt-jp.vmess.top, port: 31701, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: JP-6|1x, server: jp-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdaexsadi, ws-headers: {Host: jp-b.vmess.top}, udp: true}
+  - {name: Singapore+03, server: gy.cwcsrsyby.xyz, port: 9555, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore+02, server: cscu.01.211129.xyz, port: 38599, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: cscu.01.211129.xyz, skip-cert-verify: true, udp: true}
+  - {name: Singapore 05, server: gy.cwcsrsyby.xyz, port: 30151, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, sni: gy.cwcsrsyby.xyz, skip-cert-verify: true, udp: true}
   - {name: DE-4|专线|1.5x, server: dx-hk.vmess.top, port: 31805, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadasdxasdasdueasdxasdi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: SG-1|1x, server: sg-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: sg-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: DE-3|专线|1.5x, server: dx-hk.vmess.top, port: 31705, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: HK-8|专线|1.5x, server: dx-hk.vmess.top, port: 31810, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxusadexi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
+  - {name: HK-3|专线|1.5x, server: dx-hk.vmess.top, port: 31703, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
   - {name: TR-3|专线|1.5x, server: dx-hk.vmess.top, port: 31714, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: KR-4|专线|1.5x, server: lt-jp.vmess.top, port: 31815, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wdadebsad, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
   - {name: TR-4|专线|1.5x, server: dx-hk.vmess.top, port: 31814, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: 澳大利亚墨尔本 | 贰 | StarTripFree, server: yas2.brightyun.xyz, port: 10087, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: KR-3|专线|1.5x, server: lt-jp.vmess.top, port: 31715, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 英国（TG@阿伟科技/油管）, server: mplsgz1.ggbbba.xyz, port: 45785, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
+  - {name: 美国（TG@阿伟科技/油管）, server: 20.239.68.187, port: 60006, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.239.68.187}, udp: true}
   - {name: KR-1|1x, server: kr-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: kr-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: KR-3|专线|1.5x, server: lt-jp.vmess.top, port: 31715, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: lt-jp.vmess.top, skip-cert-verify: true, udp: true}
   - {name: KR-2|1x, server: kr-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wdadersad, ws-headers: {Host: kr-a.vmess.top}, udp: true}
-  - {name: UK-3|专线|1.5x, server: dx-hk.vmess.top, port: 31712, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 日本（TG@阿伟科技/油管） 2, server: fs.keaiyun.top, port: 48520, type: vmess, uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: UK-4|专线|1.5x, server: dx-hk.vmess.top, port: 31812, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: dx-hk.vmess.top}, udp: true}
-  - {name: 澳大利亚 | 叁 | StarTripFree, server: as4.brightyun.xyz, port: 443, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: as4.brightyun.xyz}, udp: true}
+  - {name: UK-3|专线|1.5x, server: dx-hk.vmess.top, port: 31712, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: dx-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: KR-4|专线|1.5x, server: lt-jp.vmess.top, port: 31815, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wdadebsad, ws-headers: {Host: lt-jp.vmess.top}, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 4, server: az1.chuangshi999.xyz, port: 31250, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 5, server: az1.chuangshi999.xyz, port: 64340, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国（TG@阿伟科技/油管） 2, server: fs.keaiyun.top, port: 55156, type: vmess, uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP-1|1x, server: jp-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: jp-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 6, server: az1.chuangshi999.xyz, port: 33346, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯（TG@阿伟科技/油管）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: 379a0a11-3468-4eb5-b0d3-490e06459d9a, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 7, server: az1.chuangshi999.xyz, port: 30484, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG-1|1x, server: sg-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: sg-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: 荷兰（TG@阿伟科技/油管）, server: c69s5.jamjams.net, port: 8288, type: vmess, uuid: 614ee3a3-90ad-4239-8eb0-1661daba6c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US-6|0.3x, server: us-b.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: us-b.vmess.top}, udp: true}
-  - {name: US-5|0.3x, server: us-b.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: us-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: TW-1|1x, server: tw-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: tw-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: TW-2|1x, server: tw-a.vmess.top, port: 35133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: tw-a.vmess.top}, udp: true}
-  - {name: UK-1|1x, server: uk-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: uk-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 巴西（TG@阿伟科技/油管）, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: UK-2|1x, server: uk-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdueasddasi, ws-headers: {Host: uk-a.vmess.top}, udp: true}
-  - {name: DE-1|1x, server: de-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: de-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: DE-2|1x, server: de-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadasdxasdasddi, ws-headers: {Host: de-a.vmess.top}, udp: true}
-  - {name: TR-2|1x, server: tr-a.vmess.top, port: 39133, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /wdadsad, ws-headers: {Host: tr-a.vmess.top}, udp: true}
-  - {name: TR-1|1x, server: tr-a.vmess.top, port: 39123, type: trojan, password: 9d958232-6986-4c23-92a1-64c1947dd95c, sni: tr-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 美国 | 壹 | StarTrip, server: yas1.brightyun.xyz, port: 10087, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港（TG@阿伟科技/油管） 8, server: hl1.liuliangzhuanfa.xyz, port: 45320, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -340,327 +296,292 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 香港（TG@阿伟科技/油管） 6
+      - 香港（TG@阿伟科技/油管） 7
+      - 香港（TG@阿伟科技/油管） 8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -676,81 +597,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管）
+      - 台湾（TG@阿伟科技/油管）
+      - 日本（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 2
+      - 香港（TG@阿伟科技/油管） 3
+      - JP-12|专线|0.1x
+      - JP-15|专线|0.1x
+      - JP-11|专线|0.1x
       - HK-11|专线|0.3x
       - HK-12|专线|0.3x
-      - JP-7|专线|1.5x
+      - JP-16|专线|0.1x
+      - SG-8|专线|0.1x
+      - Japan+01
+      - JP-4|专线|1.5x
       - JP-3|专线|1.5x
       - JP-8|专线|1.5x
-      - Japan+01
-      - JP-11|专线|1.5x
-      - JP-16|专线|1.5x
-      - JP-15|专线|1.5x
-      - JP-12|专线|1.5x
-      - JP-4|专线|1.5x
-      - Japan+02
-      - HongKong 02
-      - Singapore 01
-      - Singapore 03
-      - Singapore 05
-      - Singapore 04
-      - Singapore+02
-      - HK-5|1x
-      - HK-6|1x
-      - JP-1|1x
-      - Japan+04
-      - JP-13|1x
-      - JP-5|1x
+      - Japan 02
+      - JP-7|专线|1.5x
       - JP-9|1x
-      - JP-6|1x
-      - JP-2|1x
-      - JP-10|1x
-      - Japan 03
-      - HK-7|专线|1.5x
-      - HK-8|专线|1.5x
-      - JP-14|1x
-      - HK-3|专线|1.5x
-      - US-3|专线|1.5x
+      - JP-13|1x
       - TW-3|专线|1.5x
+      - JP-2|1x
+      - HK-4|专线|1.5x
+      - SG-4|专线|1.5x
+      - JP-5|1x
+      - SG-7|专线|1.5x
+      - US-7|专线|1.5x
+      - SG-3|专线|1.5x
       - TW-4|专线|1.5x
       - US-4|专线|1.5x
-      - HK-4|专线|1.5x
-      - SG-7|专线|1.5x
       - US-8|专线|1.5x
-      - SG-3|专线|1.5x
-      - SG-8|专线|1.5x
-      - US-7|专线|1.5x
-      - SG-4|专线|1.5x
-      - HongKong 01
-      - Japan 05
-      - SG-5|1x
-      - DE-3|专线|1.5x
-      - SG-2|1x
-      - SG-6|1x
+      - Japan+05
+      - Japan+04
+      - US-3|专线|1.5x
+      - JP-6|1x
+      - Singapore+03
+      - Singapore+02
+      - Singapore 05
       - DE-4|专线|1.5x
-      - SG-1|1x
+      - DE-3|专线|1.5x
+      - HK-8|专线|1.5x
+      - HK-3|专线|1.5x
       - TR-3|专线|1.5x
-      - KR-4|专线|1.5x
       - TR-4|专线|1.5x
-      - 澳大利亚墨尔本 | 贰 | StarTripFree
-      - KR-3|专线|1.5x
+      - 英国（TG@阿伟科技/油管）
+      - 美国（TG@阿伟科技/油管）
       - KR-1|1x
+      - KR-3|专线|1.5x
       - KR-2|1x
-      - UK-3|专线|1.5x
+      - 日本（TG@阿伟科技/油管） 2
       - UK-4|专线|1.5x
-      - 澳大利亚 | 叁 | StarTripFree
+      - UK-3|专线|1.5x
+      - KR-4|专线|1.5x
+      - 香港（TG@阿伟科技/油管） 4
+      - 香港（TG@阿伟科技/油管） 5
+      - 美国（TG@阿伟科技/油管） 2
+      - JP-1|1x
+      - 香港（TG@阿伟科技/油管） 6
+      - 俄罗斯（TG@阿伟科技/油管）
+      - 香港（TG@阿伟科技/油管） 7
+      - SG-1|1x
+      - 荷兰（TG@阿伟科技/油管）
       - US-6|0.3x
-      - US-5|0.3x
-      - TW-1|1x
-      - TW-2|1x
-      - UK-1|1x
-      - 巴西（TG@阿伟科技/油管）
-      - UK-2|1x
-      - DE-1|1x
-      - DE-2|1x
-      - TR-2|1x
-      - TR-1|1x
-      - 美国 | 壹 | StarTrip
+      - 香港（TG@阿伟科技/油管） 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
