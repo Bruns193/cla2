@@ -5,207 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK-2|专线|1x, server: hkzx.vmess.top, port: 38121, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /manage, ws-headers: {Host: hkzx.vmess.top}, udp: true}
-  - {name: SG-SS|流媒体实验|专线|1x, server: dx-hk.vmess.top, port: 33701, type: ss, cipher: chacha20-ietf-poly1305, password: 9d958232-6986-4c23-92a1-64c1947dd95c, udp: true}
-  - {name: HK-6|专线|1x, server: hkzx.vmess.top, port: 38125, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /manage, ws-headers: {Host: hkzx.vmess.top}, udp: true}
-  - {name: SG-1|专线|1x, server: sgzx.vmess.top, port: 36121, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vhost, ws-headers: {Host: sgzx.vmess.top}, udp: true}
-  - {name: SG-2|专线|1x, server: sgzx.vmess.top, port: 36122, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vhost, ws-headers: {Host: sgzx.vmess.top}, udp: true}
-  - {name: JP-6|专线|1x, server: lt.vmess.top, port: 39125, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lt.vmess.top}, udp: true}
-  - {name: JP-4|专线|1x, server: lt.vmess.top, port: 39123, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lt.vmess.top}, udp: true}
-  - {name: JP-2|专线|1x, server: lt.vmess.top, port: 39121, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lt.vmess.top}, udp: true}
-  - {name: HK-3|专线|1x, server: hkzx.vmess.top, port: 38122, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /manage, ws-headers: {Host: hkzx.vmess.top}, udp: true}
-  - {name: JP-5|专线|1x, server: lt.vmess.top, port: 39124, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lt.vmess.top}, udp: true}
-  - {name: HK-SS|流媒体实验|专线|1x, server: dx-hk.vmess.top, port: 33703, type: ss, cipher: chacha20-ietf-poly1305, password: 9d958232-6986-4c23-92a1-64c1947dd95c, udp: true}
-  - {name: HK-1|直连|0.3x|福利倍率, server: dmit-hk-a.vmess.top, port: 38120, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /manage, ws-headers: {Host: dmit-hk-a.vmess.top}, udp: true}
-  - {name: JP-3|专线|1x, server: lt.vmess.top, port: 39122, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lt.vmess.top}, udp: true}
-  - {name: SG-3|专线|1x, server: sgzx.vmess.top, port: 36123, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vhost, ws-headers: {Host: sgzx.vmess.top}, udp: true}
-  - {name: 慎用|HK-Game|亚服实验|IPLC|15x, server: 211.99.100.90, port: 39801, type: ss, cipher: chacha20-ietf-poly1305, password: 9d958232-6986-4c23-92a1-64c1947dd95c, udp: true}
-  - {name: HK-5|专线|1x, server: hkzx.vmess.top, port: 38124, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /manage, ws-headers: {Host: hkzx.vmess.top}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: shbgp.gia.wiki, port: 10024, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 广新|NeroCloud, server: gycm.01.211129.xyz, port: 49499, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: US-SS|流媒体实验|Tik|专线|1x, server: lt-jp.vmess.top, port: 33702, type: ss, cipher: chacha20-ietf-poly1305, password: 9d958232-6986-4c23-92a1-64c1947dd95c, udp: true}
-  - {name: TW-SS|流媒体实验|专线|1x, server: dx-hk.vmess.top, port: 33705, type: ss, cipher: chacha20-ietf-poly1305, password: 9d958232-6986-4c23-92a1-64c1947dd95c, udp: true}
-  - {name: US-2|专线|1x, server: uszx.vmess.top, port: 37121, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: uszx.vmess.top}, udp: true}
-  - {name: 美国(youtube阿伟科技), server: 3.v2yun.vip, port: 80, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: HK-4|专线|1x, server: hkzx.vmess.top, port: 38123, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /manage, ws-headers: {Host: hkzx.vmess.top}, udp: true}
-  - {name: US-3|专线|1x, server: uszx.vmess.top, port: 37122, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: uszx.vmess.top}, udp: true}
-  - {name: 香港(youtube阿伟科技), server: xpiras0lekntwos2m6sauxwpfi9reishxvvg2p8b.q9k.org, port: 38081, type: trojan, password: 7beb2d1a23f2, sni: xpiras0lekntwos2m6sauxwpfi9reishxvvg2p8b.q9k.org, skip-cert-verify: true, udp: true}
-  - {name: 广港BGP|DigitalOcean 4, server: gzbgp.gia.wiki, port: 30415, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: 香港(youtube阿伟科技) 2, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 26cda94e-fb7a-3ce3-9cca-d110505ad8be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 香港(youtube阿伟科技) 3, server: hk01gs.v2yun.vip, port: 80, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: Japan 04, server: 194.156.231.172, port: 20011, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: 3.v2yun.vip, port: 8080, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 日本(youtube阿伟科技) 2, server: shbgp.gia.wiki, port: 10014, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: hkdx.v2yun.vip, port: 80, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 美国 | 壹 | StarTrip, server: yas1.brightyun.xyz, port: 10087, type: vmess, uuid: 6b5296ba-9e5b-3835-b35c-8d4c51e61a48, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: JP-SS|流媒体实验|专线|1x, server: lt-jp.vmess.top, port: 33704, type: ss, cipher: chacha20-ietf-poly1305, password: 9d958232-6986-4c23-92a1-64c1947dd95c, udp: true}
-  - {name: 爱尔兰(youtube阿伟科技), server: 52.19.134.236, port: 23456, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: Amazon 1|1x, server: 34.245.30.120, port: 25465, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: US-1|直连|0.8x, server: us-a.vmess.top, port: 37120, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: us-a.vmess.top}, udp: true}
-  - {name: Amazon 2|1x, server: 52.19.134.236, port: 23456, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: US-4|专线|1x, server: uszx.vmess.top, port: 37123, type: vmess, uuid: 9d958232-6986-4c23-92a1-64c1947dd95c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /clientarea, ws-headers: {Host: uszx.vmess.top}, udp: true}
-  - {name: DigitalOcean 3|0.7x, server: 206.189.130.75, port: 17745, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: DigitalOcean 2|0.7x, server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: 爱尔兰(youtube阿伟科技) 2, server: 34.245.30.120, port: 25465, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
-  - {name: DigitalOcean 1|0.7x, server: 159.65.157.70, port: 61548, type: ss, cipher: chacha20-ietf-poly1305, password: b39bf8a1-72a2-4cd6-bb20-32376119e639, udp: true}
-  - {name: 日本(youtube阿伟科技) 3, server: jp.iplc.skin, port: 11104, type: vmess, uuid: 733e4766-140e-41fa-b500-c4ffbf4db3f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: gzbgp.gia.wiki, port: 30107, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: 美国(youtube阿伟科技) 4, server: gzbgp.gia.wiki, port: 30108, type: vmess, uuid: 3d1c98ec-a341-3006-8110-be7c3ffaeba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 韩国 | 公益 | 0.5x, server: kr.zzk8.me, port: 40566, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: kr.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技), server: pass1.jiasuyuan.shop, port: 63211, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: 日本 | 公益 | 0.5x, server: jpli.zzk8.me, port: 40101, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: jpli.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 2, server: pass5.jiasuyuan.shop, port: 33342, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: 新加坡 | 公益 | 0.8x, server: zou.zz8.shop, port: 49884, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: zou.zz8.shop, skip-cert-verify: true, udp: true}
+  - {name: 美国 | 公益 | 0.2x, server: uska.zzk8.me, port: 40072, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: uska.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 香港 | 公益 | 0.8x, server: zou.zz8.shop, port: 49882, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: zou.zz8.shop, skip-cert-verify: true, udp: true}
+  - {name: United States 02, server: 45.137.97.205, port: 443, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 3, server: tw02.beibei456.xyz, port: 33352, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: 香港(youtube阿伟科技) 4, server: pass4.jiasuyuan.shop, port: 33341, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: 台湾(youtube阿伟科技), server: tw01.beibei456.xyz, port: 33351, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: 香港(youtube阿伟科技) 5, server: pass2.jiasuyuan.shop, port: 63221, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -224,215 +88,82 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
       - 香港(youtube阿伟科技) 2
+      - 香港 | 公益 | 0.8x
       - 香港(youtube阿伟科技) 3
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -448,52 +179,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK-2|专线|1x
-      - SG-SS|流媒体实验|专线|1x
-      - HK-6|专线|1x
-      - SG-1|专线|1x
-      - SG-2|专线|1x
-      - JP-6|专线|1x
-      - JP-4|专线|1x
-      - JP-2|专线|1x
-      - HK-3|专线|1x
-      - JP-5|专线|1x
-      - HK-SS|流媒体实验|专线|1x
-      - HK-1|直连|0.3x|福利倍率
-      - JP-3|专线|1x
-      - SG-3|专线|1x
-      - 慎用|HK-Game|亚服实验|IPLC|15x
-      - HK-5|专线|1x
-      - 日本(youtube阿伟科技)
-      - 广新|NeroCloud
-      - US-SS|流媒体实验|Tik|专线|1x
-      - TW-SS|流媒体实验|专线|1x
-      - US-2|专线|1x
-      - 美国(youtube阿伟科技)
-      - HK-4|专线|1x
-      - US-3|专线|1x
+      - 韩国 | 公益 | 0.5x
       - 香港(youtube阿伟科技)
-      - 广港BGP|DigitalOcean 4
+      - 日本 | 公益 | 0.5x
       - 香港(youtube阿伟科技) 2
+      - 新加坡 | 公益 | 0.8x
+      - 美国 | 公益 | 0.2x
+      - 香港 | 公益 | 0.8x
+      - United States 02
       - 香港(youtube阿伟科技) 3
-      - Japan 04
-      - 美国(youtube阿伟科技) 2
-      - 日本(youtube阿伟科技) 2
-      - 美国(youtube阿伟科技) 3
-      - 美国 | 壹 | StarTrip
-      - JP-SS|流媒体实验|专线|1x
-      - 爱尔兰(youtube阿伟科技)
-      - Amazon 1|1x
-      - US-1|直连|0.8x
-      - Amazon 2|1x
-      - US-4|专线|1x
-      - DigitalOcean 3|0.7x
-      - DigitalOcean 2|0.7x
-      - 爱尔兰(youtube阿伟科技) 2
-      - DigitalOcean 1|0.7x
-      - 日本(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
