@@ -5,71 +5,531 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国 | 公益 | 0.5x, server: kr.zzk8.me, port: 40566, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: kr.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技), server: pass1.jiasuyuan.shop, port: 63211, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
-  - {name: 日本 | 公益 | 0.5x, server: jpli.zzk8.me, port: 40101, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: jpli.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 2, server: pass5.jiasuyuan.shop, port: 33342, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
-  - {name: 新加坡 | 公益 | 0.8x, server: zou.zz8.shop, port: 49884, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: zou.zz8.shop, skip-cert-verify: true, udp: true}
-  - {name: 美国 | 公益 | 0.2x, server: uska.zzk8.me, port: 40072, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: uska.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 香港 | 公益 | 0.8x, server: zou.zz8.shop, port: 49882, type: trojan, password: a7c2dada-38ac-482e-abbe-a7b0bc10c085, sni: zou.zz8.shop, skip-cert-verify: true, udp: true}
-  - {name: United States 02, server: 45.137.97.205, port: 443, type: trojan, password: f846b717-c6d3-3791-86c9-c9e747e62156, skip-cert-verify: true, udp: true}
-  - {name: 香港(youtube阿伟科技) 3, server: tw02.beibei456.xyz, port: 33352, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
-  - {name: 香港(youtube阿伟科技) 4, server: pass4.jiasuyuan.shop, port: 33341, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
-  - {name: 台湾(youtube阿伟科技), server: tw01.beibei456.xyz, port: 33351, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
-  - {name: 香港(youtube阿伟科技) 5, server: pass2.jiasuyuan.shop, port: 63221, type: ss, cipher: chacha20-ietf-poly1305, password: 68a401ed-9403-4d69-a564-aeba67204b35, udp: true}
+  - {name: HKG CM.A/04 x1.0, server: cm.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG IEPL.A/01 x3.0, server: iepl.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.B/02 x1.0, server: cmb.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG IEPL.A/03 x3.0, server: iepl.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG IEPL.A/02 x3.0, server: iepl.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.A/01 x1.0, server: cm.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.A/05 x1.0, server: cm.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: SGP IEPL.A/01 x3.0, server: iepl.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: SGP CM.A/02 x1.0, server: cm.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: SGP IEPL.A/02 x3.0, server: iepl.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.B/01 x1.0, server: cmb.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.B/04 x1.0, server: cmb.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JPN CM.A/01 x1.0, server: cm.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.A/02 x1.0, server: cm.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JPN CM.B/01 x1.0, server: cmb.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: SGP CM.A/01 x1.0, server: cm.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: TWN CM.A/02 x1.0, server: cm.3sx.xyz, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JPN CM.A/02 x1.0, server: cm.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: SGP CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.B/03 x1.0, server: cmb.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: HKG CM.A/03 x1.0, server: cm.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JPN IEPL.A/01 x3.0, server: iepl.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: SGP CM.B/02 x1.0, server: cmb.3sx.xyz, port: 61002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JPN IEPL.A/02 x3.0, server: iepl.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: 香港(youtube阿伟科技), server: zq-hkys02.1cooldns.com, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: zq-hkys02.1cooldns.com, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技), server: vip-kl-01.click, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: vip-kl-01.click, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: jike-vip-03.xyz, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: jike-vip-03.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: tx-vip-10.top, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: tx-vip-10.top, skip-cert-verify: true, udp: true}
+  - {name: USA IEPL.A/01 x3.0, server: iepl.3sx.xyz, port: 31001, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: jike-vip-02.xyz, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, sni: jike-vip-02.xyz, skip-cert-verify: true, udp: true}
+  - {name: THA CM.B/01 x1.0, server: cmb.3sx.xyz, port: 61022, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JP_6697+@WangCai_1, server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: RUS CM.A/01 x1.0, server: cm.3sx.xyz, port: 61024, type: ss, cipher: chacha20-ietf-poly1305, password: ac3a3c5a-04d6-467d-a4cd-a759b3b0c6c9, udp: true}
+  - {name: JP_5000+@WangCai_1, server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_3306+@WangCai_1, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_5001+@WangCai_1, server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8008+@WangCai_1, server: 85.208.108.59, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_5600+@WangCai_1, server: 85.208.108.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8000+@WangCai_1, server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_5003+@WangCai_1, server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_7306+@WangCai_1, server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP_2376+@WangCai_1, server: 85.208.108.18, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_8091+@WangCai_1, server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_9101+@WangCai_1, server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_2375+@WangCai_1, server: 85.208.108.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_7001+@WangCai_1, server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_5004+@WangCai_1, server: 85.208.108.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_3389+@WangCai_1, server: 85.208.108.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_7307+@WangCai_1, server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP_8119+@WangCai_1, server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_8888+@WangCai_1, server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_6679+@WangCai_1, server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_5001+@WangCai_1 2, server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_9101+@WangCai_1 2, server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_8080+@WangCai_1, server: 85.208.108.94, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_8882+@WangCai_1, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_7002+@WangCai_1, server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_2376+@WangCai_1 2, server: 85.208.108.94, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_0443+@WangCai_1, server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_8881+@WangCai_1, server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_9102+@WangCai_1, server: 85.208.108.18, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_8118+@WangCai_1, server: 85.208.108.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_2376+@WangCai_1 3, server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_7002+@WangCai_1 2, server: 85.208.108.59, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_8091+@WangCai_1 2, server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_0443+@WangCai_1 2, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_5601+@WangCai_1, server: 85.208.108.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8118+@WangCai_1 2, server: 85.208.108.94, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_7307+@WangCai_1 2, server: 85.208.108.59, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP_7002+@WangCai_1 3, server: 85.208.108.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_8009+@WangCai_1, server: 85.208.108.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_8119+@WangCai_1 2, server: 85.208.108.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_5601+@WangCai_1 2, server: 85.208.108.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8888+@WangCai_1 2, server: 85.208.108.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8000+@WangCai_1 2, server: 85.208.108.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_7001+@WangCai_1 2, server: 85.208.108.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_5500+@WangCai_1, server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_5003+@WangCai_1 2, server: 85.208.108.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_7306+@WangCai_1 2, server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP_8888+@WangCai_1 3, server: 85.208.108.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_9101+@WangCai_1 3, server: 85.208.108.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_5601+@WangCai_1 3, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8882+@WangCai_1 2, server: 85.208.108.59, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_8882+@WangCai_1 3, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_6379+@WangCai_1, server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP_5601+@WangCai_1 4, server: 85.208.108.59, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0), server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_9102+@WangCai_1 2, server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_6697+@WangCai_1 2, server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_5004+@WangCai_1 2, server: 85.208.108.59, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_5000+@WangCai_1 2, server: 85.208.108.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8118+@WangCai_1 3, server: 85.208.108.59, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_8009+@WangCai_1 2, server: 85.208.108.59, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_5500+@WangCai_1 2, server: 85.208.108.94, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_8090+@WangCai_1, server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_2376+@WangCai_1 4, server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_2375+@WangCai_1 2, server: 85.208.108.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_8080+@WangCai_1 2, server: 85.208.108.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_8881+@WangCai_1 2, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_3306+@WangCai_1 2, server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8000+@WangCai_1 3, server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_8080+@WangCai_1 3, server: 85.208.108.18, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_9101+@WangCai_1 4, server: 85.208.108.59, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_2375+@WangCai_1 3, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_3306+@WangCai_1 3, server: 85.208.108.18, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_6379+@WangCai_1 2, server: 85.208.108.59, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP_0443+@WangCai_1 3, server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP_6697+@WangCai_1 3, server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP_8090+@WangCai_1 2, server: 85.208.108.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_7001+@WangCai_1 3, server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP_7307+@WangCai_1 3, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP_8881+@WangCai_1 3, server: 85.208.108.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP_9102+@WangCai_1 3, server: 85.208.108.59, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_8008+@WangCai_1 2, server: 85.208.108.18, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: JP_2375+@WangCai_1 4, server: 85.208.108.18, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP_5500+@WangCai_1 3, server: 85.208.108.59, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_3306+@WangCai_1 4, server: 85.208.108.59, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8118+@WangCai_1 4, server: 85.208.108.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: JP_3389+@WangCai_1 2, server: 85.208.108.18, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_5000+@WangCai_1 3, server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_5600+@WangCai_1 2, server: 85.208.108.59, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_9102+@WangCai_1 4, server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP_8091+@WangCai_1 3, server: 85.208.108.20, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP_5003+@WangCai_1 3, server: 85.208.108.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_8080+@WangCai_1 4, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP_5000+@WangCai_1 4, server: 85.208.108.18, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8009+@WangCai_1 3, server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,82 +548,536 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 2
-      - 香港 | 公益 | 0.8x
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,18 +1093,133 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 韩国 | 公益 | 0.5x
+      - HKG CM.A/04 x1.0
+      - HKG IEPL.A/01 x3.0
+      - HKG CM.B/02 x1.0
+      - HKG IEPL.A/03 x3.0
+      - HKG IEPL.A/02 x3.0
+      - HKG CM.A/01 x1.0
+      - HKG CM.A/05 x1.0
+      - SGP IEPL.A/01 x3.0
+      - SGP CM.A/02 x1.0
+      - SGP IEPL.A/02 x3.0
+      - HKG CM.B/01 x1.0
+      - HKG CM.B/04 x1.0
+      - JPN CM.A/01 x1.0
+      - HKG CM.A/02 x1.0
+      - JPN CM.B/01 x1.0
+      - SGP CM.A/01 x1.0
+      - TWN CM.A/02 x1.0
+      - JPN CM.A/02 x1.0
+      - SGP CM.B/01 x1.0
+      - HKG CM.B/03 x1.0
+      - HKG CM.A/03 x1.0
+      - JPN IEPL.A/01 x3.0
+      - SGP CM.B/02 x1.0
+      - JPN IEPL.A/02 x3.0
       - 香港(youtube阿伟科技)
-      - 日本 | 公益 | 0.5x
-      - 香港(youtube阿伟科技) 2
-      - 新加坡 | 公益 | 0.8x
-      - 美国 | 公益 | 0.2x
-      - 香港 | 公益 | 0.8x
-      - United States 02
-      - 香港(youtube阿伟科技) 3
-      - 香港(youtube阿伟科技) 4
-      - 台湾(youtube阿伟科技)
-      - 香港(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - USA IEPL.A/01 x3.0
+      - 美国(youtube阿伟科技) 4
+      - THA CM.B/01 x1.0
+      - JP_6697+@WangCai_1
+      - RUS CM.A/01 x1.0
+      - JP_5000+@WangCai_1
+      - JP_3306+@WangCai_1
+      - JP_5001+@WangCai_1
+      - JP_8008+@WangCai_1
+      - JP_5600+@WangCai_1
+      - JP_8000+@WangCai_1
+      - JP_5003+@WangCai_1
+      - JP_7306+@WangCai_1
+      - JP_2376+@WangCai_1
+      - JP_8091+@WangCai_1
+      - JP_9101+@WangCai_1
+      - JP_2375+@WangCai_1
+      - JP_7001+@WangCai_1
+      - JP_5004+@WangCai_1
+      - JP_3389+@WangCai_1
+      - JP_7307+@WangCai_1
+      - JP_8119+@WangCai_1
+      - JP_8888+@WangCai_1
+      - JP_6679+@WangCai_1
+      - JP_5001+@WangCai_1 2
+      - JP_9101+@WangCai_1 2
+      - JP_8080+@WangCai_1
+      - JP_8882+@WangCai_1
+      - JP_7002+@WangCai_1
+      - JP_2376+@WangCai_1 2
+      - JP_0443+@WangCai_1
+      - JP_8881+@WangCai_1
+      - JP_9102+@WangCai_1
+      - JP_8118+@WangCai_1
+      - JP_2376+@WangCai_1 3
+      - JP_7002+@WangCai_1 2
+      - JP_8091+@WangCai_1 2
+      - JP_0443+@WangCai_1 2
+      - JP_5601+@WangCai_1
+      - JP_8118+@WangCai_1 2
+      - JP_7307+@WangCai_1 2
+      - JP_7002+@WangCai_1 3
+      - JP_8009+@WangCai_1
+      - JP_8119+@WangCai_1 2
+      - JP_5601+@WangCai_1 2
+      - JP_8888+@WangCai_1 2
+      - JP_8000+@WangCai_1 2
+      - JP_7001+@WangCai_1 2
+      - JP_5500+@WangCai_1
+      - JP_5003+@WangCai_1 2
+      - JP_7306+@WangCai_1 2
+      - JP_8888+@WangCai_1 3
+      - JP_9101+@WangCai_1 3
+      - JP_5601+@WangCai_1 3
+      - JP_8882+@WangCai_1 2
+      - JP_8882+@WangCai_1 3
+      - JP_6379+@WangCai_1
+      - JP_5601+@WangCai_1 4
+      - 欧洲(油管:破解资源君2.0)
+      - JP_9102+@WangCai_1 2
+      - JP_6697+@WangCai_1 2
+      - JP_5004+@WangCai_1 2
+      - JP_5000+@WangCai_1 2
+      - JP_8118+@WangCai_1 3
+      - JP_8009+@WangCai_1 2
+      - JP_5500+@WangCai_1 2
+      - JP_8090+@WangCai_1
+      - JP_2376+@WangCai_1 4
+      - JP_2375+@WangCai_1 2
+      - JP_8080+@WangCai_1 2
+      - JP_8881+@WangCai_1 2
+      - JP_3306+@WangCai_1 2
+      - JP_8000+@WangCai_1 3
+      - JP_8080+@WangCai_1 3
+      - JP_9101+@WangCai_1 4
+      - JP_2375+@WangCai_1 3
+      - JP_3306+@WangCai_1 3
+      - JP_6379+@WangCai_1 2
+      - JP_0443+@WangCai_1 3
+      - JP_6697+@WangCai_1 3
+      - JP_8090+@WangCai_1 2
+      - JP_7001+@WangCai_1 3
+      - JP_7307+@WangCai_1 3
+      - JP_8881+@WangCai_1 3
+      - JP_9102+@WangCai_1 3
+      - JP_8008+@WangCai_1 2
+      - JP_2375+@WangCai_1 4
+      - JP_5500+@WangCai_1 3
+      - JP_3306+@WangCai_1 4
+      - JP_8118+@WangCai_1 4
+      - JP_3389+@WangCai_1 2
+      - JP_5000+@WangCai_1 3
+      - JP_5600+@WangCai_1 2
+      - JP_9102+@WangCai_1 4
+      - JP_8091+@WangCai_1 3
+      - JP_5003+@WangCai_1 3
+      - JP_8080+@WangCai_1 4
+      - JP_5000+@WangCai_1 4
+      - JP_8009+@WangCai_1 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
