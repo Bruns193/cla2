@@ -5,243 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡SG^ 170 NullNode, server: t.sin3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.sin3.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 新加坡SG^ 171 NullNode, server: t.sin4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.sin4.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 韩国KR^ 153 NullNode, server: t.kor1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.kor1.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 备用|防止失联线路, server: back.myuuusss.com, port: 443, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: back.myuuusss.com}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: ocijp.n.optage.moe, port: 44616, type: trojan, password: 2a65c21b-5e04-4fb2-86d8-53cc1f456dfb, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 韩国KR^ 151 NullNode, server: t.kor2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.kor2.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 日本JP^ 147 NullNode, server: t.jap7.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.jap7.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: HK3-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: 新加坡SG^ 40 NullNo%�, server: cuallaz.dezxrl.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 新加坡SG^ 42 NullNo%�, server: cuallaz.dezxrl.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 33 NullNo%�, server: cnforus2.dezxrl.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 29 NullNo%�, server: cnforus2.dezxrl.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 日本JP^ 148 NullNode, server: t.jap6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.jap6.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 美国US^ 34 NullNo%�, server: cnforus2.dezxrl.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
   - {name: HK4-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn1.myuuusss.com}, udp: true}
-  - {name: 日本JP^ 145 NullNode, server: t.jap5.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.jap5.skyinternet.vip, skip-cert-verify: true, udp: true}
+  - {name: HK3-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: shzzhk.dezxrl.xyz:560, server: shzzhk.dezxrl.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: cnforus2.dezxrl.xyz:566, server: cnforus2.dezxrl.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 美国US^ 34 NullNo%�, server: cnforus2.dezxrl.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 美国US^ 29 NullNo%�, server: cnforus2.dezxrl.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 美国US^ 33 NullNo%�, server: cnforus2.dezxrl.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11129, server: gz-cm-kl.hinetwork.tw, port: 11129, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
   - {name: 美国US^ 35 NullNo%�, server: cnforus2.dezxrl.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 132 NullNode, server: t.hkg6.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.hkg6.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 日本08, server: cu.awslcn.cc, port: 25220, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 日本05, server: cu.awslcn.cc, port: 25237, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 澳大利亚AU^ 127 NullNode, server: zf.i809.ml, port: 25565, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, sni: zf.i809.ml, skip-cert-verify: true, udp: true}
-  - {name: 日本②, server: cu.awslcn.cc, port: 25219, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 新加坡02, server: cm1.awslcn.cc, port: 25225, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm1.awslcn.cc}, udp: true}
-  - {name: 印度02, server: cu.awslcn.cc, port: 25216, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
+  - {name: cnforus2.dezxrl.xyz:564, server: cnforus2.dezxrl.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: 67tw01.fans8.xyz:443, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: eea69c69-9989-4576-8b60-f6476e694bd7, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11174, server: gz-cm1-kl.hinetwork.tw, port: 11174, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11261, server: gz-cm1-kl.hinetwork.tw, port: 11261, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: w12.udpgw.com:443, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: dk.i809.ml:12083, server: dk.i809.ml, port: 12083, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, sni: dk.i809.ml, skip-cert-verify: true, udp: true}
   - {name: 美国US^ 10 NullNo%�, server: cmforus1.dezxrl.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11116, server: gz-cm-kl.hinetwork.tw, port: 11116, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
   - {name: 美国US^ 44 NullNo%�, server: cmforus1.dezxrl.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
   - {name: 美国US^ 26 NullNo%�, server: cmforus1.dezxrl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 香港②, server: cu.awslcn.cc, port: 25234, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 美国游戏专线-超高倍率X5, server: us-c1.myuuusss.com, port: 23223, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-c1.myuuusss.com}, udp: true}
-  - {name: 美国US^ 46 NullNo%�, server: cmforus1.dezxrl.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 193 NullNode, server: t.usa1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.usa1.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 香港03, server: cu.awslcn.cc, port: 25223, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 香港HK^ 21 NullNo%�, server: shzxhk.dezxrl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 英国GB^ 123 NullNode, server: t.uk2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.uk2.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 日本JP^ 143 NullNode, server: t.jap8.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.jap8.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 日本JP 149 NullNode, server: 43.133.211.131, port: 19281, type: vmess, uuid: acc4aaa5-82d9-4222-b8ea-659a90916f3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.133.211.131}, udp: true}
-  - {name: 日本JP 150 NullNode, server: 43.133.211.131, port: 43768, type: vmess, uuid: 930d4660-4394-4670-b3f1-5d8276fb53e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.133.211.131}, udp: true}
-  - {name: 加拿大CA^ 128 NullNode, server: pf.i809.ml, port: 12087, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, sni: pf.i809.ml, skip-cert-verify: true, udp: true}
-  - {name: 英国GB^ 121 NullNode, server: t.uk1.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.uk1.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 英国GB^ 124 NullNode, server: t.uk4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.uk4.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 英国GB^ 122 NullNode, server: t.uk3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.uk3.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 香港HK 135 NullNode, server: 43.155.94.84, port: 42024, type: vmess, uuid: 6b9a25b6-e369-424c-d5d7-75bd4dd26022, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.155.94.84}, udp: true}
-  - {name: 阿拉伯AE^ 131 NullNode, server: zf.i809.ml, port: 32196, type: trojan, password: 4cbef035-de54-4125-ad4e-d4bcb15c0088, sni: zf.i809.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国US^ 195 NullNode, server: t.usa4.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.usa4.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 英国, server: cu.awslcn.cc, port: 25240, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 美国03, server: cm1.awslcn.cc, port: 25238, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm1.awslcn.cc}, udp: true}
-  - {name: 美国04, server: cu.awslcn.cc, port: 25238, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 韩国KR^ 152 NullNode, server: kk.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: kk.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 德国01, server: cm.awslcn.cc, port: 25241, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm.awslcn.cc}, udp: true}
-  - {name: 德国, server: cu.awslcn.cc, port: 25241, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 美国US^ 190 NullNode, server: t.usa3.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.usa3.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 美国US^ 186 NullNode, server: t.usa2.skyinternet.vip, port: 443, type: trojan, password: 08335c73-dfdc-4d0f-ae12-cf10acbae55a, sni: t.usa2.skyinternet.vip, skip-cert-verify: true, udp: true}
-  - {name: 日本JP^ 146 NullNode, server: hungjintang.ml, port: 443, type: trojan, password: 214fa552-218f-48c8-aa13-3274588fc131, sni: hungjintang.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国02, server: cu.awslcn.cc, port: 25239, type: vmess, uuid: f9c88019-4bee-4e52-8b46-5336dcf30e57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.awslcn.cc}, udp: true}
-  - {name: 日本JP^ 69 NullNode, server: in04.my1188.org, port: 63086, type: vmess, uuid: 853c5a41-4deb-328a-804c-3154939af639, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: w11.udpgw.com:443, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, sni: w11.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11136, server: gz-cm-kl.hinetwork.tw, port: 11136, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11117, server: gz-cm-kl.hinetwork.tw, port: 11117, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11266, server: gz-cm-kl.hinetwork.tw, port: 11266, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11227, server: gz-cm-kl.hinetwork.tw, port: 11227, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: "", server: 124.156.4.177, port: 39187, type: vmess, uuid: e812d50b-393f-47f7-a2f4-b5ce23a1ed73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.156.4.177}, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11206, server: gz-cm1-kl.hinetwork.tw, port: 11206, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: " 2", server: 46.29.160.149, port: 31656, type: vmess, uuid: c30444b8-c929-4fee-ceec-18c5a04ec144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 46.29.160.149}, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11159, server: gz-cm-kl.hinetwork.tw, port: 11159, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11258, server: gz-cm-kl.hinetwork.tw, port: 11258, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11263, server: gz-cm1-kl.hinetwork.tw, port: 11263, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: s4.hazz.win:12340, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0), server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: s3.hazz.win:12340, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 印度(youtube阿伟科技), server: 124.156.4.177, port: 53406, type: vmess, uuid: 0f988fe8-0561-4f3d-dab4-92d0bfbb55c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11199, server: gz-cm-kl.hinetwork.tw, port: 11199, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君2.0), server: us1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11225, server: gz-cm-kl.hinetwork.tw, port: 11225, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 2, server: us1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11180, server: gz-cm1-kl.hinetwork.tw, port: 11180, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: " 3", server: 46.29.160.149, port: 56072, type: vmess, uuid: bdb47de2-6771-42a6-d7c9-2f4b16ead2b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 46.29.160.149}, udp: true}
+  - {name: hkbgp1.jiantian.xyz:14326, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11200, server: gz-cm1-kl.hinetwork.tw, port: 11200, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11264, server: gz-cm-kl.hinetwork.tw, port: 11264, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: " 4", server: 124.156.4.177, port: 53406, type: vmess, uuid: 0f988fe8-0561-4f3d-dab4-92d0bfbb55c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.156.4.177}, udp: true}
+  - {name: 185.4.65.6:21247, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: gz-cm1-kl.hinetwork.tw:11112, server: gz-cm1-kl.hinetwork.tw, port: 11112, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11221, server: gz-cm-kl.hinetwork.tw, port: 11221, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: gz-cm-kl.hinetwork.tw:11267, server: gz-cm-kl.hinetwork.tw, port: 11267, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,253 +232,244 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK3-IEPL-HGC-X2
       - HK4-IEPL-HGC-X2
-      - 香港②
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 香港HK 135 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - gz-cm-kl.hinetwork.tw:11129
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - gz-cm-kl.hinetwork.tw:11116
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - gz-cm1-kl.hinetwork.tw:11206
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - gz-cm-kl.hinetwork.tw:11199
+      - gz-cm-kl.hinetwork.tw:11225
+      - gz-cm1-kl.hinetwork.tw:11180
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -522,61 +485,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡SG^ 170 NullNode
-      - 新加坡SG^ 171 NullNode
-      - 韩国KR^ 153 NullNode
-      - 备用|防止失联线路
-      - 日本(youtube阿伟科技)
-      - 韩国KR^ 151 NullNode
-      - 日本JP^ 147 NullNode
-      - HK3-IEPL-HGC-X2
-      - 新加坡SG^ 40 NullNo%�
-      - 新加坡SG^ 42 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 日本JP^ 148 NullNode
-      - 美国US^ 34 NullNo%�
       - HK4-IEPL-HGC-X2
-      - 日本JP^ 145 NullNode
+      - HK3-IEPL-HGC-X2
+      - shzzhk.dezxrl.xyz:560
+      - cnforus2.dezxrl.xyz:566
+      - 美国US^ 34 NullNo%�
+      - 美国US^ 29 NullNo%�
+      - 美国US^ 33 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11129
       - 美国US^ 35 NullNo%�
-      - 美国US^ 132 NullNode
-      - 日本08
-      - 日本05
-      - 澳大利亚AU^ 127 NullNode
-      - 日本②
-      - 新加坡02
-      - 印度02
+      - cnforus2.dezxrl.xyz:564
+      - 67tw01.fans8.xyz:443
+      - gz-cm1-kl.hinetwork.tw:11174
+      - gz-cm1-kl.hinetwork.tw:11261
+      - w12.udpgw.com:443
+      - dk.i809.ml:12083
       - 美国US^ 10 NullNo%�
+      - gz-cm-kl.hinetwork.tw:11116
       - 美国US^ 44 NullNo%�
       - 美国US^ 26 NullNo%�
-      - 香港②
-      - 美国游戏专线-超高倍率X5
-      - 美国US^ 46 NullNo%�
-      - 美国US^ 193 NullNode
-      - 香港03
-      - 香港HK^ 21 NullNo%�
-      - 英国GB^ 123 NullNode
-      - 日本JP^ 143 NullNode
-      - 日本JP 149 NullNode
-      - 日本JP 150 NullNode
-      - 加拿大CA^ 128 NullNode
-      - 英国GB^ 121 NullNode
-      - 英国GB^ 124 NullNode
-      - 英国GB^ 122 NullNode
-      - 香港HK 135 NullNode
-      - 阿拉伯AE^ 131 NullNode
-      - 美国US^ 195 NullNode
-      - 英国
-      - 美国03
-      - 美国04
-      - 韩国KR^ 152 NullNode
-      - 德国01
-      - 德国
-      - 美国US^ 190 NullNode
-      - 美国US^ 186 NullNode
-      - 日本JP^ 146 NullNode
-      - 美国02
-      - 日本JP^ 69 NullNode
+      - w11.udpgw.com:443
+      - gz-cm-kl.hinetwork.tw:11136
+      - gz-cm-kl.hinetwork.tw:11117
+      - gz-cm-kl.hinetwork.tw:11266
+      - gz-cm-kl.hinetwork.tw:11227
+      - ""
+      - gz-cm1-kl.hinetwork.tw:11206
+      - " 2"
+      - gz-cm-kl.hinetwork.tw:11159
+      - gz-cm-kl.hinetwork.tw:11258
+      - gz-cm1-kl.hinetwork.tw:11263
+      - s4.hazz.win:12340
+      - 欧洲(油管:破解资源君2.0)
+      - s3.hazz.win:12340
+      - 印度(youtube阿伟科技)
+      - gz-cm-kl.hinetwork.tw:11199
+      - 美国(油管:破解资源君2.0)
+      - gz-cm-kl.hinetwork.tw:11225
+      - 美国(油管:破解资源君2.0) 2
+      - gz-cm1-kl.hinetwork.tw:11180
+      - " 3"
+      - hkbgp1.jiantian.xyz:14326
+      - gz-cm1-kl.hinetwork.tw:11200
+      - gz-cm-kl.hinetwork.tw:11264
+      - " 4"
+      - 185.4.65.6:21247
+      - gz-cm1-kl.hinetwork.tw:11112
+      - gz-cm-kl.hinetwork.tw:11221
+      - gz-cm-kl.hinetwork.tw:11267
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
