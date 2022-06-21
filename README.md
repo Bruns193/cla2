@@ -5,215 +5,107 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK4-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn1.myuuusss.com}, udp: true}
-  - {name: HK3-IEPL-HGC-X2, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: shzzhk.dezxrl.xyz:560, server: shzzhk.dezxrl.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: cnforus2.dezxrl.xyz:566, server: cnforus2.dezxrl.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 34 NullNo%�, server: cnforus2.dezxrl.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 29 NullNo%�, server: cnforus2.dezxrl.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 33 NullNo%�, server: cnforus2.dezxrl.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11129, server: gz-cm-kl.hinetwork.tw, port: 11129, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 美国US^ 35 NullNo%�, server: cnforus2.dezxrl.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: cnforus2.dezxrl.xyz:564, server: cnforus2.dezxrl.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 67tw01.fans8.xyz:443, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: eea69c69-9989-4576-8b60-f6476e694bd7, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11174, server: gz-cm1-kl.hinetwork.tw, port: 11174, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11261, server: gz-cm1-kl.hinetwork.tw, port: 11261, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: w12.udpgw.com:443, server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
   - {name: dk.i809.ml:12083, server: dk.i809.ml, port: 12083, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, sni: dk.i809.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国US^ 10 NullNo%�, server: cmforus1.dezxrl.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11116, server: gz-cm-kl.hinetwork.tw, port: 11116, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 美国US^ 44 NullNo%�, server: cmforus1.dezxrl.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: 美国US^ 26 NullNo%�, server: cmforus1.dezxrl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: w11.udpgw.com:443, server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, sni: w11.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11136, server: gz-cm-kl.hinetwork.tw, port: 11136, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11117, server: gz-cm-kl.hinetwork.tw, port: 11117, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11266, server: gz-cm-kl.hinetwork.tw, port: 11266, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11227, server: gz-cm-kl.hinetwork.tw, port: 11227, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: "", server: 124.156.4.177, port: 39187, type: vmess, uuid: e812d50b-393f-47f7-a2f4-b5ce23a1ed73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.156.4.177}, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11206, server: gz-cm1-kl.hinetwork.tw, port: 11206, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: " 2", server: 46.29.160.149, port: 31656, type: vmess, uuid: c30444b8-c929-4fee-ceec-18c5a04ec144, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 46.29.160.149}, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11159, server: gz-cm-kl.hinetwork.tw, port: 11159, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11258, server: gz-cm-kl.hinetwork.tw, port: 11258, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11263, server: gz-cm1-kl.hinetwork.tw, port: 11263, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: s4.hazz.win:12340, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君2.0), server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, sni: jgwld4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: s3.hazz.win:12340, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 印度(youtube阿伟科技), server: 124.156.4.177, port: 53406, type: vmess, uuid: 0f988fe8-0561-4f3d-dab4-92d0bfbb55c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11199, server: gz-cm-kl.hinetwork.tw, port: 11199, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君2.0), server: us1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11225, server: gz-cm-kl.hinetwork.tw, port: 11225, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君2.0) 2, server: us1.nodegz.top, port: 443, type: trojan, password: c3534f9d-b2ff-316b-9aac-5fee852d9a21, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11180, server: gz-cm1-kl.hinetwork.tw, port: 11180, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: " 3", server: 46.29.160.149, port: 56072, type: vmess, uuid: bdb47de2-6771-42a6-d7c9-2f4b16ead2b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 46.29.160.149}, udp: true}
-  - {name: hkbgp1.jiantian.xyz:14326, server: hkbgp1.jiantian.xyz, port: 14326, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11200, server: gz-cm1-kl.hinetwork.tw, port: 11200, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11264, server: gz-cm-kl.hinetwork.tw, port: 11264, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: " 4", server: 124.156.4.177, port: 53406, type: vmess, uuid: 0f988fe8-0561-4f3d-dab4-92d0bfbb55c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.156.4.177}, udp: true}
-  - {name: 185.4.65.6:21247, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: gz-cm1-kl.hinetwork.tw:11112, server: gz-cm1-kl.hinetwork.tw, port: 11112, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11221, server: gz-cm-kl.hinetwork.tw, port: 11221, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
-  - {name: gz-cm-kl.hinetwork.tw:11267, server: gz-cm-kl.hinetwork.tw, port: 11267, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20734, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20747, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20728, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20739, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20735, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20743, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20746, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20748, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20736, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾1, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 64e4a3ac-7699-4614-9c53-9e1da3dccf5a, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -232,244 +124,121 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - gz-cm-kl.hinetwork.tw:11129
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - gz-cm-kl.hinetwork.tw:11116
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - gz-cm1-kl.hinetwork.tw:11206
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - gz-cm-kl.hinetwork.tw:11199
-      - gz-cm-kl.hinetwork.tw:11225
-      - gz-cm1-kl.hinetwork.tw:11180
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -485,54 +254,27 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK4-IEPL-HGC-X2
-      - HK3-IEPL-HGC-X2
-      - shzzhk.dezxrl.xyz:560
-      - cnforus2.dezxrl.xyz:566
-      - 美国US^ 34 NullNo%�
-      - 美国US^ 29 NullNo%�
-      - 美国US^ 33 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11129
-      - 美国US^ 35 NullNo%�
-      - cnforus2.dezxrl.xyz:564
-      - 67tw01.fans8.xyz:443
-      - gz-cm1-kl.hinetwork.tw:11174
-      - gz-cm1-kl.hinetwork.tw:11261
-      - w12.udpgw.com:443
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
       - dk.i809.ml:12083
-      - 美国US^ 10 NullNo%�
-      - gz-cm-kl.hinetwork.tw:11116
-      - 美国US^ 44 NullNo%�
-      - 美国US^ 26 NullNo%�
-      - w11.udpgw.com:443
-      - gz-cm-kl.hinetwork.tw:11136
-      - gz-cm-kl.hinetwork.tw:11117
-      - gz-cm-kl.hinetwork.tw:11266
-      - gz-cm-kl.hinetwork.tw:11227
-      - ""
-      - gz-cm1-kl.hinetwork.tw:11206
-      - " 2"
-      - gz-cm-kl.hinetwork.tw:11159
-      - gz-cm-kl.hinetwork.tw:11258
-      - gz-cm1-kl.hinetwork.tw:11263
-      - s4.hazz.win:12340
-      - 欧洲(油管:破解资源君2.0)
-      - s3.hazz.win:12340
-      - 印度(youtube阿伟科技)
-      - gz-cm-kl.hinetwork.tw:11199
-      - 美国(油管:破解资源君2.0)
-      - gz-cm-kl.hinetwork.tw:11225
-      - 美国(油管:破解资源君2.0) 2
-      - gz-cm1-kl.hinetwork.tw:11180
-      - " 3"
-      - hkbgp1.jiantian.xyz:14326
-      - gz-cm1-kl.hinetwork.tw:11200
-      - gz-cm-kl.hinetwork.tw:11264
-      - " 4"
-      - 185.4.65.6:21247
-      - gz-cm1-kl.hinetwork.tw:11112
-      - gz-cm-kl.hinetwork.tw:11221
-      - gz-cm-kl.hinetwork.tw:11267
+      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
+      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 台湾1
+      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
