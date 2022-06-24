@@ -5,107 +5,191 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: dk.i809.ml:12083, server: dk.i809.ml, port: 12083, type: trojan, password: 8fe9d7b3-e209-4477-bb2c-7903c33eb54f, sni: dk.i809.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20734, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20747, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20728, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20739, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20735, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20743, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20746, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t", server: azqt001.xiba1.xyz, port: 20748, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20736, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾1, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 64e4a3ac-7699-4614-9c53-9e1da3dccf5a, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: e20f1565-2d2c-37fb-9d39-93d6861a9746, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南-2号, server: 103.173.255.127, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾-2号 | 解锁流媒体, server: 165.154.253.34, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: shyd.ddnsguru.com, port: 31817, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 3, server: shyd.ddnsguru.com, port: 58777, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: aweikeji-YouTube}, udp: true}
+  - {name: 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 台湾-智能, server: g.mjmjmjmj.cyou, port: 16616, type: vmess, uuid: 0cc037af-4cb7-49d3-8ef6-23cbfc7b08af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: g.mjmjmjmj.cyou}, udp: true}
+  - {name: 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港G口【喜羊羊】, server: 20.247.105.52, port: 80, type: vmess, uuid: fa0f98d8-1caf-4ebe-9ec4-5980c294e98f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.247.105.52}, udp: true}
+  - {name: 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾-3号 | 解锁流媒体, server: 165.154.253.49, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 这是教程赠送免费节点, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 香港1, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 8e295665-f1af-3973-bc49-02e180e35b5f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技), server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 4, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 越南-3号, server: 103.173.255.228, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 越南-4号, server: 103.173.255.234, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君2.0), server: gz-cm1-kl.hinetwork.tw, port: 11112, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 美国2公益, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南-1号, server: 103.173.255.21, port: 28000, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, skip-cert-verify: true, udp: true}
+  - {name: 美国2, server: 67us01.fans8.xyz, port: 443, type: trojan, password: f5362b9a-812f-4d77-89a3-09f7d0851bfb, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国(油管:破解资源君2.0) 2, server: gz-cm-kl.hinetwork.tw, port: 11136, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 河南移动, server: hnyd.52147.top, port: 30120, type: trojan, password: d84fd904-268c-4b42-93cc-39a710042377, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技), server: 152.69.202.245, port: 27614, type: vmess, uuid: a7fe18a9-8b49-43fb-ddde-b4934bf11862, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国(youtube阿伟科技), server: 113.142.205.92, port: 443, type: vmess, uuid: 96d14945-08f3-4968-8cec-9c2672f1d966, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/1024vws?ed=2048", ws-headers: {Host: cc2.tianxie.us.eu.org}, udp: true}
+  - {name: 俄罗斯(youtube阿伟科技), server: bgpv2.ktyjsq.com, port: 12007, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 全球直连③, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20733, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20734, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20729, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20728, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20741, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20736, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |, server: azqt001.xiba1.xyz, port: 20735, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,121 +208,209 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 台湾1
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -254,27 +426,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 越南-2号
+      - 台湾Hinet | 解锁流媒体
+      - 台湾-2号 | 解锁流媒体
+      - 新加坡(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 日本NTT-1号 | 解锁流媒体
+      - 台湾-智能
       - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - dk.i809.ml:12083
-      - 美国 | Trojan | B | 0.8x | 黃金 | 有問題待修 |
-      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - "美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
-      - "美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
-      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 台湾1
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
       - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港G口【喜羊羊】
+      - 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 台湾-3号 | 解锁流媒体
+      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 这是教程赠送免费节点
+      - 香港1
+      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 美国(youtube阿伟科技)
+      - 新加坡(youtube阿伟科技) 4
+      - 越南-3号
+      - 越南-4号
+      - 美国(油管:破解资源君2.0)
+      - 美国2公益
+      - 越南-1号
+      - 美国2
+      - 美国(油管:破解资源君2.0) 2
+      - 越南 | 河南移动
+      - 日本(youtube阿伟科技)
+      - 韩国(youtube阿伟科技)
+      - 俄罗斯(youtube阿伟科技)
+      - 全球直连③
+      - 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
