@@ -5,119 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: mmcdeiicj, server: 112.64.53.176, port: 63088, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 112.64.53.176}, udp: true}
-  - {name: kllkkklkkk, server: 120.241.236.249, port: 16627, type: vmess, uuid: c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.241.236.249}, udp: true}
-  - {name: afhkdhjj, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: nfshvn, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: 799c9196-b3d1-339d-ab0b-3e7cf15189ca, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: kjddbhbm, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: vcrybnhvnj, server: 20.205.96.90, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: bbnjgbjj, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: vfdbnhbb, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: nbdtjbnnn, server: 20.249.11.81, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: qqetuioo, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: jkjgjkm, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: cxdbgfnn, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: b78e96b7-b973-317b-94f1-8a4bc996b725, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: ggvnjgbbhh, server: 20.247.99.77, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: nbudgbjj, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: f54eb670-c1a7-3739-be5b-d1c4d0736f11, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: JP1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: KR1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8040, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: kjddvhjn, server: 159.27.90.254, port: 63088, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 159.27.90.254}, udp: true}
-  - {name: USA🇺🇸, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: wwwwww, server: 124.225.25.54, port: 16619, type: vmess, uuid: c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.225.25.54}, udp: true}
-  - {name: 韩国(youtube阿伟科技), server: 113.142.205.92, port: 443, type: vmess, uuid: 96d14945-08f3-4968-8cec-9c2672f1d966, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/1024vws?ed=2048", ws-headers: {Host: cc2.tianxie.us.eu.org}, udp: true}
-  - {name: nbfhnnjh, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 8ca09dac-c2d3-4aeb-87e5-26b64ebcf5cf, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: RU1(IEPL) - 负载均衡专线, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 66f661b6-d148-493a-ae9a-c1b65ff2e669, udp: true}
-  - {name: eeeee, server: 120.241.236.249, port: 16619, type: vmess, uuid: c6f3da42-43e8-4fdc-8fc7-b57b8fa54c06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.241.236.249}, udp: true}
-  - {name: ffdsvgrdihvb, server: 625hk.ok365.cyou, port: 443, type: trojan, password: 8ca09dac-c2d3-4aeb-87e5-26b64ebcf5cf, sni: 625hk.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: "[亚太]香港08|负载均衡 1x", server: hongkong.xn--z4q48lcvp.com, port: 12351, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: "[亚太]香港10|负载均衡 1x", server: hongkong.xn--z4q48lcvp.com, port: 12353, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: "[实验免流]日本A|不限速 1x", server: japan.xn--z4q48lcvp.com, port: 80, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: "[亚太]香港09|负载均衡 1x", server: hongkong.xn--z4q48lcvp.com, port: 12352, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: "[实验直连]日本B|不限速 1x", server: japan.xn--z4q48lcvp.com, port: 29471, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 644c9b90-3bf9-4d95-a837-ce83c31ed839, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: nxrudohkk, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技), server: 85.208.108.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 欧洲(油管:破解资源君2.0), server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: 194.156.231.223, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,124 +80,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - afhkdhjj
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -269,30 +161,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mmcdeiicj
-      - kllkkklkkk
-      - afhkdhjj
-      - nfshvn
-      - kjddbhbm
-      - vcrybnhvnj
-      - bbnjgbjj
-      - vfdbnhbb
-      - nbdtjbnnn
-      - qqetuioo
-      - jkjgjkm
-      - cxdbgfnn
-      - ggvnjgbbhh
-      - nbudgbjj
-      - JP1(IEPL) - 负载均衡专线
-      - KR1(IEPL) - 负载均衡专线
-      - kjddvhjn
-      - USA🇺🇸
-      - wwwwww
-      - 韩国(youtube阿伟科技)
-      - nbfhnnjh
-      - RU1(IEPL) - 负载均衡专线
-      - eeeee
-      - ffdsvgrdihvb
+      - "[亚太]香港08|负载均衡 1x"
+      - "[亚太]香港10|负载均衡 1x"
+      - "[实验免流]日本A|不限速 1x"
+      - "[亚太]香港09|负载均衡 1x"
+      - "[实验直连]日本B|不限速 1x"
+      - 台湾✈️中转  [湘沪BGP]
+      - nxrudohkk
+      - 日本(youtube阿伟科技)
+      - 欧洲(油管:破解资源君2.0)
+      - 新加坡(youtube阿伟科技)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
