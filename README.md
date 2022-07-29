@@ -5,63 +5,135 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[亚太]香港08|负载均衡 1x", server: hongkong.xn--z4q48lcvp.com, port: 12351, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: "[亚太]香港10|负载均衡 1x", server: hongkong.xn--z4q48lcvp.com, port: 12353, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: "[实验免流]日本A|不限速 1x", server: japan.xn--z4q48lcvp.com, port: 80, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: "[亚太]香港09|负载均衡 1x", server: hongkong.xn--z4q48lcvp.com, port: 12352, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: "[实验直连]日本B|不限速 1x", server: japan.xn--z4q48lcvp.com, port: 29471, type: vmess, uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
-  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 644c9b90-3bf9-4d95-a837-ce83c31ed839, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: free.ddnsguru.com, port: 29919, type: vmess, uuid: f5f6d102-70a2-3e12-af45-06cb4a065b01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 法国(youtube阿伟科技), server: 195.154.200.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 法国(youtube阿伟科技) 2, server: 195.154.200.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 法国(youtube阿伟科技) 3, server: 195.154.200.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(youtube阿伟科技), server: 38.64.138.145, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(youtube阿伟科技) 5, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP/82, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/75, server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: JP/88, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP/19, server: 85.208.108.94, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/74, server: 85.208.108.94, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/18, server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP/135, server: 85.208.108.94, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/69, server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/81, server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: JP/165, server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: JP/79, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: JP/91, server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: nxrudohkk, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 日本(youtube阿伟科技), server: 85.208.108.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 欧洲(油管:破解资源君2.0), server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: a9a2a0a5-7340-45f2-9cad-4351a42316e1, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: 194.156.231.223, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国(youtube阿伟科技) 6, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(youtube阿伟科技) 7, server: 38.64.138.145, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: JP/77, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: JP/78, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: JP/87, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(youtube阿伟科技) 8, server: 38.64.138.145, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,24 +152,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - 台湾✈️中转  [湘沪BGP]
       - nxrudohkk
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -105,47 +191,101 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,16 +301,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[亚太]香港08|负载均衡 1x"
-      - "[亚太]香港10|负载均衡 1x"
-      - "[实验免流]日本A|不限速 1x"
-      - "[亚太]香港09|负载均衡 1x"
-      - "[实验直连]日本B|不限速 1x"
-      - 台湾✈️中转  [湘沪BGP]
-      - nxrudohkk
-      - 日本(youtube阿伟科技)
-      - 欧洲(油管:破解资源君2.0)
       - 新加坡(youtube阿伟科技)
+      - 法国(youtube阿伟科技)
+      - 法国(youtube阿伟科技) 2
+      - 法国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - JP/82
+      - JP/75
+      - JP/88
+      - JP/19
+      - JP/74
+      - JP/18
+      - JP/135
+      - JP/69
+      - JP/81
+      - JP/165
+      - JP/79
+      - JP/91
+      - nxrudohkk
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - JP/77
+      - JP/78
+      - JP/87
+      - 美国(youtube阿伟科技) 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
